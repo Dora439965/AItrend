@@ -1,0 +1,10 @@
+{
+  "name": "ai-trend-vibe-coding-discovery",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "update:data": "node scripts/update-data.mjs"
+  }
+}
