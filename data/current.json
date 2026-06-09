@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T05:03:10.539Z",
+  "generatedAt": "2026-06-09T14:11:07.657Z",
   "date": "2026-06-09",
   "sources": {
     "github": "https://api.github.com/search/repositories",
@@ -53,17 +53,17 @@
         "openclaw"
       ],
       "language": "Python",
-      "stars": 187720,
-      "starGrowth": 1191,
-      "forkGrowth": 256,
-      "forks": 32343,
-      "openIssues": 19710,
-      "discussion": 473,
-      "discussionTotal": 19710,
+      "stars": 188376,
+      "starGrowth": 1847,
+      "forkGrowth": 374,
+      "forks": 32461,
+      "openIssues": 19865,
+      "discussion": 642,
+      "discussionTotal": 19865,
       "hot": 100,
-      "pushedAt": "2026-06-09T04:52:24Z",
+      "pushedAt": "2026-06-09T12:29:15Z",
       "createdAt": "2025-07-22T22:22:28Z",
-      "reason": "较上一份快照新增 1191 stars、256 forks，讨论度增长代理值 473。",
+      "reason": "较上一份快照新增 1847 stars、374 forks，讨论度增长代理值 642。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -107,17 +107,17 @@
         "productivity"
       ],
       "language": "JavaScript",
-      "stars": 211051,
-      "starGrowth": 868,
-      "forkGrowth": 134,
-      "forks": 32367,
+      "stars": 211548,
+      "starGrowth": 1365,
+      "forkGrowth": 226,
+      "forks": 32459,
       "openIssues": 45,
-      "discussion": 22,
+      "discussion": 33,
       "discussionTotal": 45,
-      "hot": 57,
+      "hot": 59,
       "pushedAt": "2026-06-09T02:38:04Z",
       "createdAt": "2026-01-18T00:51:51Z",
-      "reason": "较上一份快照新增 868 stars、134 forks，讨论度增长代理值 22。",
+      "reason": "较上一份快照新增 1365 stars、226 forks，讨论度增长代理值 33。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -174,17 +174,17 @@
         "vibe-coding"
       ],
       "language": "TypeScript",
-      "stars": 61842,
-      "starGrowth": 599,
-      "forkGrowth": 57,
-      "forks": 6927,
-      "openIssues": 388,
-      "discussion": 16,
-      "discussionTotal": 388,
+      "stars": 62168,
+      "starGrowth": 925,
+      "forkGrowth": 84,
+      "forks": 6954,
+      "openIssues": 397,
+      "discussion": 28,
+      "discussionTotal": 397,
       "hot": 38,
-      "pushedAt": "2026-06-09T04:55:39Z",
+      "pushedAt": "2026-06-09T14:11:00Z",
       "createdAt": "2026-04-28T04:25:20Z",
-      "reason": "较上一份快照新增 599 stars、57 forks，讨论度增长代理值 16。",
+      "reason": "较上一份快照新增 925 stars、84 forks，讨论度增长代理值 28。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -237,17 +237,17 @@
         "webscraping"
       ],
       "language": "TypeScript",
-      "stars": 130388,
-      "starGrowth": 377,
-      "forkGrowth": 14,
-      "forks": 7732,
-      "openIssues": 372,
-      "discussion": 6,
-      "discussionTotal": 372,
-      "hot": 25,
-      "pushedAt": "2026-06-09T02:07:38Z",
+      "stars": 130577,
+      "starGrowth": 566,
+      "forkGrowth": 12,
+      "forks": 7730,
+      "openIssues": 375,
+      "discussion": 8,
+      "discussionTotal": 375,
+      "hot": 24,
+      "pushedAt": "2026-06-09T13:27:10Z",
       "createdAt": "2024-04-15T21:02:29Z",
-      "reason": "较上一份快照新增 377 stars、14 forks，讨论度增长代理值 6。",
+      "reason": "较上一份快照新增 566 stars、12 forks，讨论度增长代理值 8。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -265,62 +265,6 @@
         "Agent 编排",
         "工具调用",
         "任务规划"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
-      "id": 658928958,
-      "name": "ollama",
-      "owner": "ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "这是一个与 Model 相关的 GitHub 开源项目，主要使用 Go。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. ",
-      "url": "https://github.com/ollama/ollama",
-      "tags": [
-        "Model"
-      ],
-      "topics": [
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm",
-        "go",
-        "golang",
-        "gpt-oss",
-        "llama",
-        "llama3",
-        "llm",
-        "llms",
-        "minimax",
-        "mistral",
-        "ollama",
-        "qwen"
-      ],
-      "language": "Go",
-      "stars": 173636,
-      "starGrowth": 94,
-      "forkGrowth": 13,
-      "forks": 16517,
-      "openIssues": 3373,
-      "discussion": 12,
-      "discussionTotal": 3373,
-      "hot": 15,
-      "pushedAt": "2026-06-09T04:46:46Z",
-      "createdAt": "2023-06-26T19:39:32Z",
-      "reason": "较上一份快照新增 94 stars、13 forks，讨论度增长代理值 12。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "挑战",
-      "stack": [
-        "Go",
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
@@ -357,17 +301,17 @@
         "workflow-automation"
       ],
       "language": "TypeScript",
-      "stars": 191661,
-      "starGrowth": 103,
-      "forkGrowth": 16,
-      "forks": 58397,
-      "openIssues": 1461,
-      "discussion": 2,
-      "discussionTotal": 1461,
-      "hot": 15,
-      "pushedAt": "2026-06-09T04:55:50Z",
+      "stars": 191748,
+      "starGrowth": 190,
+      "forkGrowth": 31,
+      "forks": 58412,
+      "openIssues": 1462,
+      "discussion": 4,
+      "discussionTotal": 1462,
+      "hot": 17,
+      "pushedAt": "2026-06-09T14:10:15Z",
       "createdAt": "2019-06-22T09:24:21Z",
-      "reason": "较上一份快照新增 103 stars、16 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 190 stars、31 forks，讨论度增长代理值 4。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -385,6 +329,62 @@
         "MCP 协议",
         "本地服务",
         "进程通信"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
+      "id": 658928958,
+      "name": "ollama",
+      "owner": "ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "descriptionZh": "这是一个与 Model 相关的 GitHub 开源项目，主要使用 Go。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. ",
+      "url": "https://github.com/ollama/ollama",
+      "tags": [
+        "Model"
+      ],
+      "topics": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llama3",
+        "llm",
+        "llms",
+        "minimax",
+        "mistral",
+        "ollama",
+        "qwen"
+      ],
+      "language": "Go",
+      "stars": 173683,
+      "starGrowth": 141,
+      "forkGrowth": 18,
+      "forks": 16522,
+      "openIssues": 3379,
+      "discussion": 18,
+      "discussionTotal": 3379,
+      "hot": 15,
+      "pushedAt": "2026-06-09T07:39:22Z",
+      "createdAt": "2023-06-26T19:39:32Z",
+      "reason": "较上一份快照新增 141 stars、18 forks，讨论度增长代理值 18。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "挑战",
+      "stack": [
+        "Go",
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm"
+      ],
+      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
@@ -415,17 +415,17 @@
         "transformers"
       ],
       "language": "Jupyter Notebook",
-      "stars": 111784,
-      "starGrowth": 20,
-      "forkGrowth": 17,
-      "forks": 60013,
+      "stars": 111800,
+      "starGrowth": 36,
+      "forkGrowth": 21,
+      "forks": 60017,
       "openIssues": 1,
-      "discussion": 2,
+      "discussion": 3,
       "discussionTotal": 1,
       "hot": 12,
       "pushedAt": "2026-06-08T14:17:33Z",
       "createdAt": "2023-06-19T16:28:59Z",
-      "reason": "较上一份快照新增 20 stars、17 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 36 stars、21 forks，讨论度增长代理值 3。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -440,6 +440,70 @@
         "GitHub 工作流",
         "README 阅读",
         "本地环境配置"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
+      "id": 155220641,
+      "name": "transformers",
+      "owner": "huggingface",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "descriptionZh": "这是一个与 Image、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "url": "https://github.com/huggingface/transformers",
+      "tags": [
+        "Image",
+        "Model"
+      ],
+      "topics": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning",
+        "model-hub",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models",
+        "python",
+        "pytorch",
+        "pytorch-transformers",
+        "qwen",
+        "speech-recognition",
+        "transformer",
+        "vlm"
+      ],
+      "language": "Python",
+      "stars": 161445,
+      "starGrowth": 36,
+      "forkGrowth": 0,
+      "forks": 33439,
+      "openIssues": 2405,
+      "discussion": 0,
+      "discussionTotal": 2405,
+      "hot": 11,
+      "pushedAt": "2026-06-09T14:04:41Z",
+      "createdAt": "2018-10-29T13:56:00Z",
+      "reason": "较上一份快照新增 36 stars、0 forks，讨论度增长代理值 0。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "入门到进阶",
+      "stack": [
+        "Python",
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma"
+      ],
+      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置",
+        "多模态 API",
+        "图像处理",
+        "前端交互"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
@@ -468,17 +532,17 @@
         "python"
       ],
       "language": "Python",
-      "stars": 184850,
-      "starGrowth": 9,
+      "stars": 184859,
+      "starGrowth": 18,
       "forkGrowth": 0,
-      "forks": 46170,
+      "forks": 46169,
       "openIssues": 438,
       "discussion": 0,
       "discussionTotal": 438,
       "hot": 10,
-      "pushedAt": "2026-06-08T23:53:19Z",
+      "pushedAt": "2026-06-09T14:09:30Z",
       "createdAt": "2023-03-16T09:21:07Z",
-      "reason": "较上一份快照新增 9 stars、0 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 18 stars、0 forks，讨论度增长代理值 0。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -530,17 +594,17 @@
         "typescript"
       ],
       "language": "HTML",
-      "stars": 163445,
-      "starGrowth": 9,
+      "stars": 163462,
+      "starGrowth": 26,
       "forkGrowth": 0,
-      "forks": 21215,
+      "forks": 21217,
       "openIssues": 51,
       "discussion": 1,
       "discussionTotal": 51,
       "hot": 10,
       "pushedAt": "2026-06-09T04:29:39Z",
       "createdAt": "2022-12-05T13:54:13Z",
-      "reason": "较上一份快照新增 9 stars、0 forks，讨论度增长代理值 1。",
+      "reason": "较上一份快照新增 26 stars、0 forks，讨论度增长代理值 1。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -555,70 +619,6 @@
         "GitHub 工作流",
         "README 阅读",
         "本地环境配置"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
-      "id": 155220641,
-      "name": "transformers",
-      "owner": "huggingface",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "这是一个与 Image、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "url": "https://github.com/huggingface/transformers",
-      "tags": [
-        "Image",
-        "Model"
-      ],
-      "topics": [
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma",
-        "glm",
-        "hacktoberfest",
-        "llm",
-        "machine-learning",
-        "model-hub",
-        "natural-language-processing",
-        "nlp",
-        "pretrained-models",
-        "python",
-        "pytorch",
-        "pytorch-transformers",
-        "qwen",
-        "speech-recognition",
-        "transformer",
-        "vlm"
-      ],
-      "language": "Python",
-      "stars": 161425,
-      "starGrowth": 16,
-      "forkGrowth": 0,
-      "forks": 33428,
-      "openIssues": 2411,
-      "discussion": 0,
-      "discussionTotal": 2411,
-      "hot": 10,
-      "pushedAt": "2026-06-08T23:54:07Z",
-      "createdAt": "2018-10-29T13:56:00Z",
-      "reason": "较上一份快照新增 16 stars、0 forks，讨论度增长代理值 0。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "入门到进阶",
-      "stack": [
-        "Python",
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置",
-        "多模态 API",
-        "图像处理",
-        "前端交互"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
@@ -652,15 +652,15 @@
         "video-generation"
       ],
       "language": "HTML",
-      "stars": 2316,
+      "stars": 2432,
       "starGrowth": 0,
       "forkGrowth": 0,
-      "forks": 265,
-      "openIssues": 18,
+      "forks": 275,
+      "openIssues": 20,
       "discussion": 0,
-      "discussionTotal": 18,
+      "discussionTotal": 20,
       "hot": 8,
-      "pushedAt": "2026-06-08T07:00:16Z",
+      "pushedAt": "2026-06-09T13:35:43Z",
       "createdAt": "2026-05-27T02:08:11Z",
       "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
@@ -707,15 +707,15 @@
         "rust-lang"
       ],
       "language": "Rust",
-      "stars": 1223,
+      "stars": 1227,
       "starGrowth": 0,
       "forkGrowth": 0,
       "forks": 83,
-      "openIssues": 2,
+      "openIssues": 1,
       "discussion": 0,
-      "discussionTotal": 2,
+      "discussionTotal": 1,
       "hot": 8,
-      "pushedAt": "2026-06-08T15:08:50Z",
+      "pushedAt": "2026-06-09T13:58:40Z",
       "createdAt": "2026-05-12T19:31:49Z",
       "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
@@ -741,64 +741,184 @@
   ],
   "news": [
     {
-      "id": "google-news-openai-chatgpt-maker-openai-files-to-go-public-the-washington-post",
-      "title": "ChatGPT-maker OpenAI files to go public - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZERzSEEwSm1CS25idFUxYXpEY2FPZU1BanNEOHRjbXd2NUpJYnpYeW9RNDNxR0ppckFIQ1RzVGhndXpaSFhnNkNaaGI2ejAxMk9ScDNmOHNJa0thZ3NsemlYWEgtcGZQSjFMay1EWmFuXy1DWmdIenFlWEhpMkZ3RlJndVZpVElzY1h4R0g5cjh4enZiTXEtcmlZVkN2Vm9HNEk1WF93LVpiSnBEVUlPSWFPdHI3UQ?oc=5",
-      "source": "Google News: OpenAI / The Washington Post",
+      "id": "google-news-openai-openai-company-behind-chatgpt-files-for-ipo-abc-news-breaking-news-latest-news-and-videos",
+      "title": "OpenAI, company behind ChatGPT, files for IPO - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1ppdVZyU2ExNTRiUHFwZzdoOTBQWWstdDJPTFFaNkZ0TG1uREhZVFY3S1M4UWlZRVl0R21hcjNETnJ1QWxad0cySklxUDQzVGFKM1dhRXcwX1lSSDJRX2Rta1dQZ19DQm41ajVyQk5qbEd0ZnNUeFBIRGhCNkU2QndEUXc2UEHSAYwBQVVfeXFMTTluYzdGZjJxa083MDVRdU9BYU9paUtaQVl1WWE5VndvYkVtZjNDTnhKeUI1alBtSEdfclhzUTZIWHJGU05EcnIwa0pGUHNHZHJ0d1ZWQWR4N2FpcHRwS3VBZFhrWU01dEQ4NTZfNWFVYXU0TUhQSE1nRzZUcDNZZGdwMXhfbi1NeDFValo?oc=5",
+      "source": "Google News: OpenAI / ABC News - Breaking News, Latest News and Videos",
       "company": "OpenAI",
-      "publishedAt": "2026-06-09T04:31:42.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQZERzSEEwSm1CS25idFUxYXpEY2FPZU1BanNEOHRjbXd2NUpJYnpYeW9RNDNxR0ppckFIQ1RzVGhndXpaSFhnNkNaaGI2ejAxMk9ScDNmOHNJa0thZ3N",
+      "publishedAt": "2026-06-09T13:16:11.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1ppdVZyU2ExNTRiUHFwZzdoOTBQWWstdDJPTFFaNkZ0TG1uREhZVFY3S1M4UWlZRVl0R21hcjNETnJ1QWxad0cySklxUDQzVGFKM1dhRXcwX1lSSDJ",
       "topic": "模型发布",
       "time": "2026-06-09",
       "heat": 77,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQZERzSEEwSm1CS25idFUxYXpEY2FPZU1BanNEOHRjbXd2NUpJYnpYeW9RNDNxR0ppckFIQ1RzVGhndXpaSFhnNkNaaGI2ejAxMk9ScDNmOHNJa0thZ3N"
+      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1ppdVZyU2ExNTRiUHFwZzdoOTBQWWstdDJPTFFaNkZ0TG1uREhZVFY3S1M4UWlZRVl0R21hcjNETnJ1QWxad0cySklxUDQzVGFKM1dhRXcwX1lSSDJ"
     },
     {
-      "id": "google-news-anthropic-lg-cns-adopts-anthropic-s-claude-across-lg-group-the-korea-herald",
-      "title": "LG CNS adopts Anthropic's Claude across LG Group - The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTN2lFcU85bVJfa3E5UF8zUzBGNWk2elRiMkFCcU1HMEJuVllBSWhJcVJUVmZldWNMNkZaLUFWNVBTWWZqR3l1bDNNMlZfZ1Y5TGc2ZTBKWQ?oc=5",
-      "source": "Google News: Anthropic / The Korea Herald",
+      "id": "google-news-openai-openai-s-public-market-test-can-chatgpt-justify-a-trillion-dollar-ipo-valuation-barron-s",
+      "title": "OpenAI’s Public Market Test: Can ChatGPT Justify a Trillion-Dollar IPO Valuation? - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmxRd2RMek5OOHNaelpnSnFmck9DUFpqOU9aQXNvMUxYZU5TVWE0S3l5UUR4UVdYQ2ctSQ?oc=5",
+      "source": "Google News: OpenAI / Barron's",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-09T12:41:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmx",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 77,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmx"
+    },
+    {
+      "id": "google-news-anthropic-new-appfolio-claude-link-lets-property-managers-trigger-real-work-by-ai-stock-titan",
+      "title": "New AppFolio–Claude link lets property managers trigger real work by AI - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcUg0NkVVOUNZS1dCZGR6czhnVEYxbHRjS2NIa0pMeDlwN19kZHhTRmR3T1ZUMWxBeHc0Tmt3MFRYbktuZTA0LXFFX0FpQWhjdFFMU01zVzRVcEhfQWlNVldkYmp6VUo5TUh1cnpBMlplaXhRV1k1ZDA3YjBDbXdaUl9GcEJhLUxwaVdjeUl4dUNpVUFLNFZ2SWg1NzVWRmtaT0NLM0twRjFiUXRnNXFrUGZQcGlFdlE0?oc=5",
+      "source": "Google News: Anthropic / Stock Titan",
       "company": "Anthropic",
-      "publishedAt": "2026-06-09T02:29:24.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTN2lFcU85bVJfa3E5UF8zUzBGNWk2elRiMkFCcU1HMEJuVllBSWhJcVJUVmZldWNMNkZaLUFWNVBTWWZqR3l1bDNNMlZfZ1Y5TGc2ZTBKWQ?oc=5\" ta",
+      "publishedAt": "2026-06-09T13:15:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcUg0NkVVOUNZS1dCZGR6czhnVEYxbHRjS2NIa0pMeDlwN19kZHhTRmR3T1ZUMWxBeHc0Tmt3MFRYbktuZTA0LXFFX0FpQWhjdFFMU01zVzRVcEhfQWl",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 75,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcUg0NkVVOUNZS1dCZGR6czhnVEYxbHRjS2NIa0pMeDlwN19kZHhTRmR3T1ZUMWxBeHc0Tmt3MFRYbktuZTA0LXFFX0FpQWhjdFFMU01zVzRVcEhfQWl"
+    },
+    {
+      "id": "google-news-anthropic-appfolio-unveils-agent-to-agent-connector-between-realm-x-ai-suite-and-anthropic-s-claude-for-enhanced-real-estate-performance-management-quiver-quantitative",
+      "title": "AppFolio Unveils Agent-to-Agent Connector Between Realm-X AI Suite and Anthropic's Claude for Enhanced Real Estate Performance Management - Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMXRzSW1TRzhsRDEwdGQ0dzI0TjlxSUJZSThqVDFnbWFDc3k4a21GaVEwLUhvdVhiWEl3dF9HY1h3TlJ3UGJjR3dKYjRuaG9ld09oRzQ0RHJzSmJsY3N5S09ieXE2VmdkaUQ1Y0pwTUVsUzRZdzI1dkN2SW5tYzdmWFRGazhvVWxuX1NtYWEwS0x4NHhBWXJrZ2NGN3F6TUlFZ3dzXzJXUzRaQTV1UmVpTFVuSjhPRE5RTzVKN1FvV3BudFByZHd6WDZ6NzZKQ3MyWEZaMjRUaGY4ZkVMLVFFX0NRMEw3NldZRzBxYzNoNE95V21JYUctb0hIbFBJYkE5UGc?oc=5",
+      "source": "Google News: Anthropic / Quiver Quantitative",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T13:20:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNMXRzSW1TRzhsRDEwdGQ0dzI0TjlxSUJZSThqVDFnbWFDc3k4a21GaVEwLUhvdVhiWEl3dF9HY1h3TlJ3UGJjR3dKYjRuaG9ld09oRzQ0RHJzSmJsY3N",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 75,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNMXRzSW1TRzhsRDEwdGQ0dzI0TjlxSUJZSThqVDFnbWFDc3k4a21GaVEwLUhvdVhiWEl3dF9HY1h3TlJ3UGJjR3dKYjRuaG9ld09oRzQ0RHJzSmJsY3N"
+    },
+    {
+      "id": "google-news-google-gemini-s-guided-learning-results-from-a-randomized-controlled-trial-in-sierra-leone-google-deepmind",
+      "title": "Gemini’s guided learning: results from a randomized controlled trial in Sierra Leone - Google DeepMind",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSGxaODhWMGdPMm1mQ2phVTB4bkszM2d4S3NzWVBIT2wzdG5YNmpZUmxjdW55cEM2UEFWb0JZdzVLTjRlU3JfVEFuS25icXZUTWJNdmwzeFBuLVZoTURxU2l2UmkxUGY5LWRxUW13c2pKa0xXOFM4WENkb28zZjl0WGJCSWh1VklpQTBHV1hvY3V4YVQ4cXdfMmQxQV9rZw?oc=5",
+      "source": "Google News: Google / Google DeepMind",
+      "company": "Google",
+      "publishedAt": "2026-06-09T13:00:19.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPSGxaODhWMGdPMm1mQ2phVTB4bkszM2d4S3NzWVBIT2wzdG5YNmpZUmxjdW55cEM2UEFWb0JZdzVLTjRlU3JfVEFuS25icXZUTWJNdmwzeFBuLVZoTUR",
       "topic": "模型发布",
       "time": "2026-06-09",
       "heat": 74,
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPSGxaODhWMGdPMm1mQ2phVTB4bkszM2d4S3NzWVBIT2wzdG5YNmpZUmxjdW55cEM2UEFWb0JZdzVLTjRlU3JfVEFuS25icXZUTWJNdmwzeFBuLVZoTUR"
+    },
+    {
+      "id": "google-news-google-gemini-ai-boosts-math-skills-in-sierra-leone-trial-startuphub-ai",
+      "title": "Gemini AI Boosts Math Skills in Sierra Leone Trial - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdGhoa096YXl3cUJpUGhKdkdCUGx2SlBSYmVxdEJ4NXZZR2gzYkI4LWJhUlhlUTQ2UkNsN3czcGFBWGwweG1YNzhUOGlCUldlYl9uWVJzVzdRNmpzMkFBRkhJTzZ1clFHNlhmbnVkcFJIOG5BUGlsM2l6c0w0QXlxUE9sbUtwQ0EzWWJHR1JGcFllOFRPcG5ER2dsYWlqTXhGU1ZF?oc=5",
+      "source": "Google News: Google / StartupHub.ai",
+      "company": "Google",
+      "publishedAt": "2026-06-09T13:01:45.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPdGhoa096YXl3cUJpUGhKdkdCUGx2SlBSYmVxdEJ4NXZZR2gzYkI4LWJhUlhlUTQ2UkNsN3czcGFBWGwweG1YNzhUOGlCUldlYl9uWVJzVzdRNmpzMkF",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 74,
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPdGhoa096YXl3cUJpUGhKdkdCUGx2SlBSYmVxdEJ4NXZZR2gzYkI4LWJhUlhlUTQ2UkNsN3czcGFBWGwweG1YNzhUOGlCUldlYl9uWVJzVzdRNmpzMkF"
+    },
+    {
+      "id": "google-news-anthropic-the-man-behind-claude-code-says-you-re-comparing-ai-costs-to-the-wrong-thing-fortune",
+      "title": "The man behind Claude Code says you’re comparing AI costs to the wrong thing - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZHB3WlhGYl9UNGtBcjhoRXY1YlJweUhTLW9Nd3ZhMHVMUmtZaTd3QW5Ed0V0Z3gzTzRVN19IdnVqRm1FSjJzUlM0RF9QOV92QzhjN1RjcUtmV0l3RGdDUnB0NFhUaURtZVFBY2RzNmpxTHhkWUtSZGFhQmNiMU9pNDNUdWRwSzgzUXVoSXljVWF1OVdabzVWbU5ocklFLUVXRVhxWXNIa1c?oc=5",
+      "source": "Google News: Anthropic / Fortune",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T10:37:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZHB3WlhGYl9UNGtBcjhoRXY1YlJweUhTLW9Nd3ZhMHVMUmtZaTd3QW5Ed0V0Z3gzTzRVN19IdnVqRm1FSjJzUlM0RF9QOV92QzhjN1RjcUtmV0l3RGd",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 73,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTN2lFcU85bVJfa3E5UF8zUzBGNWk2elRiMkFCcU1HMEJuVllBSWhJcVJUVmZldWNMNkZaLUFWNVBTWWZqR3l1bDNNMlZfZ1Y5TGc2ZTBKWQ?oc=5\" ta"
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZHB3WlhGYl9UNGtBcjhoRXY1YlJweUhTLW9Nd3ZhMHVMUmtZaTd3QW5Ed0V0Z3gzTzRVN19IdnVqRm1FSjJzUlM0RF9QOV92QzhjN1RjcUtmV0l3RGd"
     },
     {
-      "id": "google-news-openai-chatgpt-maker-openai-files-for-ipo-looking-to-capitalize-on-investor-appetite-for-ai-boom-new-york-post",
-      "title": "ChatGPT maker OpenAI files for IPO looking to capitalize on investor appetite for AI boom - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOEh2QWhwQzF6VDU2bTNKUWNCaFV1NHdUZUhTWk9xNFlOelZpWnRXTnZsT0k1TWFzN2JGVWtpb21iLUhHd0RyNmF0R0hTc2c3czNjcGYtYldTa29zczRCZ25EZkdSaDJYdkFvREpDcG9HMVZJcVFYOUZ1M0ViSW84QW51VGJNSXloMDhLc0YtaUZpWllsUUNSLWdoZ2hDcmdfTnpCVUN6cm92Y3haT19oYVdxY0FBM01uYXRMZGo4YUtmQWFfbTdEYw?oc=5",
-      "source": "Google News: OpenAI / New York Post",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-08T22:28:01.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOEh2QWhwQzF6VDU2bTNKUWNCaFV1NHdUZUhTWk9xNFlOelZpWnRXTnZsT0k1TWFzN2JGVWtpb21iLUhHd0RyNmF0R0hTc2c3czNjcGYtYldTa29zczR",
+      "id": "google-news-anthropic-anthropic-s-claude-to-be-adopted-across-lg-group-affiliates-thelec-net",
+      "title": "Anthropic's Claude to Be Adopted Across LG Group Affiliates - thelec.net",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwZGRQY2E2aHdtLUw2Qkh3VlVHd29yRHpOZUFlTkNVRnFVenlObGxrVW0zRFp4d2VQU3R5VUFwQjR1Mnc5Y3dZeW9FUmNLSUNZb3dtUnpmSy1tYmE2OE5xa0ZxMkVNV28?oc=5",
+      "source": "Google News: Anthropic / thelec.net",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T10:04:35.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwZGRQY2E2aHdtLUw2Qkh3VlVHd29yRHpOZUFlTkNVRnFVenlObGxrVW0zRFp4d2VQU3R5VUFwQjR1Mnc5Y3dZeW9FUmNLSUNZb3dtUnpmSy1tYmE2OE5",
       "topic": "模型发布",
-      "time": "2026-06-08",
+      "time": "2026-06-09",
       "heat": 73,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOEh2QWhwQzF6VDU2bTNKUWNCaFV1NHdUZUhTWk9xNFlOelZpWnRXTnZsT0k1TWFzN2JGVWtpb21iLUhHd0RyNmF0R0hTc2c3czNjcGYtYldTa29zczR"
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwZGRQY2E2aHdtLUw2Qkh3VlVHd29yRHpOZUFlTkNVRnFVenlObGxrVW0zRFp4d2VQU3R5VUFwQjR1Mnc5Y3dZeW9FUmNLSUNZb3dtUnpmSy1tYmE2OE5"
     },
     {
-      "id": "google-news-openai-chatgpt-maker-openai-confidentially-files-for-ipo-a-week-after-anthropic-fortune",
-      "title": "ChatGPT maker OpenAI confidentially files for IPO, a week after Anthropic - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oT0NxRl9hQ1BET3J6SXJWRGY0X0lNUGttcFI0LVMzWnp4OGEzYmpYYlUzZHEzM08yelRBRXdiWjhHUWVOVWJXUnhQRE82NUgyOVgtaFNqeWhRSzFxNHI4Z0NDNWhIU200ZEt6M3dGRzF6WENxd0JaNGE4dUE?oc=5",
-      "source": "Google News: OpenAI / Fortune",
+      "id": "google-news-openai-chatgpt-maker-openai-files-to-go-public-the-washington-post",
+      "title": "ChatGPT-maker OpenAI files to go public - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZERzSEEwSm1CS25idFUxYXpEY2FPZU1BanNEOHRjbXd2NUpJYnpYeW9RNDNxR0ppckFIQ1RzVGhndXpaSFhnNkNaaGI2ejAxMk9ScDNmOHNJa0thZ3NsemlYWEgtcGZQSjFMay1EWmFuXy1DWmdIenFlWEhpMkZ3RlJndVZpVElzY1h4R0g5cjh4enZiTXEtcmlZVkN2Vm9HNEk1WF93LVpiSnBEVUlPSWFPdHI3UQ?oc=5",
+      "source": "Google News: OpenAI / The Washington Post",
       "company": "OpenAI",
-      "publishedAt": "2026-06-08T21:55:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1oT0NxRl9hQ1BET3J6SXJWRGY0X0lNUGttcFI0LVMzWnp4OGEzYmpYYlUzZHEzM08yelRBRXdiWjhHUWVOVWJXUnhQRE82NUgyOVgtaFNqeWhRSzFxNHI",
+      "publishedAt": "2026-06-09T06:34:42.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQZERzSEEwSm1CS25idFUxYXpEY2FPZU1BanNEOHRjbXd2NUpJYnpYeW9RNDNxR0ppckFIQ1RzVGhndXpaSFhnNkNaaGI2ejAxMk9ScDNmOHNJa0thZ3N",
       "topic": "模型发布",
-      "time": "2026-06-08",
+      "time": "2026-06-09",
       "heat": 72,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1oT0NxRl9hQ1BET3J6SXJWRGY0X0lNUGttcFI0LVMzWnp4OGEzYmpYYlUzZHEzM08yelRBRXdiWjhHUWVOVWJXUnhQRE82NUgyOVgtaFNqeWhRSzFxNHI"
+      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQZERzSEEwSm1CS25idFUxYXpEY2FPZU1BanNEOHRjbXd2NUpJYnpYeW9RNDNxR0ppckFIQ1RzVGhndXpaSFhnNkNaaGI2ejAxMk9ScDNmOHNJa0thZ3N"
+    },
+    {
+      "id": "google-news-google-google-gemini-ai-gemini-3-5-flash-nano-banana-live-best-features-linked-apps-and-more-android-central",
+      "title": "Google Gemini AI: Gemini 3.5 Flash, Nano Banana, Live, best features, linked apps, and more - Android Central",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52bzRyUGZlOWU5N0ZKUU9nNUxRS2dRN05VcWkxU3V5MWF5aG15TXRmZmZQYmVWeHUtRVJlaGZyQmhLWW9OMzFQaEZ2eEFVMEtxNGRROG1uNEplQjdvd3kyZm1tejlSMW9SaVE?oc=5",
+      "source": "Google News: Google / Android Central",
+      "company": "Google",
+      "publishedAt": "2026-06-09T10:28:04.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE52bzRyUGZlOWU5N0ZKUU9nNUxRS2dRN05VcWkxU3V5MWF5aG15TXRmZmZQYmVWeHUtRVJlaGZyQmhLWW9OMzFQaEZ2eEFVMEtxNGRROG1uNEplQjdvd3k",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 72,
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE52bzRyUGZlOWU5N0ZKUU9nNUxRS2dRN05VcWkxU3V5MWF5aG15TXRmZmZQYmVWeHUtRVJlaGZyQmhLWW9OMzFQaEZ2eEFVMEtxNGRROG1uNEplQjdvd3k"
+    },
+    {
+      "id": "google-news-microsoft-microsoft-s-first-in-house-coding-model-beats-claude-haiku-4-5-and-loosens-its-grip-on-openai-tech-times",
+      "title": "Microsoft's First In-House Coding Model Beats Claude Haiku 4.5 — and Loosens Its Grip on OpenAI - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX3RSWTJ4ZmhvQXRzWldmQ0lWbUN3ZFpITHpnV1BaMWIySmU5NFFGTUs2cGR4MVJ4T3VNcHlhZ2dsU3F0c3JRLTNKMnpGbW1EQ3FjdEY3d2dNcmp6bUJ6ZUhQeU1EVC1ZT3pTd0JZb3JRSnBsUEItdWdUNnpNRE1YczlvZndGa3NEeU5KWEVXRFIzUm1WYVFfRjFIYmFXZGozRWMzMGI0UGwwYU9MNUZaWUY1cnBKUTI5T1o1LU1pT0k0NXIwaTRCTUY4eDIwSnpk?oc=5",
+      "source": "Google News: Microsoft / Tech Times",
+      "company": "Microsoft",
+      "publishedAt": "2026-06-09T13:05:18.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX3RSWTJ4ZmhvQXRzWldmQ0lWbUN3ZFpITHpnV1BaMWIySmU5NFFGTUs2cGR4MVJ4T3VNcHlhZ2dsU3F0c3JRLTNKMnpGbW1EQ3FjdEY3d2dNcmp6bUJ",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 72,
+      "importance": "Microsoft 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Microsoft 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX3RSWTJ4ZmhvQXRzWldmQ0lWbUN3ZFpITHpnV1BaMWIySmU5NFFGTUs2cGR4MVJ4T3VNcHlhZ2dsU3F0c3JRLTNKMnpGbW1EQ3FjdEY3d2dNcmp6bUJ"
+    },
+    {
+      "id": "google-news-openai-chatgpt-maker-openai-files-for-ipo-as-ai-rivals-race-to-go-public-euronews-com",
+      "title": "ChatGPT maker OpenAI files for IPO as AI rivals race to go public - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzEtWkpPTDhkQVR0dnBsNFlCQlR1amlnZzV3MXl5OFpzaTFVR3haSVMxWTlpMWZ5aVMwYzZrUVJjVWV6aTFKdnlJZlRmeDhteEhNcTZXOTV6dW9oeGNYdWJlUEVMbHFXY1UtS1NCdVJNSnFJRWJpdWZ2Qi1zQmo4cUE3a2MxbEUtaWw2ZzBRajFheVNJS3NNSzM2OXFaSWNUWm40UHBtT2dGM01rUDVYTkNNZm1yY1ZrMW1xRnRtM1dJUXhoSHBueg?oc=5",
+      "source": "Google News: OpenAI / Euronews.com",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-09T05:07:41.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzEtWkpPTDhkQVR0dnBsNFlCQlR1amlnZzV3MXl5OFpzaTFVR3haSVMxWTlpMWZ5aVMwYzZrUVJjVWV6aTFKdnlJZlRmeDhteEhNcTZXOTV6dW9oeGN",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 71,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzEtWkpPTDhkQVR0dnBsNFlCQlR1amlnZzV3MXl5OFpzaTFVR3haSVMxWTlpMWZ5aVMwYzZrUVJjVWV6aTFKdnlJZlRmeDhteEhNcTZXOTV6dW9oeGN"
     },
     {
       "id": "google-news-google-meta-s-muse-spark-ai-model-replaces-llama-4-on-its-smart-glasses-uploadvr",
@@ -806,179 +926,29 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxBYktCNF9FdDhWVzZxcTVQRE9PS01NRndmRTBTNGlYbXRzSW4ycjh3NnJZLTYtdmMtaHpkUjFiX3E2UHA3MThlNG5UNDdYc19LaXZLd0l3T0o3dlJwTFFnYzV6enUzcHNTZVN0Y0xYMmNEaXJBcUJhWkxfZjRMX1RjNFN3WUtFbFE?oc=5",
       "source": "Google News: Google / UploadVR",
       "company": "Google",
-      "publishedAt": "2026-06-09T01:23:30.000Z",
+      "publishedAt": "2026-06-09T07:17:22.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxBYktCNF9FdDhWVzZxcTVQRE9PS01NRndmRTBTNGlYbXRzSW4ycjh3NnJZLTYtdmMtaHpkUjFiX3E2UHA3MThlNG5UNDdYc19LaXZLd0l3T0o3dlJ",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 72,
+      "heat": 69,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxBYktCNF9FdDhWVzZxcTVQRE9PS01NRndmRTBTNGlYbXRzSW4ycjh3NnJZLTYtdmMtaHpkUjFiX3E2UHA3MThlNG5UNDdYc19LaXZLd0l3T0o3dlJ"
     },
     {
-      "id": "google-news-anthropic-n-c-owns-650m-in-claude-owner-anthropic-briner-says-business-north-carolina",
-      "title": "N.C. owns $650M in Claude owner Anthropic, Briner says - Business North Carolina",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjRJM0Q3bFVTZFZEaGkwdmxzN0FCa0pVLVd1TTJxOGFnaGJ2QlJkVU11SW13OFBfLW5pMjlmVm5FRzB3WHJpb1RBZ2IydVNETGxUclNNNE9ZN1JncFo0SzBLREpaNkd5eEtPbFhBR1REX0d1LVZwZHVEdmFLVVg4Yg?oc=5",
-      "source": "Google News: Anthropic / Business North Carolina",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-08T22:26:50.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjRJM0Q3bFVTZFZEaGkwdmxzN0FCa0pVLVd1TTJxOGFnaGJ2QlJkVU11SW13OFBfLW5pMjlmVm5FRzB3WHJpb1RBZ2IydVNETGxUclNNNE9ZN1JncFo",
-      "topic": "模型发布",
-      "time": "2026-06-08",
-      "heat": 71,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjRJM0Q3bFVTZFZEaGkwdmxzN0FCa0pVLVd1TTJxOGFnaGJ2QlJkVU11SW13OFBfLW5pMjlmVm5FRzB3WHJpb1RBZ2IydVNETGxUclNNNE9ZN1JncFo"
-    },
-    {
-      "id": "google-news-anthropic-openai-files-for-ipo-joins-spacex-and-claude-maker-anthropic-in-race-to-go-public-livenow-from-fox",
-      "title": "OpenAI files for IPO, joins SpaceX and Claude-maker Anthropic in race to go public - LiveNOW from FOX",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUFhYeDRRTjlINFNWUGk4ZGRXR3Z4UHhHa1AzdWhveGtvbThlSnRia2dYcUktNjNPaVhBR29DQTVSOGFObVhzdGNOaGZ3dy1mTC1PTDZBUm5XdW10M0p6THVnRDZuSWtodUtTRGpsckhUY2pDN3Y2VWNxMGNENVRpb3JweGZGN2IxRzRaMFdRa2p6YmJxY0N0TE9Id3I4eXhR0gGmAUFVX3lxTE84Wmkwd1Nhc1Y1cEFFZHVjVkFmSEVDUVBTZHhEQjlsN2hzaFFpdXBzNEZUOEc5SFNQM0JKaXkzMUx6bU5ud2FjMUtjeDdsR21tcHJXakVUMUZfVklzOXpzdnYtc1I5TXYtUklEVmhZNktyNjRzVGpyVzJXY0gyVjZob05DR2xfNjJ3WnNGd0ZtNVhaUnF4cWpmUlBmWWlQelh5c2xkdWc?oc=5",
-      "source": "Google News: Anthropic / LiveNOW from FOX",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-08T23:17:59.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPUFhYeDRRTjlINFNWUGk4ZGRXR3Z4UHhHa1AzdWhveGtvbThlSnRia2dYcUktNjNPaVhBR29DQTVSOGFObVhzdGNOaGZ3dy1mTC1PTDZBUm5XdW10M0p",
-      "topic": "模型发布",
-      "time": "2026-06-08",
-      "heat": 71,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPUFhYeDRRTjlINFNWUGk4ZGRXR3Z4UHhHa1AzdWhveGtvbThlSnRia2dYcUktNjNPaVhBR29DQTVSOGFObVhzdGNOaGZ3dy1mTC1PTDZBUm5XdW10M0p"
-    },
-    {
-      "id": "google-news-anthropic-anthropic-s-claude-code-creator-says-there-are-days-he-manages-tens-of-thousands-of-ai-agents-at-once-fortune",
-      "title": "Anthropic’s Claude Code creator says there are days he manages tens of thousands of AI agents at once - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORFJvRzc5SVFBX0VzX2ZlZERLZmdYNFVCZ240ZzBVanNTTlRfYUMtN3BPWTMxb2pEam42anZ1NE16ekhQbWoxMDNIZ3hXNlpCc0hPSUlhRHB1VVotSHRjRmhWWjBpbkxEamJkUzYzajJxbjRCeHVpeEZmVzZFc3hWTFAyMGxfVzB4NDR6dmptOHBydFJpQXNLLTlGNmdZV1VxaTZ0YUdLTHVYRkM1T3hiVVp3cGNuYzZibHU1ckNHWFZ1Z2dSWTI5TDQxOUx4cE5lTzgyZUlFODhvd3JnaG1ZU1Rn?oc=5",
-      "source": "Google News: Anthropic / Fortune",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-08T20:56:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxORFJvRzc5SVFBX0VzX2ZlZERLZmdYNFVCZ240ZzBVanNTTlRfYUMtN3BPWTMxb2pEam42anZ1NE16ekhQbWoxMDNIZ3hXNlpCc0hPSUlhRHB1VVotSHR",
-      "topic": "模型发布",
-      "time": "2026-06-08",
-      "heat": 70,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxORFJvRzc5SVFBX0VzX2ZlZERLZmdYNFVCZ240ZzBVanNTTlRfYUMtN3BPWTMxb2pEam42anZ1NE16ekhQbWoxMDNIZ3hXNlpCc0hPSUlhRHB1VVotSHR"
-    },
-    {
-      "id": "google-news-openai-openai-turns-chatgpt-into-a-platform-play-pymnts-com",
-      "title": "OpenAI Turns ChatGPT Into a Platform Play - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbG1sZVQyVVVscnZaa0ZuZHlaYUN3dl9Rd2d5UHRLcUNLeG9uMnNaUklMeHhwTTE4a1BjLXZhT081c19DMG8xUDNqdUNEdkJwUzFZbkx6OEh6NFVZaG5RcDltdEtYS0VZb1h4bEh2QTFsalFBS3h2NW5MTk83NmFIQkk3d2J6UEh2NE9zd3g5YWhwSUxhYzNkQW9ta2s?oc=5",
-      "source": "Google News: OpenAI / PYMNTS.com",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-08T17:42:24.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNbG1sZVQyVVVscnZaa0ZuZHlaYUN3dl9Rd2d5UHRLcUNLeG9uMnNaUklMeHhwTTE4a1BjLXZhT081c19DMG8xUDNqdUNEdkJwUzFZbkx6OEh6NFVZaG5",
-      "topic": "模型发布",
-      "time": "2026-06-08",
-      "heat": 69,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNbG1sZVQyVVVscnZaa0ZuZHlaYUN3dl9Rd2d5UHRLcUNLeG9uMnNaUklMeHhwTTE4a1BjLXZhT081c19DMG8xUDNqdUNEdkJwUzFZbkx6OEh6NFVZaG5"
-    },
-    {
-      "id": "google-news-openai-openai-confidentially-files-for-us-ipo-as-ai-boom-drives-investor-frenzy-france-24",
-      "title": "OpenAI confidentially files for US IPO as AI boom drives investor frenzy - France 24",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVTZESGRWMUNLenB1VUtvaU0wdXprRUlJdnBmdk03LTBEdWR0ZkJWZVE3RVVUODcyeHh1S2xIWE43WExzMW90ZVVxOXdxSFVoMHUzSWUwT2Y3WDhtVGNDY25kd3BBZFBhcXNmTno5cUp3OURtWWp6Yk5wZGtXTlVBMUhucDYwOVFWRW05aFVib0R0NlhjX2JYUTBrWnBTTEVUZnlsLTdRb3Y3NG5CenhKc0Q0Y0FDUmExanFRQg?oc=5",
-      "source": "Google News: OpenAI / France 24",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-09T01:18:36.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOVTZESGRWMUNLenB1VUtvaU0wdXprRUlJdnBmdk03LTBEdWR0ZkJWZVE3RVVUODcyeHh1S2xIWE43WExzMW90ZVVxOXdxSFVoMHUzSWUwT2Y3WDhtVGN",
-      "topic": "AI 产品与应用",
-      "time": "2026-06-09",
-      "heat": 69,
-      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOVTZESGRWMUNLenB1VUtvaU0wdXprRUlJdnBmdk03LTBEdWR0ZkJWZVE3RVVUODcyeHh1S2xIWE43WExzMW90ZVVxOXdxSFVoMHUzSWUwT2Y3WDhtVGN"
-    },
-    {
-      "id": "google-news-openai-perplexity-plans-ipo-in-2028-regardless-of-what-happens-to-anthropic-or-openai-ceo-tells-cnbc-cnbc",
-      "title": "Perplexity plans IPO in 2028 regardless of what happens to Anthropic or OpenAI, CEO tells CNBC - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTFVa0JiVVVhTlRkNFdnSlc3OVBkSmtnVGZndmxMeWFuaWdNOUs4NUFuMUJlREtmcU5xaVlYazh4cFlPMGY0UkhtTG03TlREUm1SYUYtejBNRUR0VmZkYjhrM3dlOUxYZ0FxQTFRdm5ZSUl5QTlHNXlkZUduZEVNRURLQS02c2JxbVphOUNpWlNKWWRmY09BV9IBngFBVV95cUxOT2w2WUNKUmNudkNiNEZPNGEzcHBVSTdPRFFFX3N2WFIwd1RrcW13RUpSVThvVkozNzZGV1RpNERjTUp5X2RTNWRZZWJCRGVRRmFPa2FRbTV2QjQxSjMtU2NnYkZfYUx5emhvSTVjdGMxLWZBNThibHNrT1hKZVhPLXlNcDNFWUJIMkphSzBUaWk0bVRYYVdILUpZT0ZSZw?oc=5",
-      "source": "Google News: OpenAI / CNBC",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-09T00:44:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTFVa0JiVVVhTlRkNFdnSlc3OVBkSmtnVGZndmxMeWFuaWdNOUs4NUFuMUJlREtmcU5xaVlYazh4cFlPMGY0UkhtTG03TlREUm1SYUYtejBNRUR0VmZ",
-      "topic": "产品发布",
-      "time": "2026-06-09",
-      "heat": 69,
-      "importance": "OpenAI 的 产品发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 产品发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTFVa0JiVVVhTlRkNFdnSlc3OVBkSmtnVGZndmxMeWFuaWdNOUs4NUFuMUJlREtmcU5xaVlYazh4cFlPMGY0UkhtTG03TlREUm1SYUYtejBNRUR0VmZ"
-    },
-    {
-      "id": "google-news-openai-openai-confirms-confidential-ipo-filing-with-big-stakes-for-the-ai-boom-cnet",
-      "title": "OpenAI Confirms Confidential IPO Filing, With Big Stakes for the AI Boom - CNET",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWlpEcFk1eWxtTDRlenlzeFFPOHNHeVYtaVJsOVdWUXF5eF9CM2RLSTVpUFIwdmlNdThFb2c2TTQ0RVZzOEF5LTIyNXVZQnRkbDRTMFlOVDJiZFJPSEd4bFluQ2MtMWRybUN4QS1SRGFPY3Q4WkhKdDJHRUJKZWFERVJMclFraW5SN1djS1Y5VUhqNUx3TUkwUnNoUkpZbEk?oc=5",
-      "source": "Google News: OpenAI / CNET",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-09T01:19:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNWlpEcFk1eWxtTDRlenlzeFFPOHNHeVYtaVJsOVdWUXF5eF9CM2RLSTVpUFIwdmlNdThFb2c2TTQ0RVZzOEF5LTIyNXVZQnRkbDRTMFlOVDJiZFJPSEd",
-      "topic": "AI 产品与应用",
-      "time": "2026-06-09",
-      "heat": 69,
-      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNWlpEcFk1eWxtTDRlenlzeFFPOHNHeVYtaVJsOVdWUXF5eF9CM2RLSTVpUFIwdmlNdThFb2c2TTQ0RVZzOEF5LTIyNXVZQnRkbDRTMFlOVDJiZFJPSEd"
-    },
-    {
-      "id": "google-news-perplexity-perplexity-announces-2028-ipo-to-raise-capital-and-scale-ai-mezha-net",
-      "title": "Perplexity announces 2028 IPO to raise capital and scale AI - mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zRm5wYTVKWWUydDZvdmRVUEhYVzY0SjF0dEhNNWhUa08xWkNhdmRUdkF5NHVabUhwQjFjUWtkTGU5MzdQaXZpNXhxWDBtSGJCUDNTWmZHRFh5eHBZNWhVdzhvQUtpR3dEMlJ4WFBZZzI?oc=5",
-      "source": "Google News: Perplexity / mezha.net",
-      "company": "Perplexity",
-      "publishedAt": "2026-06-09T03:15:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5zRm5wYTVKWWUydDZvdmRVUEhYVzY0SjF0dEhNNWhUa08xWkNhdmRUdkF5NHVabUhwQjFjUWtkTGU5MzdQaXZpNXhxWDBtSGJCUDNTWmZHRFh5eHBZNWh",
-      "topic": "开发者工具",
-      "time": "2026-06-09",
-      "heat": 69,
-      "importance": "Perplexity 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Perplexity 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5zRm5wYTVKWWUydDZvdmRVUEhYVzY0SjF0dEhNNWhUa08xWkNhdmRUdkF5NHVabUhwQjFjUWtkTGU5MzdQaXZpNXhxWDBtSGJCUDNTWmZHRFh5eHBZNWh"
-    },
-    {
-      "id": "google-news-perplexity-i-asked-chatgpt-gemini-and-perplexity-to-predict-the-2026-world-cup-winner-one-team-dominated-their-picks-tom-s-guide",
-      "title": "I asked ChatGPT, Gemini and Perplexity to predict the 2026 World Cup winner — one team dominated their picks - Tom's Guide",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkUyV3daTkg3VXJMVzlpb05nN09GZmFiV3A0aGRGN0dSQXA0cWV5WFpDNGI5NVVWZmVtT3Y0d25fYzVpTDRvaEhnSXJfV3JUYTFOdG54Q2hiSTMxQkMwNGFNNGcxWjZyWFVjZi1Xa0ktUS1ndlRTWW05LXBWaTl2Mk5GSmstdkhhbEJ1ZzlXRDFDcms1Skx5cnFXQmlpd3dQeWFGRGpHNTllNTRDLVM0NmpuaXh3N09NUm9KbkVxMjZ4TWdqdDZtTEFvSnNndW8?oc=5",
-      "source": "Google News: Perplexity / Tom's Guide",
-      "company": "Perplexity",
-      "publishedAt": "2026-06-09T04:34:22.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkUyV3daTkg3VXJMVzlpb05nN09GZmFiV3A0aGRGN0dSQXA0cWV5WFpDNGI5NVVWZmVtT3Y0d25fYzVpTDRvaEhnSXJfV3JUYTFOdG54Q2hiSTMxQkM",
+      "id": "google-news-google-new-siri-ai-powered-by-google-gemini-what-changes-for-iphone-users-and-why-apple-skipped-chatgpt-vpesports",
+      "title": "New Siri AI Powered by Google Gemini: What Changes for iPhone Users and Why Apple Skipped ChatGPT - VPEsports",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oNlhpbm1MSXhkNjRURFpBS2w2SUlERFpEOUUtY3VuelNFemtGQkdMT2Q5UlhNMnVPWVZyRFdGYnRGbUEyUFp0dUZ6UDF6RkdHUkdETGFUcE1uSVJaUHRjTUVCb0otekp1cUQzSWJXeUlHZ3l4ZTU4VzNLZm4?oc=5",
+      "source": "Google News: Google / VPEsports",
+      "company": "Google",
+      "publishedAt": "2026-06-09T06:11:28.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5oNlhpbm1MSXhkNjRURFpBS2w2SUlERFpEOUUtY3VuelNFemtGQkdMT2Q5UlhNMnVPWVZyRFdGYnRGbUEyUFp0dUZ6UDF6RkdHUkdETGFUcE1uSVJaUHR",
       "topic": "模型发布",
       "time": "2026-06-09",
       "heat": 69,
-      "importance": "Perplexity 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 Perplexity 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkUyV3daTkg3VXJMVzlpb05nN09GZmFiV3A0aGRGN0dSQXA0cWV5WFpDNGI5NVVWZmVtT3Y0d25fYzVpTDRvaEhnSXJfV3JUYTFOdG54Q2hiSTMxQkM"
-    },
-    {
-      "id": "google-news-openai-openai-files-for-us-ipo-after-anthropic-as-ai-giants-head-to-public-markets-yahoo-finance",
-      "title": "OpenAI files for US IPO after Anthropic as AI giants head to public markets - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdUxZRndtVGQ1V2ZhT2xCa3dWT3hnU0k4cWg3ODFDYVJVLWI5bE5qMFhpeXN3WWFKRjQzOEVZTTFJeVV3Ql9TUXhkZXBBakl0dnpERi1DTHRvY3NWY0tYcFNqQXlFQW5PWkRWdWdnQXcyc21kNDZZcTRrcVJCTjd6Y1ZtVlVYSG5sdms3R3FTbVFqelNydmd0T0x3?oc=5",
-      "source": "Google News: OpenAI / Yahoo Finance",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-08T23:56:36.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOdUxZRndtVGQ1V2ZhT2xCa3dWT3hnU0k4cWg3ODFDYVJVLWI5bE5qMFhpeXN3WWFKRjQzOEVZTTFJeVV3Ql9TUXhkZXBBakl0dnpERi1DTHRvY3NWY0t",
-      "topic": "AI 产品与应用",
-      "time": "2026-06-08",
-      "heat": 68,
-      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOdUxZRndtVGQ1V2ZhT2xCa3dWT3hnU0k4cWg3ODFDYVJVLWI5bE5qMFhpeXN3WWFKRjQzOEVZTTFJeVV3Ql9TUXhkZXBBakl0dnpERi1DTHRvY3NWY0t"
-    },
-    {
-      "id": "google-news-openai-openai-plans-to-go-public-setting-up-new-race-with-anthropic-bbc",
-      "title": "OpenAI plans to go public setting up new race with Anthropic - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5",
-      "source": "Google News: OpenAI / BBC",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-08T23:37:21.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5",
-      "topic": "AI 产品与应用",
-      "time": "2026-06-08",
-      "heat": 68,
-      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5"
+      "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5oNlhpbm1MSXhkNjRURFpBS2w2SUlERFpEOUUtY3VuelNFemtGQkdMT2Q5UlhNMnVPWVZyRFdGYnRGbUEyUFp0dUZ6UDF6RkdHUkdETGFUcE1uSVJaUHR"
     },
     {
       "id": "google-news-openai-openai-files-confidential-sec-paperwork-for-ipo-opening-the-door-to-a-wall-street-debut-abc-news-breaking-news-latest-news-and-videos",
@@ -986,59 +956,89 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZFhFd2FVeUtENDkwWHp0UGRuMnZlRzJmZTdtSDNES0RJR2tOV0ZxU01FanVTdW15NjJaSGMtdmhHeXEtREhNa1Rwb28wNVYycnBNd1NQeDFQcGtFQTZJYk1Qc0ZoUU9NdmZoSjBteUw2bV91QXV5U3hOZUNZOWphY0ZlcjhmaE9vOU5UT1RFeHFsbGwyVmNhS1dXZ3VMeERMQ2dzeTRYOUJkX1HSAbABQVVfeXFMT01vU1cxNlVOeDVFeWFSeVNOMTJwM3JEa2dLdHV3Sm5zNHJGRU1xcGdqWXg2aVhnODlOaDVsNVltM1pwOVVrejI5RFJtRWUwU2RuMm0xM0lscWhBX1pMNUJaaUV5TUI5SHg4NGlMck11X1NxQTY2Z1h4UTVSYW5CN0RCdl9saWVLMEZmNHF2ZU1BT2p4OXdIaWlJbTR6U0xzaE05Q0xWeXpTdmpCRVVsUVU?oc=5",
       "source": "Google News: OpenAI / ABC News - Breaking News, Latest News and Videos",
       "company": "OpenAI",
-      "publishedAt": "2026-06-08T23:29:30.000Z",
+      "publishedAt": "2026-06-09T08:38:07.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZFhFd2FVeUtENDkwWHp0UGRuMnZlRzJmZTdtSDNES0RJR2tOV0ZxU01FanVTdW15NjJaSGMtdmhHeXEtREhNa1Rwb28wNVYycnBNd1NQeDFQcGtFQTZ",
       "topic": "AI 产品与应用",
-      "time": "2026-06-08",
+      "time": "2026-06-09",
       "heat": 68,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZFhFd2FVeUtENDkwWHp0UGRuMnZlRzJmZTdtSDNES0RJR2tOV0ZxU01FanVTdW15NjJaSGMtdmhHeXEtREhNa1Rwb28wNVYycnBNd1NQeDFQcGtFQTZ"
     },
     {
-      "id": "google-news-openai-openai-is-giving-chatgpt-its-biggest-makeover-yet-with-plans-to-create-a-superapp-new-york-post",
-      "title": "OpenAI is giving ChatGPT its biggest makeover yet — with plans to create a ‘superapp’ - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTEJtR2RBcXNUeVRLM0hfMWNOM2VERTJUS0JHUVJ1ZW1yTmJ4NGlZcFZ4bHlTRXM1TXhWTEVHTjNlU2ZBOHptQXJybndsNVlCUmNTZ1dHNTdpTmpNaWRWZ255aHBDdEh1MFV2Yk53aEp2Z3pkZVN3djc0R3B3QjdWWlNuQ242Z3dlVG0zc2dxcHpJLUhUcGlZSzNDZ3pKV0ZLSVJWMzV2ajJ1blplMk9nZGgxRQ?oc=5",
-      "source": "Google News: OpenAI / New York Post",
+      "id": "google-news-openai-openai-ipo-2026-guide-date-expected-valuation-and-how-to-invest-in-chatgpt-zacks-investment-research",
+      "title": "OpenAI IPO 2026 Guide: Date, Expected Valuation, and How to Invest in ChatGPT - Zacks Investment Research",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MTFdGMkRPaUdYYlNFQlFxTjljSjY3MGFVSGNXMnVySndKMGVUV3ZucDlQU3Z2Q0RkWWFxbTJGdEZIUldrd1E2UmhFNG84LTNlUU1ucEkxaFp4OGtxQ0ZnR1hEZ0c?oc=5",
+      "source": "Google News: OpenAI / Zacks Investment Research",
       "company": "OpenAI",
-      "publishedAt": "2026-06-08T17:05:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNTEJtR2RBcXNUeVRLM0hfMWNOM2VERTJUS0JHUVJ1ZW1yTmJ4NGlZcFZ4bHlTRXM1TXhWTEVHTjNlU2ZBOHptQXJybndsNVlCUmNTZ1dHNTdpTmpNaWR",
+      "publishedAt": "2026-06-09T01:16:34.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MTFdGMkRPaUdYYlNFQlFxTjljSjY3MGFVSGNXMnVySndKMGVUV3ZucDlQU3Z2Q0RkWWFxbTJGdEZIUldrd1E2UmhFNG84LTNlUU1ucEkxaFp4OGtxQ0Z",
       "topic": "模型发布",
-      "time": "2026-06-08",
+      "time": "2026-06-09",
       "heat": 68,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNTEJtR2RBcXNUeVRLM0hfMWNOM2VERTJUS0JHUVJ1ZW1yTmJ4NGlZcFZ4bHlTRXM1TXhWTEVHTjNlU2ZBOHptQXJybndsNVlCUmNTZ1dHNTdpTmpNaWR"
+      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MTFdGMkRPaUdYYlNFQlFxTjljSjY3MGFVSGNXMnVySndKMGVUV3ZucDlQU3Z2Q0RkWWFxbTJGdEZIUldrd1E2UmhFNG84LTNlUU1ucEkxaFp4OGtxQ0Z"
     },
     {
-      "id": "google-news-openai-openai-files-for-ipo-as-ai-investment-race-intensifies-nbc-news",
-      "title": "OpenAI files for IPO as AI investment race intensifies - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ2psbzBaZURPaTd4Z1VCbWZ6OEI5NEp2NC1HRjRTLXlZcjZESVI0V0N1dnpKOEVFTm9wNWcxd1dOSmdDbVVFTHhvUVhxU29vTGZTQXY4NDFVYnVEQVV3R2xYdS1FNlZ0M2ZrQmhvamhkSTE5MlFZbl9hTkstTno1c2dxaEtodlkxU3VUNHdIREZTZWZHQWllenNDOXV6dw?oc=5",
-      "source": "Google News: OpenAI / NBC News",
+      "id": "google-news-microsoft-microsoft-has-built-its-own-ai-reasoning-and-coding-models-no-openai-no-shortcuts-msn",
+      "title": "Microsoft has built its own AI reasoning and coding models: No OpenAI, no shortcuts - MSN",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMnRfUnd5LTRhbExMLXA3OHkzU254blF1SUFxM1RJc2h2N1hXaUZ4aHh3eTRjMlE2b2Nmc3JfMnNvUXpaZjZHYWN4TEpyUG5qU25BRkRDYmJTWXpvQ0FScHp1SC1xT0JLVVp2OFJja2tMQ0pZenczWFI0ZXI5LXkxclI0V0ZTSzhJLUtmb0tMMFVPNmZNX2NWc1ZOR0JwUXk1MXBETjdIMHBPYnVSMUM3X1RLUGM5UTJlWnprXzdGcWlVSkZYLUlHcDRn?oc=5",
+      "source": "Google News: Microsoft / MSN",
+      "company": "Microsoft",
+      "publishedAt": "2026-06-09T08:05:01.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNMnRfUnd5LTRhbExMLXA3OHkzU254blF1SUFxM1RJc2h2N1hXaUZ4aHh3eTRjMlE2b2Nmc3JfMnNvUXpaZjZHYWN4TEpyUG5qU25BRkRDYmJTWXpvQ0F",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 68,
+      "importance": "Microsoft 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Microsoft 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNMnRfUnd5LTRhbExMLXA3OHkzU254blF1SUFxM1RJc2h2N1hXaUZ4aHh3eTRjMlE2b2Nmc3JfMnNvUXpaZjZHYWN4TEpyUG5qU25BRkRDYmJTWXpvQ0F"
+    },
+    {
+      "id": "google-news-xai-grok-beats-chatgpt-2026-1493-vs-1460-arena-elo-tech-insider-org",
+      "title": "Grok Beats ChatGPT [2026]: 1493 vs 1460 Arena Elo - tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CbTZtcTJnYnJ2eUZhMXl4OEhzQXNfZlFMSFVSTFBvSW1xOWEtcW84cWJDdkZJUXI1aWVXd1kxT2V0N0VERTFpTldXZTh4b0lTcmFhenlwM1VoLXVM?oc=5",
+      "source": "Google News: xAI / tech-insider.org",
+      "company": "xAI",
+      "publishedAt": "2026-06-09T12:10:13.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CbTZtcTJnYnJ2eUZhMXl4OEhzQXNfZlFMSFVSTFBvSW1xOWEtcW84cWJDdkZJUXI1aWVXd1kxT2V0N0VERTFpTldXZTh4b0lTcmFhenlwM1VoLXVM?oc",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 68,
+      "importance": "xAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 xAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CbTZtcTJnYnJ2eUZhMXl4OEhzQXNfZlFMSFVSTFBvSW1xOWEtcW84cWJDdkZJUXI1aWVXd1kxT2V0N0VERTFpTldXZTh4b0lTcmFhenlwM1VoLXVM?oc"
+    },
+    {
+      "id": "google-news-openai-openai-plans-stock-market-debut-setting-up-new-race-with-anthropic-bbc",
+      "title": "OpenAI plans stock market debut, setting up new race with Anthropic - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5",
+      "source": "Google News: OpenAI / BBC",
       "company": "OpenAI",
-      "publishedAt": "2026-06-08T22:17:10.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQQ2psbzBaZURPaTd4Z1VCbWZ6OEI5NEp2NC1HRjRTLXlZcjZESVI0V0N1dnpKOEVFTm9wNWcxd1dOSmdDbVVFTHhvUVhxU29vTGZTQXY4NDFVYnVEQVV",
+      "publishedAt": "2026-06-09T08:02:43.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5",
       "topic": "AI 产品与应用",
-      "time": "2026-06-08",
+      "time": "2026-06-09",
       "heat": 67,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQQ2psbzBaZURPaTd4Z1VCbWZ6OEI5NEp2NC1HRjRTLXlZcjZESVI0V0N1dnpKOEVFTm9wNWcxd1dOSmdDbVVFTHhvUVhxU29vTGZTQXY4NDFVYnVEQVV"
+      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5"
     },
     {
-      "id": "google-news-openai-openai-files-to-go-public-in-test-of-investor-appetite-for-top-ai-startups-wsj",
-      "title": "OpenAI Files to Go Public in Test of Investor Appetite for Top AI Startups - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1VxLXZOSXZXSEQtRmNlZzNJMDdBVS02ZEhNcFJwN2prQjZXTF9tdEVFQVJGNU1iNWNVTVhzVEE5LUVTaGtzWkRSLXF2UURDVWI3dXJPR3hUdmU5M3pWWmJSSndQcTF1QjRGbjVTdmJXUUx0bXJHWnhDenoycDUzVVY0QjB2YUNzTDRPOFdTNmM4b0RJekx6bHY5b3p4UDBNYzg4UW1COHdtUjFVZWlj?oc=5",
-      "source": "Google News: OpenAI / WSJ",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-08T22:26:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1VxLXZOSXZXSEQtRmNlZzNJMDdBVS02ZEhNcFJwN2prQjZXTF9tdEVFQVJGNU1iNWNVTVhzVEE5LUVTaGtzWkRSLXF2UURDVWI3dXJPR3hUdmU5M3p",
-      "topic": "产品发布",
-      "time": "2026-06-08",
+      "id": "google-news-anthropic-bounteous-partners-with-anthropic-to-accelerate-enterprise-ai-at-scale-pr-newswire",
+      "title": "Bounteous Partners with Anthropic to Accelerate Enterprise AI at Scale - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS2hpN1JtNEdIZ0tDYnBrSk9ZVnRHd1NTQ3VpZ2I0NVQ3c2JyWXlvMGhhMGRGWUMzbXFSM3JvZ1drNEFrYldEQWF2TUpqX3ZlbXpHTVcwVElTT2lHQndkRVFWemNqRG1nQy1keS1LVlpYS0NMalhVZlJ5Mi1iT3BsaTFhM1N6WFd3QXlzNmJJa0xDRi1SV1JBTExtUlQ5ZHJYaDdJaEJOZWdDOG5Na1RDaGZnei1ZNFFVbERjZ0xwQmFWSzNJ?oc=5",
+      "source": "Google News: Anthropic / PR Newswire",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOS2hpN1JtNEdIZ0tDYnBrSk9ZVnRHd1NTQ3VpZ2I0NVQ3c2JyWXlvMGhhMGRGWUMzbXFSM3JvZ1drNEFrYldEQWF2TUpqX3ZlbXpHTVcwVElTT2lHQnd",
+      "topic": "AI 产品与应用",
+      "time": "2026-06-09",
       "heat": 67,
-      "importance": "OpenAI 的 产品发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "importance": "Anthropic 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 产品发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1VxLXZOSXZXSEQtRmNlZzNJMDdBVS02ZEhNcFJwN2prQjZXTF9tdEVFQVJGNU1iNWNVTVhzVEE5LUVTaGtzWkRSLXF2UURDVWI3dXJPR3hUdmU5M3p"
+      "summaryZh": "这是一条关于 Anthropic 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOS2hpN1JtNEdIZ0tDYnBrSk9ZVnRHd1NTQ3VpZ2I0NVQ3c2JyWXlvMGhhMGRGWUMzbXFSM3JvZ1drNEFrYldEQWF2TUpqX3ZlbXpHTVcwVElTT2lHQnd"
     }
   ],
   "beginnerProjects": [
@@ -1106,7 +1106,7 @@
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 470,
+      "stars": 471,
       "beginnerScore": 70,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -1125,7 +1125,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-05T11:13:06Z",
+      "lastUpdated": "2026-06-09T12:57:46Z",
       "topics": [
         "agent-evaluation",
         "ai",
@@ -1630,7 +1630,7 @@
         "chatbot"
       ],
       "language": "Python",
-      "stars": 1333,
+      "stars": 1334,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -1659,8 +1659,8 @@
         "manus",
         "openclaw"
       ],
-      "forks": 123,
-      "openIssues": 1
+      "forks": 124,
+      "openIssues": 0
     },
     {
       "id": 1229284184,
@@ -1675,7 +1675,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 2133,
+      "stars": 2249,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1694,7 +1694,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": true,
       "hasExamplesFolder": true,
-      "lastUpdated": "2026-06-08T22:31:11Z",
+      "lastUpdated": "2026-06-09T07:03:20Z",
       "topics": [
         "agentic-ai",
         "agentic-workflows",
@@ -1716,7 +1716,7 @@
         "trilingual",
         "tutorial"
       ],
-      "forks": 260,
+      "forks": 288,
       "openIssues": 1
     },
     {
@@ -1731,7 +1731,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 1811,
+      "stars": 1829,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1770,7 +1770,7 @@
         "skills",
         "tutorial"
       ],
-      "forks": 236,
+      "forks": 240,
       "openIssues": 6
     },
     {
@@ -1838,7 +1838,7 @@
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 1396,
+      "stars": 1397,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -1924,7 +1924,7 @@
         "video-generation"
       ],
       "forks": 84,
-      "openIssues": 4
+      "openIssues": 3
     },
     {
       "id": 1140448612,
@@ -1938,7 +1938,7 @@
         "chatbot"
       ],
       "language": "TypeScript",
-      "stars": 345,
+      "stars": 347,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -1969,7 +1969,7 @@
         "skills"
       ],
       "forks": 25,
-      "openIssues": 0
+      "openIssues": 1
     },
     {
       "id": 1180745961,
@@ -1984,7 +1984,7 @@
         "automation"
       ],
       "language": "TypeScript",
-      "stars": 16598,
+      "stars": 16658,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2026,7 +2026,7 @@
         "web-scraping",
         "website-clone"
       ],
-      "forks": 2552,
+      "forks": 2560,
       "openIssues": 10
     },
     {
@@ -2089,7 +2089,7 @@
         "learning-project"
       ],
       "language": "Unknown",
-      "stars": 3701,
+      "stars": 3705,
       "beginnerScore": 61,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2123,7 +2123,7 @@
         "roadmap",
         "tutorial"
       ],
-      "forks": 702,
+      "forks": 701,
       "openIssues": 2
     },
     {
@@ -2284,6 +2284,51 @@
       "openIssues": 16
     },
     {
+      "id": 990481429,
+      "name": "pipelex",
+      "owner": "Pipelex",
+      "url": "https://github.com/Pipelex/pipelex",
+      "description": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Declarative language for composable Al workflows. Devtool for agents and mere humans. ",
+      "categoryTags": [
+        "automation"
+      ],
+      "language": "Python",
+      "stars": 682,
+      "beginnerScore": 60,
+      "beginnerScoreBreakdown": {
+        "readmeQuality": 10,
+        "installInstructions": 5,
+        "dependencySimplicity": 15,
+        "issueResponseRate": 15,
+        "languageAccessibility": 15,
+        "examplesPresence": 0
+      },
+      "setupComplexity": "medium",
+      "prerequisiteSkills": [
+        "basic-terminal",
+        "git-basics",
+        "python-basics"
+      ],
+      "estimatedFirstRunMinutes": 45,
+      "hasChineseDocs": false,
+      "hasExamplesFolder": false,
+      "lastUpdated": "2026-06-09T13:58:10Z",
+      "topics": [
+        "agents",
+        "ai",
+        "automation",
+        "dsl",
+        "language",
+        "llm",
+        "orchestration",
+        "pipeline",
+        "workflows"
+      ],
+      "forks": 53,
+      "openIssues": 13
+    },
+    {
       "id": 1194340608,
       "name": "heym",
       "owner": "heymrun",
@@ -2295,7 +2340,7 @@
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 575,
+      "stars": 589,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2338,7 +2383,7 @@
         "workflows"
       ],
       "forks": 63,
-      "openIssues": 0
+      "openIssues": 1
     },
     {
       "id": 1129583447,
@@ -2352,7 +2397,7 @@
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 973,
+      "stars": 975,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2399,7 +2444,7 @@
         "coding-assistant"
       ],
       "language": "Python",
-      "stars": 295,
+      "stars": 373,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2418,7 +2463,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-08T18:59:22Z",
+      "lastUpdated": "2026-06-09T08:17:29Z",
       "topics": [
         "agent",
         "ai",
@@ -2547,7 +2592,7 @@
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 155,
+      "stars": 157,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2650,7 +2695,7 @@
         "automation"
       ],
       "language": "JavaScript",
-      "stars": 16588,
+      "stars": 16617,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2730,7 +2775,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-05-18T17:38:14Z",
+      "lastUpdated": "2026-06-09T12:23:02Z",
       "topics": [
         "ai",
         "data-application",
@@ -2753,7 +2798,7 @@
         "webapp",
         "website"
       ],
-      "forks": 23,
+      "forks": 24,
       "openIssues": 1
     },
     {
@@ -2870,7 +2915,7 @@
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 320,
+      "stars": 319,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2924,7 +2969,7 @@
         "knowledge-base"
       ],
       "language": "TypeScript",
-      "stars": 225,
+      "stars": 226,
       "beginnerScore": 59,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2979,7 +3024,7 @@
         "chatbot"
       ],
       "language": "Python",
-      "stars": 5100,
+      "stars": 5104,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2998,7 +3043,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-08T17:44:50Z",
+      "lastUpdated": "2026-06-09T13:24:20Z",
       "topics": [
         "agent",
         "chat",
@@ -3183,7 +3228,7 @@
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 3851,
+      "stars": 3853,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3204,7 +3249,7 @@
       "estimatedFirstRunMinutes": 90,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-09T03:35:05Z",
+      "lastUpdated": "2026-06-09T14:08:14Z",
       "topics": [
         "agents",
         "ai",
@@ -3228,7 +3273,7 @@
         "tools"
       ],
       "forks": 696,
-      "openIssues": 1139
+      "openIssues": 1148
     },
     {
       "id": 993746345,
@@ -3242,7 +3287,7 @@
         "chatbot"
       ],
       "language": "Python",
-      "stars": 1285,
+      "stars": 1286,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3284,7 +3329,7 @@
         "voice-cloning",
         "web-ui"
       ],
-      "forks": 308,
+      "forks": 309,
       "openIssues": 40
     },
     {
@@ -3298,7 +3343,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 2287,
+      "stars": 2306,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -3333,8 +3378,8 @@
         "mllm",
         "nvdia"
       ],
-      "forks": 196,
-      "openIssues": 47
+      "forks": 201,
+      "openIssues": 49
     },
     {
       "id": 609500667,
@@ -3486,51 +3531,6 @@
       "openIssues": 1
     },
     {
-      "id": 990481429,
-      "name": "pipelex",
-      "owner": "Pipelex",
-      "url": "https://github.com/Pipelex/pipelex",
-      "description": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
-      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Declarative language for composable Al workflows. Devtool for agents and mere humans. ",
-      "categoryTags": [
-        "automation"
-      ],
-      "language": "Python",
-      "stars": 682,
-      "beginnerScore": 55,
-      "beginnerScoreBreakdown": {
-        "readmeQuality": 10,
-        "installInstructions": 5,
-        "dependencySimplicity": 15,
-        "issueResponseRate": 10,
-        "languageAccessibility": 15,
-        "examplesPresence": 0
-      },
-      "setupComplexity": "medium",
-      "prerequisiteSkills": [
-        "basic-terminal",
-        "git-basics",
-        "python-basics"
-      ],
-      "estimatedFirstRunMinutes": 45,
-      "hasChineseDocs": false,
-      "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-09T00:33:35Z",
-      "topics": [
-        "agents",
-        "ai",
-        "automation",
-        "dsl",
-        "language",
-        "llm",
-        "orchestration",
-        "pipeline",
-        "workflows"
-      ],
-      "forks": 53,
-      "openIssues": 16
-    },
-    {
       "id": 1086027346,
       "name": "OpenSail",
       "owner": "TesslateAI",
@@ -3598,7 +3598,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 965,
+      "stars": 967,
       "beginnerScore": 55,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
