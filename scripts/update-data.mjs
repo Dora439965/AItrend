@@ -213,7 +213,7 @@ async function fetchGithubRepositories() {
   const results = await Promise.allSettled(
     GITHUB_TOPICS.map(async (topic) => {
       const query = encodeURIComponent(`topic:${topic} pushed:>${since} stars:>50`);
-      const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=20`;
+      const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=30`;
       const data = await githubFetch(url);
       return data.items || [];
     })
@@ -346,7 +346,7 @@ function scoreRepositories(rawRepos, previousSnapshot) {
       };
     })
     .sort((a, b) => b.hot - a.hot)
-    .slice(0, 10);
+    .slice(0, 40);
 }
 
 async function fetchText(url) {

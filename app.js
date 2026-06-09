@@ -199,6 +199,13 @@ let generatedRecommendations = [];
 let beginnerProjects = [];
 // @AI_GENERATED: end
 
+// @AI_GENERATED: 近7天热榜数据聚合状态
+const DAY_MS = 24 * 60 * 60 * 1000;
+let repos7d = [];
+let snapshotCache = null; // 缓存已加载的近7天快照，避免重复请求
+let isLoading7d = false;
+// @AI_GENERATED: end
+
 const repoList = document.querySelector("#repoList");
 const trendFilters = document.querySelector("#trendFilters");
 const trendSort = document.querySelector("#trendSort");
@@ -604,8 +611,151 @@ function renderTrendFilters() {
     .join("");
 }
 
+// @AI_GENERATED: 近7天热榜 — 加载快照、聚合计算
+
+function normalizeValue(value, max) {
+  if (!max || max <= 0) return 0;
+  return Math.min(1, Math.max(0, value / max));
+}
+
+// 加载最近7天的快照文件（按日期推算文件名，静态站点无法列目录）
+async function load7DaySnapshots() {
+  if (snapshotCache) return snapshotCache;
+  const baseDate = new Date();
+  const dates = [];
+  for (let i = 0; i < 7; i += 1) {
+    const d = new Date(baseDate.getTime() - i * DAY_MS);
+    dates.push(d.toISOString().slice(0, 10));
+  }
+  const results = await Promise.all(
+    dates.map(async (date) => {
+      try {
+        const res = await fetch(`./data/snapshots/${date}.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) return null;
+        return await res.json();
+      } catch {
+        return null;
+      }
+    })
+  );
+  // 按日期降序：results[0] 是最新一天
+  snapshotCache = results.filter(Boolean);
+  return snapshotCache;
+}
+
+// 聚合最近7天的累计增长，并用与"今日"一致的权重重新计算综合热度
+function compute7DayAggregation(snapshots) {
+  // 最新快照作为基准；若快照不足，回退到当前 current.json 的 repos
+  const latest = snapshots[0];
+  const oldest = snapshots[snapshots.length - 1] || latest;
+  const baseRepos = latest?.repositories?.length
+    ? latest.repositories.map(normalizeSnapshotRepository)
+    : repos;
+  // 只有存在 2 份及以上不同日期快照时，才用"当前 - 最早"得到7天累计增长；
+  // 否则没有真实历史区间，退化为当日增长字段
+  const hasHistory = snapshots.length >= 2;
+  const oldestById = new Map((oldest?.repositories || []).map((r) => [String(r.id), r]));
+
+  // 先算出每个项目的7天累计增长
+  const enriched = baseRepos.map((repo) => {
+    const past = hasHistory ? oldestById.get(String(repo.id)) : null;
+    // 当前 stars/forks 减去7天前的 stars/forks；无历史则退化为当日增长
+    const starGrowth7d = past
+      ? Math.max(0, (repo.stars ?? 0) - (past.stars ?? repo.stars ?? 0))
+      : repo.starGrowth ?? 0;
+    const forkGrowth7d = past
+      ? Math.max(0, (repo.forks ?? 0) - (past.forks ?? repo.forks ?? 0))
+      : repo.forkGrowth ?? 0;
+    // 讨论度：累加7天内每份快照的 discussion 增长代理值
+    let discussion7d = 0;
+    snapshots.forEach((snap) => {
+      const item = (snap.repositories || []).find((r) => String(r.id) === String(repo.id));
+      if (item) discussion7d += item.discussion ?? 0;
+    });
+    if (!snapshots.length) discussion7d = repo.discussion ?? 0;
+    return { repo, starGrowth7d, forkGrowth7d, discussion7d };
+  });
+
+  // 归一化所需的最大值
+  const maxStarGrowth = Math.max(...enriched.map((e) => e.starGrowth7d), 1);
+  const maxForkGrowth = Math.max(...enriched.map((e) => e.forkGrowth7d), 1);
+  const maxDiscussion = Math.max(...enriched.map((e) => e.discussion7d), 1);
+  const maxStars = Math.max(...enriched.map((e) => e.repo.stars ?? 0), 1);
+  const maxForks = Math.max(...enriched.map((e) => e.repo.forks ?? 0), 1);
+
+  return enriched
+    .map(({ repo, starGrowth7d, forkGrowth7d, discussion7d }) => {
+      const starGrowthScore = normalizeValue(starGrowth7d, maxStarGrowth);
+      const forkGrowthScore = normalizeValue(forkGrowth7d, maxForkGrowth);
+      const discussionScore = normalizeValue(discussion7d, maxDiscussion);
+      // 总量得分：stars 占 65%、forks 占 35%，整体仅占 5% 权重
+      const totalScaleScore =
+        normalizeValue(Math.log1p(repo.stars ?? 0), Math.log1p(maxStars)) * 0.65 +
+        normalizeValue(Math.log1p(repo.forks ?? 0), Math.log1p(maxForks)) * 0.35;
+      // 新鲜度：7天内有 push 视为活跃
+      let recencyScore = 0;
+      if (repo.pushedAt) {
+        const ageDays = Math.max(1, (Date.now() - new Date(repo.pushedAt).getTime()) / DAY_MS);
+        recencyScore = Math.min(1, 7 / ageDays);
+      }
+      // 权重与"今日"一致：stars 45 / forks 25 / 讨论 20 / 总量 5 / 新鲜度 5
+      const hot7d = Math.max(
+        1,
+        Math.min(
+          100,
+          Math.round(
+            starGrowthScore * 45 +
+              forkGrowthScore * 25 +
+              discussionScore * 20 +
+              totalScaleScore * 5 +
+              recencyScore * 5
+          )
+        )
+      );
+      return { ...repo, starGrowth7d, forkGrowth7d, discussion7d, hot7d };
+    })
+    .sort((a, b) => b.hot7d - a.hot7d);
+}
+
+// 进入近7天模式：加载快照 -> 聚合 -> 渲染
+async function activate7DayTrend() {
+  if (isLoading7d) return;
+  if (repos7d.length) {
+    renderRepos();
+    return;
+  }
+  isLoading7d = true;
+  showToast("正在加载近 7 天热榜数据…");
+  try {
+    const snapshots = await load7DaySnapshots();
+    repos7d = compute7DayAggregation(snapshots);
+    renderRepos();
+    showToast(`已按近 7 天热度计算 ${repos7d.length} 个项目`);
+  } catch (error) {
+    console.warn("Failed to load 7-day trend:", error.message);
+    showToast("近 7 天数据加载失败，已保持当前视图");
+    trendRange = "today";
+    renderRepos();
+  } finally {
+    isLoading7d = false;
+  }
+}
+// @AI_GENERATED: end
+
 function getSortedRepos() {
   const sort = trendSort.value;
+  // @AI_GENERATED: 近7天模式使用聚合后的数据源与对应字段
+  if (trendRange === "7d") {
+    return repos7d
+      .filter((repo) => selectedTag === "全部" || repo.tags.includes(selectedTag))
+      .sort((a, b) => {
+        if (sort === "stars") return b.starGrowth7d - a.starGrowth7d;
+        if (sort === "forks") return b.forkGrowth7d - a.forkGrowth7d;
+        if (sort === "discussion") return b.discussion7d - a.discussion7d;
+        return b.hot7d - a.hot7d;
+      });
+  }
+  // @AI_GENERATED: end
   return repos
     .filter((repo) => selectedTag === "全部" || repo.tags.includes(selectedTag))
     .sort((a, b) => {
@@ -624,9 +774,18 @@ function renderRepos() {
     return;
   }
 
+  // @AI_GENERATED: 根据时间范围选择展示的指标字段与文案
+  const is7d = trendRange === "7d";
+  const metricLabel = is7d ? "近7天" : "";
+
   repoList.innerHTML = items
     .map(
-      (repo, index) => `
+      (repo, index) => {
+        const hotVal = is7d ? repo.hot7d : repo.hot;
+        const starVal = is7d ? repo.starGrowth7d : repo.starGrowth;
+        const forkVal = is7d ? repo.forkGrowth7d : repo.forkGrowth;
+        const discussionVal = is7d ? repo.discussion7d : repo.discussion;
+        return `
         <article class="repo-card" data-repo="${repo.id}">
           <div class="card-top">
             <div class="title-line">
@@ -639,10 +798,10 @@ function renderRepos() {
             <button class="small-button" data-action="details" data-repo="${repo.id}">查看详情</button>
           </div>
           <div class="metric-row">
-            <span class="metric ${activeSort === "hot" ? "metric-hot-active" : ""}">Hot ${repo.hot}</span>
-            <span class="metric ${activeSort === "stars" ? "metric-stars-active" : ""}">+${repo.starGrowth} stars</span>
-            <span class="metric ${activeSort === "forks" ? "metric-forks-active" : ""}">+${repo.forkGrowth} forks</span>
-            <span class="metric ${activeSort === "discussion" ? "metric-discussion-active" : ""}">讨论度 ${repo.discussion}</span>
+            <span class="metric ${activeSort === "hot" ? "metric-hot-active" : ""}">Hot ${hotVal}</span>
+            <span class="metric ${activeSort === "stars" ? "metric-stars-active" : ""}">${metricLabel}+${starVal} stars</span>
+            <span class="metric ${activeSort === "forks" ? "metric-forks-active" : ""}">${metricLabel}+${forkVal} forks</span>
+            <span class="metric ${activeSort === "discussion" ? "metric-discussion-active" : ""}">讨论度 ${discussionVal}</span>
             <span class="metric">${repo.language}</span>
           </div>
           <div class="tag-row">${repo.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
@@ -652,9 +811,11 @@ function renderRepos() {
             <button class="small-button ${isFavorite(repo.id) ? "is-favorited" : ""}" data-action="save" data-repo="${repo.id}">${isFavorite(repo.id) ? "★ 已收藏" : "☆ 收藏"}</button>
           </div>
         </article>
-      `
+      `;
+      }
     )
     .join("");
+  // @AI_GENERATED: end
 }
 
 function renderNews() {
@@ -1266,7 +1427,18 @@ document.querySelectorAll(".segmented").forEach((group) => {
     if (!button) return;
     group.querySelectorAll("button").forEach((item) => item.classList.remove("active"));
     button.classList.add("active");
-    if (group.dataset.group === "trend-range") trendRange = button.dataset.value;
+    // @AI_GENERATED: 时间范围切换联动列表渲染
+    if (group.dataset.group === "trend-range") {
+      trendRange = button.dataset.value;
+      if (trendRange === "7d") {
+        activate7DayTrend();
+      } else {
+        renderRepos();
+        showToast(`已切换到 ${button.textContent}`);
+      }
+      return;
+    }
+    // @AI_GENERATED: end
     showToast(`已切换到 ${button.textContent}`);
   });
 });
