@@ -18,7 +18,9 @@
       <nav class="nav-tabs" aria-label="页面模块">
         <button class="nav-tab active" data-target="trends">AI 热榜</button>
         <button class="nav-tab" data-target="news">AI 新闻</button>
-        <button class="nav-tab" data-target="recommender">项目推荐</button>
+        <!-- @AI_GENERATED -->
+        <button class="nav-tab" data-target="recommender">新手推荐</button>
+        <!-- @AI_GENERATED: end -->
       </nav>
       <div class="status">
         <span class="source-badge is-pending" id="dataSourceBadge">检测数据源</span>
@@ -119,113 +121,38 @@
             <div class="list news-list" id="newsList"></div>
           </section>
 
+          <!-- @AI_GENERATED -->
           <section class="module-panel page-section" id="recommender">
             <div class="module-header">
               <div>
-                <p class="eyebrow">Vibe coding starter</p>
-                <h2>找到适合你的开源项目</h2>
+                <p class="eyebrow">Beginner-friendly AI project finder</p>
+                <h2>找到适合你的第一个 AI 项目</h2>
               </div>
-              <button class="secondary-button" id="resetProfile">重置画像</button>
+              <button class="secondary-button" id="resetBeginnerProfile">重置画像</button>
             </div>
 
-            <div class="reco-grid">
-              <form class="wizard" id="profileForm">
-                <div class="progress">
-                  <span id="stepText">步骤 1 / 5</span>
-                  <div><i id="progressBar"></i></div>
+            <div class="beginner-reco-grid">
+              <!-- Left: Questionnaire -->
+              <div class="beginner-wizard-container" id="beginnerWizardContainer">
+                <!-- Dynamically rendered by renderBeginnerQuestionnaireStep() -->
+                <div class="empty-reco" id="beginnerWizardPlaceholder">
+                  <h3>回答几个简单问题</h3>
+                  <p>系统会根据你的背景、目标和时间，从 GitHub 上找到真正适合零基础上手的 AI 项目。</p>
                 </div>
-                <div class="wizard-step active" data-step="0">
-                  <h3>你的背景和代码水平</h3>
-                  <label>你的背景
-                    <select name="background">
-                      <option>产品经理</option>
-                      <option>设计师</option>
-                      <option>学生</option>
-                      <option>前端开发</option>
-                      <option>后端开发</option>
-                      <option>创业者</option>
-                    </select>
-                  </label>
-                  <label>代码水平
-                    <select name="level">
-                      <option>零基础</option>
-                      <option>能看懂少量代码</option>
-                      <option>会写简单脚本</option>
-                      <option>能独立开发</option>
-                      <option>资深开发者</option>
-                    </select>
-                  </label>
-                </div>
-                <div class="wizard-step" data-step="1">
-                  <h3>你想做什么</h3>
-                  <div class="option-grid" data-field="goal">
-                    <button type="button" class="choice active">学习 AI 应用</button>
-                    <button type="button" class="choice">做作品集</button>
-                    <button type="button" class="choice">上线小产品</button>
-                    <button type="button" class="choice">自动化工作流</button>
-                  </div>
-                </div>
-                <div class="wizard-step" data-step="2">
-                  <h3>输入你的具体需求</h3>
-                  <label>你希望项目帮你解决什么问题，或想做成什么作品？
-                    <textarea name="requirement" rows="7" placeholder="例如：我想做一个能整理论文和生成学习计划的 Web 工具；我希望项目适合零基础，可以一天内跑起来，最好能部署成作品集。"></textarea>
-                  </label>
-                </div>
-                <div class="wizard-step" data-step="3">
-                  <h3>兴趣方向</h3>
-                  <div class="option-grid multi" data-field="interests">
-                    <button type="button" class="choice active">AI Agent</button>
-                    <button type="button" class="choice">RAG 知识库</button>
-                    <button type="button" class="choice">AI 编程</button>
-                    <button type="button" class="choice">图像生成</button>
-                    <button type="button" class="choice">浏览器自动化</button>
-                    <button type="button" class="choice">效率工具</button>
-                    <button type="button" class="choice">Web 全栈</button>
-                    <button type="button" class="choice">移动应用</button>
-                    <button type="button" class="choice">数据可视化</button>
-                    <button type="button" class="choice">游戏开发</button>
-                    <button type="button" class="choice">DevOps / 云原生</button>
-                    <button type="button" class="choice">区块链 / Web3</button>
-                    <button type="button" class="choice">安全工具</button>
-                    <button type="button" class="choice">机器人 / IoT</button>
-                    <button type="button" class="choice">教育工具</button>
-                    <button type="button" class="choice">金融科技</button>
-                  </div>
-                </div>
-                <div class="wizard-step" data-step="4">
-                  <h3>投入时间与运行偏好</h3>
-                  <label>预计投入
-                    <select name="time">
-                      <option>30 分钟</option>
-                      <option>半天</option>
-                      <option>1 天</option>
-                      <option>1 周</option>
-                    </select>
-                  </label>
-                  <label>运行环境
-                    <select name="environment">
-                      <option>本地运行优先</option>
-                      <option>Web 应用优先</option>
-                      <option>CLI 工具优先</option>
-                      <option>Docker 可接受</option>
-                    </select>
-                  </label>
-                </div>
-                <div class="wizard-actions">
-                  <button type="button" class="secondary-button" id="prevStep">上一步</button>
-                  <button type="button" class="primary-button" id="nextStep">下一步</button>
-                </div>
-              </form>
+              </div>
 
-              <aside class="recommendations">
-                <div class="empty-reco" id="emptyReco">
+              <!-- Right: Recommendation Results -->
+              <aside class="beginner-recommendations" id="beginnerRecommendations">
+                <div class="empty-reco" id="beginnerEmptyReco">
                   <h3>完成问卷后生成推荐</h3>
-                  <p>系统会按你的背景、具体需求、兴趣、时间投入和运行偏好，推荐 3 个更适合开始的开源项目。</p>
+                  <p>系统会从 50+ 个精选新手友好项目中，为你匹配最适合的 3-5 个，并生成详细入门指南。</p>
                 </div>
-                <div id="recommendationList" class="list compact-list"></div>
+                <div id="beginnerRecommendationList" class="list compact-list"></div>
+                <p class="beginner-data-timestamp" id="beginnerDataTimestamp"></p>
               </aside>
             </div>
           </section>
+          <!-- @AI_GENERATED: end -->
         </div>
 
         <aside class="side-panel">
@@ -233,12 +160,24 @@
             <h3>快速入口</h3>
             <button class="side-action" data-jump="trends">查看今日热榜</button>
             <button class="side-action" data-jump="news">浏览本周新闻</button>
-            <button class="side-action" data-jump="recommender">开始项目推荐</button>
+            <!-- @AI_GENERATED -->
+            <button class="side-action" data-jump="recommender">找到适合我的项目</button>
+            <!-- @AI_GENERATED: end -->
           </section>
           <section>
             <h3>数据来源</h3>
             <p id="dataSourceDetail">正在检测当前页面使用真实快照还是演示数据。</p>
           </section>
+          <!-- @AI_GENERATED -->
+          <section>
+            <h3>我的收藏</h3>
+            <div id="favoritesList"></div>
+          </section>
+          <section>
+            <h3>稍后阅读</h3>
+            <div id="readLaterList"></div>
+          </section>
+          <!-- @AI_GENERATED: end -->
         </aside>
       </div>
     </main>

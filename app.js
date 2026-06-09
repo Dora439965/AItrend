@@ -195,6 +195,9 @@ let selectedTag = "全部";
 let trendRange = "today";
 let currentStep = 0;
 let generatedRecommendations = [];
+// @AI_GENERATED
+let beginnerProjects = [];
+// @AI_GENERATED: end
 
 const repoList = document.querySelector("#repoList");
 const trendFilters = document.querySelector("#trendFilters");
@@ -214,6 +217,123 @@ const heroVisual = document.querySelector(".hero-visual");
 const dataUpdatedAt = document.querySelector("#dataUpdatedAt");
 const dataSourceBadge = document.querySelector("#dataSourceBadge");
 const dataSourceDetail = document.querySelector("#dataSourceDetail");
+
+// @AI_GENERATED: 收藏功能（localStorage 持久化）
+const FAVORITES_KEY = "trendFavorites";
+
+function getFavorites() {
+  try {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+function isFavorite(repoId) {
+  return getFavorites().some((f) => String(f.id) === String(repoId));
+}
+
+function toggleFavorite(repoId) {
+  const repo = repos.find((r) => String(r.id) === String(repoId));
+  if (!repo) return false;
+  let favorites = getFavorites();
+  const exists = favorites.some((f) => String(f.id) === String(repoId));
+  if (exists) {
+    favorites = favorites.filter((f) => String(f.id) !== String(repoId));
+  } else {
+    favorites.push({
+      id: repo.id,
+      name: repo.name,
+      owner: repo.owner,
+      url: repo.url || `https://github.com/${repo.owner}/${repo.name}`,
+    });
+  }
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+  } catch { /* ignore */ }
+  return !exists;
+}
+
+function renderFavorites() {
+  const container = document.querySelector("#favoritesList");
+  if (!container) return;
+  const favorites = getFavorites();
+  if (!favorites.length) {
+    container.innerHTML = `<p class="favorites-empty">还没有收藏项目，点击热榜卡片上的「收藏」按钮试试。</p>`;
+    return;
+  }
+  container.innerHTML = favorites
+    .map(
+      (f) => `
+        <div class="favorite-item">
+          <a href="${f.url}" target="_blank" rel="noopener" class="favorite-link">${f.owner}/${f.name}</a>
+          <button class="favorite-remove" data-action="unfavorite" data-repo="${f.id}" title="取消收藏">×</button>
+        </div>
+      `
+    )
+    .join("");
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: 稍后阅读功能（localStorage 持久化）
+const READ_LATER_KEY = "newsReadLater";
+
+function getReadLaterList() {
+  try {
+    const raw = localStorage.getItem(READ_LATER_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+function isReadLater(newsId) {
+  return getReadLaterList().some((item) => item.id === newsId);
+}
+
+function toggleReadLater(newsId) {
+  const newsItem = news.find((n) => n.id === newsId);
+  if (!newsItem) return false;
+  let list = getReadLaterList();
+  const exists = list.some((item) => item.id === newsId);
+  if (exists) {
+    list = list.filter((item) => item.id !== newsId);
+  } else {
+    list.push({
+      id: newsItem.id,
+      title: newsItem.title,
+      url: newsItem.url || "",
+      company: newsItem.company,
+      time: newsItem.time,
+    });
+  }
+  try {
+    localStorage.setItem(READ_LATER_KEY, JSON.stringify(list));
+  } catch { /* ignore */ }
+  return !exists;
+}
+
+function renderReadLater() {
+  const container = document.querySelector("#readLaterList");
+  if (!container) return;
+  const list = getReadLaterList();
+  if (!list.length) {
+    container.innerHTML = `<p class="favorites-empty">还没有标记稍后阅读，点击新闻卡片上的「稍后阅读」按钮试试。</p>`;
+    return;
+  }
+  container.innerHTML = list
+    .map(
+      (item) => `
+        <div class="favorite-item">
+          <a href="${item.url}" target="_blank" rel="noopener" class="favorite-link" title="${item.title}">${item.title.slice(0, 40)}${item.title.length > 40 ? "…" : ""}</a>
+          <button class="favorite-remove" data-news-action="unread-later" data-news="${item.id}" title="移除">×</button>
+        </div>
+      `
+    )
+    .join("");
+}
+// @AI_GENERATED: end
 
 function formatNumber(value) {
   return value.toLocaleString("en-US");
@@ -300,6 +420,11 @@ async function loadSnapshotData() {
     if (Array.isArray(snapshot.news) && snapshot.news.length) {
       news = snapshot.news.map(normalizeSnapshotNews);
     }
+    // @AI_GENERATED
+    if (Array.isArray(snapshot.beginnerProjects) && snapshot.beginnerProjects.length) {
+      beginnerProjects = snapshot.beginnerProjects;
+    }
+    // @AI_GENERATED: end
     if (dataUpdatedAt) dataUpdatedAt.textContent = `更新至 ${formatDateTime(snapshot.generatedAt)}`;
     if (dataSourceBadge) {
       dataSourceBadge.textContent = "真实快照";
@@ -524,7 +649,7 @@ function renderRepos() {
           <div class="action-row">
             <button class="small-button" data-action="doc" data-repo="${repo.id}">生成上手建议</button>
             <button class="small-button" data-action="fit" data-repo="${repo.id}">适合我吗</button>
-            <button class="small-button" data-action="save">收藏</button>
+            <button class="small-button ${isFavorite(repo.id) ? "is-favorited" : ""}" data-action="save" data-repo="${repo.id}">${isFavorite(repo.id) ? "★ 已收藏" : "☆ 收藏"}</button>
           </div>
         </article>
       `
@@ -558,9 +683,8 @@ function renderNews() {
             <span class="metric">${item.time}</span>
           </div>
           <div class="action-row">
-            <button class="small-button" data-news-action="source">打开原文</button>
-            <button class="small-button" data-news-action="related" data-repo="${item.relatedRepo || ""}">相关项目</button>
-            <button class="small-button" data-news-action="save">稍后阅读</button>
+            <button class="small-button" data-news-action="source" data-url="${item.url || ""}">打开原文</button>
+            <button class="small-button ${isReadLater(item.id) ? "is-favorited" : ""}" data-news-action="save" data-news="${item.id}">${isReadLater(item.id) ? "★ 已标记" : "☆ 稍后阅读"}</button>
           </div>
         </article>
       `
@@ -797,8 +921,7 @@ function openNews(newsId) {
       </section>
     `,
     `
-      <button class="primary-button" data-drawer-action="related" data-repo="${item.relatedRepo}">查看相关项目</button>
-      <button class="secondary-button" data-drawer-action="source">打开原文</button>
+      <button class="primary-button" data-drawer-action="source" data-url="${item.url || ""}">打开原文</button>
     `
   );
 }
@@ -822,20 +945,28 @@ function showToast(message) {
   window.setTimeout(() => toast.classList.add("hidden"), 1800);
 }
 
+// @AI_GENERATED
 function updateStep() {
   document.querySelectorAll(".wizard-step").forEach((step) => {
     step.classList.toggle("active", Number(step.dataset.step) === currentStep);
   });
-  document.querySelector("#stepText").textContent = `步骤 ${currentStep + 1} / 5`;
-  document.querySelector("#progressBar").style.width = `${(currentStep + 1) * 20}%`;
-  document.querySelector("#prevStep").disabled = currentStep === 0;
-  document.querySelector("#nextStep").textContent = currentStep === 4 ? "生成推荐" : "下一步";
+  const stepText = document.querySelector("#stepText");
+  if (stepText) stepText.textContent = `步骤 ${currentStep + 1} / 5`;
+  const progressBar = document.querySelector("#progressBar");
+  if (progressBar) progressBar.style.width = `${(currentStep + 1) * 20}%`;
+  const prevStep = document.querySelector("#prevStep");
+  if (prevStep) prevStep.disabled = currentStep === 0;
+  const nextStep = document.querySelector("#nextStep");
+  if (nextStep) nextStep.textContent = currentStep === 4 ? "生成推荐" : "下一步";
 }
+// @AI_GENERATED: end
 
 function generateRecommendations() {
   generatedRecommendations = [repos[1], repos[4], repos[0]];
-  document.querySelector("#emptyReco").classList.add("hidden");
-  document.querySelector("#recommendationList").innerHTML = generatedRecommendations
+  document.querySelector("#emptyReco")?.classList.add("hidden");
+  const recoList = document.querySelector("#recommendationList");
+  if (!recoList) return;
+  recoList.innerHTML = generatedRecommendations
     .map(
       (repo, index) => `
         <article class="reco-card">
@@ -910,7 +1041,20 @@ document.addEventListener("click", async (event) => {
       setActiveSection("recommender");
       showToast("已把该项目加入推荐上下文");
     }
-    if (action === "save") showToast("已收藏到本次会话");
+    // @AI_GENERATED
+    if (action === "save") {
+      const added = toggleFavorite(actionButton.dataset.repo);
+      renderRepos();
+      renderFavorites();
+      showToast(added ? "已加入收藏" : "已取消收藏");
+    }
+    if (action === "unfavorite") {
+      toggleFavorite(actionButton.dataset.repo);
+      renderRepos();
+      renderFavorites();
+      showToast("已取消收藏");
+    }
+    // @AI_GENERATED: end
     if (action === "dismiss") {
       actionButton.closest(".reco-card").remove();
       showToast("已移除该推荐");
@@ -926,10 +1070,148 @@ document.addEventListener("click", async (event) => {
       if (newsAction.dataset.repo) openRepo(newsAction.dataset.repo);
       else showToast("当前新闻暂无关联项目");
     }
-    if (action === "source") showToast("Demo 中使用模拟来源链接");
-    if (action === "save") showToast("已加入稍后阅读");
+    // @AI_GENERATED
+    if (action === "source") {
+      const url = newsAction.dataset.url;
+      if (url) {
+        window.open(url, "_blank", "noopener");
+      } else {
+        showToast("该新闻暂无原文链接");
+      }
+    }
+    // @AI_GENERATED: end
+    // @AI_GENERATED
+    if (action === "save") {
+      const added = toggleReadLater(newsAction.dataset.news);
+      renderNews();
+      renderReadLater();
+      showToast(added ? "已加入稍后阅读" : "已取消稍后阅读");
+    }
+    if (action === "unread-later") {
+      toggleReadLater(newsAction.dataset.news);
+      renderNews();
+      renderReadLater();
+      showToast("已从稍后阅读移除");
+    }
+    // @AI_GENERATED: end
     return;
   }
+
+  // @AI_GENERATED: Beginner Recommender Event Handling (Task 7.3)
+  const beginnerOption = event.target.closest("[data-beginner-option]");
+  if (beginnerOption) {
+    const field = beginnerOption.dataset.beginnerField;
+    const optionId = beginnerOption.dataset.beginnerOption;
+    handleBeginnerOptionClick(field, optionId);
+    const container = document.querySelector("#beginnerWizardContainer");
+    if (container) {
+      container.innerHTML = renderBeginnerQuestionnaireStep(beginnerQuestionnaireState.currentStep);
+    }
+    return;
+  }
+
+  const beginnerNav = event.target.closest("[data-beginner-nav]");
+  if (beginnerNav) {
+    const direction = beginnerNav.dataset.beginnerNav;
+    const totalSteps = BEGINNER_STEPS.length;
+    const currentBeginnerStep = beginnerQuestionnaireState.currentStep;
+
+    if (direction === "next" && currentBeginnerStep === totalSteps - 1) {
+      // Last step: run match engine if questionnaire is complete
+      if (isQuestionnaireComplete()) {
+        const userProfile = buildUserProfile();
+        // @AI_GENERATED
+        // 如果 beginnerProjects 为空（API 限流或首次运行），回退使用热榜数据
+        let pool = beginnerProjects;
+        if (!pool || pool.length === 0) {
+          pool = repos.map(repo => ({
+            id: repo.id,
+            name: repo.name,
+            owner: repo.owner,
+            url: repo.url || `https://github.com/${repo.owner}/${repo.name}`,
+            description: repo.description || "",
+            descriptionZh: repo.descriptionZh || repo.description || "",
+            categoryTags: (repo.tags || []).map(t => t.toLowerCase()),
+            language: repo.language || "Unknown",
+            stars: repo.stars || 0,
+            beginnerScore: 50,
+            setupComplexity: repo.difficulty === "入门" ? "low" : repo.difficulty === "挑战" ? "high" : "medium",
+            prerequisiteSkills: ["basic-terminal", "git-basics"],
+            estimatedFirstRunMinutes: repo.difficulty === "入门" ? 30 : repo.difficulty === "挑战" ? 90 : 45,
+            hasChineseDocs: !!(repo.descriptionZh),
+            hasExamplesFolder: false,
+            lastUpdated: new Date().toISOString(),
+            topics: repo.tags || [],
+            forks: repo.forks || 0,
+            openIssues: 0,
+          }));
+          // 回退数据也写入全局，供后续"生成入门指南"查找
+          beginnerProjects = pool;
+        }
+        const results = runMatchEngine(userProfile, pool);
+        // @AI_GENERATED: end
+        renderBeginnerResults(results);
+        showToast(`已匹配 ${results.length} 个推荐项目`);
+      } else {
+        showToast("请完成所有问卷步骤后再生成推荐");
+      }
+    } else {
+      navigateBeginnerStep(direction);
+      const container = document.querySelector("#beginnerWizardContainer");
+      if (container) {
+        container.innerHTML = renderBeginnerQuestionnaireStep(beginnerQuestionnaireState.currentStep);
+      }
+    }
+    return;
+  }
+
+  const beginnerAction = event.target.closest("[data-beginner-action]");
+  if (beginnerAction) {
+    const action = beginnerAction.dataset.beginnerAction;
+    const projectId = beginnerAction.dataset.projectId;
+
+    if (action === "why-fit") {
+      const panel = document.querySelector(`#whyFit-${projectId}`);
+      if (panel) {
+        panel.style.display = panel.style.display === "none" ? "block" : "none";
+      }
+    }
+
+    if (action === "generate-doc") {
+      const project = beginnerProjects.find(p => String(p.id) === String(projectId));
+      if (project) {
+        const userProfile = buildUserProfile();
+        openBeginnerDocDrawer(project, userProfile);
+      } else {
+        showToast("未找到该项目数据");
+      }
+    }
+
+    if (action === "dismiss") {
+      dismissProject(projectId);
+      const card = beginnerAction.closest(".beginner-match-card");
+      if (card) card.remove();
+      showToast("已标记为不适合，后续不再推荐");
+    }
+    return;
+  }
+
+  const resetBeginner = event.target.closest("#resetBeginnerProfile");
+  if (resetBeginner) {
+    resetBeginnerQuestionnaire();
+    const container = document.querySelector("#beginnerWizardContainer");
+    if (container) {
+      container.innerHTML = renderBeginnerQuestionnaireStep(0);
+    }
+    // Clear results
+    const resultList = document.querySelector("#beginnerRecommendationList");
+    if (resultList) resultList.innerHTML = "";
+    const emptyEl = document.querySelector("#beginnerEmptyReco");
+    if (emptyEl) emptyEl.classList.remove("hidden");
+    showToast("画像已重置");
+    return;
+  }
+  // @AI_GENERATED: end
 
   const drawerAction = event.target.closest("[data-drawer-action]");
   if (drawerAction) {
@@ -947,7 +1229,34 @@ document.addEventListener("click", async (event) => {
       showToast(copied ? `已复制：${url}` : `GitHub 链接：${url}`);
     }
     if (action === "compare") showToast("已加入推荐对比");
-    if (action === "source") showToast("Demo 中使用模拟来源链接");
+    // @AI_GENERATED
+    if (action === "source") {
+      const url = drawerAction.dataset.url;
+      if (url) {
+        window.open(url, "_blank", "noopener");
+      } else {
+        showToast("该新闻暂无原文链接");
+      }
+    }
+    // @AI_GENERATED: end
+    // @AI_GENERATED: Beginner doc drawer actions (Task 7.3)
+    if (action === "copy-beginner-doc") {
+      if (window._currentBeginnerDoc) {
+        const copied = await copyOnboardingDocToClipboard(window._currentBeginnerDoc);
+        showToast(copied ? "已复制入门指南全文" : "复制失败，请手动选择文本");
+      } else {
+        showToast("暂无文档可复制");
+      }
+    }
+    if (action === "open-github") {
+      const url = drawerAction.dataset.url;
+      if (url) {
+        window.open(url, "_blank", "noopener");
+      } else {
+        showToast("暂无 GitHub 链接");
+      }
+    }
+    // @AI_GENERATED: end
   }
 });
 
@@ -982,11 +1291,12 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeDrawer();
 });
 document.querySelector("#refreshBtn").addEventListener("click", () => showToast("已刷新模拟数据"));
-document.querySelector("#prevStep").addEventListener("click", () => {
+// @AI_GENERATED
+document.querySelector("#prevStep")?.addEventListener("click", () => {
   currentStep = Math.max(0, currentStep - 1);
   updateStep();
 });
-document.querySelector("#nextStep").addEventListener("click", () => {
+document.querySelector("#nextStep")?.addEventListener("click", () => {
   if (currentStep < 4) {
     currentStep += 1;
     updateStep();
@@ -994,13 +1304,1415 @@ document.querySelector("#nextStep").addEventListener("click", () => {
     generateRecommendations();
   }
 });
-document.querySelector("#resetProfile").addEventListener("click", () => {
+document.querySelector("#resetProfile")?.addEventListener("click", () => {
   currentStep = 0;
   updateStep();
   document.querySelector("#recommendationList").innerHTML = "";
-  document.querySelector("#emptyReco").classList.remove("hidden");
+  document.querySelector("#emptyReco")?.classList.remove("hidden");
   showToast("画像已重置");
 });
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Beginner Questionnaire State Management & Data Persistence
+const BEGINNER_QUESTIONNAIRE_OPTIONS = {
+  background: [
+    { id: "student", label: "学生", explanation: "在校学生或应届毕业生" },
+    { id: "product-manager", label: "产品经理", explanation: "负责产品设计和需求的非技术岗" },
+    { id: "designer", label: "设计师", explanation: "UI/UX 设计或视觉设计" },
+    { id: "marketer", label: "运营/市场", explanation: "做增长、内容或营销的岗位" },
+    { id: "business-analyst", label: "数据分析", explanation: "日常用 Excel/SQL 但没写过代码" },
+    { id: "career-changer", label: "想转码", explanation: "其他行业想转技术岗" },
+    { id: "hobbyist", label: "兴趣探索", explanation: "纯好奇想试试" },
+    { id: "other", label: "其他", explanation: "以上都不太准确" },
+  ],
+  goal: [
+    { id: "build-a-portfolio-project", label: "做一个作品集项目", explanation: "能展示给面试官或朋友看的东西" },
+    { id: "understand-AI-tools", label: "理解 AI 工具原理", explanation: "知道 ChatGPT/Cursor 底层在做什么" },
+    { id: "automate-personal-workflow", label: "自动化日常工作", explanation: "减少重复劳动，提高效率" },
+    { id: "explore-career-change", label: "探索转行可能性", explanation: "看看技术岗日常是什么样的" },
+    { id: "learn-coding-basics", label: "学编程基础", explanation: "从零开始学写代码" },
+    { id: "build-a-product-idea", label: "验证产品想法", explanation: "想做个小产品看看有没有人用" },
+  ],
+  interestDirections: [
+    { id: "AI-chatbot", label: "AI 聊天机器人" },
+    { id: "knowledge-search", label: "知识搜索/问答" },
+    { id: "image-creation", label: "AI 图像创作" },
+    { id: "code-helper", label: "AI 编程助手" },
+    { id: "browser-automation", label: "浏览器自动化" },
+    { id: "data-analysis", label: "数据分析" },
+    { id: "personal-assistant", label: "个人 AI 助理" },
+    { id: "content-creation", label: "内容创作工具" },
+  ],
+  timeBudget: [
+    { id: "30-minutes-per-day", label: "每天 30 分钟", explanation: "碎片时间学习" },
+    { id: "1-hour-per-day", label: "每天 1 小时", explanation: "固定学习时间" },
+    { id: "half-day-per-week", label: "每周半天", explanation: "周末集中学一次" },
+    { id: "full-day-per-week", label: "每周一整天", explanation: "认真投入时间" },
+    { id: "flexible-long-term", label: "不限时间", explanation: "长期持续学习" },
+  ],
+  environmentPreference: [
+    { id: "browser-only-no-install", label: "只用浏览器", explanation: "不想在电脑装任何东西" },
+    { id: "simple-local-setup", label: "简单本地安装", explanation: "装一两个软件可以接受" },
+    { id: "docker-comfortable", label: "Docker 可接受", explanation: "知道 Docker 是什么或愿意学" },
+    { id: "any-environment", label: "都可以", explanation: "不在意复杂度" },
+  ],
+};
+
+const BEGINNER_STEPS = ["background", "goal", "interestDirections", "timeBudget", "environmentPreference"];
+const SESSION_KEY = "beginnerQuestionnaireState";
+
+let beginnerQuestionnaireState = {
+  currentStep: 0,
+  answers: {
+    background: null,
+    goal: null,
+    interestDirections: [],
+    timeBudget: null,
+    environmentPreference: null,
+  },
+};
+
+function initBeginnerQuestionnaire() {
+  restoreQuestionnaireFromSession();
+}
+
+function saveQuestionnaireAnswer(step, value) {
+  const field = BEGINNER_STEPS[step];
+  beginnerQuestionnaireState.answers[field] = value;
+  beginnerQuestionnaireState.currentStep = step;
+  try {
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify(beginnerQuestionnaireState));
+  } catch { /* sessionStorage unavailable, continue without persistence */ }
+}
+
+function restoreQuestionnaireFromSession() {
+  try {
+    const saved = sessionStorage.getItem(SESSION_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (parsed && parsed.answers) {
+        beginnerQuestionnaireState = parsed;
+      }
+    }
+  } catch { /* sessionStorage unavailable */ }
+}
+
+function resetBeginnerQuestionnaire() {
+  beginnerQuestionnaireState = {
+    currentStep: 0,
+    answers: { background: null, goal: null, interestDirections: [], timeBudget: null, environmentPreference: null },
+  };
+  try { sessionStorage.removeItem(SESSION_KEY); } catch { /* ignore */ }
+}
+
+function buildUserProfile() {
+  const { answers } = beginnerQuestionnaireState;
+  return {
+    background: answers.background,
+    goal: answers.goal,
+    interestDirections: answers.interestDirections || [],
+    timeBudget: answers.timeBudget,
+    environmentPreference: answers.environmentPreference,
+  };
+}
+
+function isQuestionnaireComplete() {
+  const { answers } = beginnerQuestionnaireState;
+  return answers.background && answers.goal && answers.interestDirections.length > 0
+    && answers.timeBudget && answers.environmentPreference;
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Beginner Questionnaire UI Rendering & Interaction (Task 3.2)
+const BEGINNER_STEP_LABELS = ["你的背景", "你想做什么", "感兴趣的方向", "可投入时间", "运行环境偏好"];
+
+function renderBeginnerQuestionnaireStep(step) {
+  const field = BEGINNER_STEPS[step];
+  const options = BEGINNER_QUESTIONNAIRE_OPTIONS[field];
+  const currentAnswer = beginnerQuestionnaireState.answers[field];
+  const isMulti = field === "interestDirections";
+  const totalSteps = BEGINNER_STEPS.length;
+  const progressPercent = ((step + 1) / totalSteps) * 100;
+
+  // Build progress indicator HTML
+  const progressHtml = `
+    <div class="beginner-progress">
+      <div class="beginner-progress-bar" style="width: ${progressPercent}%"></div>
+    </div>
+    <p class="beginner-step-text">步骤 ${step + 1} / ${totalSteps}：${BEGINNER_STEP_LABELS[step]}</p>
+  `;
+
+  // Build option buttons HTML
+  const optionsHtml = options.map((option) => {
+    let isActive = false;
+    if (isMulti) {
+      isActive = Array.isArray(currentAnswer) && currentAnswer.includes(option.id);
+    } else {
+      isActive = currentAnswer === option.id;
+    }
+    const activeClass = isActive ? "beginner-option-active" : "";
+    return `<button class="beginner-option ${activeClass}" data-beginner-option="${option.id}" data-beginner-field="${field}">
+      <span class="beginner-option-label">${option.label}</span>
+    </button>`;
+  }).join("");
+
+  // Build explanation text for selected option(s)
+  let explanationHtml = "";
+  if (isMulti) {
+    if (Array.isArray(currentAnswer) && currentAnswer.length > 0) {
+      const selectedExplanations = currentAnswer
+        .map((id) => options.find((o) => o.id === id))
+        .filter(Boolean)
+        .map((o) => o.label)
+        .join("、");
+      explanationHtml = `<p class="beginner-explanation">已选择：${selectedExplanations}</p>`;
+    } else {
+      explanationHtml = `<p class="beginner-explanation beginner-explanation-hint">可多选，选择你感兴趣的方向</p>`;
+    }
+  } else {
+    if (currentAnswer) {
+      const selectedOption = options.find((o) => o.id === currentAnswer);
+      if (selectedOption && selectedOption.explanation) {
+        explanationHtml = `<p class="beginner-explanation">${selectedOption.explanation}</p>`;
+      }
+    }
+  }
+
+  // Build navigation buttons
+  const prevDisabled = step === 0 ? "disabled" : "";
+  const nextLabel = step === totalSteps - 1 ? "生成推荐" : "下一步";
+  const navHtml = `
+    <div class="beginner-nav">
+      <button class="beginner-nav-btn beginner-prev-btn" data-beginner-nav="prev" ${prevDisabled}>上一步</button>
+      <button class="beginner-nav-btn beginner-next-btn" data-beginner-nav="next">${nextLabel}</button>
+    </div>
+  `;
+
+  // Combine all parts
+  return `
+    <div class="beginner-questionnaire-step">
+      ${progressHtml}
+      <div class="beginner-options-grid">
+        ${optionsHtml}
+      </div>
+      ${explanationHtml}
+      ${navHtml}
+    </div>
+  `;
+}
+
+function handleBeginnerOptionClick(field, optionId) {
+  const step = BEGINNER_STEPS.indexOf(field);
+  if (step === -1) return;
+
+  const isMulti = field === "interestDirections";
+
+  if (isMulti) {
+    let current = beginnerQuestionnaireState.answers[field];
+    if (!Array.isArray(current)) current = [];
+    if (current.includes(optionId)) {
+      current = current.filter((id) => id !== optionId);
+    } else {
+      current = [...current, optionId];
+    }
+    saveQuestionnaireAnswer(step, current);
+  } else {
+    // Single-select: clicking the same option deselects, clicking another selects it
+    const currentValue = beginnerQuestionnaireState.answers[field];
+    if (currentValue === optionId) {
+      saveQuestionnaireAnswer(step, null);
+    } else {
+      saveQuestionnaireAnswer(step, optionId);
+    }
+  }
+}
+
+function navigateBeginnerStep(direction) {
+  const totalSteps = BEGINNER_STEPS.length;
+  const current = beginnerQuestionnaireState.currentStep;
+
+  if (direction === "prev") {
+    if (current > 0) {
+      beginnerQuestionnaireState.currentStep = current - 1;
+      try {
+        sessionStorage.setItem(SESSION_KEY, JSON.stringify(beginnerQuestionnaireState));
+      } catch { /* ignore */ }
+    }
+  } else if (direction === "next") {
+    if (current < totalSteps - 1) {
+      beginnerQuestionnaireState.currentStep = current + 1;
+      try {
+        sessionStorage.setItem(SESSION_KEY, JSON.stringify(beginnerQuestionnaireState));
+      } catch { /* ignore */ }
+    }
+    // If at last step, caller should check isQuestionnaireComplete() and trigger matching
+  }
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Match_Engine 核心评分逻辑
+const COMPLEXITY_LEVELS = ["low", "medium", "high"];
+
+const ENVIRONMENT_TO_MAX_COMPLEXITY = {
+  "browser-only-no-install": "low",
+  "simple-local-setup": "medium",
+  "docker-comfortable": "high",
+  "any-environment": "high",
+};
+
+const INTEREST_TO_CATEGORY_MAP = {
+  "AI-chatbot": ["chatbot"],
+  "knowledge-search": ["knowledge-base"],
+  "image-creation": ["image-generation"],
+  "code-helper": ["coding-assistant"],
+  "browser-automation": ["browser-tool"],
+  "data-analysis": ["cli-tool", "api-wrapper"],
+  "personal-assistant": ["chatbot", "automation"],
+  "content-creation": ["image-generation", "web-app"],
+};
+
+const RELATED_CATEGORIES = {
+  "chatbot": ["automation", "api-wrapper"],
+  "knowledge-base": ["chatbot", "learning-project"],
+  "image-generation": ["web-app"],
+  "coding-assistant": ["cli-tool", "learning-project"],
+  "browser-tool": ["automation", "cli-tool"],
+  "cli-tool": ["api-wrapper", "automation"],
+  "api-wrapper": ["cli-tool", "web-app"],
+  "automation": ["cli-tool", "browser-tool"],
+  "web-app": ["api-wrapper", "chatbot"],
+  "learning-project": ["api-wrapper", "cli-tool"],
+};
+
+const TIME_BUDGET_TO_MINUTES = {
+  "30-minutes-per-day": 30,
+  "1-hour-per-day": 60,
+  "half-day-per-week": 120,
+  "full-day-per-week": 240,
+  "flexible-long-term": 999,
+};
+
+const BACKGROUND_TO_SKILLS = {
+  "student": ["basic-terminal", "git-basics"],
+  "product-manager": ["basic-web-browsing"],
+  "designer": ["basic-web-browsing", "basic-html"],
+  "marketer": ["basic-web-browsing"],
+  "business-analyst": ["basic-terminal", "basic-sql"],
+  "career-changer": ["basic-terminal"],
+  "hobbyist": ["basic-web-browsing"],
+  "other": ["basic-web-browsing"],
+};
+
+const GOAL_TO_CATEGORIES = {
+  "build-a-portfolio-project": ["web-app", "chatbot"],
+  "understand-AI-tools": ["learning-project", "api-wrapper"],
+  "automate-personal-workflow": ["automation", "cli-tool", "browser-tool"],
+  "explore-career-change": ["learning-project", "web-app"],
+  "learn-coding-basics": ["learning-project", "cli-tool"],
+  "build-a-product-idea": ["web-app", "chatbot", "automation"],
+};
+
+function computeSetupComplexityMatch(environmentPreference, projectComplexity) {
+  const maxAllowed = ENVIRONMENT_TO_MAX_COMPLEXITY[environmentPreference] || "low";
+  const userLevel = COMPLEXITY_LEVELS.indexOf(maxAllowed);
+  const projectLevel = COMPLEXITY_LEVELS.indexOf(projectComplexity);
+  if (projectLevel < 0 || userLevel < 0) return 100;
+  const diff = projectLevel - userLevel;
+  if (diff <= 0) return 100;
+  if (diff === 1) return 50;
+  return 0;
+}
+
+function computeInterestAlignment(interestDirections, categoryTags) {
+  if (!interestDirections || interestDirections.length === 0) return 0;
+  const projectTags = categoryTags || [];
+  let totalScore = 0;
+  for (const interest of interestDirections) {
+    const exactCategories = INTEREST_TO_CATEGORY_MAP[interest] || [];
+    let bestScore = 0;
+    for (const cat of exactCategories) {
+      if (projectTags.includes(cat)) {
+        bestScore = 100;
+        break;
+      }
+      const relatedCats = RELATED_CATEGORIES[cat] || [];
+      for (const related of relatedCats) {
+        if (projectTags.includes(related) && bestScore < 60) {
+          bestScore = 60;
+        }
+      }
+    }
+    totalScore += bestScore;
+  }
+  return Math.round(totalScore / interestDirections.length);
+}
+
+function computeTimeBudgetFeasibility(timeBudget, estimatedFirstRunMinutes) {
+  const maxMinutes = TIME_BUDGET_TO_MINUTES[timeBudget];
+  if (maxMinutes === undefined) return 100;
+  if (estimatedFirstRunMinutes <= maxMinutes) return 100;
+  if (estimatedFirstRunMinutes <= maxMinutes * 2) return 50;
+  return 0;
+}
+
+function computePrerequisiteSkillMatch(background, prerequisiteSkills) {
+  if (!prerequisiteSkills || prerequisiteSkills.length === 0) return 100;
+  const userSkills = BACKGROUND_TO_SKILLS[background] || ["basic-web-browsing"];
+  let matched = 0;
+  for (const skill of prerequisiteSkills) {
+    if (userSkills.includes(skill)) {
+      matched++;
+    }
+  }
+  return Math.round((matched / prerequisiteSkills.length) * 100);
+}
+
+function computeGoalAlignment(goal, categoryTags) {
+  const preferredTags = GOAL_TO_CATEGORIES[goal] || [];
+  const projectTags = categoryTags || [];
+  for (const tag of preferredTags) {
+    if (projectTags.includes(tag)) return 100;
+  }
+  return 0;
+}
+
+// @AI_GENERATED
+function generateMatchReasonText(userProfile, project, breakdown) {
+  const backgroundLabels = {
+    "student": "学生", "product-manager": "产品经理", "designer": "设计师",
+    "marketer": "运营/市场人员", "business-analyst": "数据分析师", "career-changer": "转码者",
+    "hobbyist": "兴趣探索者", "other": "新手用户",
+  };
+  const goalLabels = {
+    "build-a-portfolio-project": "做一个可展示的作品集项目",
+    "understand-AI-tools": "理解 AI 工具的底层原理",
+    "automate-personal-workflow": "自动化日常重复工作",
+    "explore-career-change": "探索转行技术岗的可能性",
+    "learn-coding-basics": "从零开始学编程",
+    "build-a-product-idea": "快速验证一个产品想法",
+  };
+  const envLabels = {
+    "browser-only-no-install": "只用浏览器、不想装任何软件",
+    "simple-local-setup": "可以做简单的本地安装",
+    "docker-comfortable": "能接受 Docker 环境",
+    "any-environment": "不在意环境复杂度",
+  };
+  const timeBudgetLabels = {
+    "30-minutes-per-day": "每天 30 分钟",
+    "1-hour-per-day": "每天 1 小时",
+    "half-day-per-week": "每周集中半天",
+    "full-day-per-week": "每周投入一整天",
+    "flexible-long-term": "弹性时间、长期学习",
+  };
+  const interestLabels = {
+    "AI-chatbot": "AI 聊天机器人", "knowledge-search": "知识搜索/问答",
+    "image-creation": "AI 图像创作", "code-helper": "AI 编程助手",
+    "browser-automation": "浏览器自动化", "data-analysis": "数据分析",
+    "personal-assistant": "个人 AI 助理", "content-creation": "内容创作工具",
+  };
+
+  const userName = backgroundLabels[userProfile.background] || "你";
+  const userGoal = goalLabels[userProfile.goal] || "探索 AI 项目";
+  const projectName = `${project.owner}/${project.name}`;
+  const lang = project.language || "Unknown";
+  const complexity = project.setupComplexity === "low" ? "低" : project.setupComplexity === "medium" ? "中等" : "较高";
+  const complexityDesc = project.setupComplexity === "low" ? "只需几步简单命令即可运行" : project.setupComplexity === "medium" ? "需要安装语言环境和依赖包" : "涉及多个服务组件或编译步骤";
+  const runTime = project.estimatedFirstRunMinutes || 45;
+  const userTime = timeBudgetLabels[userProfile.timeBudget] || "有限时间";
+  const userEnv = envLabels[userProfile.environmentPreference] || "你偏好的环境";
+  const interests = (userProfile.interestDirections || []).map(i => interestLabels[i] || i).join("、") || "AI 方向";
+  const tags = (project.categoryTags || []).join("、") || "通用工具";
+  const projectDesc = project.descriptionZh || project.description || "";
+  const stars = project.stars ? `${(project.stars / 1000).toFixed(1)}k` : "未知";
+  const skills = (project.prerequisiteSkills || []).join("、") || "基本终端操作";
+  const topics = (project.topics || []).slice(0, 5).join("、");
+
+  const sections = [];
+
+  // Section 1: 你是谁 + 你想做什么
+  sections.push(`**📌 你的画像**\n你是一名${userName}，目标是「${userGoal}」。你对「${interests}」方向感兴趣，计划投入${userTime}，偏好${userEnv}。`);
+
+  // Section 2: 这个项目是什么
+  sections.push(`**📦 关于 ${projectName}**\n这是一个 ${stars} stars 的 ${lang} 项目，属于「${tags}」方向。${projectDesc ? `项目简介：${projectDesc.slice(0, 120)}` : ""}${topics ? `\n关键标签：${topics}` : ""}`);
+
+  // Section 3: 为什么匹配
+  const matchPoints = [];
+
+  if (breakdown.setupComplexityMatch >= 80) {
+    matchPoints.push(`✅ **环境匹配**：项目安装复杂度${complexity}（${complexityDesc}），完全符合你「${userEnv}」的偏好`);
+  } else if (breakdown.setupComplexityMatch >= 50) {
+    matchPoints.push(`⚠️ **环境略高**：项目安装复杂度${complexity}（${complexityDesc}），比你的偏好高一级，但入门指南会帮你逐步配置`);
+  } else {
+    matchPoints.push(`⚠️ **环境挑战**：项目安装复杂度${complexity}（${complexityDesc}），建议先通过入门指南学习基本命令行操作`);
+  }
+
+  if (breakdown.interestAlignment >= 80) {
+    matchPoints.push(`✅ **方向吻合**：项目方向「${tags}」与你感兴趣的「${interests}」高度匹配`);
+  } else if (breakdown.interestAlignment >= 50) {
+    matchPoints.push(`✅ **方向相关**：项目方向「${tags}」与你关注的「${interests}」有交叉，适合作为学习切入点`);
+  } else {
+    matchPoints.push(`ℹ️ **方向参考**：虽然不完全对口，但项目的实践方式对理解 AI 应用开发很有帮助`);
+  }
+
+  if (breakdown.timeBudgetFeasibility >= 80) {
+    matchPoints.push(`✅ **时间可行**：首次运行约 ${runTime} 分钟，在你${userTime}的预算内完全可以完成`);
+  } else if (breakdown.timeBudgetFeasibility >= 50) {
+    matchPoints.push(`⚠️ **时间偏紧**：首次运行约 ${runTime} 分钟，可能需要比${userTime}稍多的时间，建议分两次完成`);
+  } else {
+    matchPoints.push(`⚠️ **时间较长**：首次运行约 ${runTime} 分钟，建议在周末或空闲时间集中完成初始配置`);
+  }
+
+  if (breakdown.goalAlignment >= 80) {
+    matchPoints.push(`✅ **目标一致**：这个项目非常适合用来${userGoal}，完成后可以直接作为成果展示`);
+  } else if (breakdown.goalAlignment > 0) {
+    matchPoints.push(`ℹ️ **目标参考**：虽然不是你目标的最直接路径，但掌握后对${userGoal}会有帮助`);
+  }
+
+  if (breakdown.prerequisiteSkillMatch >= 80) {
+    matchPoints.push(`✅ **技能匹配**：项目所需的基础技能（${skills}）与你的背景匹配`);
+  } else if (breakdown.prerequisiteSkillMatch >= 50) {
+    matchPoints.push(`⚠️ **需要学习**：项目需要掌握「${skills}」，部分对你来说是新知识，入门指南中会逐步引导`);
+  } else {
+    matchPoints.push(`⚠️ **前置技能**：项目需要「${skills}」，建议先跟着入门指南的环境准备部分打好基础`);
+  }
+
+  sections.push(`**🎯 匹配分析**\n${matchPoints.join("\n")}`);
+
+  // Section 4: 建议的上手路径
+  const suggestions = [];
+  if (project.setupComplexity === "low") {
+    suggestions.push("直接按 README 运行 → 观察效果 → 修改一个参数看变化");
+  } else {
+    suggestions.push("先花 10 分钟阅读 README → 配好环境 → 跑通示例 → 再尝试修改");
+  }
+  if (userProfile.goal === "build-a-portfolio-project") {
+    suggestions.push("运行成功后截图记录 → 改一个功能 → 写一段说明 → 部署或录屏展示");
+  } else if (userProfile.goal === "understand-AI-tools") {
+    suggestions.push("运行后阅读核心代码 → 画出数据流向 → 写一篇理解笔记");
+  } else if (userProfile.goal === "automate-personal-workflow") {
+    suggestions.push("跑通后想一个自己的使用场景 → 把示例数据换成自己的 → 验证效果");
+  }
+
+  sections.push(`**🛤️ 建议上手路径**\n${suggestions.map(s => `• ${s}`).join("\n")}`);
+
+  return sections.join("\n\n");
+}
+// @AI_GENERATED: end
+
+function computeMatchScore(userProfile, project) {
+  const setupComplexityMatch = computeSetupComplexityMatch(
+    userProfile.environmentPreference,
+    project.setupComplexity
+  );
+  const interestAlignment = computeInterestAlignment(
+    userProfile.interestDirections,
+    project.categoryTags
+  );
+  const timeBudgetFeasibility = computeTimeBudgetFeasibility(
+    userProfile.timeBudget,
+    project.estimatedFirstRunMinutes
+  );
+  const prerequisiteSkillMatch = computePrerequisiteSkillMatch(
+    userProfile.background,
+    project.prerequisiteSkills
+  );
+  const goalAlignment = computeGoalAlignment(
+    userProfile.goal,
+    project.categoryTags
+  );
+
+  const total = Math.round(
+    setupComplexityMatch * 0.30
+    + interestAlignment * 0.25
+    + timeBudgetFeasibility * 0.20
+    + prerequisiteSkillMatch * 0.15
+    + goalAlignment * 0.10
+  );
+
+  const breakdown = {
+    setupComplexityMatch,
+    interestAlignment,
+    timeBudgetFeasibility,
+    prerequisiteSkillMatch,
+    goalAlignment,
+  };
+
+  const reason = generateMatchReasonText(userProfile, project, breakdown);
+
+  return { total, breakdown, reason };
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Match_Engine 匹配结果生成与降级逻辑
+const DISMISSED_KEY = "beginnerDismissedProjects";
+
+function getDismissedProjects() {
+  try {
+    const raw = localStorage.getItem(DISMISSED_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch { return []; }
+}
+
+function dismissProject(projectId) {
+  const dismissed = getDismissedProjects();
+  if (!dismissed.includes(String(projectId))) {
+    dismissed.push(String(projectId));
+    try { localStorage.setItem(DISMISSED_KEY, JSON.stringify(dismissed)); } catch {}
+  }
+}
+
+function runMatchEngine(userProfile, projectPool) {
+  const dismissed = getDismissedProjects();
+
+  // Filter out dismissed projects
+  const candidates = (projectPool || []).filter(p => !dismissed.includes(String(p.id)));
+
+  // Score all candidates
+  const scored = candidates.map(project => ({
+    project,
+    ...computeMatchScore(userProfile, project),
+  }));
+
+  // Filter by minimum score threshold
+  const passing = scored.filter(item => item.total >= 20);
+
+  // Sort descending by total score
+  passing.sort((a, b) => b.total - a.total);
+
+  // Return top 5 if at least 3 pass
+  if (passing.length >= 3) {
+    return passing.slice(0, 5);
+  }
+
+  // If fewer than 3, try relaxation
+  return relaxAndRerun(userProfile, candidates);
+}
+
+function relaxAndRerun(userProfile, candidates) {
+  // Relax: upgrade user's environment preference by one level
+  const relaxedProfile = { ...userProfile };
+  const levels = ["browser-only-no-install", "simple-local-setup", "docker-comfortable", "any-environment"];
+  const currentIndex = levels.indexOf(relaxedProfile.environmentPreference);
+  if (currentIndex >= 0 && currentIndex < levels.length - 1) {
+    relaxedProfile.environmentPreference = levels[currentIndex + 1];
+  } else {
+    relaxedProfile.environmentPreference = "any-environment";
+  }
+
+  const scored = candidates.map(project => ({
+    project,
+    ...computeMatchScore(relaxedProfile, project),
+  }));
+
+  const passing = scored.filter(item => item.total >= 40);
+  passing.sort((a, b) => b.total - a.total);
+
+  // Return whatever we have (even if less than 3 after relaxation)
+  return passing.slice(0, 5);
+}
+
+function generateMatchReason(userProfile, project, breakdown) {
+  return generateMatchReasonText(userProfile, project, breakdown);
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Onboarding_Doc 模板生成逻辑（Task 6.1）
+function generateOverviewSection(project) {
+  const difficultyLabel = project.setupComplexity === "low" ? "入门" : project.setupComplexity === "medium" ? "适中" : "较高";
+  const desc = project.descriptionZh || project.description || "一个值得探索的开源项目";
+  return (
+    `## 项目是什么\n\n` +
+    `${desc}\n\n` +
+    `**GitHub 地址**：${project.url || `https://github.com/${project.owner}/${project.name}`}\n` +
+    `**主要语言**：${project.language || "Unknown"}\n` +
+    `**Stars**：${project.stars || 0}\n` +
+    `**难度**：${difficultyLabel}`
+  );
+}
+
+function generateWhyItFitsSection(project, userProfile) {
+  const goalMap = {
+    "build-a-portfolio-project": "构建一个可展示的作品集项目",
+    "understand-AI-tools": "理解 AI 工具的工作原理",
+    "automate-personal-workflow": "自动化个人工作流",
+    "explore-career-change": "探索转行可能性",
+    "learn-coding-basics": "学习编程基础",
+    "build-a-product-idea": "实现一个产品想法",
+  };
+  const interestMap = {
+    "AI-chatbot": "AI 聊天机器人（Chatbot，能对话的 AI 程序）",
+    "knowledge-search": "知识检索（Knowledge Search，从文档中找答案）",
+    "image-creation": "AI 图像生成（Image Generation，用 AI 创作图片）",
+    "code-helper": "代码助手（Code Helper，辅助编程的 AI 工具）",
+    "browser-automation": "浏览器自动化（Browser Automation，让程序操作网页）",
+    "data-analysis": "数据分析（Data Analysis，从数据中提取洞察）",
+    "personal-assistant": "个人助手（Personal Assistant，帮你处理日常事务的 AI）",
+    "content-creation": "内容创作（Content Creation，用 AI 辅助写作或设计）",
+  };
+  const userGoal = goalMap[userProfile.goal] || "探索 AI 项目";
+  const userInterest = interestMap[userProfile.interestDirection] || "AI 相关方向";
+  const tags = (project.categoryTags || []).join("、") || "通用";
+
+  return (
+    `## 为什么这个项目适合你\n\n` +
+    `根据你的目标「${userGoal}」和兴趣方向「${userInterest}」，这个项目与你的需求高度匹配。\n\n` +
+    `**项目方向**：${tags}\n` +
+    `**难度匹配**：该项目安装复杂度为「${project.setupComplexity === "low" ? "低" : project.setupComplexity === "medium" ? "中等" : "较高"}」，` +
+    `适合${project.setupComplexity === "low" ? "零基础用户直接上手" : project.setupComplexity === "medium" ? "有基本命令行经验的用户" : "有一定开发经验的用户"}。\n` +
+    `**预计首次运行时间**：约 ${project.estimatedFirstRunMinutes || 30} 分钟`
+  );
+}
+
+function generateEnvironmentSetupSection(project) {
+  const lang = (project.language || "").toLowerCase();
+  let setupCommands = "";
+
+  if (lang === "python") {
+    setupCommands =
+      `### 安装 Python（解释型编程语言，用于运行该项目）\n\n` +
+      `1. 访问 https://www.python.org/downloads/ 下载最新版 Python（建议 3.10 以上）\n` +
+      `2. 安装时勾选 "Add Python to PATH"（将 Python 加入系统路径，让命令行可以识别）\n` +
+      `3. 验证安装：\n` +
+      `\`\`\`bash\npython --version\n# 预期输出：Python 3.10.x 或更高版本\n\`\`\`\n\n` +
+      `### 安装 pip（Python 的包管理工具，用于安装项目依赖）\n\n` +
+      `pip 通常随 Python 一起安装，验证：\n` +
+      `\`\`\`bash\npip --version\n# 预期输出：pip 23.x 或更高版本\n\`\`\`\n\n`;
+  } else if (lang === "javascript" || lang === "typescript") {
+    setupCommands =
+      `### 安装 Node.js（JavaScript 运行环境，让你在命令行运行 JS 代码）\n\n` +
+      `1. 访问 https://nodejs.org/ 下载 LTS（长期支持）版本（建议 18 以上）\n` +
+      `2. 安装完成后验证：\n` +
+      `\`\`\`bash\nnode --version\n# 预期输出：v18.x.x 或更高版本\n\`\`\`\n\n` +
+      `### 安装 npm（Node.js 的包管理工具，随 Node.js 自动安装）\n\n` +
+      `\`\`\`bash\nnpm --version\n# 预期输出：9.x 或更高版本\n\`\`\`\n\n`;
+  } else if (lang === "go") {
+    setupCommands =
+      `### 安装 Go（编译型编程语言，运行速度快）\n\n` +
+      `1. 访问 https://go.dev/dl/ 下载最新版 Go（建议 1.21 以上）\n` +
+      `2. 验证安装：\n` +
+      `\`\`\`bash\ngo version\n# 预期输出：go1.21.x 或更高版本\n\`\`\`\n\n`;
+  } else if (lang === "rust") {
+    setupCommands =
+      `### 安装 Rust（系统级编程语言，高性能）\n\n` +
+      `1. 使用 rustup 安装（Rust 官方安装工具）：\n` +
+      `\`\`\`bash\ncurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n\`\`\`\n` +
+      `2. 验证安装：\n` +
+      `\`\`\`bash\nrustc --version\n# 预期输出：rustc 1.70.x 或更高版本\n\`\`\`\n\n`;
+  } else {
+    setupCommands =
+      `### 安装项目语言环境（${project.language || "Unknown"}）\n\n` +
+      `请参考该项目 README 中的环境要求说明，安装对应语言的运行环境。\n\n`;
+  }
+
+  return (
+    `## 环境准备\n\n` +
+    `以下是运行该项目需要的工具。请按顺序安装，每一步都有验证命令。\n\n` +
+    `### 安装 Git（版本控制工具，用于下载项目代码）\n\n` +
+    `\`\`\`bash\ngit --version\n# 如果未安装，访问 https://git-scm.com/downloads 下载安装\n# 预期输出：git version 2.x.x\n\`\`\`\n\n` +
+    setupCommands +
+    `### 安装代码编辑器\n\n` +
+    `推荐使用 VS Code（免费、跨平台、插件丰富）：https://code.visualstudio.com/`
+  );
+}
+
+function generateInstallationSection(project) {
+  const lang = (project.language || "").toLowerCase();
+  const repoUrl = project.url || `https://github.com/${project.owner}/${project.name}`;
+  let installCommands = "";
+
+  if (lang === "python") {
+    installCommands =
+      `\`\`\`bash\n# 第四步：创建虚拟环境（Virtual Environment，隔离项目依赖，避免和其他项目冲突）\npython -m venv venv\n# 预期：当前目录出现 venv 文件夹\n\`\`\`\n\n` +
+      `\`\`\`bash\n# 第五步：激活虚拟环境\n# Windows:\nvenv\\Scripts\\activate\n# macOS/Linux:\nsource venv/bin/activate\n# 预期：命令行提示符前出现 (venv) 标记\n\`\`\`\n\n` +
+      `\`\`\`bash\n# 第六步：安装项目依赖\npip install -r requirements.txt\n# 预期：大量包被下载安装，最终显示 Successfully installed ...\n\`\`\``;
+  } else if (lang === "javascript" || lang === "typescript") {
+    installCommands =
+      `\`\`\`bash\n# 第四步：安装项目依赖（npm install 会读取 package.json 并下载所有需要的库）\nnpm install\n# 预期：出现 node_modules 文件夹，终端显示 added xxx packages\n\`\`\``;
+  } else if (lang === "go") {
+    installCommands =
+      `\`\`\`bash\n# 第四步：下载项目依赖\ngo mod download\n# 预期：终端显示依赖下载信息\n\`\`\``;
+  } else if (lang === "rust") {
+    installCommands =
+      `\`\`\`bash\n# 第四步：编译项目（首次编译会自动下载依赖）\ncargo build\n# 预期：终端显示 Compiling ... 最终显示 Finished\n\`\`\``;
+  } else {
+    installCommands = `\`\`\`bash\n# 第四步：安装依赖（请参考项目 README 中的具体命令）\n\`\`\``;
+  }
+
+  return (
+    `## 一步步安装\n\n` +
+    `以下每条命令都有解释，请按顺序执行。\n\n` +
+    `\`\`\`bash\n# 第一步：克隆项目（Clone，将远程代码下载到本地）\ngit clone ${repoUrl}\n# 预期：终端显示 Cloning into '${project.name}'... 随后出现进度条\n\`\`\`\n\n` +
+    `\`\`\`bash\n# 第二步：进入项目目录\ncd ${project.name}\n# 预期：命令行路径变为 .../${project.name}\n\`\`\`\n\n` +
+    `\`\`\`bash\n# 第三步：查看项目文件（确认下载成功）\nls\n# 预期：看到 README.md 和其他项目文件\n\`\`\`\n\n` +
+    installCommands
+  );
+}
+
+function generateFirstRunSection(project) {
+  const lang = (project.language || "").toLowerCase();
+  let runCommand = "";
+
+  if (lang === "python") {
+    runCommand =
+      `\`\`\`bash\n# 启动项目（具体命令请以 README 为准）\npython main.py\n# 或\npython app.py\n# 或\npython -m ${project.name.replace(/-/g, "_")}\n\`\`\``;
+  } else if (lang === "javascript" || lang === "typescript") {
+    runCommand =
+      `\`\`\`bash\n# 启动项目\nnpm start\n# 或\nnpm run dev\n# 预期：终端显示服务启动信息，通常是一个本地 URL 如 http://localhost:3000\n\`\`\``;
+  } else if (lang === "go") {
+    runCommand = `\`\`\`bash\n# 运行项目\ngo run .\n# 预期：程序启动并输出运行信息\n\`\`\``;
+  } else if (lang === "rust") {
+    runCommand = `\`\`\`bash\n# 运行项目\ncargo run\n# 预期：编译后程序启动\n\`\`\``;
+  } else {
+    runCommand = `\`\`\`bash\n# 请参考 README 中的启动命令\n\`\`\``;
+  }
+
+  return (
+    `## 第一次运行\n\n` +
+    `在安装步骤完成后，运行以下命令启动项目：\n\n` +
+    runCommand + `\n\n` +
+    `**运行成功的标志**：\n` +
+    `- 终端没有红色错误信息\n` +
+    `- 如果是 Web 应用（网页程序），浏览器打开后能看到界面\n` +
+    `- 如果是 CLI（命令行界面）工具，能看到帮助信息或运行结果\n\n` +
+    `**如果遇到错误**：\n` +
+    `1. 仔细阅读错误信息的最后几行\n` +
+    `2. 检查是否遗漏了环境准备步骤\n` +
+    `3. 参考下方「常见错误与解决」部分`
+  );
+}
+
+function generateDirectorySection(project) {
+  const lang = (project.language || "").toLowerCase();
+  let structure = "";
+
+  if (lang === "python") {
+    structure =
+      `\`\`\`\n${project.name}/\n` +
+      `├── README.md          # 项目说明文档（必读）\n` +
+      `├── requirements.txt   # 依赖列表（Python 项目的包清单）\n` +
+      `├── main.py / app.py   # 入口文件（程序从这里开始执行）\n` +
+      `├── src/ 或 ${project.name.replace(/-/g, "_")}/  # 核心源码目录\n` +
+      `├── tests/             # 测试文件（验证代码正确性）\n` +
+      `├── examples/          # 示例代码（学习用法的好起点）\n` +
+      `├── .env.example       # 环境变量模板（API Key 等配置）\n` +
+      `└── docs/              # 补充文档\n\`\`\``;
+  } else if (lang === "javascript" || lang === "typescript") {
+    structure =
+      `\`\`\`\n${project.name}/\n` +
+      `├── README.md          # 项目说明文档（必读）\n` +
+      `├── package.json       # 依赖和脚本配置（Node.js 项目的核心配置文件）\n` +
+      `├── src/               # 核心源码目录\n` +
+      `│   ├── index.ts/js    # 入口文件\n` +
+      `│   └── ...            # 其他模块\n` +
+      `├── tests/             # 测试文件\n` +
+      `├── examples/          # 示例代码\n` +
+      `├── .env.example       # 环境变量模板\n` +
+      `└── dist/              # 编译输出（运行 build 后生成）\n\`\`\``;
+  } else {
+    structure =
+      `\`\`\`\n${project.name}/\n` +
+      `├── README.md          # 项目说明文档（必读）\n` +
+      `├── src/               # 核心源码目录\n` +
+      `├── tests/             # 测试文件\n` +
+      `├── examples/          # 示例代码\n` +
+      `├── docs/              # 补充文档\n` +
+      `└── config/            # 配置文件\n\`\`\``;
+  }
+
+  return (
+    `## 目录结构说明\n\n` +
+    `了解项目目录结构能帮助你快速找到关键文件。以下是典型结构：\n\n` +
+    structure + `\n\n` +
+    `**新手建议**：先看 README.md，再看入口文件，最后看 examples/ 目录中的示例。`
+  );
+}
+
+function generateKeyConceptsSection(project) {
+  const tags = project.categoryTags || [];
+  const concepts = [];
+
+  if (tags.includes("chatbot") || tags.includes("knowledge-base")) {
+    concepts.push(
+      "- **Prompt（提示词）**：发送给 AI 模型的输入文本，决定 AI 的回答方向",
+      "- **API Key（接口密钥）**：访问 AI 服务的身份凭证，类似密码",
+      "- **Token（令牌）**：AI 处理文本的基本单位，影响调用成本"
+    );
+  }
+  if (tags.includes("knowledge-base")) {
+    concepts.push(
+      "- **RAG（检索增强生成）**：先从文档中找到相关内容，再让 AI 基于这些内容回答",
+      "- **Embedding（向量嵌入）**：将文本转为数字向量，使计算机能比较文本相似度",
+      "- **Vector Database（向量数据库）**：专门存储和检索向量的数据库"
+    );
+  }
+  if (tags.includes("coding-assistant")) {
+    concepts.push(
+      "- **Agent（智能体）**：能自主规划和执行任务的 AI 程序",
+      "- **Tool Calling（工具调用）**：AI 调用外部工具（如读文件、执行命令）来完成任务",
+      "- **Context（上下文）**：AI 在一次对话中能「看到」的信息范围"
+    );
+  }
+  if (tags.includes("image-generation")) {
+    concepts.push(
+      "- **Diffusion Model（扩散模型）**：通过逐步去噪生成图像的 AI 模型",
+      "- **Prompt（提示词）**：描述你想生成什么图像的文字说明",
+      "- **Checkpoint（检查点）**：模型的权重文件，决定生成风格"
+    );
+  }
+  if (tags.includes("automation") || tags.includes("browser-tool")) {
+    concepts.push(
+      "- **自动化（Automation）**：让程序代替人执行重复性操作",
+      "- **DOM（文档对象模型）**：浏览器中网页的结构化表示",
+      "- **Headless Browser（无头浏览器）**：没有界面的浏览器，用于自动化操作网页"
+    );
+  }
+  if (tags.includes("cli-tool") || tags.includes("api-wrapper")) {
+    concepts.push(
+      "- **CLI（命令行界面）**：通过文本命令操作程序的方式",
+      "- **API（应用程序接口）**：程序之间通信的约定和方法",
+      "- **JSON（数据交换格式）**：一种轻量级的数据格式，用于程序间传递信息"
+    );
+  }
+
+  if (concepts.length < 3) {
+    concepts.push(
+      "- **Repository（仓库）**：存放项目代码的地方，通常在 GitHub 上",
+      "- **Dependency（依赖）**：项目运行所需的其他软件包",
+      "- **Environment Variable（环境变量）**：存储配置信息（如密钥）的安全方式",
+      "- **README**：项目的说明书，包含安装和使用指南",
+      "- **CLI（命令行界面）**：通过文本命令操作程序的方式"
+    );
+  }
+
+  return `## 核心概念\n\n以下是理解和使用该项目需要了解的关键概念：\n\n${concepts.join("\n")}`;
+}
+
+function generateFirstModSection(project) {
+  const lang = (project.language || "").toLowerCase();
+  let suggestion = "";
+
+  if (lang === "python") {
+    suggestion =
+      `**建议首次修改**：\n\n` +
+      `1. 找到项目的配置文件或主入口文件\n` +
+      `2. 尝试修改一个输出文本（如欢迎语、提示词模板）\n` +
+      `3. 保存后重新运行，观察变化\n\n` +
+      `**具体例子**：如果项目有 prompt（提示词），试着改几个字看 AI 回答的变化。`;
+  } else if (lang === "javascript" || lang === "typescript") {
+    suggestion =
+      `**建议首次修改**：\n\n` +
+      `1. 找到页面文本或配置常量\n` +
+      `2. 修改一段显示文本或默认参数\n` +
+      `3. 保存后刷新页面或重启服务，观察变化\n\n` +
+      `**具体例子**：修改页面标题、按钮文字、或 API 请求的参数。`;
+  } else {
+    suggestion =
+      `**建议首次修改**：\n\n` +
+      `1. 阅读入口文件，找到配置或输出相关的代码\n` +
+      `2. 修改一个字符串常量或配置项\n` +
+      `3. 重新编译/运行，验证修改生效\n\n` +
+      `**具体例子**：改一个日志输出、调整一个数值参数、或添加一行注释。`;
+  }
+
+  return (
+    `## 第一次修改建议\n\n` +
+    `目标不是一步做出完美功能，而是建立「修改 → 运行 → 看到效果」的信心循环。\n\n` +
+    suggestion + `\n\n` +
+    `**修改原则**：\n` +
+    `- 一次只改一个地方\n` +
+    `- 改之前先备份（或用 Git 提交当前版本）\n` +
+    `- 改完立即运行验证`
+  );
+}
+
+function generateCommonErrorsSection(project) {
+  const lang = (project.language || "").toLowerCase();
+  const errors = [];
+
+  if (lang === "python") {
+    errors.push(
+      {
+        errorMessage: "ModuleNotFoundError: No module named 'xxx'",
+        cause: "缺少项目依赖包。可能是没有执行 pip install，或者虚拟环境（Virtual Environment）没有激活。",
+        fix: "执行 `pip install -r requirements.txt`，并确保已激活虚拟环境（命令行前有 (venv) 标记）。",
+      },
+      {
+        errorMessage: "PermissionError: [Errno 13] Permission denied",
+        cause: "当前用户没有文件或目录的访问权限，常见于 Linux/macOS 系统。",
+        fix: "使用 `chmod +x 文件名` 添加执行权限，或用 `sudo` 提升权限（谨慎使用）。",
+      },
+      {
+        errorMessage: "ERROR: pip's dependency resolver does not currently support...",
+        cause: "pip 版本冲突（Dependency Conflict），多个包要求不同版本的同一依赖。",
+        fix: "尝试 `pip install --upgrade pip` 更新 pip，或创建全新虚拟环境重新安装。",
+      },
+      {
+        errorMessage: "KeyError: 'API_KEY' 或 'OPENAI_API_KEY'",
+        cause: "缺少 API 密钥配置。项目需要调用外部 AI 服务，但没有找到对应的密钥。",
+        fix: "复制 `.env.example` 为 `.env`，填入你的 API Key。获取方式参见对应平台官方文档。",
+      },
+      {
+        errorMessage: "OSError: [Errno 48] Address already in use",
+        cause: "端口被占用（Port Conflict），另一个程序正在使用相同的网络端口。",
+        fix: "关闭占用端口的程序，或在启动命令中指定其他端口（如 `--port 8001`）。",
+      },
+      {
+        errorMessage: "SyntaxError: invalid syntax",
+        cause: "Python 版本不兼容，项目可能需要 Python 3.8+ 而你使用了更旧的版本。",
+        fix: "执行 `python --version` 检查版本，如低于要求请升级 Python。",
+      }
+    );
+  } else if (lang === "javascript" || lang === "typescript") {
+    errors.push(
+      {
+        errorMessage: "Error: Cannot find module 'xxx'",
+        cause: "依赖未安装或 node_modules 损坏。",
+        fix: "删除 node_modules 文件夹后重新执行 `npm install`。",
+      },
+      {
+        errorMessage: "TypeError: Cannot read properties of undefined",
+        cause: "代码试图访问一个不存在的对象属性，可能是配置文件缺少某个字段。",
+        fix: "检查 .env 文件和配置文件是否完整，对照 .env.example 补全缺失项。",
+      },
+      {
+        errorMessage: "EACCES: permission denied, access '/usr/local/lib/node_modules'",
+        cause: "npm 全局安装时权限不足（常见于 macOS/Linux）。",
+        fix: "使用 `npx` 代替全局安装，或配置 npm 前缀目录：`npm config set prefix ~/.npm-global`。",
+      },
+      {
+        errorMessage: "Error: ENOENT: no such file or directory, open '.env'",
+        cause: "项目需要 .env 配置文件但该文件不存在。",
+        fix: "执行 `cp .env.example .env`，然后编辑 .env 填入必要的配置值。",
+      },
+      {
+        errorMessage: "SyntaxError: Unexpected token '<' 或 Build failed",
+        cause: "构建（Build）失败，可能是 Node.js 版本不兼容或依赖版本冲突。",
+        fix: "检查 package.json 中 engines 字段要求的 Node 版本，使用 nvm（Node 版本管理器）切换到正确版本。",
+      },
+      {
+        errorMessage: "FATAL ERROR: Reached heap limit Allocation failed",
+        cause: "内存不足，项目的构建过程需要更多内存。",
+        fix: "使用 `export NODE_OPTIONS=\"--max-old-space-size=4096\"` 增加 Node.js 可用内存。",
+      }
+    );
+  } else if (lang === "go") {
+    errors.push(
+      {
+        errorMessage: "go: module not found",
+        cause: "Go 模块依赖（Module）未下载。",
+        fix: "执行 `go mod download` 或 `go mod tidy` 下载缺失的依赖。",
+      },
+      {
+        errorMessage: "cannot find package",
+        cause: "Go 工作区配置不正确，或 GOPATH 设置有问题。",
+        fix: "确认项目根目录有 go.mod 文件，使用 `go mod tidy` 整理依赖。",
+      },
+      {
+        errorMessage: "permission denied",
+        cause: "编译或运行时权限不足。",
+        fix: "使用 `chmod +x` 或以适当权限运行命令。",
+      },
+      {
+        errorMessage: "bind: address already in use",
+        cause: "端口被其他程序占用。",
+        fix: "使用 `lsof -i :端口号` 查找占用进程，关闭后重试或更换端口。",
+      },
+      {
+        errorMessage: "missing go.sum entry",
+        cause: "go.sum 校验文件不完整，依赖版本记录缺失。",
+        fix: "执行 `go mod tidy` 重新生成 go.sum 文件。",
+      }
+    );
+  } else {
+    errors.push(
+      {
+        errorMessage: "Command not found / 找不到命令",
+        cause: "对应的工具或语言环境未安装，或未添加到系统 PATH（路径）。",
+        fix: "按照「环境准备」章节重新安装并验证相关工具。",
+      },
+      {
+        errorMessage: "Permission denied / 权限被拒绝",
+        cause: "当前用户对文件或目录没有操作权限。",
+        fix: "检查文件权限，必要时使用 chmod 修改或以管理员身份运行。",
+      },
+      {
+        errorMessage: "Port already in use / 端口已被占用",
+        cause: "另一个程序正在使用项目需要的网络端口。",
+        fix: "关闭占用程序或修改项目配置中的端口号。",
+      },
+      {
+        errorMessage: "Connection refused / 连接被拒绝",
+        cause: "项目依赖的服务（数据库、API）未启动或地址配置错误。",
+        fix: "确认所有依赖服务已启动，检查配置文件中的地址和端口。",
+      },
+      {
+        errorMessage: "Out of memory / 内存不足",
+        cause: "系统可用内存不足以运行该项目。",
+        fix: "关闭不需要的程序释放内存，或在配置中减小处理规模。",
+      }
+    );
+  }
+
+  const errorsContent = errors
+    .map(
+      (err, i) =>
+        `### 错误 ${i + 1}\n\n` +
+        `**错误信息**：\`${err.errorMessage}\`\n\n` +
+        `**原因**：${err.cause}\n\n` +
+        `**解决方法**：${err.fix}`
+    )
+    .join("\n\n");
+
+  return `## 常见错误与解决\n\n以下是新手使用该项目最常遇到的问题：\n\n${errorsContent}`;
+}
+
+function generateSevenDayPlanSection(project, userProfile) {
+  const timeBudgetMinutes = {
+    "30-minutes-per-day": 30,
+    "1-hour-per-day": 60,
+    "half-day-per-week": 35,
+    "full-day-per-week": 70,
+    "flexible-long-term": 60,
+  }[userProfile.timeBudget] || 60;
+
+  const timeBudgetLabel = {
+    "30-minutes-per-day": "每天 30 分钟",
+    "1-hour-per-day": "每天 1 小时",
+    "half-day-per-week": "每周半天（分摊约每天 35 分钟）",
+    "full-day-per-week": "每周一整天（分摊约每天 70 分钟）",
+    "flexible-long-term": "弹性时间（约每天 1 小时）",
+  }[userProfile.timeBudget] || "每天 1 小时";
+
+  const plan = [
+    {
+      day: 1,
+      title: "环境搭建与项目运行",
+      tasks: "安装所需工具，克隆项目，成功运行一次",
+      goal: "看到项目正常启动的画面或输出",
+    },
+    {
+      day: 2,
+      title: "阅读文档与目录探索",
+      tasks: "通读 README，浏览项目目录结构，标记入口文件",
+      goal: "能说出项目的主要功能和文件组织方式",
+    },
+    {
+      day: 3,
+      title: "理解核心流程",
+      tasks: "从入口文件出发，跟踪一次完整的请求/执行流程",
+      goal: "能画出简单的数据流向图",
+    },
+    {
+      day: 4,
+      title: "第一次修改",
+      tasks: "选择一个低风险改动（文本、配置项），修改并验证",
+      goal: "成功让修改生效，建立信心",
+    },
+    {
+      day: 5,
+      title: "功能扩展尝试",
+      tasks: "基于第四天的经验，尝试一个稍大的改动或新功能",
+      goal: "新功能可运行，即使不完美",
+    },
+    {
+      day: 6,
+      title: "整理与记录",
+      tasks: "整理修改内容，写 README 补充或截图记录",
+      goal: "能向他人解释你做了什么改动",
+    },
+    {
+      day: 7,
+      title: "复盘与展示准备",
+      tasks: "回顾整周学习，制作简要演示（截图或短视频）",
+      goal: "有一份可展示的学习成果",
+    },
+  ];
+
+  const planContent = plan
+    .map(
+      (item) =>
+        `### Day ${item.day}：${item.title}（约 ${timeBudgetMinutes} 分钟）\n\n` +
+        `**任务**：${item.tasks}\n` +
+        `**目标**：${item.goal}`
+    )
+    .join("\n\n");
+
+  return (
+    `## 7 天实践计划\n\n` +
+    `根据你的时间预算「${timeBudgetLabel}」制定，每天任务量控制在 ${timeBudgetMinutes} 分钟以内。\n` +
+    `每天循序渐进，后一天建立在前一天的基础上。\n\n` +
+    planContent
+  );
+}
+
+function generatePortfolioSection(project) {
+  const tags = project.categoryTags || [];
+  const ideas = [];
+
+  if (tags.includes("chatbot") || tags.includes("knowledge-base")) {
+    ideas.push(
+      "- **个人知识助手**：基于该项目，构建一个针对特定领域（如你的专业或兴趣）的问答助手",
+      "- **客服 Demo**：改造为简单的自动客服，展示你对 AI 对话系统的理解"
+    );
+  }
+  if (tags.includes("image-generation")) {
+    ideas.push(
+      "- **风格化图像工具**：利用项目生成特定风格的图像，制作展示页面",
+      "- **批量处理工作流**：展示如何用 AI 批量处理图像任务"
+    );
+  }
+  if (tags.includes("coding-assistant") || tags.includes("automation")) {
+    ideas.push(
+      "- **自动化脚本集合**：基于项目封装几个实用的自动化小工具",
+      "- **工作流演示**：录制一段使用 AI 辅助完成实际任务的视频"
+    );
+  }
+  if (tags.includes("web-app") || tags.includes("cli-tool") || tags.includes("api-wrapper")) {
+    ideas.push(
+      "- **增强版 Demo**：在原项目基础上添加新功能，部署后分享链接",
+      "- **使用教程**：撰写一篇从安装到使用的中文教程文章"
+    );
+  }
+
+  ideas.push(
+    "- **学习复盘文章**：记录你的上手过程，包括踩坑和解决思路，发布到技术社区",
+    "- **改进贡献**：如果发现文档错误或小 Bug，提交 Pull Request（代码贡献请求）展示协作能力"
+  );
+
+  return (
+    `## 作品集展示创意\n\n` +
+    `完成 7 天实践后，你可以基于该项目制作以下展示内容：\n\n` +
+    ideas.join("\n") + `\n\n` +
+    `**展示建议**：\n` +
+    `- 在 GitHub 上 Fork（复制）该项目，在你的版本上做修改\n` +
+    `- 写一段 README 说明你做了哪些改动和为什么\n` +
+    `- 截图或录屏展示运行效果`
+  );
+}
+
+function generateOnboardingDoc(project, userProfile) {
+  const timeBudgetLabel = {
+    "30-minutes-per-day": "每天 30 分钟",
+    "1-hour-per-day": "每天 1 小时",
+    "half-day-per-week": "每周半天",
+    "full-day-per-week": "每周一整天",
+    "flexible-long-term": "弹性时间",
+  }[userProfile.timeBudget] || "每天 1 小时";
+
+  return {
+    projectName: `${project.owner}/${project.name}`,
+    sections: {
+      overview: generateOverviewSection(project),
+      whyItFitsYou: generateWhyItFitsSection(project, userProfile),
+      environmentSetup: generateEnvironmentSetupSection(project),
+      stepByStepInstallation: generateInstallationSection(project),
+      firstRunGuide: generateFirstRunSection(project),
+      directoryStructure: generateDirectorySection(project),
+      keyConcepts: generateKeyConceptsSection(project),
+      firstModification: generateFirstModSection(project),
+      commonErrors: generateCommonErrorsSection(project),
+      sevenDayPlan: generateSevenDayPlanSection(project, userProfile),
+      portfolioIdeas: generatePortfolioSection(project),
+    },
+    generatedAt: new Date().toISOString(),
+    userTimeBudget: timeBudgetLabel,
+  };
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED
+function exportOnboardingDocAsMarkdown(doc) {
+  const sections = doc.sections;
+  const parts = [
+    `# ${doc.projectName} 入门指南\n`,
+    `> 生成时间：${new Date(doc.generatedAt).toLocaleString("zh-CN")}\n> 时间预算：${doc.userTimeBudget}\n`,
+    sections.overview,
+    sections.whyItFitsYou,
+    sections.environmentSetup,
+    sections.stepByStepInstallation,
+    sections.firstRunGuide,
+    sections.directoryStructure,
+    sections.keyConcepts,
+    sections.firstModification,
+    sections.commonErrors,
+    sections.sevenDayPlan,
+    sections.portfolioIdeas,
+  ];
+  return parts.join("\n\n---\n\n");
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED
+async function copyOnboardingDocToClipboard(doc) {
+  const markdown = exportOnboardingDocAsMarkdown(doc);
+  try {
+    await navigator.clipboard.writeText(markdown);
+    return true;
+  } catch {
+    // Fallback for older browsers
+    try {
+      const textarea = document.createElement("textarea");
+      textarea.value = markdown;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Beginner Recommender UI Integration (Task 7.3)
+function initBeginnerRecommenderUI() {
+  const container = document.querySelector("#beginnerWizardContainer");
+  if (!container) return;
+
+  // Render first step or restore from session
+  const step = beginnerQuestionnaireState.currentStep;
+  container.innerHTML = renderBeginnerQuestionnaireStep(step);
+
+  // Show data timestamp if available
+  const timestampEl = document.querySelector("#beginnerDataTimestamp");
+  if (timestampEl && beginnerProjects.length > 0) {
+    timestampEl.textContent = `项目数据包含 ${beginnerProjects.length} 个新手友好项目`;
+  }
+}
+
+function renderBeginnerResults(results) {
+  const container = document.querySelector("#beginnerRecommendationList");
+  const emptyEl = document.querySelector("#beginnerEmptyReco");
+  if (!container) return;
+
+  if (results.length === 0) {
+    container.innerHTML = `<p class="beginner-explanation">暂无匹配项目，请调整问卷答案后重试。</p>`;
+    return;
+  }
+
+  if (emptyEl) emptyEl.classList.add("hidden");
+
+  container.innerHTML = results.map(item => `
+    <article class="beginner-match-card" data-beginner-project="${item.project.id}">
+      <div class="card-top">
+        <div>
+          <h3>${item.project.owner}/${item.project.name}</h3>
+          <p>${item.project.descriptionZh || item.project.description}</p>
+        </div>
+        <span class="beginner-match-score">匹配 ${item.total}%</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric hot">难度 ${item.project.setupComplexity === "low" ? "入门" : item.project.setupComplexity === "medium" ? "适中" : "较高"}</span>
+        <span class="metric">${item.project.language}</span>
+        <span class="metric up">约 ${item.project.estimatedFirstRunMinutes} 分钟上手</span>
+      </div>
+      <div class="beginner-expand-panel" id="whyFit-${item.project.id}" style="display:none;">
+        <div class="why-fit-content">${item.reason.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>')}</div>
+      </div>
+      <div class="action-row">
+        <button class="small-button" data-beginner-action="why-fit" data-project-id="${item.project.id}">为什么适合我</button>
+        <button class="small-button" data-beginner-action="generate-doc" data-project-id="${item.project.id}">生成入门指南</button>
+        <button class="small-button" data-beginner-action="dismiss" data-project-id="${item.project.id}">不适合我</button>
+      </div>
+    </article>
+  `).join("");
+
+  // Show data generation timestamp
+  const tsEl = document.querySelector("#beginnerDataTimestamp");
+  if (tsEl) {
+    tsEl.textContent = `数据生成时间：${formatDateTime(new Date().toISOString())} · 包含 ${beginnerProjects.length} 个项目`;
+  }
+}
+
+// @AI_GENERATED
+function renderOnboardingDocHtml(doc, project) {
+  const difficultyLabel = project.setupComplexity === "low" ? "入门" : project.setupComplexity === "medium" ? "适中" : "较高";
+  const sections = doc.sections;
+
+  // Convert markdown-like section content to HTML
+  function md2html(text) {
+    if (!text) return "";
+    return text
+      .replace(/^### (.+)$/gm, '<h4 class="onboard-h4">$1</h4>')
+      .replace(/^## (.+)$/gm, '<h3 class="onboard-h3">$1</h3>')
+      .replace(/^> (.+)$/gm, '<blockquote class="onboard-quote">$1</blockquote>')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/`([^`]+)`/g, '<code class="onboard-code">$1</code>')
+      .replace(/```(\w*)\n([\s\S]*?)```/g, '<pre class="onboard-pre"><code>$2</code></pre>')
+      .replace(/^- (.+)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*<\/li>\n?)+/g, '<ul class="onboard-list">$&</ul>')
+      .replace(/\n\n/g, '</p><p class="onboard-p">')
+      .replace(/\n/g, '<br>')
+      ;
+  }
+
+  const sectionData = [
+    { icon: "📋", title: "项目概览", content: sections.overview },
+    { icon: "🎯", title: "为什么适合你", content: sections.whyItFitsYou },
+    { icon: "⚙️", title: "环境准备", content: sections.environmentSetup },
+    { icon: "📦", title: "一步步安装", content: sections.stepByStepInstallation },
+    { icon: "🚀", title: "第一次运行", content: sections.firstRunGuide },
+    { icon: "📁", title: "目录结构", content: sections.directoryStructure },
+    { icon: "💡", title: "核心概念", content: sections.keyConcepts },
+    { icon: "✏️", title: "第一次修改", content: sections.firstModification },
+    { icon: "🐛", title: "常见错误与解决", content: sections.commonErrors },
+    { icon: "📅", title: "7 天实践计划", content: sections.sevenDayPlan },
+    { icon: "🏆", title: "作品集展示", content: sections.portfolioIdeas },
+  ];
+
+  const navHtml = sectionData.map((s, i) => 
+    `<a class="onboard-nav-item" href="#onboard-section-${i}">${s.icon} ${s.title}</a>`
+  ).join("");
+
+  const sectionsHtml = sectionData.map((s, i) => `
+    <section class="onboard-section" id="onboard-section-${i}">
+      <div class="onboard-section-header">
+        <span class="onboard-section-icon">${s.icon}</span>
+        <span class="onboard-section-num">${String(i + 1).padStart(2, "0")}</span>
+      </div>
+      <div class="onboard-section-body">
+        <p class="onboard-p">${md2html(s.content)}</p>
+      </div>
+    </section>
+  `).join("");
+
+  return `
+    <article class="onboard-doc">
+      <header class="onboard-header">
+        <div class="onboard-header-meta">
+          <span class="metric hot">难度 ${difficultyLabel}</span>
+          <span class="metric">${project.language}</span>
+          <span class="metric up">约 ${project.estimatedFirstRunMinutes || 45} 分钟上手</span>
+          <span class="metric">时间预算：${doc.userTimeBudget}</span>
+        </div>
+        <p class="onboard-header-desc">${project.descriptionZh || project.description}</p>
+      </header>
+      <nav class="onboard-nav">${navHtml}</nav>
+      <div class="onboard-sections">${sectionsHtml}</div>
+    </article>
+  `;
+}
+
+function openBeginnerDocDrawer(project, userProfile) {
+  const doc = generateOnboardingDoc(project, userProfile);
+  const htmlContent = renderOnboardingDocHtml(doc, project);
+
+  openDrawer(
+    "入门指南",
+    `${project.owner}/${project.name}`,
+    htmlContent,
+    `
+      <button class="primary-button" data-drawer-action="copy-beginner-doc">复制 Markdown</button>
+      <button class="secondary-button" data-drawer-action="open-github" data-url="${project.url || `https://github.com/${project.owner}/${project.name}`}">打开 GitHub</button>
+    `
+  );
+
+  window._currentBeginnerDoc = doc;
+}
+// @AI_GENERATED: end
 
 async function initApp() {
   await loadSnapshotData();
@@ -1009,6 +2721,12 @@ async function initApp() {
   renderNews();
   updateStep();
   initHeroCanvas();
+  initBeginnerQuestionnaire();
+  // @AI_GENERATED
+  initBeginnerRecommenderUI();
+  renderFavorites();
+  renderReadLater();
+  // @AI_GENERATED: end
 }
 
 initApp();

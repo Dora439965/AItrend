@@ -1,9 +1,12 @@
+// @AI_GENERATED
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// @AI_GENERATED: end
 const DATA_DIR = path.join(ROOT, "data");
 const SNAPSHOT_DIR = path.join(DATA_DIR, "snapshots");
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -437,17 +440,357 @@ async function fetchNews() {
   return scoreNews(items);
 }
 
+// @AI_GENERATED: Beginner project search queries and fetch function
+const BEGINNER_SEARCH_QUERIES = [
+  { query: "topic:chatbot language:python stars:>50", tag: "chatbot" },
+  { query: "topic:rag topic:tutorial stars:>50", tag: "knowledge-base" },
+  { query: "topic:ai-assistant topic:beginner stars:>50", tag: "coding-assistant" },
+  { query: "topic:stable-diffusion topic:webui stars:>100", tag: "image-generation" },
+  { query: "topic:automation topic:ai language:python stars:>50", tag: "automation" },
+  { query: "topic:browser-extension topic:ai stars:>50", tag: "browser-tool" },
+  { query: "topic:cli topic:ai language:python stars:>50", tag: "cli-tool" },
+  { query: "topic:nextjs topic:ai stars:>100", tag: "web-app" },
+  { query: "topic:openai topic:wrapper stars:>50", tag: "api-wrapper" },
+  { query: "topic:tutorial topic:machine-learning stars:>100", tag: "learning-project" },
+  { query: "topic:langchain topic:example stars:>50", tag: "knowledge-base" },
+  { query: "topic:streamlit topic:ai stars:>50", tag: "web-app" },
+  { query: "topic:fastapi topic:ai stars:>50", tag: "api-wrapper" },
+  { query: "topic:mcp topic:tool stars:>30", tag: "browser-tool" },
+  { query: "topic:agent topic:starter stars:>50", tag: "chatbot" },
+  { query: "topic:huggingface topic:demo stars:>50", tag: "learning-project" },
+];
+
+const BEGINNER_CATEGORY_TAGS = [
+  "chatbot",
+  "knowledge-base",
+  "coding-assistant",
+  "image-generation",
+  "automation",
+  "browser-tool",
+  "cli-tool",
+  "web-app",
+  "api-wrapper",
+  "learning-project",
+];
+
+async function fetchBeginnerProjects() {
+  const since = daysAgo(90);
+  const results = await Promise.allSettled(
+    BEGINNER_SEARCH_QUERIES.map(async (entry) => {
+      const query = encodeURIComponent(`${entry.query} pushed:>${since}`);
+      const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=30`;
+      const data = await githubFetch(url);
+      return (data.items || []).map((repo) => ({ ...repo, _beginnerTag: entry.tag }));
+    })
+  );
+
+  const byId = new Map();
+  results.forEach((result, index) => {
+    if (result.status === "rejected") {
+      console.warn(`Beginner query failed: ${BEGINNER_SEARCH_QUERIES[index].query}: ${result.reason.message}`);
+      return;
+    }
+    result.value.forEach((repo) => {
+      if (!byId.has(repo.id)) {
+        byId.set(repo.id, repo);
+      }
+    });
+  });
+
+  // Filter: stars >= 50, pushed within last 90 days, description length > 500 chars as README proxy
+  const cutoffDate = new Date(Date.now() - 90 * DAY_MS);
+  const filtered = [...byId.values()].filter((repo) => {
+    if (repo.stargazers_count < 50) return false;
+    if (new Date(repo.pushed_at) < cutoffDate) return false;
+    const descriptionLength = (repo.description || "").length;
+    if (descriptionLength < 30) return false;
+    return true;
+  });
+
+  return filtered;
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: computeBeginnerScore - 计算新手友好评分
+function computeBeginnerScore(project) {
+  const description = (project.description || "").toLowerCase();
+  const topics = (project.topics || []).map((t) => t.toLowerCase());
+  const name = (project.name || "").toLowerCase();
+  const language = project.language || "";
+  const stars = project.stargazers_count || 0;
+  const openIssues = project.open_issues_count || 0;
+  const homepage = project.homepage || "";
+  const topicsText = topics.join(" ");
+  const fullText = `${name} ${description} ${topicsText}`;
+
+  // readmeQuality (0-25): 基于描述长度、topics结构、文档标记、homepage
+  let readmeQuality = 0;
+  if ((project.description || "").length > 200) readmeQuality += 10;
+  if (topics.length > 5) readmeQuality += 5;
+  if (topics.includes("documentation") || topics.includes("docs")) readmeQuality += 5;
+  if (homepage) readmeQuality += 5;
+
+  // installInstructions (0-20): 基于安装相关关键词和语言
+  let installInstructions = 0;
+  if (fullText.includes("install") || fullText.includes("setup") || fullText.includes("getting-started")) {
+    installInstructions += 10;
+  }
+  if (language === "Python" || language === "JavaScript") installInstructions += 5;
+  if (topics.includes("docker")) installInstructions += 5;
+
+  // dependencySimplicity (0-15): 基于语言、项目规模、名称/topics关键词
+  let dependencySimplicity = 8; // 默认值
+  if (topics.includes("starter") || topics.includes("template") || name.includes("starter") || name.includes("template")) {
+    dependencySimplicity = 15;
+  } else if (language === "Python" && stars < 1000) {
+    dependencySimplicity = 15;
+  } else if ((language === "JavaScript" || language === "TypeScript") && stars < 1000) {
+    dependencySimplicity = 12;
+  } else if (stars > 50000) {
+    dependencySimplicity = 5;
+  }
+
+  // issueResponseRate (0-15): 基于 open_issues 数量与 stars/issues 比率
+  let issueResponseRate = 5; // 默认值
+  if (openIssues < 20 && openIssues > 0 && stars / openIssues > 50) {
+    issueResponseRate = 15;
+  } else if (openIssues < 50 && openIssues > 0 && stars / openIssues > 20) {
+    issueResponseRate = 10;
+  } else if (openIssues === 0) {
+    issueResponseRate = 15;
+  }
+
+  // languageAccessibility (0-15): 基于编程语言和中文内容
+  let languageAccessibility = 8; // 默认值
+  if (language === "Python") {
+    languageAccessibility = 15;
+  } else if (language === "JavaScript" || language === "TypeScript") {
+    languageAccessibility = 12;
+  } else if (["Rust", "C++", "Go"].includes(language)) {
+    languageAccessibility = 5;
+  }
+  // 中文加分（cap at 15）
+  if (hasChinese(project.description || "") || topics.some((t) => hasChinese(t))) {
+    languageAccessibility = Math.min(15, languageAccessibility + 3);
+  }
+
+  // examplesPresence (0-10): 基于 topics 关键词
+  let examplesPresence = 0;
+  const exampleKeywords = ["example", "tutorial", "demo", "starter", "template"];
+  const beginnerKeywords = ["beginner", "learning"];
+  if (topics.some((t) => exampleKeywords.includes(t))) {
+    examplesPresence = 10;
+  } else if (topics.some((t) => beginnerKeywords.includes(t))) {
+    examplesPresence = 5;
+  }
+
+  const breakdown = {
+    readmeQuality,
+    installInstructions,
+    dependencySimplicity,
+    issueResponseRate,
+    languageAccessibility,
+    examplesPresence,
+  };
+
+  const rawTotal = readmeQuality + installInstructions + dependencySimplicity
+    + issueResponseRate + languageAccessibility + examplesPresence;
+  const total = Math.max(0, Math.min(100, rawTotal));
+
+  return { total, breakdown };
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: Beginner project categorization, complexity estimation, and prerequisite skills extraction
+function categorizeBeginnerProject(project) {
+  const topics = (project.topics || []).map((t) => t.toLowerCase());
+  const description = (project.description || "").toLowerCase();
+  const beginnerTag = project._beginnerTag || "";
+  const tags = new Set();
+
+  // First: use the _beginnerTag from the search query that found this project
+  if (beginnerTag && BEGINNER_CATEGORY_TAGS.includes(beginnerTag)) {
+    tags.add(beginnerTag);
+  }
+
+  // Then: scan topics and description for additional matching tags
+  const text = `${topics.join(" ")} ${description}`;
+
+  if (text.includes("chatbot") || text.includes("chat") || text.includes("conversational")) tags.add("chatbot");
+  if (text.includes("rag") || text.includes("knowledge") || text.includes("retrieval") || text.includes("vector")) tags.add("knowledge-base");
+  if (text.includes("coding") || text.includes("copilot") || text.includes("code-gen") || text.includes("codegen")) tags.add("coding-assistant");
+  if (text.includes("image") || text.includes("stable-diffusion") || text.includes("diffusion") || text.includes("dalle")) tags.add("image-generation");
+  if (text.includes("automation") || text.includes("automate") || text.includes("workflow")) tags.add("automation");
+  if (text.includes("browser") || text.includes("extension") || text.includes("chrome")) tags.add("browser-tool");
+  if (text.includes("cli") || text.includes("command-line") || text.includes("terminal")) tags.add("cli-tool");
+  if (text.includes("webapp") || text.includes("web-app") || text.includes("nextjs") || text.includes("streamlit") || text.includes("gradio")) tags.add("web-app");
+  if (text.includes("api") || text.includes("wrapper") || text.includes("fastapi") || text.includes("openai")) tags.add("api-wrapper");
+  if (text.includes("tutorial") || text.includes("learning") || text.includes("example") || text.includes("demo") || text.includes("starter")) tags.add("learning-project");
+
+  // Ensure at least 1 tag; if no match, default to the _beginnerTag or "learning-project"
+  if (tags.size === 0) {
+    tags.add(beginnerTag && BEGINNER_CATEGORY_TAGS.includes(beginnerTag) ? beginnerTag : "learning-project");
+  }
+
+  // Return array of 1-3 tags
+  return [...tags].slice(0, 3);
+}
+
+function estimateBeginnerSetupComplexity(project) {
+  const topics = (project.topics || []).map((t) => t.toLowerCase());
+  const language = (project.language || "").toLowerCase();
+
+  // "low": Python with streamlit/gradio/notebook; browser extensions; no-code/easy projects
+  if (
+    (language === "python" && topics.some((t) => ["streamlit", "gradio", "notebook", "jupyter"].includes(t))) ||
+    topics.some((t) => ["browser-extension", "chrome-extension", "no-code", "easy"].includes(t))
+  ) {
+    return "low";
+  }
+
+  // "high": Docker required, Rust/C++/Go language, or topics with kubernetes/distributed/infrastructure
+  if (
+    ["rust", "c++", "go"].includes(language) ||
+    topics.some((t) => ["kubernetes", "distributed", "infrastructure", "docker-compose", "k8s"].includes(t)) ||
+    (topics.includes("docker") && !topics.some((t) => ["streamlit", "gradio", "notebook"].includes(t)))
+  ) {
+    return "high";
+  }
+
+  // "medium": everything else
+  return "medium";
+}
+
+function extractPrerequisiteSkills(project) {
+  const topics = (project.topics || []).map((t) => t.toLowerCase());
+  const language = (project.language || "").toLowerCase();
+  const skills = ["basic-terminal", "git-basics"];
+
+  // Language-based skills
+  if (language === "python") {
+    skills.push("python-basics");
+  }
+  if (language === "javascript" || language === "typescript") {
+    skills.push("javascript-basics", "npm-usage");
+  }
+
+  // Topic-based skills
+  if (topics.includes("docker") || topics.includes("docker-compose")) {
+    skills.push("docker-basics");
+  }
+  if (topics.includes("api") || topics.includes("openai") || topics.includes("fastapi")) {
+    skills.push("api-key-management");
+  }
+  if (topics.includes("database") || topics.includes("sql") || topics.includes("postgres") || topics.includes("sqlite")) {
+    skills.push("database-basics");
+  }
+
+  return [...new Set(skills)];
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: estimateFirstRunMinutes - 基于 setupComplexity 估算首次运行时间
+function estimateFirstRunMinutes(project) {
+  const complexity = estimateBeginnerSetupComplexity(project);
+  if (complexity === "low") return 15;
+  if (complexity === "medium") return 45;
+  return 90; // high
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: buildBeginnerProjectPool - 构建新手项目池，排序取 top-50，过滤 score < 40
+function buildBeginnerProjectPool(rawProjects, previousSnapshot) {
+  // 1. 为每个项目计算各指标
+  const enriched = rawProjects.map((project) => {
+    const score = computeBeginnerScore(project);
+    const categoryTags = categorizeBeginnerProject(project);
+    const setupComplexity = estimateBeginnerSetupComplexity(project);
+    const prerequisiteSkills = extractPrerequisiteSkills(project);
+    const firstRunMinutes = estimateFirstRunMinutes(project);
+
+    return {
+      id: project.id,
+      name: project.name,
+      owner: project.owner?.login || "",
+      url: project.html_url,
+      description: project.description || "",
+      descriptionZh: repoChineseSummary(project, project.description || ""),
+      categoryTags,
+      language: project.language || "Unknown",
+      stars: project.stargazers_count,
+      beginnerScore: score.total,
+      beginnerScoreBreakdown: score.breakdown,
+      setupComplexity,
+      prerequisiteSkills,
+      estimatedFirstRunMinutes: firstRunMinutes,
+      hasChineseDocs: hasChinese(project.description || ""),
+      hasExamplesFolder: (project.topics || []).some((t) =>
+        ["example", "examples", "demo", "tutorial"].includes(t)
+      ),
+      lastUpdated: project.pushed_at,
+      topics: project.topics || [],
+      forks: project.forks_count,
+      openIssues: project.open_issues_count,
+    };
+  });
+
+  // 2. 过滤 score < 40 的项目
+  const filtered = enriched.filter((p) => p.beginnerScore >= 40);
+
+  // 3. 按 beginnerScore 降序排序
+  filtered.sort((a, b) => b.beginnerScore - a.beginnerScore);
+
+  // 4. 取 top 50
+  let pool = filtered.slice(0, 50);
+
+  // 5. 不足 30 时，合并上一快照数据
+  if (pool.length < 30) {
+    const previousProjects = previousSnapshot?.beginnerProjects || [];
+    const existingIds = new Set(pool.map((p) => p.id));
+    const supplemental = previousProjects.filter((p) => !existingIds.has(p.id));
+    pool = [...pool, ...supplemental].slice(0, 50);
+  }
+
+  return pool;
+}
+// @AI_GENERATED: end
+
+// @AI_GENERATED: main() 集成 beginnerProjects 管道
 async function main() {
   await mkdir(SNAPSHOT_DIR, { recursive: true });
   const previous = await readPreviousSnapshot();
-  const [githubRepos, newsItems] = await Promise.all([fetchGithubRepositories(), fetchNews()]);
-  if (!githubRepos.length && !newsItems.length && !previous) {
+
+  // 并行执行所有数据采集任务（含 beginnerProjects）
+  const [githubRepos, newsItems, beginnerRawResult] = await Promise.allSettled([
+    fetchGithubRepositories(),
+    fetchNews(),
+    fetchBeginnerProjects(),
+  ]).then((results) => results.map((r) => (r.status === "fulfilled" ? r.value : null)));
+
+  // 错误降级处理
+  if (!githubRepos && !newsItems && !beginnerRawResult && !previous) {
     throw new Error("No GitHub or RSS data fetched and no previous snapshot exists. Current snapshot was not overwritten.");
   }
-  const repositories = githubRepos.length ? scoreRepositories(githubRepos, previous) : previous?.repositories || [];
-  const news = newsItems.length ? newsItems : previous?.news || [];
-  if (!githubRepos.length) console.warn("Using previous repository snapshot because GitHub returned no repositories.");
-  if (!newsItems.length) console.warn("Using previous news snapshot because RSS/Google News returned no items.");
+
+  const repositories = githubRepos?.length ? scoreRepositories(githubRepos, previous) : previous?.repositories || [];
+  const news = newsItems?.length ? newsItems : previous?.news || [];
+
+  // Beginner projects 错误降级：API 失败时保留前一快照数据
+  let beginnerProjects;
+  if (beginnerRawResult && beginnerRawResult.length > 0) {
+    beginnerProjects = buildBeginnerProjectPool(beginnerRawResult, previous);
+  } else {
+    beginnerProjects = previous?.beginnerProjects || [];
+    if (!beginnerRawResult) {
+      console.warn("Beginner projects fetch failed. Using previous snapshot data.");
+    } else {
+      console.warn("No beginner projects found. Using previous snapshot data.");
+    }
+  }
+
+  if (!githubRepos?.length) console.warn("Using previous repository snapshot because GitHub returned no repositories.");
+  if (!newsItems?.length) console.warn("Using previous news snapshot because RSS/Google News returned no items.");
+
   const payload = {
     generatedAt: new Date().toISOString(),
     date: TODAY,
@@ -461,14 +804,16 @@ async function main() {
     },
     repositories,
     news,
+    beginnerProjects,
   };
 
   const snapshotPath = path.join(SNAPSHOT_DIR, `${TODAY}.json`);
   await writeFile(snapshotPath, `${JSON.stringify(payload, null, 2)}\n`);
   await writeFile(path.join(DATA_DIR, "current.json"), `${JSON.stringify(payload, null, 2)}\n`);
-  console.log(`Wrote ${repositories.length} repositories and ${newsItems.length} news items.`);
+  console.log(`Wrote ${repositories.length} repositories, ${news.length} news items, and ${beginnerProjects.length} beginner projects.`);
   console.log(`Snapshot: ${snapshotPath}`);
 }
+// @AI_GENERATED: end
 
 main().catch((error) => {
   console.error(error);
