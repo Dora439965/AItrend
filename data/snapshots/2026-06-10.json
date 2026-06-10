@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T02:29:45.703Z",
+  "generatedAt": "2026-06-10T05:15:43.512Z",
   "date": "2026-06-10",
   "sources": {
     "github": "https://api.github.com/search/repositories",
@@ -53,17 +53,17 @@
         "openclaw"
       ],
       "language": "Python",
-      "stars": 188914,
-      "starGrowth": 538,
-      "forkGrowth": 124,
-      "forks": 32585,
-      "openIssues": 20066,
-      "discussion": 216,
-      "discussionTotal": 20066,
+      "stars": 189065,
+      "starGrowth": 689,
+      "forkGrowth": 171,
+      "forks": 32632,
+      "openIssues": 20114,
+      "discussion": 270,
+      "discussionTotal": 20114,
       "hot": 100,
-      "pushedAt": "2026-06-10T02:28:22Z",
+      "pushedAt": "2026-06-10T05:07:51Z",
       "createdAt": "2025-07-22T22:22:28Z",
-      "reason": "较上一份快照新增 538 stars、124 forks，讨论度增长代理值 216。",
+      "reason": "较上一份快照新增 689 stars、171 forks，讨论度增长代理值 270。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -107,17 +107,17 @@
         "productivity"
       ],
       "language": "JavaScript",
-      "stars": 211959,
-      "starGrowth": 411,
-      "forkGrowth": 83,
-      "forks": 32542,
-      "openIssues": 55,
-      "discussion": 20,
-      "discussionTotal": 55,
-      "hot": 63,
-      "pushedAt": "2026-06-10T01:48:54Z",
+      "stars": 212057,
+      "starGrowth": 509,
+      "forkGrowth": 100,
+      "forks": 32559,
+      "openIssues": 57,
+      "discussion": 24,
+      "discussionTotal": 57,
+      "hot": 60,
+      "pushedAt": "2026-06-10T03:57:03Z",
       "createdAt": "2026-01-18T00:51:51Z",
-      "reason": "较上一份快照新增 411 stars、83 forks，讨论度增长代理值 20。",
+      "reason": "较上一份快照新增 509 stars、100 forks，讨论度增长代理值 24。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -174,17 +174,17 @@
         "vibe-coding"
       ],
       "language": "TypeScript",
-      "stars": 62429,
-      "starGrowth": 261,
-      "forkGrowth": 20,
-      "forks": 6974,
-      "openIssues": 394,
-      "discussion": 2,
-      "discussionTotal": 394,
-      "hot": 35,
-      "pushedAt": "2026-06-10T02:21:29Z",
+      "stars": 62515,
+      "starGrowth": 347,
+      "forkGrowth": 31,
+      "forks": 6985,
+      "openIssues": 401,
+      "discussion": 8,
+      "discussionTotal": 401,
+      "hot": 37,
+      "pushedAt": "2026-06-10T04:53:06Z",
       "createdAt": "2026-04-28T04:25:20Z",
-      "reason": "较上一份快照新增 261 stars、20 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 347 stars、31 forks，讨论度增长代理值 8。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -237,17 +237,17 @@
         "webscraping"
       ],
       "language": "TypeScript",
-      "stars": 130771,
-      "starGrowth": 194,
-      "forkGrowth": 5,
-      "forks": 7735,
-      "openIssues": 376,
-      "discussion": 2,
-      "discussionTotal": 376,
-      "hot": 27,
+      "stars": 130815,
+      "starGrowth": 238,
+      "forkGrowth": 8,
+      "forks": 7738,
+      "openIssues": 377,
+      "discussion": 3,
+      "discussionTotal": 377,
+      "hot": 26,
       "pushedAt": "2026-06-09T23:27:02Z",
       "createdAt": "2024-04-15T21:02:29Z",
-      "reason": "较上一份快照新增 194 stars、5 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 238 stars、8 forks，讨论度增长代理值 3。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -301,17 +301,17 @@
         "workflow-automation"
       ],
       "language": "TypeScript",
-      "stars": 191811,
-      "starGrowth": 63,
-      "forkGrowth": 16,
-      "forks": 58428,
-      "openIssues": 1470,
-      "discussion": 10,
-      "discussionTotal": 1470,
-      "hot": 19,
-      "pushedAt": "2026-06-09T23:03:53Z",
+      "stars": 191853,
+      "starGrowth": 105,
+      "forkGrowth": 19,
+      "forks": 58431,
+      "openIssues": 1471,
+      "discussion": 11,
+      "discussionTotal": 1471,
+      "hot": 20,
+      "pushedAt": "2026-06-10T05:11:44Z",
       "createdAt": "2019-06-22T09:24:21Z",
-      "reason": "较上一份快照新增 63 stars、16 forks，讨论度增长代理值 10。",
+      "reason": "较上一份快照新增 105 stars、19 forks，讨论度增长代理值 11。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -362,17 +362,17 @@
         "video-generation"
       ],
       "language": "HTML",
-      "stars": 2501,
-      "starGrowth": 69,
-      "forkGrowth": 11,
-      "forks": 286,
+      "stars": 2528,
+      "starGrowth": 96,
+      "forkGrowth": 15,
+      "forks": 290,
       "openIssues": 19,
-      "discussion": 1,
+      "discussion": 2,
       "discussionTotal": 19,
-      "hot": 16,
+      "hot": 17,
       "pushedAt": "2026-06-10T02:02:21Z",
       "createdAt": "2026-05-27T02:08:11Z",
-      "reason": "较上一份快照新增 69 stars、11 forks，讨论度增长代理值 1。",
+      "reason": "较上一份快照新增 96 stars、15 forks，讨论度增长代理值 2。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -390,6 +390,62 @@
         "Agent 编排",
         "工具调用",
         "任务规划"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
+      "id": 658928958,
+      "name": "ollama",
+      "owner": "ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "descriptionZh": "这是一个与 Model 相关的 GitHub 开源项目，主要使用 Go。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. ",
+      "url": "https://github.com/ollama/ollama",
+      "tags": [
+        "Model"
+      ],
+      "topics": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llama3",
+        "llm",
+        "llms",
+        "minimax",
+        "mistral",
+        "ollama",
+        "qwen"
+      ],
+      "language": "Go",
+      "stars": 173726,
+      "starGrowth": 43,
+      "forkGrowth": 4,
+      "forks": 16526,
+      "openIssues": 3380,
+      "discussion": 1,
+      "discussionTotal": 3380,
+      "hot": 13,
+      "pushedAt": "2026-06-09T22:04:36Z",
+      "createdAt": "2023-06-26T19:39:32Z",
+      "reason": "较上一份快照新增 43 stars、4 forks，讨论度增长代理值 1。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "挑战",
+      "stack": [
+        "Go",
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm"
+      ],
+      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
@@ -426,17 +482,17 @@
         "vlm"
       ],
       "language": "Python",
-      "stars": 161460,
-      "starGrowth": 15,
-      "forkGrowth": 11,
-      "forks": 33450,
+      "stars": 161467,
+      "starGrowth": 22,
+      "forkGrowth": 12,
+      "forks": 33451,
       "openIssues": 2407,
       "discussion": 3,
       "discussionTotal": 2407,
-      "hot": 14,
-      "pushedAt": "2026-06-09T18:20:37Z",
+      "hot": 13,
+      "pushedAt": "2026-06-10T05:02:59Z",
       "createdAt": "2018-10-29T13:56:00Z",
-      "reason": "较上一份快照新增 15 stars、11 forks，讨论度增长代理值 3。",
+      "reason": "较上一份快照新增 22 stars、12 forks，讨论度增长代理值 3。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -454,62 +510,6 @@
         "多模态 API",
         "图像处理",
         "前端交互"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
-      "id": 658928958,
-      "name": "ollama",
-      "owner": "ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "这是一个与 Model 相关的 GitHub 开源项目，主要使用 Go。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. ",
-      "url": "https://github.com/ollama/ollama",
-      "tags": [
-        "Model"
-      ],
-      "topics": [
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm",
-        "go",
-        "golang",
-        "gpt-oss",
-        "llama",
-        "llama3",
-        "llm",
-        "llms",
-        "minimax",
-        "mistral",
-        "ollama",
-        "qwen"
-      ],
-      "language": "Go",
-      "stars": 173719,
-      "starGrowth": 36,
-      "forkGrowth": 3,
-      "forks": 16525,
-      "openIssues": 3380,
-      "discussion": 1,
-      "discussionTotal": 3380,
-      "hot": 13,
-      "pushedAt": "2026-06-09T22:04:36Z",
-      "createdAt": "2023-06-26T19:39:32Z",
-      "reason": "较上一份快照新增 36 stars、3 forks，讨论度增长代理值 1。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "挑战",
-      "stack": [
-        "Go",
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
@@ -544,17 +544,17 @@
         "typescript"
       ],
       "language": "HTML",
-      "stars": 163480,
-      "starGrowth": 18,
-      "forkGrowth": 4,
-      "forks": 21221,
+      "stars": 163488,
+      "starGrowth": 26,
+      "forkGrowth": 6,
+      "forks": 21223,
       "openIssues": 51,
-      "discussion": 0,
+      "discussion": 1,
       "discussionTotal": 51,
       "hot": 12,
-      "pushedAt": "2026-06-09T04:29:39Z",
+      "pushedAt": "2026-06-10T04:34:48Z",
       "createdAt": "2022-12-05T13:54:13Z",
-      "reason": "较上一份快照新增 18 stars、4 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 26 stars、6 forks，讨论度增长代理值 1。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -599,17 +599,17 @@
         "transformers"
       ],
       "language": "Jupyter Notebook",
-      "stars": 111807,
-      "starGrowth": 7,
+      "stars": 111809,
+      "starGrowth": 9,
       "forkGrowth": 13,
       "forks": 60030,
       "openIssues": 1,
       "discussion": 2,
       "discussionTotal": 1,
-      "hot": 12,
+      "hot": 11,
       "pushedAt": "2026-06-08T14:17:33Z",
       "createdAt": "2023-06-19T16:28:59Z",
-      "reason": "较上一份快照新增 7 stars、13 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 9 stars、13 forks，讨论度增长代理值 2。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -652,17 +652,17 @@
         "python"
       ],
       "language": "Python",
-      "stars": 184861,
-      "starGrowth": 2,
+      "stars": 184862,
+      "starGrowth": 3,
       "forkGrowth": 0,
-      "forks": 46166,
+      "forks": 46163,
       "openIssues": 437,
       "discussion": 0,
       "discussionTotal": 437,
       "hot": 10,
       "pushedAt": "2026-06-09T23:53:19Z",
       "createdAt": "2023-03-16T09:21:07Z",
-      "reason": "较上一份快照新增 2 stars、0 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 3 stars、0 forks，讨论度增长代理值 0。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -763,7 +763,7 @@
         "terminal"
       ],
       "language": "Go",
-      "stars": 556,
+      "stars": 560,
       "starGrowth": 0,
       "forkGrowth": 0,
       "forks": 42,
@@ -771,7 +771,7 @@
       "discussion": 0,
       "discussionTotal": 10,
       "hot": 7,
-      "pushedAt": "2026-06-10T02:14:05Z",
+      "pushedAt": "2026-06-10T04:46:55Z",
       "createdAt": "2026-05-06T07:01:36Z",
       "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
@@ -797,19 +797,19 @@
   ],
   "news": [
     {
-      "id": "google-news-openai-openai-to-combine-ai-products-into-desktop-superapp-campus-technology",
-      "title": "OpenAI to Combine AI Products into Desktop 'Superapp' - Campus Technology",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3VINml1QVcwMXRVY0MzS25aSGptUkZrU0xka0hlbkxGVC0xMFhva3p6LVJxOFZySU5qWmt0Tjk3TEV1ajM4WVpleV9sekVYRU5MbF92ZjRwT0t5aGVYVEJYRWJRT2VNS25weE9oUGJBSjBYN3BmSEhZeUhXZEl2UHZuWWNJRW11SnRwTHFEb1hSeWhyaEhiSDAycTVQSVhhMEFidy05aHEzdk9maGNMMWIzaWxXSWV4RUNZ?oc=5",
-      "source": "Google News: OpenAI / Campus Technology",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-09T21:53:39.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3VINml1QVcwMXRVY0MzS25aSGptUkZrU0xka0hlbkxGVC0xMFhva3p6LVJxOFZySU5qWmt0Tjk3TEV1ajM4WVpleV9sekVYRU5MbF92ZjRwT0t5aGV",
+      "id": "google-news-google-gemini-3-5-live-translate-powers-70-languages-blockchain-news",
+      "title": "Gemini 3.5 Live Translate powers 70+ languages - blockchain.news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmxkNmJDT2VZSGMtNlRRVW80ZENLQzJ6UTNTYTdaZDhYN1N6Z2djMTI3aDR5a3M1X2I4VF9JNm42T2NPNzZiOWlLS2xVOEpVUC1YNG8tUzFVVy16S20yTFdfbUpDT1A4OVczcFNsSDBacjdPazU4c1d5YmZxekpPNDVB?oc=5",
+      "source": "Google News: Google / blockchain.news",
+      "company": "Google",
+      "publishedAt": "2026-06-10T02:25:51.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmxkNmJDT2VZSGMtNlRRVW80ZENLQzJ6UTNTYTdaZDhYN1N6Z2djMTI3aDR5a3M1X2I4VF9JNm42T2NPNzZiOWlLS2xVOEpVUC1YNG8tUzFVVy16S20",
       "topic": "模型发布",
-      "time": "2026-06-09",
-      "heat": 74,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "time": "2026-06-10",
+      "heat": 73,
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3VINml1QVcwMXRVY0MzS25aSGptUkZrU0xka0hlbkxGVC0xMFhva3p6LVJxOFZySU5qWmt0Tjk3TEV1ajM4WVpleV9sekVYRU5MbF92ZjRwT0t5aGV"
+      "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmxkNmJDT2VZSGMtNlRRVW80ZENLQzJ6UTNTYTdaZDhYN1N6Z2djMTI3aDR5a3M1X2I4VF9JNm42T2NPNzZiOWlLS2xVOEpVUC1YNG8tUzFVVy16S20"
     },
     {
       "id": "google-news-anthropic-anthropic-launches-most-powerful-ai-model-yet-with-new-safety-guardrails-ibm",
@@ -821,25 +821,10 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNVWVPbnFydHRoOVZma1NwNXlWaENaeXBwMEthbzkxMHdTV21yTlkxV3RGWDdZbllKRDFCQXl4bnpHbktRSmRYNEwyOWpka3M2NXhVYjBLSU1ISXpEVnN",
       "topic": "模型发布",
       "time": "2026-06-10",
-      "heat": 74,
+      "heat": 72,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNVWVPbnFydHRoOVZma1NwNXlWaENaeXBwMEthbzkxMHdTV21yTlkxV3RGWDdZbllKRDFCQXl4bnpHbktRSmRYNEwyOWpka3M2NXhVYjBLSU1ISXpEVnN"
-    },
-    {
-      "id": "google-news-google-gemini-3-5-live-translate-powers-70-languages-blockchain-news",
-      "title": "Gemini 3.5 Live Translate powers 70+ languages - blockchain.news",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmxkNmJDT2VZSGMtNlRRVW80ZENLQzJ6UTNTYTdaZDhYN1N6Z2djMTI3aDR5a3M1X2I4VF9JNm42T2NPNzZiOWlLS2xVOEpVUC1YNG8tUzFVVy16S20yTFdfbUpDT1A4OVczcFNsSDBacjdPazU4c1d5YmZxekpPNDVB?oc=5",
-      "source": "Google News: Google / blockchain.news",
-      "company": "Google",
-      "publishedAt": "2026-06-10T02:25:51.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmxkNmJDT2VZSGMtNlRRVW80ZENLQzJ6UTNTYTdaZDhYN1N6Z2djMTI3aDR5a3M1X2I4VF9JNm42T2NPNzZiOWlLS2xVOEpVUC1YNG8tUzFVVy16S20",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 74,
-      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Google 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmxkNmJDT2VZSGMtNlRRVW80ZENLQzJ6UTNTYTdaZDhYN1N6Z2djMTI3aDR5a3M1X2I4VF9JNm42T2NPNzZiOWlLS2xVOEpVUC1YNG8tUzFVVy16S20"
     },
     {
       "id": "google-news-anthropic-anthropic-releases-safe-version-of-claude-mythos-ai-model-to-public-the-guardian",
@@ -851,7 +836,7 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0t",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 73,
+      "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0t"
@@ -866,14 +851,14 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzhHX3NHWU9taUp2VC1XamlXdG9WZHg2SjA1UFJ1SldEU3djVU1OejNxbVV1OW1JREEzZnN6N1h6NW43bWdRZ0xWa2hpS1ZvOHRySUtpZGhNakt5VG1",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 73,
+      "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzhHX3NHWU9taUp2VC1XamlXdG9WZHg2SjA1UFJ1SldEU3djVU1OejNxbVV1OW1JREEzZnN6N1h6NW43bWdRZ0xWa2hpS1ZvOHRySUtpZGhNakt5VG1"
     },
     {
-      "id": "google-news-anthropic-claude-fable-5-and-new-safety-fables-interconnects-ai",
-      "title": "Claude Fable 5 and new safety fables - Interconnects AI",
+      "id": "google-news-anthropic-claude-fable-5-and-new-safety-fables-by-nathan-lambert-interconnects-ai",
+      "title": "Claude Fable 5 and new safety fables - by Nathan Lambert - Interconnects AI",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XOUpqaUlWeFZ2RDF3NGY4UjlBa0JKV0VFSk9yZlNfNXNlSHpBZlJ1VUQ2TTE0V291UE9iSDZVQ292ZjV6SGF2ZGI3Yk5lQS1IaGJvaGtnSVQzd1ZaeGJ1bmF6RVJLeC15Q0t2dWpBd0Y?oc=5",
       "source": "Google News: Anthropic / Interconnects AI",
       "company": "Anthropic",
@@ -881,7 +866,7 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1XOUpqaUlWeFZ2RDF3NGY4UjlBa0JKV0VFSk9yZlNfNXNlSHpBZlJ1VUQ2TTE0V291UE9iSDZVQ292ZjV6SGF2ZGI3Yk5lQS1IaGJvaGtnSVQzd1ZaeGJ",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 73,
+      "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1XOUpqaUlWeFZ2RDF3NGY4UjlBa0JKV0VFSk9yZlNfNXNlSHpBZlJ1VUQ2TTE0V291UE9iSDZVQ292ZjV6SGF2ZGI3Yk5lQS1IaGJvaGtnSVQzd1ZaeGJ"
@@ -896,10 +881,25 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlSWhmejBzaVVKUXVvTmYzRDJ6TFpaSnE0YW1rNTVuZXlRb09qdTdOOGMwblFLS1NOQnlPMElFOUxsdkY3cUppQnR3?oc=5\" target=\"_blank\"&gt;H",
       "topic": "开发者工具",
       "time": "2026-06-09",
-      "heat": 72,
+      "heat": 70,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 OpenAI 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlSWhmejBzaVVKUXVvTmYzRDJ6TFpaSnE0YW1rNTVuZXlRb09qdTdOOGMwblFLS1NOQnlPMElFOUxsdkY3cUppQnR3?oc=5\" target=\"_blank\"&gt;H"
+    },
+    {
+      "id": "google-news-openai-openai-in-talks-to-lease-10-gigawatt-ohio-data-center-with-backing-from-nvidia-the-information",
+      "title": "OpenAI in Talks to Lease 10 Gigawatt Ohio Data Center with Backing From Nvidia - The Information",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXFHZWEyekM0M1o2QzFzbDdnVWJlS2FGX2p0djlDR2FJdHRlT2RMMGtVOEJTa3R1THQ3YlRkenpGOEZWYlZLdTRnSEluZGJ0dWdxTVdFLTRsUHhBbGtkUjFHSFVMYm9yWi14OUlKZkYtOFB1ZlhpNXlNdk9NYUhiaWNtcVdFS0hSZ0xYUEhFVzhEcnJVTmV0eU9GVTlycHR3ZzQwcg?oc=5",
+      "source": "Google News: OpenAI / The Information",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T02:09:27.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXFHZWEyekM0M1o2QzFzbDdnVWJlS2FGX2p0djlDR2FJdHRlT2RMMGtVOEJTa3R1THQ3YlRkenpGOEZWYlZLdTRnSEluZGJ0dWdxTVdFLTRsUHhBbGt",
+      "topic": "AI 产品与应用",
+      "time": "2026-06-10",
+      "heat": 70,
+      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 OpenAI 的 AI 产品与应用 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXFHZWEyekM0M1o2QzFzbDdnVWJlS2FGX2p0djlDR2FJdHRlT2RMMGtVOEJTa3R1THQ3YlRkenpGOEZWYlZLdTRnSEluZGJ0dWdxTVdFLTRsUHhBbGt"
     },
     {
       "id": "google-news-anthropic-appfolio-launches-connector-for-realm-x-ai-suite-and-anthropic-s-claude-housingwire",
@@ -911,40 +911,10 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlc2SHZwaHU0eFA2dlNSOV9paUdmd2hGbmVONHhfbjhDaHM3dlZZY2dMUHNKY0MzcWIzWnA1ZWF0bk94anZBbWE1YVdTSGtQZlMxdnE5NjBmSko3NVd",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 72,
+      "heat": 70,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlc2SHZwaHU0eFA2dlNSOV9paUdmd2hGbmVONHhfbjhDaHM3dlZZY2dMUHNKY0MzcWIzWnA1ZWF0bk94anZBbWE1YVdTSGtQZlMxdnE5NjBmSko3NVd"
-    },
-    {
-      "id": "google-news-anthropic-anthropic-s-claude-fable-5-is-the-first-mythos-level-ai-model-you-can-actually-use-cnet",
-      "title": "Anthropic's Claude Fable 5 Is the First Mythos-Level AI Model You Can Actually Use - CNET",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1FhSm1OelFOVTBZeTFJNWYxaENtTDBlZXZFQUk2NUNhVzhUSVdDVGs5QW5yMVdzUE9PeTZfRFNwNDI2S2ZpZU5lZDY0WUwyczBRanI2eEczOEI3T2pqTzBIaDFwQlpHdVh0VWhkOVVCZGxwU0tHczM1dE5IMlhxenpZOE84cnUwOXFMSVNsZHg2c1hLRkRxeXoycjBiYU4wRmZZTlYtZGNfSzQ?oc=5",
-      "source": "Google News: Anthropic / CNET",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-09T20:25:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1FhSm1OelFOVTBZeTFJNWYxaENtTDBlZXZFQUk2NUNhVzhUSVdDVGs5QW5yMVdzUE9PeTZfRFNwNDI2S2ZpZU5lZDY0WUwyczBRanI2eEczOEI3T2p",
-      "topic": "模型发布",
-      "time": "2026-06-09",
-      "heat": 71,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1FhSm1OelFOVTBZeTFJNWYxaENtTDBlZXZFQUk2NUNhVzhUSVdDVGs5QW5yMVdzUE9PeTZfRFNwNDI2S2ZpZU5lZDY0WUwyczBRanI2eEczOEI3T2p"
-    },
-    {
-      "id": "google-news-anthropic-microsoft-ai-head-calls-out-anthropic-for-acting-like-claude-is-conscious-the-verge",
-      "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUlaNXdoZFZYZjVYUnBGcDVfSTdsV0JUSVdWbFpSSHloazY4cmQ3OUo2RG02cTZ2dEdXeFB4UTNYWlFWeVk0MEctWHlneW94elh3bFdBVGRPckRFQmltZG1KMS1yVVY3S0RudlhOWUNzbGlVTjR0SXhNenI2MGhXS3NlZ09TS3hfTkJMQmJ6R3JTSE5iekdKaw?oc=5",
-      "source": "Google News: Anthropic / The Verge",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-09T20:24:25.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUlaNXdoZFZYZjVYUnBGcDVfSTdsV0JUSVdWbFpSSHloazY4cmQ3OUo2RG02cTZ2dEdXeFB4UTNYWlFWeVk0MEctWHlneW94elh3bFdBVGRPckRFQml",
-      "topic": "模型发布",
-      "time": "2026-06-09",
-      "heat": 71,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUlaNXdoZFZYZjVYUnBGcDVfSTdsV0JUSVdWbFpSSHloazY4cmQ3OUo2RG02cTZ2dEdXeFB4UTNYWlFWeVk0MEctWHlneW94elh3bFdBVGRPckRFQml"
     },
     {
       "id": "google-news-anthropic-announcing-anthropic-claude-fable-5-on-snowflake-cortex-ai-snowflake",
@@ -956,25 +926,55 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE13ZFBRaGUwN2hnZll1bEZpTTNXdFJNNXNhaEdkNzNqQnllTGRPZ2pXY1NYcG5va0lkcWY4YmxSM2VLdWptMWRuNEVpY0dKTzJwVW5xVEN1dzVjT1RQOUp",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 71,
+      "heat": 69,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE13ZFBRaGUwN2hnZll1bEZpTTNXdFJNNXNhaEdkNzNqQnllTGRPZ2pXY1NYcG5va0lkcWY4YmxSM2VLdWptMWRuNEVpY0dKTzJwVW5xVEN1dzVjT1RQOUp"
     },
     {
-      "id": "google-news-openai-openai-s-paradox-chatgpt-owner-files-for-ipo-but-wants-to-stay-private-for-a-while-barron-s",
-      "title": "OpenAI’s Paradox: ChatGPT Owner Files for IPO But Wants to Stay Private for ‘A While’ - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmxRd2RMek5OOHNaelpnSnFmck9DUFpqOU9aQXNvMUxYZU5TVWE0S3l5UUR4UVdYQ2ctSQ?oc=5",
-      "source": "Google News: OpenAI / Barron's",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-09T16:06:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmx",
+      "id": "google-news-anthropic-microsoft-ai-head-calls-out-anthropic-for-acting-like-claude-is-conscious-the-verge",
+      "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUlaNXdoZFZYZjVYUnBGcDVfSTdsV0JUSVdWbFpSSHloazY4cmQ3OUo2RG02cTZ2dEdXeFB4UTNYWlFWeVk0MEctWHlneW94elh3bFdBVGRPckRFQmltZG1KMS1yVVY3S0RudlhOWUNzbGlVTjR0SXhNenI2MGhXS3NlZ09TS3hfTkJMQmJ6R3JTSE5iekdKaw?oc=5",
+      "source": "Google News: Anthropic / The Verge",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T20:24:25.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUlaNXdoZFZYZjVYUnBGcDVfSTdsV0JUSVdWbFpSSHloazY4cmQ3OUo2RG02cTZ2dEdXeFB4UTNYWlFWeVk0MEctWHlneW94elh3bFdBVGRPckRFQml",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 70,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "heat": 69,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmx"
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUlaNXdoZFZYZjVYUnBGcDVfSTdsV0JUSVdWbFpSSHloazY4cmQ3OUo2RG02cTZ2dEdXeFB4UTNYWlFWeVk0MEctWHlneW94elh3bFdBVGRPckRFQml"
+    },
+    {
+      "id": "google-news-anthropic-anthropic-s-claude-fable-5-is-the-first-mythos-level-ai-model-you-can-actually-use-cnet",
+      "title": "Anthropic's Claude Fable 5 Is the First Mythos-Level AI Model You Can Actually Use - CNET",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1FhSm1OelFOVTBZeTFJNWYxaENtTDBlZXZFQUk2NUNhVzhUSVdDVGs5QW5yMVdzUE9PeTZfRFNwNDI2S2ZpZU5lZDY0WUwyczBRanI2eEczOEI3T2pqTzBIaDFwQlpHdVh0VWhkOVVCZGxwU0tHczM1dE5IMlhxenpZOE84cnUwOXFMSVNsZHg2c1hLRkRxeXoycjBiYU4wRmZZTlYtZGNfSzQ?oc=5",
+      "source": "Google News: Anthropic / CNET",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T20:25:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1FhSm1OelFOVTBZeTFJNWYxaENtTDBlZXZFQUk2NUNhVzhUSVdDVGs5QW5yMVdzUE9PeTZfRFNwNDI2S2ZpZU5lZDY0WUwyczBRanI2eEczOEI3T2p",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 69,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1FhSm1OelFOVTBZeTFJNWYxaENtTDBlZXZFQUk2NUNhVzhUSVdDVGs5QW5yMVdzUE9PeTZfRFNwNDI2S2ZpZU5lZDY0WUwyczBRanI2eEczOEI3T2p"
+    },
+    {
+      "id": "google-news-anthropic-anthropic-s-claude-fable-5-mythos-5-what-you-need-to-know-constellation-research",
+      "title": "Anthropic’s Claude Fable 5, Mythos 5: What you need to know - Constellation Research",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYml0TzFpUWNYNU9HOHpxRU5MY3lWV2FQam5WcDZaeTFGX3RMamZSeGJ2VlAyZ2FweDZxdDJSQnp2TUN6d2MwOGRWdG9VZ2ZZQWN1YmJTZmh2QW9YZjBvdFQ3bGNERVotdTJpUmJVTXktLUNqZTBkMFljNUhSWDFWLV9ReU5WOERRaWYzZHVIUnFuNm5Cb3kyX1d3NVlGUms?oc=5",
+      "source": "Google News: Anthropic / Constellation Research",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T20:22:23.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOYml0TzFpUWNYNU9HOHpxRU5MY3lWV2FQam5WcDZaeTFGX3RMamZSeGJ2VlAyZ2FweDZxdDJSQnp2TUN6d2MwOGRWdG9VZ2ZZQWN1YmJTZmh2QW9YZjB",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 69,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOYml0TzFpUWNYNU9HOHpxRU5MY3lWV2FQam5WcDZaeTFGX3RMamZSeGJ2VlAyZ2FweDZxdDJSQnp2TUN6d2MwOGRWdG9VZ2ZZQWN1YmJTZmh2QW9YZjB"
     },
     {
       "id": "google-news-openai-mira-murati-unveils-her-startup-s-a-i-model-in-first-interview-since-openai-observer-com",
@@ -986,55 +986,10 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOLU05UE5NVWFoWjRfMVhybVROOTh3eG9kQ1cxTnI4emNsWmR2Ymw1djJTNkdBTjBJTDVib1lpcTRHN0xFNFVWay1JVVNmVzktOHFwRUd4cmVlVjYtakN",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 70,
+      "heat": 68,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOLU05UE5NVWFoWjRfMVhybVROOTh3eG9kQ1cxTnI4emNsWmR2Ymw1djJTNkdBTjBJTDVib1lpcTRHN0xFNFVWay1JVVNmVzktOHFwRUd4cmVlVjYtakN"
-    },
-    {
-      "id": "google-news-anthropic-claude-mythos-anthropic-releases-version-of-ai-tool-despite-risk-concerns-bbc",
-      "title": "Claude Mythos: Anthropic releases version of AI tool despite risk concerns - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5",
-      "source": "Google News: Anthropic / BBC",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-09T18:35:59.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5",
-      "topic": "模型发布",
-      "time": "2026-06-09",
-      "heat": 70,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5"
-    },
-    {
-      "id": "google-news-anthropic-anthropic-releases-new-mythos-class-model-to-general-public-with-guardrails-wsj",
-      "title": "Anthropic Releases New ‘Mythos-Class’ Model to General Public With Guardrails - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHc0l1dVYtWjV2bldfaEdZTjhvcndHN0VqQUwtcjNFd1dlNnBjVmllTkhmbGRUVldVODNESlFFa3BKc1I4Y0tDVml2cUNjUEZuOHQ3UDJrRnhQNGxEY084RFc3SVFhUkhCcnJNN2ZTY2pPd1lwZlk0?oc=5",
-      "source": "Google News: Anthropic / WSJ",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-09T18:38:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBHc0l1dVYtWjV2bldfaEdZTjhvcndHN0VqQUwtcjNFd1dlNnBjVmllTkhmbGRUVldVODNESlFFa3BKc1I4Y0tDVml2cUNjUEZuOHQ3UDJrRnhQNGxEY08",
-      "topic": "模型发布",
-      "time": "2026-06-09",
-      "heat": 70,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBHc0l1dVYtWjV2bldfaEdZTjhvcndHN0VqQUwtcjNFd1dlNnBjVmllTkhmbGRUVldVODNESlFFa3BKc1I4Y0tDVml2cUNjUEZuOHQ3UDJrRnhQNGxEY08"
-    },
-    {
-      "id": "google-news-anthropic-anthropic-releases-a-less-powerful-version-of-its-most-advanced-model-politico",
-      "title": "Anthropic releases a less-powerful version of its most advanced model - Politico",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWFNeEJDa1VWWXM4ZE9fRS1JeC1FTk9zLUhITVZBZVdxOHhZd1dtcTFFUjlXMDVGNjlqRmNaWmY2NEx2ZF9OVVlnVkNfNzVneTZiZHhObDUzQzRZeA?oc=5",
-      "source": "Google News: Anthropic / Politico",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-09T19:17:53.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWF",
-      "topic": "模型发布",
-      "time": "2026-06-09",
-      "heat": 70,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWF"
     },
     {
       "id": "google-news-anthropic-claude-s-too-dangerous-ai-model-is-finally-public-but-there-s-a-catch-pcworld",
@@ -1046,10 +1001,25 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQeVhyT0tLbzNyenlLOVBxejcxQ3kyS24wRHBjQUlYcjE2bWRPSUJ5aFRqb0t0cEdwU0xabVAxRHZUeWJUcE5seWExRUNBYWRHWWlVdEtDd3V0Qi01UWR",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 70,
+      "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQeVhyT0tLbzNyenlLOVBxejcxQ3kyS24wRHBjQUlYcjE2bWRPSUJ5aFRqb0t0cEdwU0xabVAxRHZUeWJUcE5seWExRUNBYWRHWWlVdEtDd3V0Qi01UWR"
+    },
+    {
+      "id": "google-news-anthropic-anthropic-releases-a-less-powerful-version-of-its-most-advanced-model-politico",
+      "title": "Anthropic releases a less-powerful version of its most advanced model - Politico",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWFNeEJDa1VWWXM4ZE9fRS1JeC1FTk9zLUhITVZBZVdxOHhZd1dtcTFFUjlXMDVGNjlqRmNaWmY2NEx2ZF9OVVlnVkNfNzVneTZiZHhObDUzQzRZeA?oc=5",
+      "source": "Google News: Anthropic / Politico",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T19:17:53.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWF",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 68,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWF"
     },
     {
       "id": "google-news-anthropic-anthropic-is-releasing-a-public-version-of-its-mythos-ai-model-as-claude-fable-5-qz-com",
@@ -1057,11 +1027,11 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwNk9QZThwa1FBanpWOE5xbTVkOUNkNmJERHhQZkE3NVo1VU5fSHZ6ci01N2V2aFdSWkpxcDc0VFFQb0QtVENldUEzRkFXMnZCMElSQnl0SmdfQnY5akU1bWRXS0lETDd5YmpncVdwd1ltNkNZZ1Nz?oc=5",
       "source": "Google News: Anthropic / qz.com",
       "company": "Anthropic",
-      "publishedAt": "2026-06-09T18:22:53.000Z",
+      "publishedAt": "2026-06-09T18:52:53.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBwNk9QZThwa1FBanpWOE5xbTVkOUNkNmJERHhQZkE3NVo1VU5fSHZ6ci01N2V2aFdSWkpxcDc0VFFQb0QtVENldUEzRkFXMnZCMElSQnl0SmdfQnY5akU",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 70,
+      "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBwNk9QZThwa1FBanpWOE5xbTVkOUNkNmJERHhQZkE3NVo1VU5fSHZ6ci01N2V2aFdSWkpxcDc0VFFQb0QtVENldUEzRkFXMnZCMElSQnl0SmdfQnY5akU"
@@ -1076,7 +1046,7 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE43STJBdE9kUy1LZGV5MjNQdTdzOVFVQUswRkF4cEpUU3ZfTjJ1bGtKVVdoUTBkeGdYY2JLUU94eXlBSTdtczJXWF85bmFoWlJTcDFrcWlwSmg4d3A1M3F",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 70,
+      "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE43STJBdE9kUy1LZGV5MjNQdTdzOVFVQUswRkF4cEpUU3ZfTjJ1bGtKVVdoUTBkeGdYY2JLUU94eXlBSTdtczJXWF85bmFoWlJTcDFrcWlwSmg4d3A1M3F"
@@ -1091,10 +1061,40 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPWmp1MGZzWWhBNlU4SjNqNG1tV0dTTzFwMzhzQUZIS213LUhRWm8wNWZRdGEtVTk3dWJRaDgxVlBqU096WHBUcHNLS0k4MGN2QWZqcHFmUEZvclhJa1h",
       "topic": "模型发布",
       "time": "2026-06-09",
-      "heat": 70,
+      "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
       "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPWmp1MGZzWWhBNlU4SjNqNG1tV0dTTzFwMzhzQUZIS213LUhRWm8wNWZRdGEtVTk3dWJRaDgxVlBqU096WHBUcHNLS0k4MGN2QWZqcHFmUEZvclhJa1h"
+    },
+    {
+      "id": "google-news-anthropic-anthropic-just-released-a-powerful-mythos-class-model-to-the-public-with-some-key-safeguards-inc-com",
+      "title": "Anthropic Just Released a Powerful Mythos-Class Model to the Public—With Some Key Safeguards - inc.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMk4tMDhQMnhpNUFkR09waWFBdGdOMVZfOVNLR1dzTnI1b0NIV3VRNEZ1QzRMVlJuRmNRSjFqckNNVXJsSXlGNzktR1FrWElyM0lLNkxzUW9fcFZyUHliM0p1Z0U0ZXAxUDlmTEpUNjFNb3Rsem1DcHpCMTI5ZkJQTFlONVJJazd5SnphMkJ3b194X2dFbG0tQ3RVV2Y3WndGazRNYlg4aVU2RVl4ZGt0M0FVaWpZa0pGSHhqdEFzWmhMVWxyS25od21ob1E3QQ?oc=5",
+      "source": "Google News: Anthropic / inc.com",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T19:09:07.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPMk4tMDhQMnhpNUFkR09waWFBdGdOMVZfOVNLR1dzTnI1b0NIV3VRNEZ1QzRMVlJuRmNRSjFqckNNVXJsSXlGNzktR1FrWElyM0lLNkxzUW9fcFZyUHl",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 68,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPMk4tMDhQMnhpNUFkR09waWFBdGdOMVZfOVNLR1dzTnI1b0NIV3VRNEZ1QzRMVlJuRmNRSjFqckNNVXJsSXlGNzktR1FrWElyM0lLNkxzUW9fcFZyUHl"
+    },
+    {
+      "id": "google-news-anthropic-anthropic-s-mythos-is-one-step-closer-to-rollout-after-claude-fable-5-release-barron-s",
+      "title": "Anthropic’s Mythos Is One Step Closer to Rollout After Claude Fable 5 Release - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUTRPRzJONy1paHM0TUV1MHFYRnpBV1RVcVB0REM1SDBRTGhRZE9IWTNWU2xhTkg4M255LVZjdUtveTFXMDZ1TXEyTzdGNjJsZnk3eFpkc1Y4b0F0Vm5DUVNHQ1hvRzZBNngyZ2hIYVV6TzdrRTVQYVRYSl9jZGJsN0hR?oc=5",
+      "source": "Google News: Anthropic / Barron's",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-09T19:15:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQUTRPRzJONy1paHM0TUV1MHFYRnpBV1RVcVB0REM1SDBRTGhRZE9IWTNWU2xhTkg4M255LVZjdUtveTFXMDZ1TXEyTzdGNjJsZnk3eFpkc1Y4b0F0Vm5",
+      "topic": "模型发布",
+      "time": "2026-06-09",
+      "heat": 68,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "这是一条关于 Anthropic 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQUTRPRzJONy1paHM0TUV1MHFYRnpBV1RVcVB0REM1SDBRTGhRZE9IWTNWU2xhTkg4M255LVZjdUtveTFXMDZ1TXEyTzdGNjJsZnk3eFpkc1Y4b0F0Vm5"
     }
   ],
   "beginnerProjects": [
@@ -1269,7 +1269,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 105,
+      "stars": 110,
       "beginnerScore": 70,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1311,7 +1311,7 @@
         "transformers",
         "tutorial"
       ],
-      "forks": 21,
+      "forks": 22,
       "openIssues": 0
     },
     {
@@ -1527,7 +1527,7 @@
         "web-app"
       ],
       "language": "Python",
-      "stars": 189,
+      "stars": 188,
       "beginnerScore": 65,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1719,7 +1719,7 @@
         "openclaw"
       ],
       "forks": 124,
-      "openIssues": 0
+      "openIssues": 1
     },
     {
       "id": 1229284184,
@@ -1734,7 +1734,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 2316,
+      "stars": 2338,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1753,7 +1753,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": true,
       "hasExamplesFolder": true,
-      "lastUpdated": "2026-06-09T18:58:06Z",
+      "lastUpdated": "2026-06-10T04:17:11Z",
       "topics": [
         "agentic-ai",
         "agentic-workflows",
@@ -1775,7 +1775,7 @@
         "trilingual",
         "tutorial"
       ],
-      "forks": 298,
+      "forks": 303,
       "openIssues": 1
     },
     {
@@ -1790,7 +1790,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 1836,
+      "stars": 1838,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1809,7 +1809,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": true,
       "hasExamplesFolder": true,
-      "lastUpdated": "2026-05-28T18:09:48Z",
+      "lastUpdated": "2026-06-10T02:55:31Z",
       "topics": [
         "agent",
         "agent-framework",
@@ -1830,7 +1830,7 @@
         "tutorial"
       ],
       "forks": 241,
-      "openIssues": 7
+      "openIssues": 8
     },
     {
       "id": 629177820,
@@ -1935,7 +1935,7 @@
         "web-scrapping",
         "webagent"
       ],
-      "forks": 161,
+      "forks": 162,
       "openIssues": 6
     },
     {
@@ -1997,7 +1997,7 @@
         "chatbot"
       ],
       "language": "TypeScript",
-      "stars": 348,
+      "stars": 350,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2043,7 +2043,7 @@
         "automation"
       ],
       "language": "TypeScript",
-      "stars": 16703,
+      "stars": 16707,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2085,7 +2085,7 @@
         "web-scraping",
         "website-clone"
       ],
-      "forks": 2567,
+      "forks": 2568,
       "openIssues": 10
     },
     {
@@ -2148,7 +2148,7 @@
         "learning-project"
       ],
       "language": "Unknown",
-      "stars": 3706,
+      "stars": 3707,
       "beginnerScore": 61,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2305,7 +2305,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 843,
+      "stars": 844,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2339,7 +2339,7 @@
         "tailwind",
         "vite"
       ],
-      "forks": 84,
+      "forks": 85,
       "openIssues": 16
     },
     {
@@ -2354,7 +2354,7 @@
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 574,
+      "stars": 576,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2411,7 +2411,7 @@
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 976,
+      "stars": 977,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2489,7 +2489,7 @@
         "scraping",
         "web-scraping"
       ],
-      "forks": 72,
+      "forks": 73,
       "openIssues": 8
     },
     {
@@ -2523,7 +2523,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-09T08:17:29Z",
+      "lastUpdated": "2026-06-10T04:59:49Z",
       "topics": [
         "agent",
         "ai",
@@ -2602,7 +2602,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 163,
+      "stars": 164,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2755,7 +2755,7 @@
         "automation"
       ],
       "language": "JavaScript",
-      "stars": 16641,
+      "stars": 16653,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2776,7 +2776,7 @@
       "estimatedFirstRunMinutes": 15,
       "hasChineseDocs": false,
       "hasExamplesFolder": true,
-      "lastUpdated": "2026-06-10T02:14:08Z",
+      "lastUpdated": "2026-06-10T04:55:58Z",
       "topics": [
         "agent",
         "ai",
@@ -2800,7 +2800,7 @@
         "workflow"
       ],
       "forks": 1565,
-      "openIssues": 14
+      "openIssues": 17
     },
     {
       "id": 1136899489,
@@ -3288,7 +3288,7 @@
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 3858,
+      "stars": 3859,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3527,7 +3527,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T01:15:33Z",
+      "lastUpdated": "2026-06-10T05:12:52Z",
       "topics": [
         "agents",
         "ai",
@@ -3540,7 +3540,7 @@
         "workflows"
       ],
       "forks": 53,
-      "openIssues": 15
+      "openIssues": 16
     },
     {
       "id": 1086027346,
