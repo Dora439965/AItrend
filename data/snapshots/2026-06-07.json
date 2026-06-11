@@ -637,7 +637,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise."
+      "summaryZh": "How Endava is redesigning software delivery around AI agents"
     },
     {
       "id": "openai-dreaming-better-memory-for-a-more-helpful-chatgpt",
@@ -652,7 +652,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations."
+      "summaryZh": "Dreaming: Better memory for a more helpful ChatGPT"
     },
     {
       "id": "openai-introducing-new-capabilities-to-gpt-rosalind",
@@ -667,7 +667,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities."
+      "summaryZh": "Introducing new capabilities to GPT"
     },
     {
       "id": "openai-how-wasmer-used-codex-to-build-a-node-js-runtime-for-the-edge",
@@ -682,7 +682,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
+      "summaryZh": "How Wasmer used Codex to build a Node.js runtime for the edge"
     },
     {
       "id": "openai-a-blueprint-for-democratic-governance-of-frontier-ai",
@@ -697,7 +697,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开源 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开源 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security."
+      "summaryZh": "A blueprint for democratic governance of frontier AI"
     },
     {
       "id": "openai-codex-for-every-role-tool-and-workflow",
@@ -712,7 +712,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI."
+      "summaryZh": "Codex for every role, tool, and workflow"
     },
     {
       "id": "openai-codex-is-becoming-a-productivity-tool-for-everyone",
@@ -727,7 +727,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation."
+      "summaryZh": "Codex is becoming a productivity tool for everyone"
     },
     {
       "id": "openai-openai-frontier-models-and-codex-are-now-available-on-aws",
@@ -742,7 +742,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement work"
+      "summaryZh": "OpenAI frontier models and Codex are now available on AWS"
     },
     {
       "id": "openai-how-braintrust-turns-customer-requests-into-code-with-codex",
@@ -757,7 +757,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster."
+      "summaryZh": "How Braintrust turns customer requests into code with Codex"
     },
     {
       "id": "openai-strengthening-societal-resilience-with-rosalind-biodefense",
@@ -772,7 +772,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic p"
+      "summaryZh": "Strengthening societal resilience with Rosalind Biodefense"
     },
     {
       "id": "openai-a-shared-playbook-for-trustworthy-third-party-evaluations",
@@ -787,7 +787,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems."
+      "summaryZh": "A shared playbook for trustworthy third party evaluations"
     },
     {
       "id": "openai-how-endava-builds-an-agentic-organization-with-codex",
@@ -802,7 +802,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours."
+      "summaryZh": "How Endava builds an agentic organization with Codex"
     },
     {
       "id": "openai-mufg-aims-to-become-ai-native-with-openai",
@@ -817,7 +817,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+      "summaryZh": "MUFG aims to become AI-native with OpenAI"
     },
     {
       "id": "openai-openai-s-frontier-governance-framework",
@@ -832,7 +832,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开源 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开源 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations."
+      "summaryZh": "OpenAI’s Frontier Governance Framework"
     },
     {
       "id": "openai-building-self-improving-tax-agents-with-codex",
@@ -847,7 +847,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows."
+      "summaryZh": "Building self-improving tax agents with Codex"
     },
     {
       "id": "openai-warp-s-big-bet-on-building-open-source-with-gpt-5-5",
@@ -862,7 +862,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows."
+      "summaryZh": "Warp’s big bet on building open source with GPT-5.5"
     },
     {
       "id": "openai-openai-grupo-folha-and-grupo-uol-announce-strategic-content-partnership",
@@ -877,7 +877,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency."
+      "summaryZh": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership"
     },
     {
       "id": "openai-openai-named-a-leader-in-enterprise-coding-agents-by-gartner",
@@ -892,7 +892,7 @@
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 开发者工具 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment."
+      "summaryZh": "OpenAI named a Leader in enterprise coding agents by Gartner"
     },
     {
       "id": "openai-adventhealth-advances-whole-person-care-with-openai",
@@ -907,7 +907,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care."
+      "summaryZh": "AdventHealth advances whole-person care with OpenAI"
     },
     {
       "id": "openai-how-ramp-engineers-accelerate-code-review-with-codex",
@@ -922,7 +922,7 @@
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "这是一条关于 OpenAI 的 模型发布 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours."
+      "summaryZh": "How Ramp engineers accelerate code review with Codex"
     }
   ]
 }

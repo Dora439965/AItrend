@@ -140,8 +140,10 @@ function repoChineseSummary(repo, description) {
 function newsChineseSummary(item) {
   const text = compactText(item.summary || item.title);
   if (hasChinese(text)) return text;
-  const topic = detectTopic(item);
-  return `这是一条关于 ${item.company} 的 ${topic} 新闻，主要关注 AI 产品、模型能力、开发者工具或企业应用方面的最新动态。原文摘要：${text.slice(0, 180)}`;
+  // 直接使用标题作为摘要（标题本身即为新闻核心内容），不使用套话模板
+  // 清理标题中的来源后缀
+  const title = (item.title || "").replace(/\s*[-–—]\s*[A-Z][^-]*$/, "").trim();
+  return title || text || "暂无摘要";
 }
 
 function slugify(value) {
