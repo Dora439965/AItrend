@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T05:15:34.677Z",
+  "generatedAt": "2026-06-11T05:26:51.501Z",
   "date": "2026-06-11",
   "sources": {
     "github": "https://api.github.com/search/repositories",
@@ -29,7 +29,7 @@
       "name": "hermes-agent",
       "owner": "NousResearch",
       "description": "The agent that grows with you",
-      "descriptionZh": "The agent that grows with you",
+      "descriptionZh": "与你共同成长的代理人",
       "url": "https://github.com/NousResearch/hermes-agent",
       "tags": [
         "Agent"
@@ -53,17 +53,17 @@
         "openclaw"
       ],
       "language": "Python",
-      "stars": 190192,
-      "starGrowth": 1127,
-      "forkGrowth": 340,
-      "forks": 32972,
-      "openIssues": 19879,
+      "stars": 190198,
+      "starGrowth": 1133,
+      "forkGrowth": 341,
+      "forks": 32973,
+      "openIssues": 19883,
       "discussion": 41,
-      "discussionTotal": 19879,
+      "discussionTotal": 19883,
       "hot": 100,
       "pushedAt": "2026-06-11T05:12:25Z",
       "createdAt": "2025-07-22T22:22:28Z",
-      "reason": "较上一份快照新增 1127 stars、340 forks，讨论度增长代理值 41。",
+      "reason": "较上一份快照新增 1133 stars、341 forks，讨论度增长代理值 41。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -89,7 +89,7 @@
       "name": "ECC",
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "descriptionZh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "descriptionZh": "代理线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、直觉、记忆、安全和研究优先开发。",
       "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "Agent",
@@ -107,17 +107,17 @@
         "productivity"
       ],
       "language": "JavaScript",
-      "stars": 212870,
-      "starGrowth": 813,
-      "forkGrowth": 148,
-      "forks": 32707,
-      "openIssues": 45,
+      "stars": 212874,
+      "starGrowth": 817,
+      "forkGrowth": 149,
+      "forks": 32708,
+      "openIssues": 42,
       "discussion": 18,
-      "discussionTotal": 45,
+      "discussionTotal": 42,
       "hot": 62,
-      "pushedAt": "2026-06-11T05:15:14Z",
+      "pushedAt": "2026-06-11T05:25:52Z",
       "createdAt": "2026-01-18T00:51:51Z",
-      "reason": "较上一份快照新增 813 stars、148 forks，讨论度增长代理值 18。",
+      "reason": "较上一份快照新增 817 stars、149 forks，讨论度增长代理值 18。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -143,7 +143,7 @@
       "name": "open-design",
       "owner": "nexu-io",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-      "descriptionZh": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "descriptionZh": "🎨 本地优先，开源的Claude Design替代方案。 🖥️ 本机桌面应用程序。 ⚡ 259+技能✨ 142+设计系统🖼️ 网络·桌面·移动原型·幻灯片·图像·视频·HyperFrames📦 沙盒预览·HTML/PDF/PPTX/MP4导出🤖 克劳德代码/OpenClaw/Codex/Cursor/OpenCode/Qwen/Copilot/Hermes/Kimi和17+CLI。",
       "url": "https://github.com/nexu-io/open-design",
       "tags": [
         "Agent",
@@ -174,17 +174,17 @@
         "vibe-coding"
       ],
       "language": "TypeScript",
-      "stars": 63064,
-      "starGrowth": 549,
-      "forkGrowth": 49,
-      "forks": 7034,
-      "openIssues": 417,
-      "discussion": 22,
-      "discussionTotal": 417,
+      "stars": 63066,
+      "starGrowth": 551,
+      "forkGrowth": 50,
+      "forks": 7035,
+      "openIssues": 418,
+      "discussion": 23,
+      "discussionTotal": 418,
       "hot": 46,
-      "pushedAt": "2026-06-11T05:04:13Z",
+      "pushedAt": "2026-06-11T05:21:18Z",
       "createdAt": "2026-04-28T04:25:20Z",
-      "reason": "较上一份快照新增 549 stars、49 forks，讨论度增长代理值 22。",
+      "reason": "较上一份快照新增 551 stars、50 forks，讨论度增长代理值 23。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -210,7 +210,7 @@
       "name": "firecrawl",
       "owner": "firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "descriptionZh": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "descriptionZh": "API，用于搜索、抓取和与网络进行大规模交互。 🔥",
       "url": "https://github.com/firecrawl/firecrawl",
       "tags": [
         "Agent"
@@ -237,8 +237,8 @@
         "webscraping"
       ],
       "language": "TypeScript",
-      "stars": 131225,
-      "starGrowth": 410,
+      "stars": 131227,
+      "starGrowth": 412,
       "forkGrowth": 12,
       "forks": 7750,
       "openIssues": 377,
@@ -247,7 +247,7 @@
       "hot": 27,
       "pushedAt": "2026-06-10T22:12:19Z",
       "createdAt": "2024-04-15T21:02:29Z",
-      "reason": "较上一份快照新增 410 stars、12 forks，讨论度增长代理值 1。",
+      "reason": "较上一份快照新增 412 stars、12 forks，讨论度增长代理值 1。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -273,7 +273,7 @@
       "name": "html-video",
       "owner": "nexu-io",
       "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "descriptionZh": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
+      "descriptionZh": "用于编码代理的程序化视频——将HTML转换为笔记本电脑上的视频。通过可插拔的渲染引擎、21个模板和AI配乐，将HTML、CSS和数据转换为真正的MP4。Apache-2.0，无需支付每次渲染费用。开放设计团队的官方项目。",
       "url": "https://github.com/nexu-io/html-video",
       "tags": [
         "Agent",
@@ -298,8 +298,8 @@
         "video-generation"
       ],
       "language": "HTML",
-      "stars": 2757,
-      "starGrowth": 229,
+      "stars": 2758,
+      "starGrowth": 230,
       "forkGrowth": 24,
       "forks": 314,
       "openIssues": 19,
@@ -308,7 +308,7 @@
       "hot": 20,
       "pushedAt": "2026-06-10T09:17:49Z",
       "createdAt": "2026-05-27T02:08:11Z",
-      "reason": "较上一份快照新增 229 stars、24 forks，讨论度增长代理值 3。",
+      "reason": "较上一份快照新增 230 stars、24 forks，讨论度增长代理值 3。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -334,7 +334,7 @@
       "name": "ollama",
       "owner": "ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "descriptionZh": "开始使用Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma和其他型号。",
       "url": "https://github.com/ollama/ollama",
       "tags": [
         "Model"
@@ -357,8 +357,8 @@
         "qwen"
       ],
       "language": "Go",
-      "stars": 173816,
-      "starGrowth": 90,
+      "stars": 173817,
+      "starGrowth": 91,
       "forkGrowth": 21,
       "forks": 16547,
       "openIssues": 3383,
@@ -367,7 +367,7 @@
       "hot": 18,
       "pushedAt": "2026-06-11T02:15:17Z",
       "createdAt": "2023-06-26T19:39:32Z",
-      "reason": "较上一份快照新增 90 stars、21 forks，讨论度增长代理值 6。",
+      "reason": "较上一份快照新增 91 stars、21 forks，讨论度增长代理值 6。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "挑战",
       "stack": [
@@ -390,7 +390,7 @@
       "name": "n8n",
       "owner": "n8n-io",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "descriptionZh": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "descriptionZh": "具有原生AI功能的公平代码工作流自动化平台。将可视化建筑与自定义代码、自托管或云相结合，400多种集成。",
       "url": "https://github.com/n8n-io/n8n",
       "tags": [
         "MCP"
@@ -418,8 +418,8 @@
         "workflow-automation"
       ],
       "language": "TypeScript",
-      "stars": 191995,
-      "starGrowth": 142,
+      "stars": 191996,
+      "starGrowth": 143,
       "forkGrowth": 18,
       "forks": 58449,
       "openIssues": 1469,
@@ -428,7 +428,7 @@
       "hot": 18,
       "pushedAt": "2026-06-10T23:52:52Z",
       "createdAt": "2019-06-22T09:24:21Z",
-      "reason": "较上一份快照新增 142 stars、18 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 143 stars、18 forks，讨论度增长代理值 2。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -454,7 +454,7 @@
       "name": "generative-ai-for-beginners",
       "owner": "microsoft",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "descriptionZh": "21 Lessons, Get Started Building with Generative AI",
+      "descriptionZh": "21课，开始用生成式人工智能构建",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
       "tags": [
         "Model"
@@ -476,17 +476,17 @@
         "transformers"
       ],
       "language": "Jupyter Notebook",
-      "stars": 111847,
-      "starGrowth": 38,
-      "forkGrowth": 23,
-      "forks": 60053,
+      "stars": 111848,
+      "starGrowth": 39,
+      "forkGrowth": 24,
+      "forks": 60054,
       "openIssues": 3,
       "discussion": 5,
       "discussionTotal": 3,
-      "hot": 15,
+      "hot": 16,
       "pushedAt": "2026-06-11T03:44:25Z",
       "createdAt": "2023-06-19T16:28:59Z",
-      "reason": "较上一份快照新增 38 stars、23 forks，讨论度增长代理值 5。",
+      "reason": "较上一份快照新增 39 stars、24 forks，讨论度增长代理值 5。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -509,7 +509,7 @@
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionZh": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "descriptionZh": "AutoGPT的愿景是让每个人都能使用和构建可访问的AI。我们的使命是提供工具，让您能够专注于重要的事情。",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "tags": [
         "Agent",
@@ -537,7 +537,7 @@
       "discussion": 4,
       "discussionTotal": 441,
       "hot": 13,
-      "pushedAt": "2026-06-11T04:18:58Z",
+      "pushedAt": "2026-06-11T05:22:28Z",
       "createdAt": "2023-03-16T09:21:07Z",
       "reason": "较上一份快照新增 27 stars、0 forks，讨论度增长代理值 4。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
@@ -565,7 +565,7 @@
       "name": "transformers",
       "owner": "huggingface",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "descriptionZh": "🤗 Transformers：用于文本、视觉、音频和多模态模型中最先进的机器学习模型的模型定义框架，用于推理和训练。",
       "url": "https://github.com/huggingface/transformers",
       "tags": [
         "Image",
@@ -593,8 +593,8 @@
         "vlm"
       ],
       "language": "Python",
-      "stars": 161490,
-      "starGrowth": 23,
+      "stars": 161491,
+      "starGrowth": 24,
       "forkGrowth": 12,
       "forks": 33463,
       "openIssues": 2408,
@@ -603,7 +603,7 @@
       "hot": 13,
       "pushedAt": "2026-06-11T04:42:03Z",
       "createdAt": "2018-10-29T13:56:00Z",
-      "reason": "较上一份快照新增 23 stars、12 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 24 stars、12 forks，讨论度增长代理值 2。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -629,7 +629,7 @@
       "name": "prompts.chat",
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "descriptionZh": "f.k.a.很棒的ChatGPT提示。分享、发现和收集社区提示。免费开源——为您的组织提供完全隐私的自托管服务。",
       "url": "https://github.com/f/prompts.chat",
       "tags": [
         "Tool"
@@ -688,7 +688,7 @@
       "name": "DeepSeek-Code-Whale",
       "owner": "usewhale",
       "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
-      "descriptionZh": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
+      "descriptionZh": "Whale——速度惊人，DeepSeek的终端第一AI编码代理。约98%的提示缓存命中率，1M上下文，MCP工具，动态工作流。",
       "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
       "tags": [
         "Agent",
@@ -708,8 +708,8 @@
         "terminal"
       ],
       "language": "Go",
-      "stars": 607,
-      "starGrowth": 47,
+      "stars": 608,
+      "starGrowth": 48,
       "forkGrowth": 2,
       "forks": 44,
       "openIssues": 10,
@@ -718,7 +718,7 @@
       "hot": 9,
       "pushedAt": "2026-06-11T04:42:43Z",
       "createdAt": "2026-05-06T07:01:36Z",
-      "reason": "较上一份快照新增 47 stars、2 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 48 stars、2 forks，讨论度增长代理值 0。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "挑战",
       "stack": [
@@ -744,7 +744,7 @@
       "name": "zerostack",
       "owner": "gi-dellav",
       "description": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
-      "descriptionZh": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
+      "descriptionZh": "用Rust编写的最小编码代理，针对内存占用和性能进行了优化",
       "url": "https://github.com/gi-dellav/zerostack",
       "tags": [
         "Agent",
@@ -809,7 +809,7 @@
       "heat": 74,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude"
+      "summaryZh": "Anthropic撤销了可能利用克劳德“破坏”人工智能研究人员的政策"
     },
     {
       "id": "google-news-anthropic-anthropic-s-new-fable-ai-model-is-met-with-user-backlash-over-restrictions-wsj",
@@ -824,22 +824,7 @@
       "heat": 74,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic’s New Fable AI Model Is Met With User Backlash Over Restrictions"
-    },
-    {
-      "id": "google-news-google-the-june-2026-ai-model-comparison-every-developer-needs-to-read-abhs-in",
-      "title": "The June 2026 AI Model Comparison Every Developer Needs to Read - abhs.in",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTItdExPNlhiV0ZhcTJIQXVaZzZjam1MbVpuUTdPQnA0eDlidENqZWZERGJfN19PWVUzcWctSEwyZUU0ZkY1akFHamhTQ05aaUNreGh4bVpqajNoUjVZTFpXOURTR3BpNFJEVFBNSVRoTzd4aTQ4YUQ4V0NqRmw4aHhSQ2gyVU1ZRmpmU25DM1FiYUJkaXNFM19taGtaT0lzMy1SdnktNA?oc=5",
-      "source": "Google News: Google / abhs.in",
-      "company": "Google",
-      "publishedAt": "2026-06-11T04:07:42.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTItdExPNlhiV0ZhcTJIQXVaZzZjam1MbVpuUTdPQnA0eDlidENqZWZERGJfN19PWVUzcWctSEwyZUU0ZkY1akFHamhTQ05aaUNreGh4bVpqajNoUjV",
-      "topic": "模型发布",
-      "time": "2026-06-11",
-      "heat": 74,
-      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "The June 2026 AI Model Comparison Every Developer Needs to Read - abhs.in"
+      "summaryZh": "Anthropic的新寓言AI模型因限制而遭到用户的强烈反对"
     },
     {
       "id": "openai-how-an-astrophysicist-uses-codex-to-help-simulate-black-holes",
@@ -854,37 +839,7 @@
       "heat": 73,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "How an astrophysicist uses Codex to help simulate black holes"
-    },
-    {
-      "id": "google-news-openai-access-openai-models-and-codex-through-your-oracle-cloud-commitment-openai",
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55VVFwTHI2a21SMkRfWWc4cUY2UkZBWVhNZkctQ2xMSXNBcGpqSTg4Q0hkaTlYR3huZDVkVzVwVW5ERWt2cmVNeHdGLUEyRnhVTUdyd0RFVEZGd1Z1?oc=5",
-      "source": "Google News: OpenAI / OpenAI",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T22:28:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE55VVFwTHI2a21SMkRfWWc4cUY2UkZBWVhNZkctQ2xMSXNBcGpqSTg4Q0hkaTlYR3huZDVkVzVwVW5ERWt2cmVNeHdGLUEyRnhVTUdyd0RFVEZGd1Z1?oc",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 73,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Access OpenAI models and Codex through your Oracle cloud commitment"
-    },
-    {
-      "id": "google-news-openai-visa-partners-with-openai-to-let-ai-agents-make-payments-for-users-siliconangle",
-      "title": "Visa partners with OpenAI to let AI agents make payments for users - SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczhoUTA3VFdOQnJwenNnOW1MYWlwSUV6RndlNmFWRGRybUJldHBqVlJYNHdMaS1CdEpmMXFrUEt1elE?oc=5",
-      "source": "Google News: OpenAI / SiliconANGLE",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T22:30:24.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczh",
-      "topic": "开发者工具",
-      "time": "2026-06-10",
-      "heat": 73,
-      "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Visa partners with OpenAI to let AI agents make payments for users"
+      "summaryZh": "天体物理学家如何使用Codex来帮助模拟黑洞"
     },
     {
       "id": "google-news-openai-china-based-operatives-used-chatgpt-to-shape-ai-data-centers-and-tariff-debates-axios",
@@ -899,7 +854,37 @@
       "heat": 73,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "China-based operatives used ChatGPT to shape AI data centers and tariff debates"
+      "summaryZh": "总部位于中国的特工使用ChatGPT来塑造人工智能数据中心和关税辩论"
+    },
+    {
+      "id": "google-news-openai-access-openai-models-and-codex-through-your-oracle-cloud-commitment-openai",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55VVFwTHI2a21SMkRfWWc4cUY2UkZBWVhNZkctQ2xMSXNBcGpqSTg4Q0hkaTlYR3huZDVkVzVwVW5ERWt2cmVNeHdGLUEyRnhVTUdyd0RFVEZGd1Z1?oc=5",
+      "source": "Google News: OpenAI / OpenAI",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T22:28:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE55VVFwTHI2a21SMkRfWWc4cUY2UkZBWVhNZkctQ2xMSXNBcGpqSTg4Q0hkaTlYR3huZDVkVzVwVW5ERWt2cmVNeHdGLUEyRnhVTUdyd0RFVEZGd1Z1?oc",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 72,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "通过您的Oracle云承诺访问OpenAI模型和Codex"
+    },
+    {
+      "id": "google-news-openai-visa-partners-with-openai-to-let-ai-agents-make-payments-for-users-siliconangle",
+      "title": "Visa partners with OpenAI to let AI agents make payments for users - SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczhoUTA3VFdOQnJwenNnOW1MYWlwSUV6RndlNmFWRGRybUJldHBqVlJYNHdMaS1CdEpmMXFrUEt1elE?oc=5",
+      "source": "Google News: OpenAI / SiliconANGLE",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T22:30:24.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczh",
+      "topic": "开发者工具",
+      "time": "2026-06-10",
+      "heat": 72,
+      "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Visa与OpenAI合作，让AI代理为用户付款"
     },
     {
       "id": "google-news-google-superai-singapore-google-deepmind-opens-its-science-ai-toolkit-to-asia-pacific-startups-digitimes",
@@ -914,22 +899,7 @@
       "heat": 72,
       "importance": "Google 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "SuperAI Singapore: Google DeepMind opens its science AI toolkit to Asia-Pacific startups - digitimes"
-    },
-    {
-      "id": "google-news-openai-openai-mulls-slashing-prices-as-it-competes-with-anthropic-for-users-wsj-cnbc",
-      "title": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWEydEhmM0g5cEVHcjlvNTBueWpZRmFpcDNPekV2OU9hWV9BMzJsd3NLNWEwcFpydDFQX1JZc0I2Xy1ZcktIZDlxV2RramNQT1F5WnXSAa4BQVVfeXFMTTA0akxwVmdMa0RybEpINXVxTUxTSkJWRWNnY3pDUXN2ZDAyaW53dkRvVG1QM3hQSWt4aFlQTnJwWkVoYUdzd3F3cWFybHA5cE9feHQyTlhHc0pDaFhlMVVTWTBRU3hLRHlWamFsQldzTnpHOWRXcjREbG9UcTRTRGZsLTFhYTlnQWQ4OFpUTEZkR21mR3VsdGpRbmloN01vT0ZxTGl6dEtkM09fZS1n?oc=5",
-      "source": "Google News: OpenAI / CNBC",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-11T03:24:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWE",
-      "topic": "AI 产品与应用",
-      "time": "2026-06-11",
-      "heat": 71,
-      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ"
+      "summaryZh": "SuperAI新加坡：谷歌DeepMind向亚太初创公司开放其科学AI工具包-数字化"
     },
     {
       "id": "google-news-openai-openai-likely-chinese-influence-operation-tried-to-use-chatgpt-to-stir-debate-on-data-centers-cyberscoop",
@@ -944,7 +914,7 @@
       "heat": 71,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI: ‘Likely’ Chinese influence operation tried to use ChatGPT to stir debate on data centers"
+      "summaryZh": "OpenAI：“可能”的中国影响力运营试图利用ChatGPT引发关于数据中心的争论"
     },
     {
       "id": "google-news-openai-openai-says-china-based-actors-stoking-opposition-to-ai-data-centres-al-jazeera",
@@ -959,7 +929,7 @@
       "heat": 71,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI says China-based actors stoking opposition to AI data centres"
+      "summaryZh": "OpenAI表示，中国的参与者激起了对人工智能数据中心的反对"
     },
     {
       "id": "google-news-google-google-s-new-ai-model-hits-1-000-tokens-per-second-on-nvidia-gpus-yellow-com",
@@ -974,37 +944,22 @@
       "heat": 71,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Google's New AI Model Hits 1,000 Tokens Per Second On Nvidia GPUs"
+      "summaryZh": "谷歌的新AI模型在Nvidia GPU上每秒达到1000个令牌"
     },
     {
-      "id": "google-news-openai-visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-wsj",
-      "title": "Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbEtRbUVBNldBSEl0bTBVeHdGYWUzdi1TQ256RTVnbWhwaEFTYXpQLVdWZ1V6MkpwYXh1TXZydlUxWHpncW5SYlhJaXJNWXJsSXVBUFd1ZGZJWnhBMndDTUhST0dmYUoybGFMdUlWSjM3MGtPM3NkSW9tZ3BsZng1akc3UURSWkNHVGZSQ3dpOUFJZVBKOVktV0w2TTB1TzMxTFYwd2g2Wl9SZw?oc=5",
-      "source": "Google News: OpenAI / WSJ",
+      "id": "google-news-openai-openai-mulls-slashing-prices-as-it-competes-with-anthropic-for-users-wsj-cnbc",
+      "title": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWEydEhmM0g5cEVHcjlvNTBueWpZRmFpcDNPekV2OU9hWV9BMzJsd3NLNWEwcFpydDFQX1JZc0I2Xy1ZcktIZDlxV2RramNQT1F5WnXSAa4BQVVfeXFMTTA0akxwVmdMa0RybEpINXVxTUxTSkJWRWNnY3pDUXN2ZDAyaW53dkRvVG1QM3hQSWt4aFlQTnJwWkVoYUdzd3F3cWFybHA5cE9feHQyTlhHc0pDaFhlMVVTWTBRU3hLRHlWamFsQldzTnpHOWRXcjREbG9UcTRTRGZsLTFhYTlnQWQ4OFpUTEZkR21mR3VsdGpRbmloN01vT0ZxTGl6dEtkM09fZS1n?oc=5",
+      "source": "Google News: OpenAI / CNBC",
       "company": "OpenAI",
-      "publishedAt": "2026-06-10T18:40:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbEtRbUVBNldBSEl0bTBVeHdGYWUzdi1TQ256RTVnbWhwaEFTYXpQLVdWZ1V6MkpwYXh1TXZydlUxWHpncW5SYlhJaXJNWXJsSXVBUFd1ZGZJWnhBMnd",
-      "topic": "模型发布",
-      "time": "2026-06-10",
+      "publishedAt": "2026-06-11T03:24:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWE",
+      "topic": "AI 产品与应用",
+      "time": "2026-06-11",
       "heat": 70,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership"
-    },
-    {
-      "id": "google-news-openai-visa-lets-agents-pay-through-openai-axios",
-      "title": "Visa lets agents pay through OpenAI - Axios",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hMktEbGs4SjI0ampfMWtJREVrWmtnODI4MnVCVE9aVHlBWnJmV0dMS01PWnM0Qm5zMnh6NTRhS3RQVU9URzJWZURXNF81enE5NC1FUmVVZDdxNWNuWTZHZ2RpeldsaEVYUi10Zml3?oc=5",
-      "source": "Google News: OpenAI / Axios",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T18:40:50.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9hMktEbGs4SjI0ampfMWtJREVrWmtnODI4MnVCVE9aVHlBWnJmV0dMS01PWnM0Qm5zMnh6NTRhS3RQVU9URzJWZURXNF81enE5NC1FUmVVZDdxNWNuWTZ",
-      "topic": "开发者工具",
-      "time": "2026-06-10",
-      "heat": 70,
-      "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Visa lets agents pay through OpenAI"
+      "summaryZh": "OpenAI考虑大幅降价，因为它与Anthropic争夺用户：《华尔街日报》"
     },
     {
       "id": "google-news-openai-visa-and-openai-partner-to-let-ai-agents-shop-via-chatgpt-qz-com",
@@ -1012,14 +967,14 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTdHbmpiUjNxbzRHTkcwQQ?oc=5",
       "source": "Google News: OpenAI / qz.com",
       "company": "OpenAI",
-      "publishedAt": "2026-06-10T19:50:14.000Z",
+      "publishedAt": "2026-06-10T19:20:14.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTd",
       "topic": "模型发布",
       "time": "2026-06-10",
       "heat": 70,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa and OpenAI partner to let AI agents shop via ChatGPT - qz.com"
+      "summaryZh": "Visa和OpenAI合作让AI代理商通过ChatGPT-qz.com购物"
     },
     {
       "id": "google-news-google-gemini-prompt-injection-shows-ai-adoption-is-increasing-risk-for-companies-international-business-times",
@@ -1034,7 +989,7 @@
       "heat": 70,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Gemini Prompt Injection Shows AI Adoption is Increasing Risk for Companies"
+      "summaryZh": "Gemini Prompt Injection显示人工智能的采用正在增加公司的风险"
     },
     {
       "id": "openai-prc-linked-influence-operations-are-targeting-ai-debates-in-the-us",
@@ -1049,7 +1004,22 @@
       "heat": 69,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "PRC-linked influence operations are targeting AI debates in the US"
+      "summaryZh": "与中国有关的影响力行动针对的是美国的人工智能辩论"
+    },
+    {
+      "id": "google-news-openai-visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-wsj",
+      "title": "Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbEtRbUVBNldBSEl0bTBVeHdGYWUzdi1TQ256RTVnbWhwaEFTYXpQLVdWZ1V6MkpwYXh1TXZydlUxWHpncW5SYlhJaXJNWXJsSXVBUFd1ZGZJWnhBMndDTUhST0dmYUoybGFMdUlWSjM3MGtPM3NkSW9tZ3BsZng1akc3UURSWkNHVGZSQ3dpOUFJZVBKOVktV0w2TTB1TzMxTFYwd2g2Wl9SZw?oc=5",
+      "source": "Google News: OpenAI / WSJ",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T18:40:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbEtRbUVBNldBSEl0bTBVeHdGYWUzdi1TQ256RTVnbWhwaEFTYXpQLVdWZ1V6MkpwYXh1TXZydlUxWHpncW5SYlhJaXJNWXJsSXVBUFd1ZGZJWnhBMnd",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 69,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Visa将通过OpenAI合作伙伴关系在ChatGPT上为购物者提供安全支付"
     },
     {
       "id": "google-news-openai-openai-visa-team-up-to-let-ai-agents-make-purchases-online-bloomberg-com",
@@ -1064,7 +1034,7 @@
       "heat": 69,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI, Visa Team Up to Let AI Agents Make Purchases Online"
+      "summaryZh": "OpenAI和Visa联手让AI代理商在线购物"
     },
     {
       "id": "google-news-openai-exclusive-openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-wsj",
@@ -1079,7 +1049,7 @@
       "heat": 69,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic"
+      "summaryZh": "独家| OpenAI考虑大幅降价，预计用户将与Anthropic开战"
     },
     {
       "id": "google-news-openai-openai-s-chatgpt-ads-get-its-first-conversion-api-partner-in-liveramp-digiday",
@@ -1094,7 +1064,37 @@
       "heat": 69,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI’s ChatGPT ads get its first conversion API partner in LiveRamp"
+      "summaryZh": "OpenAI的ChatGPT广告在LiveRamp获得其第一个转换API合作伙伴"
+    },
+    {
+      "id": "google-news-openai-visa-lets-agents-pay-through-openai-axios",
+      "title": "Visa lets agents pay through OpenAI - Axios",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hMktEbGs4SjI0ampfMWtJREVrWmtnODI4MnVCVE9aVHlBWnJmV0dMS01PWnM0Qm5zMnh6NTRhS3RQVU9URzJWZURXNF81enE5NC1FUmVVZDdxNWNuWTZHZ2RpeldsaEVYUi10Zml3?oc=5",
+      "source": "Google News: OpenAI / Axios",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T18:40:50.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9hMktEbGs4SjI0ampfMWtJREVrWmtnODI4MnVCVE9aVHlBWnJmV0dMS01PWnM0Qm5zMnh6NTRhS3RQVU9URzJWZURXNF81enE5NC1FUmVVZDdxNWNuWTZ",
+      "topic": "开发者工具",
+      "time": "2026-06-10",
+      "heat": 69,
+      "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Visa允许代理商通过OpenAI支付"
+    },
+    {
+      "id": "google-news-mistral-mistral-vs-claude-fable-5-vs-gpt-4o-the-european-developer-model-decision-in-2026-abhs-in",
+      "title": "Mistral vs Claude Fable 5 vs GPT-4o: The European Developer Model Decision in 2026 - abhs.in",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUGpYNlkwSk9Cc2pvTm1mclJ5eFl3Y2lEZ1ZPRlhQNjUxRHoza0xvLWp4SnI4NGh6NDMtV0p5aF9kcU02cU9QQXhJZUY1WUttQmxGdzFtZTNHUTRkNFRwbjVkTUhyS0JCMUlkY3pPZFhUSENnRWNkR29yMUlDOGoxSE9pc1RzUlE1SE1PWEl2M2pKTi01?oc=5",
+      "source": "Google News: Mistral / abhs.in",
+      "company": "Mistral",
+      "publishedAt": "2026-06-11T04:27:45.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNUGpYNlkwSk9Cc2pvTm1mclJ5eFl3Y2lEZ1ZPRlhQNjUxRHoza0xvLWp4SnI4NGh6NDMtV0p5aF9kcU02cU9QQXhJZUY1WUttQmxGdzFtZTNHUTRkNFR",
+      "topic": "模型发布",
+      "time": "2026-06-11",
+      "heat": 69,
+      "importance": "Mistral 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Mistral vs Claude Fable 5 vs GPT-4o:2026年欧洲开发商模式决策-abhs.in"
     }
   ],
   "beginnerProjects": [
@@ -1792,7 +1792,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 2465,
+      "stars": 2466,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2661,7 +2661,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 164,
+      "stars": 165,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -3392,7 +3392,7 @@
         "tools"
       ],
       "forks": 696,
-      "openIssues": 1161
+      "openIssues": 1159
     },
     {
       "id": 993746345,
