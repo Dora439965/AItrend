@@ -132,21 +132,136 @@ function localizeTechText(value = "", fallback = "暂无中文摘要。") {
 function repoChineseSummary(repo, description) {
   const text = compactText(description);
   if (hasChinese(text)) return text;
-  // 无翻译 API 时生成简短的中文引导语 + 英文原文，避免纯英文或套话
-  const language = repo.language || "Unknown";
-  const stars = repo.stargazers_count || 0;
-  const starsLabel = stars > 10000 ? `${(stars / 1000).toFixed(0)}k stars` : `${stars} stars`;
-  return `${language} 项目 · ${starsLabel}。${text || "暂无简介，请查看 README。"}`;
+  if (!text) return "暂无项目简介，请查看 README。";
+
+  // 基于关键词做中文概括：翻译常见短语 + 结合 topics/language 补充上下文
+  let zh = translateDescription(text);
+
+  // 如果翻译后仍为英文（未命中规则），用 "语言 + topics 关键词" 拼出简短中文描述
+  if (!hasChinese(zh)) {
+    const lang = repo.language || "";
+    const topics = (repo.topics || []).slice(0, 5);
+    const topicZh = topics.map(translateTopic).filter(Boolean).join("、");
+    if (topicZh) {
+      zh = `基于 ${lang || "多语言"} 的${topicZh}工具。${text}`;
+    } else {
+      zh = `${lang} 开源项目。${text}`;
+    }
+  }
+  return zh;
 }
 
 function newsChineseSummary(item) {
   const text = compactText(item.summary || item.title);
   if (hasChinese(text)) return text;
-  // 用标题作为核心内容，前面加来源和主题标注
+  // 翻译新闻标题
   const title = (item.title || "").replace(/\s*[-–—]\s*[A-Z][^-]*$/, "").trim();
-  const company = item.company || "AI";
-  return `[${company}] ${title || text || "暂无摘要"}`;
+  let zh = translateDescription(title);
+  if (!hasChinese(zh)) {
+    // fallback: 公司名 + 翻译后的标题
+    zh = `${item.company || "AI"} 动态：${title}`;
+  }
+  return zh;
 }
+
+// 基于关键词规则的英→中翻译（覆盖 AI/开发工具领域常见表达）
+function translateDescription(text) {
+  if (!text) return "";
+  let result = text;
+  const rules = [
+    // 通用动词短语
+    [/\bGet up and running with\b/gi, "快速启动和运行"],
+    [/\bThe (?:API|platform|tool|framework) (?:to|for)\b/gi, "用于"],
+    [/\bat scale\b/gi, "大规模"],
+    [/\bopen[- ]source\b/gi, "开源"],
+    [/\blocal[- ]first\b/gi, "本地优先"],
+    [/\bself[- ]host(?:ed)?\b/gi, "可自托管"],
+    [/\bno[- ]code\b/gi, "无代码"],
+    [/\blow[- ]code\b/gi, "低代码"],
+    [/\bfair[- ]code\b/gi, "公平代码许可"],
+    [/\bnative (?:AI|desktop|app)\b/gi, "原生"],
+    [/\bfor everyone\b/gi, "面向所有人"],
+    [/\bfor beginners?\b/gi, "面向初学者"],
+    [/\bfor developers?\b/gi, "面向开发者"],
+    // AI 领域术语
+    [/\bAI agent(?:s)?\b/gi, "AI Agent"],
+    [/\bcoding agent(?:s)?\b/gi, "编程 Agent"],
+    [/\bworkflow automation\b/gi, "工作流自动化"],
+    [/\bworkflow(?:s)?\b/gi, "工作流"],
+    [/\btool(?:s)? (?:calling|use)\b/gi, "工具调用"],
+    [/\bprompt(?:s)? engineering\b/gi, "提示词工程"],
+    [/\bvector (?:search|retrieval|db|database)\b/gi, "向量检索"],
+    [/\bembedding(?:s)?\b/gi, "向量嵌入"],
+    [/\bretrieval[- ]augmented generation\b/gi, "检索增强生成(RAG)"],
+    [/\bRAG\b/g, "检索增强生成"],
+    [/\bLLM(?:s)?\b/g, "大语言模型"],
+    [/\blarge language model(?:s)?\b/gi, "大语言模型"],
+    [/\bmulti[- ]?modal\b/gi, "多模态"],
+    [/\bmulti[- ]?agent\b/gi, "多 Agent"],
+    [/\bmodel[- ]?hub\b/gi, "模型中心"],
+    [/\bfine[- ]?tun(?:e|ing)\b/gi, "微调"],
+    [/\binference\b/gi, "推理"],
+    [/\btraining\b/gi, "训练"],
+    [/\bdeep learning\b/gi, "深度学习"],
+    [/\bmachine learning\b/gi, "机器学习"],
+    [/\bnatural language processing\b/gi, "自然语言处理"],
+    [/\bcomputer vision\b/gi, "计算机视觉"],
+    [/\btext[- ]to[- ](?:image|video|speech|audio)\b/gi, (m) => `文本转${m.includes("image") ? "图像" : m.includes("video") ? "视频" : m.includes("speech") ? "语音" : "音频"}`],
+    [/\bimage[- ](?:generation|creation)\b/gi, "图像生成"],
+    [/\bvideo[- ](?:generation|creation)\b/gi, "视频生成"],
+    [/\bcode[- ]?gen(?:eration)?\b/gi, "代码生成"],
+    // 开发工具
+    [/\bweb[- ]?scrap(?:ing|er)\b/gi, "网页抓取"],
+    [/\bweb[- ]?crawl(?:ing|er)\b/gi, "网页爬虫"],
+    [/\bdata[- ]?extract(?:ion)?\b/gi, "数据提取"],
+    [/\bHTML[- ]to[- ]Markdown\b/gi, "HTML 转 Markdown"],
+    [/\bvisual building\b/gi, "可视化搭建"],
+    [/\bbrowser[- ]?automation\b/gi, "浏览器自动化"],
+    [/\bCLI\b/g, "命令行工具"],
+    [/\bAPI(?:s)?\b/g, "API 接口"],
+    [/\bSDK\b/g, "SDK"],
+    [/\bplugin(?:s)?\b/gi, "插件"],
+    [/\bintegration(?:s)?\b/gi, "集成"],
+    // 产品/商业
+    [/\bIPO\b/g, "IPO 上市"],
+    [/\bconfidentially files?\b/gi, "秘密提交"],
+    [/\bgoes? public\b/gi, "上市"],
+    [/\bfund(?:ing|raise|ed)\b/gi, "融资"],
+    [/\bacquir(?:e|es|ed|ing)\b/gi, "收购"],
+    [/\bpartner(?:s|ship)?\b/gi, "合作"],
+    [/\blaunch(?:es|ed)?\b/gi, "发布"],
+    [/\breleases?\b/gi, "发布"],
+    [/\bannounce(?:s|d)?\b/gi, "宣布"],
+    [/\bintroduce(?:s|d)?\b/gi, "推出"],
+    [/\bsmart glasses\b/gi, "智能眼镜"],
+    [/\bpayment(?:s)?\b/gi, "支付"],
+  ];
+
+  for (const [pattern, replacement] of rules) {
+    result = result.replace(pattern, replacement);
+  }
+  return result;
+}
+
+function translateTopic(topic) {
+  const map = {
+    "ai": "AI", "llm": "大语言模型", "ai-agent": "AI Agent", "ai-agents": "AI Agent",
+    "rag": "RAG 检索增强", "mcp": "MCP 协议", "machine-learning": "机器学习",
+    "deep-learning": "深度学习", "generative-ai": "生成式 AI", "openai": "OpenAI",
+    "claude": "Claude", "chatgpt": "ChatGPT", "automation": "自动化",
+    "workflow": "工作流", "web-scraping": "网页抓取", "coding-agent": "编程 Agent",
+    "developer-tools": "开发者工具", "self-hosted": "可自托管", "no-code": "无代码",
+    "low-code": "低代码", "natural-language-processing": "NLP",
+    "computer-vision": "计算机视觉", "transformers": "Transformer",
+    "image-generation": "图像生成", "video-generation": "视频生成",
+    "prompt-engineering": "提示词工程", "fine-tuning": "微调",
+    "embedding": "向量嵌入", "vector-database": "向量数据库",
+    "browser-automation": "浏览器自动化", "cli": "命令行",
+    "api": "API", "plugin": "插件", "sdk": "SDK",
+  };
+  return map[topic.toLowerCase()] || "";
+}
+
 
 function slugify(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
