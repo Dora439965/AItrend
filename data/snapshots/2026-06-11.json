@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T03:10:29.683Z",
+  "generatedAt": "2026-06-11T03:48:15.005Z",
   "date": "2026-06-11",
   "sources": {
     "github": "https://api.github.com/search/repositories",
@@ -29,7 +29,7 @@
       "name": "hermes-agent",
       "owner": "NousResearch",
       "description": "The agent that grows with you",
-      "descriptionZh": "基于 Python 的AI、AI Agent、AI Agent、ChatGPT工具。The agent that grows with you",
+      "descriptionZh": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "tags": [
         "Agent"
@@ -53,17 +53,17 @@
         "openclaw"
       ],
       "language": "Python",
-      "stars": 190102,
-      "starGrowth": 1037,
-      "forkGrowth": 310,
-      "forks": 32942,
-      "openIssues": 19911,
-      "discussion": 37,
-      "discussionTotal": 19911,
+      "stars": 190141,
+      "starGrowth": 1076,
+      "forkGrowth": 321,
+      "forks": 32953,
+      "openIssues": 19891,
+      "discussion": 39,
+      "discussionTotal": 19891,
       "hot": 100,
-      "pushedAt": "2026-06-11T03:04:19Z",
+      "pushedAt": "2026-06-11T03:46:20Z",
       "createdAt": "2025-07-22T22:22:28Z",
-      "reason": "较上一份快照新增 1037 stars、310 forks，讨论度增长代理值 37。",
+      "reason": "较上一份快照新增 1076 stars、321 forks，讨论度增长代理值 39。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -89,7 +89,7 @@
       "name": "ECC",
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "descriptionZh": "基于 JavaScript 的AI Agent、Claude、开发者工具工具。The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "descriptionZh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "Agent",
@@ -107,17 +107,17 @@
         "productivity"
       ],
       "language": "JavaScript",
-      "stars": 212811,
-      "starGrowth": 754,
-      "forkGrowth": 132,
-      "forks": 32691,
-      "openIssues": 59,
-      "discussion": 18,
-      "discussionTotal": 59,
-      "hot": 63,
-      "pushedAt": "2026-06-10T03:57:03Z",
+      "stars": 212831,
+      "starGrowth": 774,
+      "forkGrowth": 136,
+      "forks": 32695,
+      "openIssues": 54,
+      "discussion": 16,
+      "discussionTotal": 54,
+      "hot": 61,
+      "pushedAt": "2026-06-11T03:48:03Z",
       "createdAt": "2026-01-18T00:51:51Z",
-      "reason": "较上一份快照新增 754 stars、132 forks，讨论度增长代理值 18。",
+      "reason": "较上一份快照新增 774 stars、136 forks，讨论度增长代理值 16。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -143,7 +143,7 @@
       "name": "open-design",
       "owner": "nexu-io",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-      "descriptionZh": "🎨 本地优先, 开源 Claude Design alternative. 🖥️ 原生 app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "descriptionZh": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "url": "https://github.com/nexu-io/open-design",
       "tags": [
         "Agent",
@@ -174,17 +174,17 @@
         "vibe-coding"
       ],
       "language": "TypeScript",
-      "stars": 63002,
-      "starGrowth": 487,
-      "forkGrowth": 46,
-      "forks": 7031,
-      "openIssues": 408,
-      "discussion": 13,
-      "discussionTotal": 408,
-      "hot": 41,
-      "pushedAt": "2026-06-11T02:54:53Z",
+      "stars": 63017,
+      "starGrowth": 502,
+      "forkGrowth": 48,
+      "forks": 7033,
+      "openIssues": 412,
+      "discussion": 17,
+      "discussionTotal": 412,
+      "hot": 43,
+      "pushedAt": "2026-06-11T03:42:21Z",
       "createdAt": "2026-04-28T04:25:20Z",
-      "reason": "较上一份快照新增 487 stars、46 forks，讨论度增长代理值 13。",
+      "reason": "较上一份快照新增 502 stars、48 forks，讨论度增长代理值 17。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -210,7 +210,7 @@
       "name": "firecrawl",
       "owner": "firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "descriptionZh": "用于 search, scrape, and interact with the web 大规模. 🔥",
+      "descriptionZh": "The API to search, scrape, and interact with the web at scale. 🔥",
       "url": "https://github.com/firecrawl/firecrawl",
       "tags": [
         "Agent"
@@ -237,8 +237,8 @@
         "webscraping"
       ],
       "language": "TypeScript",
-      "stars": 131190,
-      "starGrowth": 375,
+      "stars": 131199,
+      "starGrowth": 384,
       "forkGrowth": 12,
       "forks": 7750,
       "openIssues": 377,
@@ -247,7 +247,7 @@
       "hot": 27,
       "pushedAt": "2026-06-10T22:12:19Z",
       "createdAt": "2024-04-15T21:02:29Z",
-      "reason": "较上一份快照新增 375 stars、12 forks，讨论度增长代理值 1。",
+      "reason": "较上一份快照新增 384 stars、12 forks，讨论度增长代理值 1。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -273,7 +273,7 @@
       "name": "html-video",
       "owner": "nexu-io",
       "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "descriptionZh": "Programmatic video for 编程 Agent — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
+      "descriptionZh": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
       "url": "https://github.com/nexu-io/html-video",
       "tags": [
         "Agent",
@@ -298,17 +298,17 @@
         "video-generation"
       ],
       "language": "HTML",
-      "stars": 2745,
-      "starGrowth": 217,
-      "forkGrowth": 22,
-      "forks": 312,
+      "stars": 2754,
+      "starGrowth": 226,
+      "forkGrowth": 23,
+      "forks": 313,
       "openIssues": 19,
       "discussion": 3,
       "discussionTotal": 19,
       "hot": 21,
       "pushedAt": "2026-06-10T09:17:49Z",
       "createdAt": "2026-05-27T02:08:11Z",
-      "reason": "较上一份快照新增 217 stars、22 forks，讨论度增长代理值 3。",
+      "reason": "较上一份快照新增 226 stars、23 forks，讨论度增长代理值 3。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -330,67 +330,11 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
-      "id": 658928958,
-      "name": "ollama",
-      "owner": "ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "快速启动和运行 Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "url": "https://github.com/ollama/ollama",
-      "tags": [
-        "Model"
-      ],
-      "topics": [
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm",
-        "go",
-        "golang",
-        "gpt-oss",
-        "llama",
-        "llama3",
-        "llm",
-        "llms",
-        "minimax",
-        "mistral",
-        "ollama",
-        "qwen"
-      ],
-      "language": "Go",
-      "stars": 173808,
-      "starGrowth": 82,
-      "forkGrowth": 21,
-      "forks": 16547,
-      "openIssues": 3382,
-      "discussion": 5,
-      "discussionTotal": 3382,
-      "hot": 18,
-      "pushedAt": "2026-06-11T02:15:17Z",
-      "createdAt": "2023-06-26T19:39:32Z",
-      "reason": "较上一份快照新增 82 stars、21 forks，讨论度增长代理值 5。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "挑战",
-      "stack": [
-        "Go",
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
       "id": 193215554,
       "name": "n8n",
       "owner": "n8n-io",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "descriptionZh": "公平代码许可 工作流自动化 platform with 原生 capabilities. Combine 可视化搭建 with custom code, 可自托管 or cloud, 400+ 集成.",
+      "descriptionZh": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
       "tags": [
         "MCP"
@@ -418,8 +362,8 @@
         "workflow-automation"
       ],
       "language": "TypeScript",
-      "stars": 191988,
-      "starGrowth": 135,
+      "stars": 191991,
+      "starGrowth": 138,
       "forkGrowth": 19,
       "forks": 58450,
       "openIssues": 1469,
@@ -428,7 +372,7 @@
       "hot": 18,
       "pushedAt": "2026-06-10T23:52:52Z",
       "createdAt": "2019-06-22T09:24:21Z",
-      "reason": "较上一份快照新增 135 stars、19 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 138 stars、19 forks，讨论度增长代理值 2。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -450,11 +394,122 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
+      "id": 658928958,
+      "name": "ollama",
+      "owner": "ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "descriptionZh": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "url": "https://github.com/ollama/ollama",
+      "tags": [
+        "Model"
+      ],
+      "topics": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llama3",
+        "llm",
+        "llms",
+        "minimax",
+        "mistral",
+        "ollama",
+        "qwen"
+      ],
+      "language": "Go",
+      "stars": 173810,
+      "starGrowth": 84,
+      "forkGrowth": 21,
+      "forks": 16547,
+      "openIssues": 3382,
+      "discussion": 5,
+      "discussionTotal": 3382,
+      "hot": 17,
+      "pushedAt": "2026-06-11T02:15:17Z",
+      "createdAt": "2023-06-26T19:39:32Z",
+      "reason": "较上一份快照新增 84 stars、21 forks，讨论度增长代理值 5。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "挑战",
+      "stack": [
+        "Go",
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm"
+      ],
+      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
+      "id": 655806940,
+      "name": "generative-ai-for-beginners",
+      "owner": "microsoft",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "descriptionZh": "21 Lessons, Get Started Building with Generative AI",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "tags": [
+        "Model"
+      ],
+      "topics": [
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e",
+        "generative-ai",
+        "generativeai",
+        "gpt",
+        "language-model",
+        "llms",
+        "microsoft-for-beginners",
+        "openai",
+        "prompt-engineering",
+        "semantic-search",
+        "transformers"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 111842,
+      "starGrowth": 33,
+      "forkGrowth": 21,
+      "forks": 60051,
+      "openIssues": 3,
+      "discussion": 5,
+      "discussionTotal": 3,
+      "hot": 15,
+      "pushedAt": "2026-06-11T03:44:25Z",
+      "createdAt": "2023-06-19T16:28:59Z",
+      "reason": "较上一份快照新增 33 stars、21 forks，讨论度增长代理值 5。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "入门到进阶",
+      "stack": [
+        "Jupyter Notebook",
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e"
+      ],
+      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
       "id": 614765452,
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionZh": "AutoGPT is the vision of accessible AI 面向所有人, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "descriptionZh": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "tags": [
         "Agent",
@@ -474,17 +529,17 @@
         "python"
       ],
       "language": "Python",
-      "stars": 184887,
-      "starGrowth": 25,
+      "stars": 184888,
+      "starGrowth": 26,
       "forkGrowth": 0,
-      "forks": 46158,
-      "openIssues": 440,
-      "discussion": 3,
-      "discussionTotal": 440,
+      "forks": 46159,
+      "openIssues": 441,
+      "discussion": 4,
+      "discussionTotal": 441,
       "hot": 13,
-      "pushedAt": "2026-06-11T02:29:18Z",
+      "pushedAt": "2026-06-11T03:33:06Z",
       "createdAt": "2023-03-16T09:21:07Z",
-      "reason": "较上一份快照新增 25 stars、0 forks，讨论度增长代理值 3。",
+      "reason": "较上一份快照新增 26 stars、0 forks，讨论度增长代理值 4。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -510,7 +565,7 @@
       "name": "transformers",
       "owner": "huggingface",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "🤗 Transformers: the model-definition framework for state-of-the-art 机器学习 models in text, vision, audio, and 多模态 models, for both 推理 and 训练.",
+      "descriptionZh": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
       "url": "https://github.com/huggingface/transformers",
       "tags": [
         "Image",
@@ -538,17 +593,17 @@
         "vlm"
       ],
       "language": "Python",
-      "stars": 161487,
-      "starGrowth": 20,
-      "forkGrowth": 10,
-      "forks": 33461,
+      "stars": 161488,
+      "starGrowth": 21,
+      "forkGrowth": 13,
+      "forks": 33464,
       "openIssues": 2408,
-      "discussion": 2,
+      "discussion": 3,
       "discussionTotal": 2408,
       "hot": 13,
       "pushedAt": "2026-06-11T03:00:03Z",
       "createdAt": "2018-10-29T13:56:00Z",
-      "reason": "较上一份快照新增 20 stars、10 forks，讨论度增长代理值 2。",
+      "reason": "较上一份快照新增 21 stars、13 forks，讨论度增长代理值 3。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -574,7 +629,7 @@
       "name": "prompts.chat",
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and 开源 — 可自托管 for your organization with complete privacy.",
+      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "url": "https://github.com/f/prompts.chat",
       "tags": [
         "Tool"
@@ -600,8 +655,8 @@
         "typescript"
       ],
       "language": "HTML",
-      "stars": 163539,
-      "starGrowth": 51,
+      "stars": 163543,
+      "starGrowth": 55,
       "forkGrowth": 4,
       "forks": 21227,
       "openIssues": 51,
@@ -610,7 +665,7 @@
       "hot": 12,
       "pushedAt": "2026-06-10T04:34:48Z",
       "createdAt": "2022-12-05T13:54:13Z",
-      "reason": "较上一份快照新增 51 stars、4 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 55 stars、4 forks，讨论度增长代理值 0。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -629,66 +684,11 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
-      "id": 655806940,
-      "name": "generative-ai-for-beginners",
-      "owner": "microsoft",
-      "description": "21 Lessons, Get Started Building with Generative AI ",
-      "descriptionZh": "基于 Jupyter Notebook 的AI、ChatGPT、生成式 AI工具。21 Lessons, Get Started Building with Generative AI",
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "tags": [
-        "Model"
-      ],
-      "topics": [
-        "ai",
-        "azure",
-        "chatgpt",
-        "dall-e",
-        "generative-ai",
-        "generativeai",
-        "gpt",
-        "language-model",
-        "llms",
-        "microsoft-for-beginners",
-        "openai",
-        "prompt-engineering",
-        "semantic-search",
-        "transformers"
-      ],
-      "language": "Jupyter Notebook",
-      "stars": 111842,
-      "starGrowth": 33,
-      "forkGrowth": 20,
-      "forks": 60050,
-      "openIssues": 1,
-      "discussion": 2,
-      "discussionTotal": 1,
-      "hot": 11,
-      "pushedAt": "2026-06-08T14:17:33Z",
-      "createdAt": "2023-06-19T16:28:59Z",
-      "reason": "较上一份快照新增 33 stars、20 forks，讨论度增长代理值 2。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "入门到进阶",
-      "stack": [
-        "Jupyter Notebook",
-        "ai",
-        "azure",
-        "chatgpt",
-        "dall-e"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
       "id": 1230620963,
       "name": "DeepSeek-Code-Whale",
       "owner": "usewhale",
       "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
-      "descriptionZh": "Whale — blazingly fast, terminal-first AI 编程 Agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic 工作流.",
+      "descriptionZh": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
       "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
       "tags": [
         "Agent",
@@ -744,7 +744,7 @@
       "name": "zerostack",
       "owner": "gi-dellav",
       "description": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
-      "descriptionZh": "Minimal 编程 Agent written in Rust, optimized for memory footprint and performance",
+      "descriptionZh": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
       "url": "https://github.com/gi-dellav/zerostack",
       "tags": [
         "Agent",
@@ -763,8 +763,8 @@
         "rust-lang"
       ],
       "language": "Rust",
-      "stars": 1243,
-      "starGrowth": 11,
+      "stars": 1245,
+      "starGrowth": 13,
       "forkGrowth": 4,
       "forks": 87,
       "openIssues": 1,
@@ -773,7 +773,7 @@
       "hot": 8,
       "pushedAt": "2026-06-10T21:31:47Z",
       "createdAt": "2026-05-12T19:31:49Z",
-      "reason": "较上一份快照新增 11 stars、4 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 13 stars、4 forks，讨论度增长代理值 0。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "挑战",
       "stack": [
@@ -797,6 +797,21 @@
   ],
   "news": [
     {
+      "id": "google-news-anthropic-anthropic-walks-back-policy-that-could-have-sabotaged-ai-researchers-using-claude-wired",
+      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnEtMHRDdUF6VkFPSkE5MkpSQ3pKNWdvWGpCd3dDU0dTTEE0UVF0aVhfOC0zaHRNYWdDWXFpQklCOXVRbEEwT19ZNVN3ZnVjRWRsejhMU09scUh1eTdTd2dGa3ltUXJQUHd4ZW8tMWJLU3FjUkRPYW5fQVRSUjJfZ2JnOTQ0NWFDb3NSYTFNa2ZaX1lRV2tmT1BmQmFlclFuT2NZ?oc=5",
+      "source": "Google News: Anthropic / WIRED",
+      "company": "Anthropic",
+      "publishedAt": "2026-06-11T03:11:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxORnEtMHRDdUF6VkFPSkE5MkpSQ3pKNWdvWGpCd3dDU0dTTEE0UVF0aVhfOC0zaHRNYWdDWXFpQklCOXVRbEEwT19ZNVN3ZnVjRWRsejhMU09scUh1eTd",
+      "topic": "模型发布",
+      "time": "2026-06-11",
+      "heat": 75,
+      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude"
+    },
+    {
       "id": "openai-how-an-astrophysicist-uses-codex-to-help-simulate-black-holes",
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
@@ -809,7 +824,7 @@
       "heat": 74,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：How an astrophysicist uses Codex to help simulate black holes"
+      "summaryZh": "How an astrophysicist uses Codex to help simulate black holes"
     },
     {
       "id": "google-news-openai-access-openai-models-and-codex-through-your-oracle-cloud-commitment-openai",
@@ -824,7 +839,7 @@
       "heat": 74,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：Access OpenAI models and Codex through your Oracle cloud commitment"
+      "summaryZh": "Access OpenAI models and Codex through your Oracle cloud commitment"
     },
     {
       "id": "google-news-openai-china-based-operatives-used-chatgpt-to-shape-ai-data-centers-and-tariff-debates-axios",
@@ -839,7 +854,37 @@
       "heat": 74,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：China-based operatives used ChatGPT to shape AI data centers and tariff debates"
+      "summaryZh": "China-based operatives used ChatGPT to shape AI data centers and tariff debates"
+    },
+    {
+      "id": "google-news-openai-visa-plugs-its-payment-network-into-chatgpt-letting-ai-agents-shop-and-pay-for-users-ap-news",
+      "title": "Visa plugs its payment network into ChatGPT, letting AI agents shop and pay for users - AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHZtakxXSFE2bHJoc3JueEthUlNFc2drdW44YkEzWW5VQlNDakRWRUpRM2V6dEs3RldsQkhQLUlMVGRIeGVSYjRMVHJYOHZNbDBuX2tpTzVOVUlXVl9BU3VuREVfeGtzSVlPUEVEV3JRc3NGSkFsbHFqdjVTS3l5R2c4c1JWVGpKSmEwc1N6bWlvMVQwMlhyWlRUUWs5MUtf?oc=5",
+      "source": "Google News: OpenAI / AP News",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T22:43:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxONHZtakxXSFE2bHJoc3JueEthUlNFc2drdW44YkEzWW5VQlNDakRWRUpRM2V6dEs3RldsQkhQLUlMVGRIeGVSYjRMVHJYOHZNbDBuX2tpTzVOVUlXVl9",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 74,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Visa plugs its payment network into ChatGPT, letting AI agents shop and pay for users"
+    },
+    {
+      "id": "google-news-openai-visa-partners-with-openai-to-let-ai-agents-make-payments-for-users-siliconangle",
+      "title": "Visa partners with OpenAI to let AI agents make payments for users - SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczhoUTA3VFdOQnJwenNnOW1MYWlwSUV6RndlNmFWRGRybUJldHBqVlJYNHdMaS1CdEpmMXFrUEt1elE?oc=5",
+      "source": "Google News: OpenAI / SiliconANGLE",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T22:30:24.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczh",
+      "topic": "开发者工具",
+      "time": "2026-06-10",
+      "heat": 74,
+      "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Visa partners with OpenAI to let AI agents make payments for users"
     },
     {
       "id": "google-news-google-superai-singapore-google-deepmind-opens-its-science-ai-toolkit-to-asia-pacific-startups-digitimes",
@@ -854,7 +899,7 @@
       "heat": 74,
       "importance": "Google 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Google 动态：SuperAI Singapore: Google DeepMind opens its science AI toolkit to Asia-Pacific startups - digitimes"
+      "summaryZh": "SuperAI Singapore: Google DeepMind opens its science AI toolkit to Asia-Pacific startups - digitimes"
     },
     {
       "id": "google-news-openai-openai-likely-chinese-influence-operation-tried-to-use-chatgpt-to-stir-debate-on-data-centers-cyberscoop",
@@ -866,55 +911,10 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE41WFhqTzZEdEE2LWJ0STRUYzlyNkhJanBiQ2NiaWQ2UkJULUZPcmVTQTFOdXQ0M05aLWF5WkhLZWNCSmJRV1pNTlRMZVRJRGdqOUZWUmRfcXU4akJzUWV",
       "topic": "模型发布",
       "time": "2026-06-10",
-      "heat": 73,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：OpenAI: ‘Likely’ Chinese influence operation tried to use ChatGPT to stir debate on data centers"
-    },
-    {
-      "id": "google-news-google-google-s-new-ai-model-hits-1-000-tokens-per-second-on-nvidia-gpus-yellow-com",
-      "title": "Google's New AI Model Hits 1,000 Tokens Per Second On Nvidia GPUs - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qZW5kWWlkVmpwVDY4NkhHdkN5NDhacURqeXM0UU9WOVlUR1pZZDlxOUgzRnhyb19sNF9YRk5EOGJiaHl3TVVrdWF0U3VlYVJKaWI4OHNLUG8yWEdMVkVmQmdQek9ibVlHR1ZQdWRVemRRVTMtQVVN?oc=5",
-      "source": "Google News: Google / Yellow.com",
-      "company": "Google",
-      "publishedAt": "2026-06-11T00:06:29.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1qZW5kWWlkVmpwVDY4NkhHdkN5NDhacURqeXM0UU9WOVlUR1pZZDlxOUgzRnhyb19sNF9YRk5EOGJiaHl3TVVrdWF0U3VlYVJKaWI4OHNLUG8yWEdMVkV",
-      "topic": "模型发布",
-      "time": "2026-06-11",
-      "heat": 73,
-      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Google 动态：Google's New AI Model Hits 1,000 Tokens Per Second On Nvidia GPUs"
-    },
-    {
-      "id": "google-news-openai-visa-and-openai-partner-to-let-ai-agents-shop-via-chatgpt-qz-com",
-      "title": "Visa and OpenAI partner to let AI agents shop via ChatGPT - qz.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTdHbmpiUjNxbzRHTkcwQQ?oc=5",
-      "source": "Google News: OpenAI / qz.com",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T19:13:37.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTd",
-      "topic": "模型发布",
-      "time": "2026-06-10",
       "heat": 72,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa and OpenAI 合作 to let AI Agent shop via ChatGPT - qz.com"
-    },
-    {
-      "id": "google-news-openai-florida-becomes-first-state-to-sue-openai-over-chatgpt-s-alleged-links-to-violence-mashable",
-      "title": "Florida becomes first state to sue OpenAI over ChatGPT's alleged links to violence - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQTQyV1ZpQ2Y1T3RoVThUTkxod1VaU25yTmF0QnVaZjJqaG5HMzRxQnBfWXA2V1lGZ291QmNOdHFVZERJX0FZQUhQU0gwODBOamI4Tm5hWkpySHA2bXQwNWxUdHZsLUZMdmJuejFqdFBRbUNQZmlOVjdNaEY5bklHNDRJbnhkZXBiMGRQLUpFSWQ3aUd5U0RRNG1rVC12QQ?oc=5",
-      "source": "Google News: OpenAI / Mashable",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T19:04:58.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNQTQyV1ZpQ2Y1T3RoVThUTkxod1VaU25yTmF0QnVaZjJqaG5HMzRxQnBfWXA2V1lGZ291QmNOdHFVZERJX0FZQUhQU0gwODBOamI4Tm5hWkpySHA2bXQ",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 72,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：Florida becomes first state to sue OpenAI over ChatGPT's alleged links to violence"
+      "summaryZh": "OpenAI: ‘Likely’ Chinese influence operation tried to use ChatGPT to stir debate on data centers"
     },
     {
       "id": "google-news-google-gemini-prompt-injection-shows-ai-adoption-is-increasing-risk-for-companies-international-business-times",
@@ -929,7 +929,22 @@
       "heat": 72,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Google 动态：Gemini Prompt Injection Shows AI Adoption is Increasing Risk for Companies"
+      "summaryZh": "Gemini Prompt Injection Shows AI Adoption is Increasing Risk for Companies"
+    },
+    {
+      "id": "google-news-google-google-s-new-ai-model-hits-1-000-tokens-per-second-on-nvidia-gpus-yellow-com",
+      "title": "Google's New AI Model Hits 1,000 Tokens Per Second On Nvidia GPUs - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qZW5kWWlkVmpwVDY4NkhHdkN5NDhacURqeXM0UU9WOVlUR1pZZDlxOUgzRnhyb19sNF9YRk5EOGJiaHl3TVVrdWF0U3VlYVJKaWI4OHNLUG8yWEdMVkVmQmdQek9ibVlHR1ZQdWRVemRRVTMtQVVN?oc=5",
+      "source": "Google News: Google / Yellow.com",
+      "company": "Google",
+      "publishedAt": "2026-06-11T00:06:29.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1qZW5kWWlkVmpwVDY4NkhHdkN5NDhacURqeXM0UU9WOVlUR1pZZDlxOUgzRnhyb19sNF9YRk5EOGJiaHl3TVVrdWF0U3VlYVJKaWI4OHNLUG8yWEdMVkV",
+      "topic": "模型发布",
+      "time": "2026-06-11",
+      "heat": 72,
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Google's New AI Model Hits 1,000 Tokens Per Second On Nvidia GPUs"
     },
     {
       "id": "google-news-openai-visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-wsj",
@@ -944,37 +959,7 @@
       "heat": 71,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa to Secure 支付 for Shoppers on ChatGPT in OpenAI 合作"
-    },
-    {
-      "id": "google-news-openai-openai-s-chatgpt-ads-get-its-first-conversion-api-partner-in-liveramp-digiday",
-      "title": "OpenAI’s ChatGPT ads get its first conversion API partner in LiveRamp - Digiday",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUtfSERxN2t2OUxEeTJQMFZqbnIzMjMzTUtRTGJ0Nl8td2U1UUtFbnJoT21TazZGcUYzQVo3ZHR4VUYzOEx5d0FNMWRnQlV3cGJ0Rno4M0lHaHhubUJfeEZUUEJNcUlVdkRDd3ZPbnZBdVE5MlFiYTVlQzg1cHJQanVtNXQxVHA5V3NveEFxNGJpTE1WdTZUelVqV2Y5RG8?oc=5",
-      "source": "Google News: OpenAI / Digiday",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T18:02:36.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUtfSERxN2t2OUxEeTJQMFZqbnIzMjMzTUtRTGJ0Nl8td2U1UUtFbnJoT21TazZGcUYzQVo3ZHR4VUYzOEx5d0FNMWRnQlV3cGJ0Rno4M0lHaHhubUJ",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 71,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "OpenAI’s ChatGPT ads get its first conversion API 接口 合作 in LiveRamp"
-    },
-    {
-      "id": "google-news-openai-exclusive-openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-wsj",
-      "title": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVnFqNTRNQ3kyTnVCSTY1Z1V2QXEzUUd4MndFc2dNLWJqSWNHWTIxa19CelFzT3IzTFVsTEdiY2xJOU52OW1qVERrLTFfSlptTV83cmxtYkYyX3lIRzJjT2xScENLeGdyeEdTaGdFRHp1aGQxRGd4Tm5YS3RWRGlibWJtYXRVeVlXUEtvLUVOM3ZqZlJTTEh5eDJlWVRpRm9PNThFbTNNUXdPRFB3Q2tGa19na0M?oc=5",
-      "source": "Google News: OpenAI / WSJ",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-11T01:36:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOVnFqNTRNQ3kyTnVCSTY1Z1V2QXEzUUd4MndFc2dNLWJqSWNHWTIxa19CelFzT3IzTFVsTEdiY2xJOU52OW1qVERrLTFfSlptTV83cmxtYkYyX3lIRzJ",
-      "topic": "AI 产品与应用",
-      "time": "2026-06-11",
-      "heat": 71,
-      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic"
+      "summaryZh": "Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership"
     },
     {
       "id": "google-news-openai-visa-lets-agents-pay-through-openai-axios",
@@ -989,7 +974,52 @@
       "heat": 71,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：Visa lets agents pay through OpenAI"
+      "summaryZh": "Visa lets agents pay through OpenAI"
+    },
+    {
+      "id": "google-news-openai-visa-and-openai-partner-to-let-ai-agents-shop-via-chatgpt-qz-com",
+      "title": "Visa and OpenAI partner to let AI agents shop via ChatGPT - qz.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTdHbmpiUjNxbzRHTkcwQQ?oc=5",
+      "source": "Google News: OpenAI / qz.com",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T19:13:37.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTd",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 71,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Visa and OpenAI partner to let AI agents shop via ChatGPT - qz.com"
+    },
+    {
+      "id": "google-news-openai-openai-mulls-slashing-prices-as-it-competes-with-anthropic-for-users-wsj-cnbc",
+      "title": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWEydEhmM0g5cEVHcjlvNTBueWpZRmFpcDNPekV2OU9hWV9BMzJsd3NLNWEwcFpydDFQX1JZc0I2Xy1ZcktIZDlxV2RramNQT1F5WnXSAa4BQVVfeXFMTTA0akxwVmdMa0RybEpINXVxTUxTSkJWRWNnY3pDUXN2ZDAyaW53dkRvVG1QM3hQSWt4aFlQTnJwWkVoYUdzd3F3cWFybHA5cE9feHQyTlhHc0pDaFhlMVVTWTBRU3hLRHlWamFsQldzTnpHOWRXcjREbG9UcTRTRGZsLTFhYTlnQWQ4OFpUTEZkR21mR3VsdGpRbmloN01vT0ZxTGl6dEtkM09fZS1n?oc=5",
+      "source": "Google News: OpenAI / CNBC",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-11T03:24:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWE",
+      "topic": "AI 产品与应用",
+      "time": "2026-06-11",
+      "heat": 71,
+      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ"
+    },
+    {
+      "id": "openai-prc-linked-influence-operations-are-targeting-ai-debates-in-the-us",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 70,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "PRC-linked influence operations are targeting AI debates in the US"
     },
     {
       "id": "google-news-openai-openai-visa-team-up-to-let-ai-agents-make-purchases-online-bloomberg-com",
@@ -1004,7 +1034,52 @@
       "heat": 70,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：OpenAI, Visa Team Up to Let AI Agents Make Purchases Online"
+      "summaryZh": "OpenAI, Visa Team Up to Let AI Agents Make Purchases Online"
+    },
+    {
+      "id": "google-news-openai-exclusive-openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-wsj",
+      "title": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVnFqNTRNQ3kyTnVCSTY1Z1V2QXEzUUd4MndFc2dNLWJqSWNHWTIxa19CelFzT3IzTFVsTEdiY2xJOU52OW1qVERrLTFfSlptTV83cmxtYkYyX3lIRzJjT2xScENLeGdyeEdTaGdFRHp1aGQxRGd4Tm5YS3RWRGlibWJtYXRVeVlXUEtvLUVOM3ZqZlJTTEh5eDJlWVRpRm9PNThFbTNNUXdPRFB3Q2tGa19na0M?oc=5",
+      "source": "Google News: OpenAI / WSJ",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-11T01:36:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOVnFqNTRNQ3kyTnVCSTY1Z1V2QXEzUUd4MndFc2dNLWJqSWNHWTIxa19CelFzT3IzTFVsTEdiY2xJOU52OW1qVERrLTFfSlptTV83cmxtYkYyX3lIRzJ",
+      "topic": "AI 产品与应用",
+      "time": "2026-06-11",
+      "heat": 70,
+      "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic"
+    },
+    {
+      "id": "google-news-openai-openai-s-chatgpt-ads-get-its-first-conversion-api-partner-in-liveramp-digiday",
+      "title": "OpenAI’s ChatGPT ads get its first conversion API partner in LiveRamp - Digiday",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUtfSERxN2t2OUxEeTJQMFZqbnIzMjMzTUtRTGJ0Nl8td2U1UUtFbnJoT21TazZGcUYzQVo3ZHR4VUYzOEx5d0FNMWRnQlV3cGJ0Rno4M0lHaHhubUJfeEZUUEJNcUlVdkRDd3ZPbnZBdVE5MlFiYTVlQzg1cHJQanVtNXQxVHA5V3NveEFxNGJpTE1WdTZUelVqV2Y5RG8?oc=5",
+      "source": "Google News: OpenAI / Digiday",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T18:02:36.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUtfSERxN2t2OUxEeTJQMFZqbnIzMjMzTUtRTGJ0Nl8td2U1UUtFbnJoT21TazZGcUYzQVo3ZHR4VUYzOEx5d0FNMWRnQlV3cGJ0Rno4M0lHaHhubUJ",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 70,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "OpenAI’s ChatGPT ads get its first conversion API partner in LiveRamp"
+    },
+    {
+      "id": "google-news-openai-chatgpt-ads-get-measurement-boost-from-new-liveramp-partnership-marketing-dive",
+      "title": "ChatGPT ads get measurement boost from new LiveRamp partnership - Marketing Dive",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnU4ZXVsNmVtNHJiZWl6bXkyQUhEUG5ZaDJWZHhKWmt1aUhvYzVLRW1Td1lWbFFLYm9uZ09HOEUwU3BfYlYxLWQ5NXcwOGJDY1E2YmhtemNtd1RlN01jNTQ4TlRVczlKbjFaRFRzOVpCS245cXBqeEtzdHIxMkNuZVdMNTg0bVFoYWhFbFBKeGhScWswOU0yWmp0bG9hRW5OX0wzX3RhOFEwZw?oc=5",
+      "source": "Google News: OpenAI / Marketing Dive",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T18:18:01.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnU4ZXVsNmVtNHJiZWl6bXkyQUhEUG5ZaDJWZHhKWmt1aUhvYzVLRW1Td1lWbFFLYm9uZ09HOEUwU3BfYlYxLWQ5NXcwOGJDY1E2YmhtemNtd1RlN01",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 70,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "ChatGPT ads get measurement boost from new LiveRamp partnership"
     },
     {
       "id": "google-news-openai-training-to-cycle-across-antarctica-with-chatgpt-openai",
@@ -1016,85 +1091,10 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2ZVhpSmZ4WENxRlNHQ2gyRXZVbDYwazZubFE1OG96SHVjZlhvLUMwM2tkejJUamktamVVLUJjMWVwYnZJWFBIOHlaWVNWR2otUjdJT2FGVXZKS2NlcXc",
       "topic": "模型发布",
       "time": "2026-06-10",
-      "heat": 70,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "训练 to cycle across Antarctica with ChatGPT"
-    },
-    {
-      "id": "google-news-openai-exclusive-openai-preps-new-ai-model-expects-to-go-public-within-the-next-year-the-information",
-      "title": "Exclusive: OpenAI Preps New AI Model, Expects To Go Public ‘Within the Next Year’ - The Information",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOejRWZEdqM0VSajdUU2JjMWJ4YlZqeWNxU21kQnhmTTlvbS1Xc0ZsWUt3VUlVWmdNTXNabWpkLXJHQ2k2bm9BZGpsRzVGYUNBSk9fUVlWR2hYcG5kZ2JLV0pqcmlybDlyTTVPNkFnVHZqcGNMbkNvZzlHSkg5MEE4WDZXM3RPTzFnblM3SEY3aUhLN2NPVEdhanFMRUhqNU5ITERJVlpIektCQXg1UjBzSA?oc=5",
-      "source": "Google News: OpenAI / The Information",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T15:30:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOejRWZEdqM0VSajdUU2JjMWJ4YlZqeWNxU21kQnhmTTlvbS1Xc0ZsWUt3VUlVWmdNTXNabWpkLXJHQ2k2bm9BZGpsRzVGYUNBSk9fUVlWR2hYcG5kZ2J",
-      "topic": "模型发布",
-      "time": "2026-06-10",
       "heat": 69,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 动态：Exclusive: OpenAI Preps New AI Model, Expects To Go Public ‘Within the Next Year’"
-    },
-    {
-      "id": "google-news-anthropic-microsoft-limits-employee-use-of-anthropic-s-claude-fable-5-over-data-retention-concerns-the-verge-reports-reuters",
-      "title": "Microsoft limits employee use of Anthropic's Claude Fable 5 over data retention concerns, The Verge reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFZRVXVXbExma1lxdjN0RkRoUFo4SVFYWm1QWk9TYTQwZS1tUldwbUVhbndQRkFtSmVwNTNmWndVQWF5U2NpRXZfdnA4NEFxMTA3SXBoVFFMLWtvbHdhZjJZbTVJT0F3MWZCNHhxUnJEalJyTExqZUtLVWJrdk5WWHFHWmJOV2p6cmtPa3ZuZFA0UkRNXzI3MGhDZjFFYXpsRVhQdF92eHQxd0RGa1ZvdWROZ3FpeTBSV255WGx3cw?oc=5",
-      "source": "Google News: Anthropic / Reuters",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-10T17:52:40.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFZRVXVXbExma1lxdjN0RkRoUFo4SVFYWm1QWk9TYTQwZS1tUldwbUVhbndQRkFtSmVwNTNmWndVQWF5U2NpRXZfdnA4NEFxMTA3SXBoVFFMLWtvbHd",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 69,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Anthropic 动态：Microsoft limits employee use of Anthropic's Claude Fable 5 over data retention concerns, The Verge reports"
-    },
-    {
-      "id": "google-news-anthropic-anthropic-s-latest-ai-model-claude-fable-just-built-minecraft-for-less-than-50-tweaktown",
-      "title": "Anthropic's latest AI model Claude Fable just built Minecraft for less than $50 - TweakTown",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQenhOekhXZ1BLQ0U3TVRLOUVWbUFOMXBGdWx6eEdILVprR21GUW1RSEN0VkIyNmpmbDdHTkY3V1o3V1pmRHRiNzJSRUZMQS1heVl0YnFZZmJrclZZYm05ZlR0Q09OclFsblZlNlFILWNVNVlhMl85Y05HakZoQklFcmdXcC1tOWJmS1Z0Y0V5SXhCejA1TEJwTS1uTDltOGFWQm9BbGl3MWJSX0MwWkRxaTRhVC03TkVPNGVhMXAwcy1kLWxDc3pWU1RVYVpyQQ?oc=5",
-      "source": "Google News: Anthropic / TweakTown",
-      "company": "Anthropic",
-      "publishedAt": "2026-06-10T17:57:06.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQenhOekhXZ1BLQ0U3TVRLOUVWbUFOMXBGdWx6eEdILVprR21GUW1RSEN0VkIyNmpmbDdHTkY3V1o3V1pmRHRiNzJSRUZMQS1heVl0YnFZZmJrclZZYm0",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 69,
-      "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Anthropic 动态：Anthropic's latest AI model Claude Fable just built Minecraft for less than $50"
-    },
-    {
-      "id": "google-news-google-google-s-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost-ars-technica",
-      "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZyeDFiOVRZeXQ0VjRsOFUzRnllMGNTTDdtRGJnTGZsSmgxcmptZG5iQllIb2lvZ2F4T3lFQXh3RUxhQTJrWXNPamV4Z3FOMktFSlFJenNidXloSw?oc=5",
-      "source": "Google News: Google / Ars Technica",
-      "company": "Google",
-      "publishedAt": "2026-06-10T19:29:21.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZ",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 69,
-      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Google 动态：Google's latest DiffusionGemma open AI model comes with a 4x speed boost"
-    },
-    {
-      "id": "google-news-openai-openai-ipo-6-things-to-know-before-you-buy-the-stock-yahoo-finance",
-      "title": "OpenAI IPO: 6 things to know before you buy the stock - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGk0Zno0X2pwRXJXc0lPbXhLcC1xWlQ5Q1NUWE91QzJGWHRSR0ZsV3ZxVkFhZFBNOUhJbERXVjdOX28xZ0NJRWdQVmNubHZNd1JfRVplU2NCb0ZaWVJKM1lyZHJjX09NaDhfem1VYm1SVDUtTlZ5MS1hd2ExYU45ZDlMd2NheXRZR2J3UjBlMnZyeDJZNVNVeXVxQ0d3YVZHUGptTEZuR3JOTFBSTHhVdzU1aktjYmtvaGk2NFY2aWdPQkMtbjJF?oc=5",
-      "source": "Google News: OpenAI / Yahoo Finance",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T15:11:22.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGk0Zno0X2pwRXJXc0lPbXhLcC1xWlQ5Q1NUWE91QzJGWHRSR0ZsV3ZxVkFhZFBNOUhJbERXVjdOX28xZ0NJRWdQVmNubHZNd1JfRVplU2NCb0ZaWVJ",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 68,
-      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "OpenAI IPO 上市: 6 things to know before you buy the stock"
+      "summaryZh": "Training to cycle across Antarctica with ChatGPT"
     }
   ],
   "beginnerProjects": [
@@ -1104,7 +1104,7 @@
       "owner": "ifixai-ai",
       "url": "https://github.com/ifixai-ai/iFixAi",
       "description": "Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic.",
-      "descriptionZh": "基于 Python 的AI工具。Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic.",
+      "descriptionZh": "Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic.",
       "categoryTags": [
         "cli-tool"
       ],
@@ -1160,7 +1160,7 @@
       "owner": "Lap-Platform",
       "url": "https://github.com/Lap-Platform/LAP",
       "description": "Your agents are guessing at APIs. Give them the actual Agent-Native spec. 1500+ API's Ready To-Use skills,  Compile any API spec into a lean, agent-native format. 10× smaller. OpenAPI, GraphQL, AsyncAPI, Protobuf, Postman.",
-      "descriptionZh": "Your agents are guessing at API 接口. Give them the actual Agent-Native spec. 1500+ API 接口's Ready To-Use skills, Compile any API 接口 spec into a lean, agent-native format. 10× smaller. OpenAPI, GraphQL, AsyncAPI, Protobuf, Postman.",
+      "descriptionZh": "Your agents are guessing at APIs. Give them the actual Agent-Native spec. 1500+ API's Ready To-Use skills, Compile any API spec into a lean, agent-native format. 10× smaller. OpenAPI, GraphQL, AsyncAPI, Protobuf, Postman.",
       "categoryTags": [
         "cli-tool",
         "api-wrapper"
@@ -1320,7 +1320,7 @@
       "owner": "Safiullah-Rahu",
       "url": "https://github.com/Safiullah-Rahu/CSV-AI",
       "description": "CSV-AI is the ultimate app powered by LangChain, OpenAI, and Streamlit that allows you to unlock hidden insights in your CSV files. With CSV-AI, you can effortlessly interact with, summarize, and analyze your CSV files in one convenient place.",
-      "descriptionZh": "基于 Python 的AI、OpenAI工具。CSV-AI is the ultimate app powered by LangChain, OpenAI, and Streamlit that allows you to unlock hidden insights in your CSV files. With CSV-AI, you can effortlessly interact with, summarize, and analyze your CSV files in one convenient place.",
+      "descriptionZh": "CSV-AI is the ultimate app powered by LangChain, OpenAI, and Streamlit that allows you to unlock hidden insights in your CSV files. With CSV-AI, you can effortlessly interact with, summarize, and analyze your CSV files in one convenient place.",
       "categoryTags": [
         "web-app",
         "chatbot",
@@ -1365,7 +1365,7 @@
       "owner": "judahpaul16",
       "url": "https://github.com/judahpaul16/gpt-home",
       "description": "ChatGPT at home! A better alternative to commercial smart home assistants, built on the Raspberry Pi using LiteLLM and LangGraph.",
-      "descriptionZh": "基于 Python 的AI、自动化工具。ChatGPT at home! A better alternative to commercial smart home assistants, built on the Raspberry Pi using LiteLLM and LangGraph.",
+      "descriptionZh": "ChatGPT at home! A better alternative to commercial smart home assistants, built on the Raspberry Pi using LiteLLM and LangGraph.",
       "categoryTags": [
         "automation",
         "chatbot",
@@ -1425,7 +1425,7 @@
       "owner": "CodingLucasLi",
       "url": "https://github.com/CodingLucasLi/Clawome",
       "description": "Clawome - AI Agent Browser | Smart Web Browsing Tool Give your AI agent eyes and hands on any website. Open-source smart browser tool for AI agents to efficiently browse, read, and interact with web pages.",
-      "descriptionZh": "Clawome - AI Agent Browser | Smart Web Browsing Tool Give your AI Agent eyes and hands on any website. 开源 smart browser tool for AI Agent to efficiently browse, read, and interact with web pages.",
+      "descriptionZh": "Clawome - AI Agent Browser | Smart Web Browsing Tool Give your AI agent eyes and hands on any website. Open-source smart browser tool for AI agents to efficiently browse, read, and interact with web pages.",
       "categoryTags": [
         "browser-tool"
       ],
@@ -1467,7 +1467,7 @@
       "owner": "dog-qiuqiu",
       "url": "https://github.com/dog-qiuqiu/invincat",
       "description": "A native Python agent CLI built on DeepAgents CLI, featuring an independent memory Agent that captures learnings after each task and delivers efficient AI coding assistance through hierarchical memory management.",
-      "descriptionZh": "A native Python agent 命令行工具 built on DeepAgents 命令行工具, featuring an independent memory Agent that captures learnings after each task and delivers efficient AI coding assistance through hierarchical memory management.",
+      "descriptionZh": "A native Python agent CLI built on DeepAgents CLI, featuring an independent memory Agent that captures learnings after each task and delivers efficient AI coding assistance through hierarchical memory management.",
       "categoryTags": [
         "cli-tool",
         "coding-assistant",
@@ -1522,7 +1522,7 @@
       "owner": "martinopiaggi",
       "url": "https://github.com/martinopiaggi/summarize",
       "description": "Video AI summarization from multiple sources (YouTube, X, Instagram, TikTok, Reddit, Facebook, Google Drive, Dropbox, and local files).",
-      "descriptionZh": "基于 Python 的AI工具。Video AI summarization from multiple sources (YouTube, X, Instagram, TikTok, Reddit, Facebook, Google Drive, Dropbox, and local files).",
+      "descriptionZh": "Video AI summarization from multiple sources (YouTube, X, Instagram, TikTok, Reddit, Facebook, Google Drive, Dropbox, and local files).",
       "categoryTags": [
         "web-app"
       ],
@@ -1572,7 +1572,7 @@
       "owner": "Finrandojin",
       "url": "https://github.com/Finrandojin/alexandria-audiobook",
       "description": "AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to MP3, chaptered M4B, or Audacity multi-track. Built on Qwen3-TTS.",
-      "descriptionZh": "AI-powered multi-voice audiobook generator — 大语言模型 script annotation, voice cloning, voice design, LoRA 训练, per-line style control, and export to MP3, chaptered M4B, or Audacity multi-track. Built on Qwen3-TTS.",
+      "descriptionZh": "AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to MP3, chaptered M4B, or Audacity multi-track. Built on Qwen3-TTS.",
       "categoryTags": [
         "api-wrapper"
       ],
@@ -1628,7 +1628,7 @@
       "owner": "devnen",
       "url": "https://github.com/devnen/Dia-TTS-Server",
       "description": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution.",
-      "descriptionZh": "可自托管 the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API 接口 endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution.",
+      "descriptionZh": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution.",
       "categoryTags": [
         "api-wrapper"
       ],
@@ -1679,12 +1679,70 @@
       "openIssues": 3
     },
     {
+      "id": 1177921872,
+      "name": "fojin",
+      "owner": "xr843",
+      "url": "https://github.com/xr843/fojin",
+      "description": "Buddhist Digital Text Platform — 9,200+ texts, 500+ sources, 8 UI languages, AI Q&A (RAG), knowledge graph, full-text search",
+      "descriptionZh": "Buddhist Digital Text Platform — 9,200+ texts, 500+ sources, 8 UI languages, AI Q&A (RAG), knowledge graph, full-text search",
+      "categoryTags": [
+        "api-wrapper",
+        "knowledge-base"
+      ],
+      "language": "Python",
+      "stars": 310,
+      "beginnerScore": 65,
+      "beginnerScoreBreakdown": {
+        "readmeQuality": 10,
+        "installInstructions": 10,
+        "dependencySimplicity": 15,
+        "issueResponseRate": 15,
+        "languageAccessibility": 15,
+        "examplesPresence": 0
+      },
+      "setupComplexity": "high",
+      "prerequisiteSkills": [
+        "basic-terminal",
+        "git-basics",
+        "python-basics",
+        "docker-basics",
+        "api-key-management"
+      ],
+      "estimatedFirstRunMinutes": 90,
+      "hasChineseDocs": false,
+      "hasExamplesFolder": false,
+      "lastUpdated": "2026-06-11T03:46:55Z",
+      "topics": [
+        "ai",
+        "buddhism",
+        "buddhist-studies",
+        "chinese-classics",
+        "digital-humanities",
+        "docker",
+        "elasticsearch",
+        "fastapi",
+        "full-text-search",
+        "knowledge-graph",
+        "nlp",
+        "open-source",
+        "pali",
+        "parallel-reading",
+        "rag",
+        "react",
+        "sanskrit",
+        "semantic-search",
+        "tibetan"
+      ],
+      "forks": 53,
+      "openIssues": 4
+    },
+    {
       "id": 1130325611,
       "name": "poco-claw",
       "owner": "poco-ai",
       "url": "https://github.com/poco-ai/poco-claw",
       "description": "A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
-      "descriptionZh": "基于 Python 的AI工具。A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
+      "descriptionZh": "A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
       "categoryTags": [
         "chatbot"
       ],
@@ -1734,7 +1792,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 2454,
+      "stars": 2457,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1790,7 +1848,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 1864,
+      "stars": 1866,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1829,7 +1887,7 @@
         "skills",
         "tutorial"
       ],
-      "forks": 245,
+      "forks": 246,
       "openIssues": 9
     },
     {
@@ -1838,7 +1896,7 @@
       "owner": "Josh-XT",
       "url": "https://github.com/Josh-XT/AGiXT",
       "description": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
-      "descriptionZh": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile 插件 system, AGiXT delivers efficient and comprehensive AI solutions.",
+      "descriptionZh": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
       "categoryTags": [
         "automation",
         "api-wrapper"
@@ -1890,7 +1948,7 @@
       "owner": "tinyfish-io",
       "url": "https://github.com/tinyfish-io/agentql",
       "description": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.",
-      "descriptionZh": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright 集成 for interacting with elements and extracting data quickly, precisely, and 大规模. Includes REST API 接口, Python and JavaScript SDKs, browser debugger.",
+      "descriptionZh": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.",
       "categoryTags": [
         "automation",
         "browser-tool",
@@ -1944,7 +2002,7 @@
       "owner": "SamurAIGPT",
       "url": "https://github.com/SamurAIGPT/muapi-cli",
       "description": "Official CLI for muapi.ai — generate images, videos & audio from the terminal. MCP server, 14 AI models, npm + pip installable.",
-      "descriptionZh": "Official 命令行工具 for muapi.ai — generate images, videos & audio from the terminal. MCP server, 14 AI models, npm + pip installable.",
+      "descriptionZh": "Official CLI for muapi.ai — generate images, videos & audio from the terminal. MCP server, 14 AI models, npm + pip installable.",
       "categoryTags": [
         "cli-tool",
         "image-generation",
@@ -2036,14 +2094,14 @@
       "owner": "JCodesMore",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "description": "Clone any website with one command using AI coding agents",
-      "descriptionZh": "Clone any website with one command using AI 编程 Agent",
+      "descriptionZh": "Clone any website with one command using AI coding agents",
       "categoryTags": [
         "web-app",
         "coding-assistant",
         "automation"
       ],
       "language": "TypeScript",
-      "stars": 16758,
+      "stars": 16760,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2085,7 +2143,7 @@
         "web-scraping",
         "website-clone"
       ],
-      "forks": 2576,
+      "forks": 2577,
       "openIssues": 10
     },
     {
@@ -2094,7 +2152,7 @@
       "owner": "supabase-community",
       "url": "https://github.com/supabase-community/nextjs-openai-doc-search",
       "description": "Template for building your own custom ChatGPT style doc search powered by Next.js, OpenAI, and Supabase.",
-      "descriptionZh": "基于 TypeScript 的AI、ChatGPT、OpenAI工具。Template for building your own custom ChatGPT style doc search powered by Next.js, OpenAI, and Supabase.",
+      "descriptionZh": "Template for building your own custom ChatGPT style doc search powered by Next.js, OpenAI, and Supabase.",
       "categoryTags": [
         "web-app",
         "chatbot",
@@ -2143,7 +2201,7 @@
       "owner": "aadi1011",
       "url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch",
       "description": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
-      "descriptionZh": "Become skilled in Artificial Intelligence, 机器学习, Generative AI, 深度学习, Data Science, 自然语言处理, Reinforcement Learning and more with this complete 0 to 100 repository.",
+      "descriptionZh": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
       "categoryTags": [
         "learning-project"
       ],
@@ -2191,7 +2249,7 @@
       "owner": "Dartvauder",
       "url": "https://github.com/Dartvauder/NeuroSandboxWebUI",
       "description": "(Windows/Linux/MacOS) Local WebUI with neural network models (Text, Image, Video, 3D, Audio) on python (Gradio interface). Translated on 3 languages",
-      "descriptionZh": "Python 开源项目。(Windows/Linux/MacOS) Local WebUI with neural network models (Text, Image, Video, 3D, Audio) on python (Gradio interface). Translated on 3 languages",
+      "descriptionZh": "(Windows/Linux/MacOS) Local WebUI with neural network models (Text, Image, Video, 3D, Audio) on python (Gradio interface). Translated on 3 languages",
       "categoryTags": [
         "image-generation",
         "web-app"
@@ -2248,7 +2306,7 @@
       "owner": "Vinyzu",
       "url": "https://github.com/Vinyzu/Botright",
       "description": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI.",
-      "descriptionZh": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, 开源 automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI.",
+      "descriptionZh": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI.",
       "categoryTags": [
         "automation",
         "browser-tool"
@@ -2299,7 +2357,7 @@
       "owner": "jezweb",
       "url": "https://github.com/jezweb/claude-skills",
       "description": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
-      "descriptionZh": "Skills for Claude Code 命令行工具 such as full stack dev Cloudflare, React, Tailwind v4, and AI 集成.",
+      "descriptionZh": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
       "categoryTags": [
         "automation",
         "cli-tool"
@@ -2348,7 +2406,7 @@
       "owner": "winstonkoh87",
       "url": "https://github.com/winstonkoh87/Athena-Public",
       "description": "The Linux OS for AI Agents — Persistent memory, autonomy, and time-awareness for any LLM. Own the state. Rent the intelligence.",
-      "descriptionZh": "The Linux OS for AI Agent — Persistent memory, autonomy, and time-awareness for any 大语言模型. Own the state. Rent the intelligence.",
+      "descriptionZh": "The Linux OS for AI Agents — Persistent memory, autonomy, and time-awareness for any LLM. Own the state. Rent the intelligence.",
       "categoryTags": [
         "automation",
         "chatbot",
@@ -2406,7 +2464,7 @@
       "owner": "yifanfeng97",
       "url": "https://github.com/yifanfeng97/Hyper-Extract",
       "description": "Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
-      "descriptionZh": "Transform unstructured text into structured knowledge with 大语言模型. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+      "descriptionZh": "Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
       "categoryTags": [
         "cli-tool",
         "knowledge-base"
@@ -2453,7 +2511,7 @@
       "owner": "kalil0321",
       "url": "https://github.com/kalil0321/reverse-api-engineer",
       "description": "The agent that turns websites into APIs!",
-      "descriptionZh": "The agent that turns websites into API 接口!",
+      "descriptionZh": "The agent that turns websites into APIs!",
       "categoryTags": [
         "cli-tool",
         "api-wrapper"
@@ -2499,7 +2557,7 @@
       "owner": "agentforce314",
       "url": "https://github.com/agentforce314/clawcodex",
       "description": "Claude Code full Python rebuild. AI Coding Agent in 180K LoC pure Python!",
-      "descriptionZh": "Claude Code full Python rebuild. AI 编程 Agent in 180K LoC pure Python!",
+      "descriptionZh": "Claude Code full Python rebuild. AI Coding Agent in 180K LoC pure Python!",
       "categoryTags": [
         "cli-tool",
         "coding-assistant"
@@ -2550,7 +2608,7 @@
       "owner": "Swival",
       "url": "https://github.com/Swival/swival",
       "description": "A small, powerful, open-source CLI coding agent that works with open models.",
-      "descriptionZh": "A small, powerful, 开源 命令行工具 编程 Agent that works with open models.",
+      "descriptionZh": "A small, powerful, open-source CLI coding agent that works with open models.",
       "categoryTags": [
         "cli-tool",
         "coding-assistant"
@@ -2647,7 +2705,7 @@
       "owner": "jina-ai",
       "url": "https://github.com/jina-ai/cli",
       "description": "All Jina AI APIs as Unix CLI commands. Search, read, embed, rerank - with pipes.",
-      "descriptionZh": "All Jina AI API 接口 as Unix 命令行工具 commands. Search, read, embed, rerank - with pipes.",
+      "descriptionZh": "All Jina AI APIs as Unix CLI commands. Search, read, embed, rerank - with pipes.",
       "categoryTags": [
         "cli-tool",
         "api-wrapper"
@@ -2694,7 +2752,7 @@
       "owner": "KKingZero",
       "url": "https://github.com/KKingZero/Zypheron-CLI",
       "description": "ZYPHERON CLI Powerful command-line interface for automated security testing. Integrate ZYPHERON into your DevSecOps pipeline.   Get CLI",
-      "descriptionZh": "ZYPHERON 命令行工具 Powerful command-line interface for automated security testing. Integrate ZYPHERON into your DevSecOps pipeline. Get 命令行工具",
+      "descriptionZh": "ZYPHERON CLI Powerful command-line interface for automated security testing. Integrate ZYPHERON into your DevSecOps pipeline. Get CLI",
       "categoryTags": [
         "cli-tool",
         "coding-assistant",
@@ -2749,14 +2807,14 @@
       "owner": "datawhalechina",
       "url": "https://github.com/datawhalechina/easy-vibe",
       "description": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
-      "descriptionZh": "基于 JavaScript 的AI工具。💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
+      "descriptionZh": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
       "categoryTags": [
         "web-app",
         "coding-assistant",
         "automation"
       ],
       "language": "JavaScript",
-      "stars": 16720,
+      "stars": 16724,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2809,7 +2867,7 @@
       "owner": "violit-dev",
       "url": "https://github.com/violit-dev/violit",
       "description": "Pure Python Web Framework. Streamlit simplicity, no reruns.",
-      "descriptionZh": "基于 Python 的AI、深度学习工具。Pure Python Web Framework. Streamlit simplicity, no reruns.",
+      "descriptionZh": "Pure Python Web Framework. Streamlit simplicity, no reruns.",
       "categoryTags": [
         "api-wrapper",
         "web-app",
@@ -2868,7 +2926,7 @@
       "owner": "tomascupr",
       "url": "https://github.com/tomascupr/sandstorm",
       "description": "Run Claude agents in secure cloud sandboxes — via API, CLI, or Slack. One call. Full agent. Zero infrastructure.",
-      "descriptionZh": "Run Claude agents in secure cloud sandboxes — via API 接口, 命令行工具, or Slack. One call. Full agent. Zero infrastructure.",
+      "descriptionZh": "Run Claude agents in secure cloud sandboxes — via API, CLI, or Slack. One call. Full agent. Zero infrastructure.",
       "categoryTags": [
         "api-wrapper",
         "cli-tool"
@@ -2917,7 +2975,7 @@
       "owner": "OschAI",
       "url": "https://github.com/OschAI/VisioFirm",
       "description": "VisioFirm: Cross-Platform AI-assisted Annotation Tool for Computer Vision",
-      "descriptionZh": "VisioFirm: Cross-Platform AI-assisted Annotation Tool for 计算机视觉",
+      "descriptionZh": "VisioFirm: Cross-Platform AI-assisted Annotation Tool for Computer Vision",
       "categoryTags": [
         "api-wrapper",
         "image-generation"
@@ -2970,7 +3028,7 @@
       "owner": "iLearn-Lab",
       "url": "https://github.com/iLearn-Lab/NovelClaw",
       "description": "Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing",
-      "descriptionZh": "基于 Python 的AI工具。Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing",
+      "descriptionZh": "Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing",
       "categoryTags": [
         "api-wrapper",
         "knowledge-base"
@@ -3023,7 +3081,7 @@
       "owner": "Eshaan-Nair",
       "url": "https://github.com/Eshaan-Nair/ArcRift",
       "description": "Persistent local memory layer for AI. ArcRift uses a Chrome extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf)  powered by a local SQLite knowledge graph.",
-      "descriptionZh": "基于 TypeScript 的AI、AI Agent、ChatGPT工具。Persistent local memory layer for AI. ArcRift uses a Chrome extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf) powered by a local SQLite knowledge graph.",
+      "descriptionZh": "Persistent local memory layer for AI. ArcRift uses a Chrome extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf) powered by a local SQLite knowledge graph.",
       "categoryTags": [
         "browser-tool",
         "chatbot",
@@ -3080,7 +3138,7 @@
       "owner": "Mai-with-u",
       "url": "https://github.com/Mai-with-u/MaiBot",
       "description": "MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection.",
-      "descriptionZh": "MaiSaka, an 大语言模型-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection.",
+      "descriptionZh": "MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection.",
       "categoryTags": [
         "chatbot"
       ],
@@ -3125,7 +3183,7 @@
       "owner": "test-zeus-ai",
       "url": "https://github.com/test-zeus-ai/testzeus-hercules",
       "description": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
-      "descriptionZh": "Hercules is the world’s first 开源 testing agent, enabling UI, API 接口, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
+      "descriptionZh": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
       "categoryTags": [
         "automation",
         "browser-tool",
@@ -3181,12 +3239,12 @@
       "owner": "dreddnafious",
       "url": "https://github.com/dreddnafious/thereisnospoon",
       "description": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
-      "descriptionZh": "A 机器学习 primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
+      "descriptionZh": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
       "categoryTags": [
         "learning-project"
       ],
       "language": "Python",
-      "stars": 1147,
+      "stars": 1148,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 5,
@@ -3225,7 +3283,7 @@
       "owner": "melih-unsal",
       "url": "https://github.com/melih-unsal/DemoGPT",
       "description": "🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place.",
-      "descriptionZh": "🤖 Create 大语言模型 agents in a second with your prompts. Everything you need to create an 大语言模型 Agent - tools, prompts, frameworks, and models - all in one place.",
+      "descriptionZh": "🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place.",
       "categoryTags": [
         "web-app",
         "chatbot",
@@ -3284,7 +3342,7 @@
       "owner": "IBM",
       "url": "https://github.com/IBM/mcp-context-forge",
       "description": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
-      "descriptionZh": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC API 接口, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & 工具调用, and supports 插件.",
+      "descriptionZh": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
       "categoryTags": [
         "api-wrapper"
       ],
@@ -3342,7 +3400,7 @@
       "owner": "devnen",
       "url": "https://github.com/devnen/Chatterbox-TTS-Server",
       "description": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU.",
-      "descriptionZh": "可自托管 the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API 接口 endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU.",
+      "descriptionZh": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU.",
       "categoryTags": [
         "api-wrapper",
         "chatbot"
@@ -3399,7 +3457,7 @@
       "owner": "MelihGulum",
       "url": "https://github.com/MelihGulum/Comprehensive-Data-Science-AI-Project-Portfolio",
       "description": "A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and machine learning.",
-      "descriptionZh": "A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and 机器学习.",
+      "descriptionZh": "A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and machine learning.",
       "categoryTags": [
         "knowledge-base",
         "image-generation",
@@ -3454,7 +3512,7 @@
       "owner": "FuzzingLabs",
       "url": "https://github.com/FuzzingLabs/secpipe",
       "description": "MCP server for AI-driven security pipelines",
-      "descriptionZh": "基于 Python 的AI、自动化工具。MCP server for AI-driven security pipelines",
+      "descriptionZh": "MCP server for AI-driven security pipelines",
       "categoryTags": [
         "automation"
       ],
@@ -3504,7 +3562,7 @@
       "owner": "Pipelex",
       "url": "https://github.com/Pipelex/pipelex",
       "description": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
-      "descriptionZh": "Declarative language for composable Al 工作流. Devtool for agents and mere humans.",
+      "descriptionZh": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
       "categoryTags": [
         "automation"
       ],
@@ -3540,7 +3598,7 @@
         "pipeline",
         "workflows"
       ],
-      "forks": 54,
+      "forks": 55,
       "openIssues": 18
     },
     {
@@ -3549,7 +3607,7 @@
       "owner": "TesslateAI",
       "url": "https://github.com/TesslateAI/OpenSail",
       "description": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
-      "descriptionZh": "OpenSail is the 开源 alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
+      "descriptionZh": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
       "categoryTags": [
         "automation"
       ],
@@ -3606,7 +3664,7 @@
       "owner": "pathintegral-institute",
       "url": "https://github.com/pathintegral-institute/mcpm.sh",
       "description": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
-      "descriptionZh": "命令行工具 MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+      "descriptionZh": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
       "categoryTags": [
         "cli-tool"
       ],
@@ -3651,58 +3709,8 @@
         "tools",
         "windsurf"
       ],
-      "forks": 105,
-      "openIssues": 47
-    },
-    {
-      "id": 1181265008,
-      "name": "AutoR",
-      "owner": "AutoX-AI-Labs",
-      "url": "https://github.com/AutoX-AI-Labs/AutoR",
-      "description": "AI handles execution, humans own the direction, and every run becomes an inspectable research artifact on disk.",
-      "descriptionZh": "基于 Python 的AI、Claude工具。AI handles execution, humans own the direction, and every run becomes an inspectable research artifact on disk.",
-      "categoryTags": [
-        "cli-tool",
-        "api-wrapper"
-      ],
-      "language": "Python",
-      "stars": 848,
-      "beginnerScore": 55,
-      "beginnerScoreBreakdown": {
-        "readmeQuality": 5,
-        "installInstructions": 5,
-        "dependencySimplicity": 15,
-        "issueResponseRate": 15,
-        "languageAccessibility": 15,
-        "examplesPresence": 0
-      },
-      "setupComplexity": "medium",
-      "prerequisiteSkills": [
-        "basic-terminal",
-        "git-basics",
-        "python-basics",
-        "api-key-management"
-      ],
-      "estimatedFirstRunMinutes": 45,
-      "hasChineseDocs": false,
-      "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-02T07:23:33Z",
-      "topics": [
-        "agent",
-        "ai",
-        "ai-scientist",
-        "auto-research",
-        "claude",
-        "claude-code",
-        "cli",
-        "harness",
-        "llm",
-        "openai",
-        "paper",
-        "science"
-      ],
-      "forks": 22,
-      "openIssues": 0
+      "forks": 106,
+      "openIssues": 48
     }
   ]
 }
