@@ -1354,6 +1354,37 @@ textarea:focus {
   gap: 20px;
 }
 
+/* @AI_GENERATED */
+.fit-target-hint {
+  margin-bottom: 16px;
+}
+
+.fit-target-card {
+  padding: 16px 20px;
+  border: 1px solid rgba(57, 213, 255, 0.4);
+  border-radius: 12px;
+  background: rgba(57, 213, 255, 0.06);
+}
+
+.fit-target-card .eyebrow {
+  margin: 0 0 4px;
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.fit-target-card h4 {
+  margin: 0 0 6px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.fit-target-card p {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+/* @AI_GENERATED: end */
+
 .beginner-wizard-container {
   min-height: 460px;
   padding: 18px;
