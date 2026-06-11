@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T03:48:15.005Z",
+  "generatedAt": "2026-06-11T03:58:49.183Z",
   "date": "2026-06-11",
   "sources": {
     "github": "https://api.github.com/search/repositories",
@@ -29,7 +29,7 @@
       "name": "hermes-agent",
       "owner": "NousResearch",
       "description": "The agent that grows with you",
-      "descriptionZh": "The agent that grows with you",
+      "descriptionZh": "与你共同成长的代理人",
       "url": "https://github.com/NousResearch/hermes-agent",
       "tags": [
         "Agent"
@@ -53,17 +53,17 @@
         "openclaw"
       ],
       "language": "Python",
-      "stars": 190141,
-      "starGrowth": 1076,
-      "forkGrowth": 321,
-      "forks": 32953,
-      "openIssues": 19891,
+      "stars": 190151,
+      "starGrowth": 1086,
+      "forkGrowth": 322,
+      "forks": 32954,
+      "openIssues": 19884,
       "discussion": 39,
-      "discussionTotal": 19891,
+      "discussionTotal": 19884,
       "hot": 100,
-      "pushedAt": "2026-06-11T03:46:20Z",
+      "pushedAt": "2026-06-11T03:57:24Z",
       "createdAt": "2025-07-22T22:22:28Z",
-      "reason": "较上一份快照新增 1076 stars、321 forks，讨论度增长代理值 39。",
+      "reason": "较上一份快照新增 1086 stars、322 forks，讨论度增长代理值 39。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -89,7 +89,7 @@
       "name": "ECC",
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "descriptionZh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "descriptionZh": "代理线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、直觉、记忆、安全和研究优先开发。",
       "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "Agent",
@@ -107,17 +107,17 @@
         "productivity"
       ],
       "language": "JavaScript",
-      "stars": 212831,
-      "starGrowth": 774,
-      "forkGrowth": 136,
-      "forks": 32695,
+      "stars": 212836,
+      "starGrowth": 779,
+      "forkGrowth": 139,
+      "forks": 32698,
       "openIssues": 54,
-      "discussion": 16,
+      "discussion": 17,
       "discussionTotal": 54,
-      "hot": 61,
+      "hot": 62,
       "pushedAt": "2026-06-11T03:48:03Z",
       "createdAt": "2026-01-18T00:51:51Z",
-      "reason": "较上一份快照新增 774 stars、136 forks，讨论度增长代理值 16。",
+      "reason": "较上一份快照新增 779 stars、139 forks，讨论度增长代理值 17。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -143,7 +143,7 @@
       "name": "open-design",
       "owner": "nexu-io",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-      "descriptionZh": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "descriptionZh": "🎨 本地优先，开源的Claude Design替代方案。 🖥️ 本机桌面应用程序。 ⚡ 259+技能✨ 142+设计系统🖼️ 网络·桌面·移动原型·幻灯片·图像·视频·HyperFrames📦 沙盒预览·HTML/PDF/PPTX/MP4导出🤖 克劳德代码/OpenClaw/Codex/Cursor/OpenCode/Qwen/Copilot/Hermes/Kimi和17+CLI。",
       "url": "https://github.com/nexu-io/open-design",
       "tags": [
         "Agent",
@@ -174,17 +174,17 @@
         "vibe-coding"
       ],
       "language": "TypeScript",
-      "stars": 63017,
-      "starGrowth": 502,
+      "stars": 63021,
+      "starGrowth": 506,
       "forkGrowth": 48,
       "forks": 7033,
-      "openIssues": 412,
-      "discussion": 17,
-      "discussionTotal": 412,
-      "hot": 43,
-      "pushedAt": "2026-06-11T03:42:21Z",
+      "openIssues": 414,
+      "discussion": 19,
+      "discussionTotal": 414,
+      "hot": 44,
+      "pushedAt": "2026-06-11T03:54:31Z",
       "createdAt": "2026-04-28T04:25:20Z",
-      "reason": "较上一份快照新增 502 stars、48 forks，讨论度增长代理值 17。",
+      "reason": "较上一份快照新增 506 stars、48 forks，讨论度增长代理值 19。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "进阶",
       "stack": [
@@ -206,255 +206,11 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
-      "id": 787076358,
-      "name": "firecrawl",
-      "owner": "firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "descriptionZh": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "tags": [
-        "Agent"
-      ],
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "language": "TypeScript",
-      "stars": 131199,
-      "starGrowth": 384,
-      "forkGrowth": 12,
-      "forks": 7750,
-      "openIssues": 377,
-      "discussion": 1,
-      "discussionTotal": 377,
-      "hot": 27,
-      "pushedAt": "2026-06-10T22:12:19Z",
-      "createdAt": "2024-04-15T21:02:29Z",
-      "reason": "较上一份快照新增 384 stars、12 forks，讨论度增长代理值 1。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "进阶",
-      "stack": [
-        "TypeScript",
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping"
-      ],
-      "architecture": "应用层界面 + Agent 规划循环 + 工具调用适配层。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置",
-        "Agent 编排",
-        "工具调用",
-        "任务规划"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
-      "id": 1250822765,
-      "name": "html-video",
-      "owner": "nexu-io",
-      "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "descriptionZh": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "url": "https://github.com/nexu-io/html-video",
-      "tags": [
-        "Agent",
-        "Coding",
-        "Video"
-      ],
-      "topics": [
-        "ai-agent",
-        "apache-2",
-        "coding-agent",
-        "css",
-        "ffmpeg",
-        "html",
-        "html-to-video",
-        "hyperframes",
-        "mp4",
-        "open-design",
-        "open-source",
-        "programmatic-video",
-        "video",
-        "video-as-code",
-        "video-generation"
-      ],
-      "language": "HTML",
-      "stars": 2754,
-      "starGrowth": 226,
-      "forkGrowth": 23,
-      "forks": 313,
-      "openIssues": 19,
-      "discussion": 3,
-      "discussionTotal": 19,
-      "hot": 21,
-      "pushedAt": "2026-06-10T09:17:49Z",
-      "createdAt": "2026-05-27T02:08:11Z",
-      "reason": "较上一份快照新增 226 stars、23 forks，讨论度增长代理值 3。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "进阶",
-      "stack": [
-        "HTML",
-        "ai-agent",
-        "apache-2",
-        "coding-agent",
-        "css"
-      ],
-      "architecture": "应用层界面 + Agent 规划循环 + 工具调用适配层。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置",
-        "Agent 编排",
-        "工具调用",
-        "任务规划"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
-      "id": 193215554,
-      "name": "n8n",
-      "owner": "n8n-io",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "descriptionZh": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "url": "https://github.com/n8n-io/n8n",
-      "tags": [
-        "MCP"
-      ],
-      "topics": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
-      ],
-      "language": "TypeScript",
-      "stars": 191991,
-      "starGrowth": 138,
-      "forkGrowth": 19,
-      "forks": 58450,
-      "openIssues": 1469,
-      "discussion": 2,
-      "discussionTotal": 1469,
-      "hot": 18,
-      "pushedAt": "2026-06-10T23:52:52Z",
-      "createdAt": "2019-06-22T09:24:21Z",
-      "reason": "较上一份快照新增 138 stars、19 forks，讨论度增长代理值 2。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "进阶",
-      "stack": [
-        "TypeScript",
-        "ai",
-        "apis",
-        "automation",
-        "cli"
-      ],
-      "architecture": "本地 MCP server + 工具协议层 + 客户端调用入口。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置",
-        "MCP 协议",
-        "本地服务",
-        "进程通信"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
-      "id": 658928958,
-      "name": "ollama",
-      "owner": "ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "url": "https://github.com/ollama/ollama",
-      "tags": [
-        "Model"
-      ],
-      "topics": [
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm",
-        "go",
-        "golang",
-        "gpt-oss",
-        "llama",
-        "llama3",
-        "llm",
-        "llms",
-        "minimax",
-        "mistral",
-        "ollama",
-        "qwen"
-      ],
-      "language": "Go",
-      "stars": 173810,
-      "starGrowth": 84,
-      "forkGrowth": 21,
-      "forks": 16547,
-      "openIssues": 3382,
-      "discussion": 5,
-      "discussionTotal": 3382,
-      "hot": 17,
-      "pushedAt": "2026-06-11T02:15:17Z",
-      "createdAt": "2023-06-26T19:39:32Z",
-      "reason": "较上一份快照新增 84 stars、21 forks，讨论度增长代理值 5。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "挑战",
-      "stack": [
-        "Go",
-        "deepseek",
-        "gemma",
-        "gemma3",
-        "glm"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
       "id": 655806940,
       "name": "generative-ai-for-beginners",
       "owner": "microsoft",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "descriptionZh": "21 Lessons, Get Started Building with Generative AI",
+      "descriptionZh": "21课，开始用生成式人工智能构建",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
       "tags": [
         "Model"
@@ -509,7 +265,7 @@
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionZh": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "descriptionZh": "AutoGPT的愿景是让每个人都能使用和构建可访问的AI。我们的使命是提供工具，让您能够专注于重要的事情。",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "tags": [
         "Agent",
@@ -561,75 +317,11 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
-      "id": 155220641,
-      "name": "transformers",
-      "owner": "huggingface",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "url": "https://github.com/huggingface/transformers",
-      "tags": [
-        "Image",
-        "Model"
-      ],
-      "topics": [
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma",
-        "glm",
-        "hacktoberfest",
-        "llm",
-        "machine-learning",
-        "model-hub",
-        "natural-language-processing",
-        "nlp",
-        "pretrained-models",
-        "python",
-        "pytorch",
-        "pytorch-transformers",
-        "qwen",
-        "speech-recognition",
-        "transformer",
-        "vlm"
-      ],
-      "language": "Python",
-      "stars": 161488,
-      "starGrowth": 21,
-      "forkGrowth": 13,
-      "forks": 33464,
-      "openIssues": 2408,
-      "discussion": 3,
-      "discussionTotal": 2408,
-      "hot": 13,
-      "pushedAt": "2026-06-11T03:00:03Z",
-      "createdAt": "2018-10-29T13:56:00Z",
-      "reason": "较上一份快照新增 21 stars、13 forks，讨论度增长代理值 3。",
-      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "入门到进阶",
-      "stack": [
-        "Python",
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma"
-      ],
-      "architecture": "核心库/服务模块 + 示例应用 + 配置与运行脚本。",
-      "knowledge": [
-        "GitHub 工作流",
-        "README 阅读",
-        "本地环境配置",
-        "多模态 API",
-        "图像处理",
-        "前端交互"
-      ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
-    },
-    {
       "id": 574523116,
       "name": "prompts.chat",
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "descriptionZh": "f.k.a.很棒的ChatGPT提示。分享、发现和收集社区提示。免费开源——为您的组织提供完全隐私的自托管服务。",
       "url": "https://github.com/f/prompts.chat",
       "tags": [
         "Tool"
@@ -657,15 +349,15 @@
       "language": "HTML",
       "stars": 163543,
       "starGrowth": 55,
-      "forkGrowth": 4,
-      "forks": 21227,
+      "forkGrowth": 5,
+      "forks": 21228,
       "openIssues": 51,
-      "discussion": 0,
+      "discussion": 1,
       "discussionTotal": 51,
-      "hot": 12,
+      "hot": 13,
       "pushedAt": "2026-06-10T04:34:48Z",
       "createdAt": "2022-12-05T13:54:13Z",
-      "reason": "较上一份快照新增 55 stars、4 forks，讨论度增长代理值 0。",
+      "reason": "较上一份快照新增 55 stars、5 forks，讨论度增长代理值 1。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "入门到进阶",
       "stack": [
@@ -684,49 +376,43 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
-      "id": 1230620963,
-      "name": "DeepSeek-Code-Whale",
-      "owner": "usewhale",
-      "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
-      "descriptionZh": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
-      "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
+      "id": 1197990888,
+      "name": "openclaude",
+      "owner": "Gitlawb",
+      "description": "runs anywhere. uses anything",
+      "descriptionZh": "到处跑。使用任何东西",
+      "url": "https://github.com/Gitlawb/openclaude",
       "tags": [
         "Agent",
-        "MCP",
         "Coding"
       ],
       "topics": [
-        "coding-agent",
-        "deepseek",
-        "deepseek-agent",
-        "deepseek-cli",
-        "deepseek-coding-agent",
-        "go",
-        "llm",
-        "mcp",
-        "skills",
-        "terminal"
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli",
+        "coding"
       ],
-      "language": "Go",
-      "stars": 606,
-      "starGrowth": 46,
-      "forkGrowth": 2,
-      "forks": 44,
-      "openIssues": 10,
+      "language": "TypeScript",
+      "stars": 28571,
+      "starGrowth": 0,
+      "forkGrowth": 0,
+      "forks": 8725,
+      "openIssues": 180,
       "discussion": 0,
-      "discussionTotal": 10,
+      "discussionTotal": 180,
       "hot": 9,
-      "pushedAt": "2026-06-10T08:25:11Z",
-      "createdAt": "2026-05-06T07:01:36Z",
-      "reason": "较上一份快照新增 46 stars、2 forks，讨论度增长代理值 0。",
+      "pushedAt": "2026-06-11T01:34:42Z",
+      "createdAt": "2026-04-01T03:15:49Z",
+      "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
-      "difficulty": "挑战",
+      "difficulty": "进阶",
       "stack": [
-        "Go",
-        "coding-agent",
-        "deepseek",
-        "deepseek-agent",
-        "deepseek-cli"
+        "TypeScript",
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli"
       ],
       "architecture": "应用层界面 + Agent 规划循环 + 工具调用适配层。",
       "knowledge": [
@@ -740,48 +426,174 @@
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
     },
     {
-      "id": 1237004640,
-      "name": "zerostack",
-      "owner": "gi-dellav",
-      "description": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
-      "descriptionZh": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
-      "url": "https://github.com/gi-dellav/zerostack",
+      "id": 1216785679,
+      "name": "DeepSeek-Reasonix",
+      "owner": "esengine",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "descriptionZh": "DeepSeek为您的终端提供原生AI编码代理。围绕前缀缓存稳定性进行设计——让它继续运行。",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "tags": [
         "Agent",
         "Coding"
       ],
       "topics": [
         "agent",
-        "agentic-ai",
-        "agentic-coding",
-        "agents",
-        "ai",
-        "claude-code",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
         "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "ink",
         "llm",
-        "rust",
-        "rust-lang"
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
       ],
-      "language": "Rust",
-      "stars": 1245,
-      "starGrowth": 13,
-      "forkGrowth": 4,
-      "forks": 87,
-      "openIssues": 1,
+      "language": "Go",
+      "stars": 20918,
+      "starGrowth": 0,
+      "forkGrowth": 0,
+      "forks": 1256,
+      "openIssues": 325,
       "discussion": 0,
-      "discussionTotal": 1,
-      "hot": 8,
-      "pushedAt": "2026-06-10T21:31:47Z",
-      "createdAt": "2026-05-12T19:31:49Z",
-      "reason": "较上一份快照新增 13 stars、4 forks，讨论度增长代理值 0。",
+      "discussionTotal": 325,
+      "hot": 9,
+      "pushedAt": "2026-06-11T03:57:29Z",
+      "createdAt": "2026-04-21T08:27:02Z",
+      "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
       "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
       "difficulty": "挑战",
       "stack": [
-        "Rust",
+        "Go",
         "agent",
-        "agentic-ai",
-        "agentic-coding",
-        "agents"
+        "agent-framework",
+        "ai-agent",
+        "ai-coding"
+      ],
+      "architecture": "应用层界面 + Agent 规划循环 + 工具调用适配层。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置",
+        "Agent 编排",
+        "工具调用",
+        "任务规划"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
+      "id": 1135791677,
+      "name": "GenericAgent",
+      "owner": "lsdefine",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "descriptionZh": "自进化代理：从3.3K线种子生长技能树，实现全系统控制，代币消耗减少6倍",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "tags": [
+        "Agent"
+      ],
+      "topics": [
+        "ai-agent",
+        "automation",
+        "autonomous-agent",
+        "browser-automation",
+        "claude",
+        "computer-control",
+        "desktop-automation",
+        "gemini",
+        "lightweight",
+        "llm-agent",
+        "memory-system",
+        "python",
+        "self-evolving",
+        "skill-tree",
+        "task-automation"
+      ],
+      "language": "Python",
+      "stars": 12762,
+      "starGrowth": 0,
+      "forkGrowth": 0,
+      "forks": 1471,
+      "openIssues": 143,
+      "discussion": 0,
+      "discussionTotal": 143,
+      "hot": 9,
+      "pushedAt": "2026-06-11T03:05:34Z",
+      "createdAt": "2026-01-16T15:45:24Z",
+      "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "进阶",
+      "stack": [
+        "Python",
+        "ai-agent",
+        "automation",
+        "autonomous-agent",
+        "browser-automation"
+      ],
+      "architecture": "应用层界面 + Agent 规划循环 + 工具调用适配层。",
+      "knowledge": [
+        "GitHub 工作流",
+        "README 阅读",
+        "本地环境配置",
+        "Agent 编排",
+        "工具调用",
+        "任务规划"
+      ],
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+    },
+    {
+      "id": 1125856365,
+      "name": "oh-my-pi",
+      "owner": "can1357",
+      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "descriptionZh": "⌥终端的AI编码代理——哈希锚定编辑、优化工具、LSP、Python、浏览器、子代理等",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "tags": [
+        "Agent",
+        "MCP",
+        "Coding"
+      ],
+      "topics": [
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "bun",
+        "claude",
+        "cli",
+        "coding-assistant",
+        "llm",
+        "mcp",
+        "multi-provider",
+        "openai",
+        "rust",
+        "terminal",
+        "tui",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "stars": 11772,
+      "starGrowth": 0,
+      "forkGrowth": 0,
+      "forks": 995,
+      "openIssues": 220,
+      "discussion": 0,
+      "discussionTotal": 220,
+      "hot": 9,
+      "pushedAt": "2026-06-11T01:08:57Z",
+      "createdAt": "2025-12-31T14:01:28Z",
+      "reason": "当前快照暂无历史增长数据，先以新项目活跃度和少量总量信号做冷启动评分；后续快照会以增长为主。",
+      "fit": "适合作为趋势观察、源码学习或二次开发候选项目。",
+      "difficulty": "进阶",
+      "stack": [
+        "TypeScript",
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "bun"
       ],
       "architecture": "应用层界面 + Agent 规划循环 + 工具调用适配层。",
       "knowledge": [
@@ -809,7 +621,7 @@
       "heat": 75,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude"
+      "summaryZh": "Anthropic撤销了可能利用克劳德“破坏”人工智能研究人员的政策"
     },
     {
       "id": "openai-how-an-astrophysicist-uses-codex-to-help-simulate-black-holes",
@@ -824,7 +636,7 @@
       "heat": 74,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "How an astrophysicist uses Codex to help simulate black holes"
+      "summaryZh": "天体物理学家如何使用Codex来帮助模拟黑洞"
     },
     {
       "id": "google-news-openai-access-openai-models-and-codex-through-your-oracle-cloud-commitment-openai",
@@ -839,7 +651,7 @@
       "heat": 74,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Access OpenAI models and Codex through your Oracle cloud commitment"
+      "summaryZh": "通过您的Oracle云承诺访问OpenAI模型和Codex"
     },
     {
       "id": "google-news-openai-china-based-operatives-used-chatgpt-to-shape-ai-data-centers-and-tariff-debates-axios",
@@ -854,7 +666,7 @@
       "heat": 74,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "China-based operatives used ChatGPT to shape AI data centers and tariff debates"
+      "summaryZh": "总部位于中国的特工使用ChatGPT来塑造人工智能数据中心和关税辩论"
     },
     {
       "id": "google-news-openai-visa-plugs-its-payment-network-into-chatgpt-letting-ai-agents-shop-and-pay-for-users-ap-news",
@@ -869,22 +681,7 @@
       "heat": 74,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa plugs its payment network into ChatGPT, letting AI agents shop and pay for users"
-    },
-    {
-      "id": "google-news-openai-visa-partners-with-openai-to-let-ai-agents-make-payments-for-users-siliconangle",
-      "title": "Visa partners with OpenAI to let AI agents make payments for users - SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczhoUTA3VFdOQnJwenNnOW1MYWlwSUV6RndlNmFWRGRybUJldHBqVlJYNHdMaS1CdEpmMXFrUEt1elE?oc=5",
-      "source": "Google News: OpenAI / SiliconANGLE",
-      "company": "OpenAI",
-      "publishedAt": "2026-06-10T22:30:24.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1B5QzFnRG5ocXNENHNQbG1NRUtIVUhxWFJFVWtZUTZGelBaMUoxY3Z6M1gxRnExQTZDQUd2ZG54UnVHSHBoTzlSNzBGUl9NOFRWRzdnRzBwWjhFczh",
-      "topic": "开发者工具",
-      "time": "2026-06-10",
-      "heat": 74,
-      "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Visa partners with OpenAI to let AI agents make payments for users"
+      "summaryZh": "Visa将其支付网络插入ChatGPT，让AI代理为用户购物和支付"
     },
     {
       "id": "google-news-google-superai-singapore-google-deepmind-opens-its-science-ai-toolkit-to-asia-pacific-startups-digitimes",
@@ -896,10 +693,10 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNR29URE1EY296alF5TUI3WmRoT2RKZUFMRzlJVmw2cFk4U3hwdnJUa0RIajlwalU5a2RNeG9OZm9HVnJGc3l3dTZOSldHaEhHa25nQkNHYU1sRlFRUFN",
       "topic": "开发者工具",
       "time": "2026-06-11",
-      "heat": 74,
+      "heat": 73,
       "importance": "Google 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "SuperAI Singapore: Google DeepMind opens its science AI toolkit to Asia-Pacific startups - digitimes"
+      "summaryZh": "SuperAI新加坡：谷歌DeepMind向亚太初创公司开放其科学AI工具包-数字化"
     },
     {
       "id": "google-news-openai-openai-likely-chinese-influence-operation-tried-to-use-chatgpt-to-stir-debate-on-data-centers-cyberscoop",
@@ -914,22 +711,7 @@
       "heat": 72,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI: ‘Likely’ Chinese influence operation tried to use ChatGPT to stir debate on data centers"
-    },
-    {
-      "id": "google-news-google-gemini-prompt-injection-shows-ai-adoption-is-increasing-risk-for-companies-international-business-times",
-      "title": "Gemini Prompt Injection Shows AI Adoption is Increasing Risk for Companies - International Business Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOakFHU0gwY3BValpGOWljUXluczhEc3BOM3pKcjJOWTVKNldxbGYzUHdFamYzbWR4SXJ6dks4QmpwV3gyc1VGVDVqNHhkdzNuYlRMVUdUZjQ3QUNvQ2x3QXg0TmFHY21LY2hDQlhyeGV1RGNkeEx2MUJmZ0xrVjRHQWtKNW95MTJvZzRxdGJxU2FneklIM3F6SVNDVVVHTlFC?oc=5",
-      "source": "Google News: Google / International Business Times",
-      "company": "Google",
-      "publishedAt": "2026-06-10T23:35:01.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOakFHU0gwY3BValpGOWljUXluczhEc3BOM3pKcjJOWTVKNldxbGYzUHdFamYzbWR4SXJ6dks4QmpwV3gyc1VGVDVqNHhkdzNuYlRMVUdUZjQ3QUNvQ2x",
-      "topic": "模型发布",
-      "time": "2026-06-10",
-      "heat": 72,
-      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null,
-      "summaryZh": "Gemini Prompt Injection Shows AI Adoption is Increasing Risk for Companies"
+      "summaryZh": "OpenAI：“可能”的中国影响力运营试图利用ChatGPT引发关于数据中心的争论"
     },
     {
       "id": "google-news-google-google-s-new-ai-model-hits-1-000-tokens-per-second-on-nvidia-gpus-yellow-com",
@@ -944,7 +726,7 @@
       "heat": 72,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Google's New AI Model Hits 1,000 Tokens Per Second On Nvidia GPUs"
+      "summaryZh": "谷歌的新AI模型在Nvidia GPU上每秒达到1000个令牌"
     },
     {
       "id": "google-news-openai-visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-wsj",
@@ -959,7 +741,7 @@
       "heat": 71,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership"
+      "summaryZh": "Visa将通过OpenAI合作伙伴关系在ChatGPT上为购物者提供安全支付"
     },
     {
       "id": "google-news-openai-visa-lets-agents-pay-through-openai-axios",
@@ -974,7 +756,7 @@
       "heat": 71,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa lets agents pay through OpenAI"
+      "summaryZh": "Visa允许代理商通过OpenAI支付"
     },
     {
       "id": "google-news-openai-visa-and-openai-partner-to-let-ai-agents-shop-via-chatgpt-qz-com",
@@ -982,14 +764,14 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTdHbmpiUjNxbzRHTkcwQQ?oc=5",
       "source": "Google News: OpenAI / qz.com",
       "company": "OpenAI",
-      "publishedAt": "2026-06-10T19:13:37.000Z",
+      "publishedAt": "2026-06-10T19:50:14.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9mbjNZaE9UMjN5b2I4Wm9odklzR1pyV1NEQ0pLRk9fdDJjdnV5UExmY3QxVnRnUDdueXhLQmFLZEktRExWVnRmaVNpdlJUVmRGalJDdG5JaXhwcW1QVTd",
       "topic": "模型发布",
       "time": "2026-06-10",
       "heat": 71,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Visa and OpenAI partner to let AI agents shop via ChatGPT - qz.com"
+      "summaryZh": "Visa和OpenAI合作让AI代理商通过ChatGPT-qz.com购物"
     },
     {
       "id": "google-news-openai-openai-mulls-slashing-prices-as-it-competes-with-anthropic-for-users-wsj-cnbc",
@@ -1004,7 +786,22 @@
       "heat": 71,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ"
+      "summaryZh": "OpenAI考虑大幅降价，因为它与Anthropic争夺用户：《华尔街日报》"
+    },
+    {
+      "id": "google-news-google-gemini-prompt-injection-shows-ai-adoption-is-increasing-risk-for-companies-international-business-times",
+      "title": "Gemini Prompt Injection Shows AI Adoption is Increasing Risk for Companies - International Business Times",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOakFHU0gwY3BValpGOWljUXluczhEc3BOM3pKcjJOWTVKNldxbGYzUHdFamYzbWR4SXJ6dks4QmpwV3gyc1VGVDVqNHhkdzNuYlRMVUdUZjQ3QUNvQ2x3QXg0TmFHY21LY2hDQlhyeGV1RGNkeEx2MUJmZ0xrVjRHQWtKNW95MTJvZzRxdGJxU2FneklIM3F6SVNDVVVHTlFC?oc=5",
+      "source": "Google News: Google / International Business Times",
+      "company": "Google",
+      "publishedAt": "2026-06-10T23:35:01.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOakFHU0gwY3BValpGOWljUXluczhEc3BOM3pKcjJOWTVKNldxbGYzUHdFamYzbWR4SXJ6dks4QmpwV3gyc1VGVDVqNHhkdzNuYlRMVUdUZjQ3QUNvQ2x",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 71,
+      "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "Gemini Prompt Injection显示人工智能的采用正在增加公司的风险"
     },
     {
       "id": "openai-prc-linked-influence-operations-are-targeting-ai-debates-in-the-us",
@@ -1019,7 +816,7 @@
       "heat": 70,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "PRC-linked influence operations are targeting AI debates in the US"
+      "summaryZh": "与中国有关的影响力行动针对的是美国的人工智能辩论"
     },
     {
       "id": "google-news-openai-openai-visa-team-up-to-let-ai-agents-make-purchases-online-bloomberg-com",
@@ -1034,7 +831,7 @@
       "heat": 70,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI, Visa Team Up to Let AI Agents Make Purchases Online"
+      "summaryZh": "OpenAI和Visa联手让AI代理商在线购物"
     },
     {
       "id": "google-news-openai-exclusive-openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-wsj",
@@ -1049,7 +846,7 @@
       "heat": 70,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic"
+      "summaryZh": "独家| OpenAI考虑大幅降价，预计用户将与Anthropic开战"
     },
     {
       "id": "google-news-openai-openai-s-chatgpt-ads-get-its-first-conversion-api-partner-in-liveramp-digiday",
@@ -1064,7 +861,7 @@
       "heat": 70,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI’s ChatGPT ads get its first conversion API partner in LiveRamp"
+      "summaryZh": "OpenAI的ChatGPT广告在LiveRamp获得其第一个转换API合作伙伴"
     },
     {
       "id": "google-news-openai-chatgpt-ads-get-measurement-boost-from-new-liveramp-partnership-marketing-dive",
@@ -1079,7 +876,7 @@
       "heat": 70,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "ChatGPT ads get measurement boost from new LiveRamp partnership"
+      "summaryZh": "ChatGPT广告从新的LiveRamp合作伙伴关系中获得衡量提升"
     },
     {
       "id": "google-news-openai-training-to-cycle-across-antarctica-with-chatgpt-openai",
@@ -1094,7 +891,22 @@
       "heat": 69,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Training to cycle across Antarctica with ChatGPT"
+      "summaryZh": "使用ChatGPT进行南极骑行训练"
+    },
+    {
+      "id": "google-news-openai-openai-ipo-6-things-to-know-before-you-buy-the-stock-yahoo-finance",
+      "title": "OpenAI IPO: 6 things to know before you buy the stock - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGk0Zno0X2pwRXJXc0lPbXhLcC1xWlQ5Q1NUWE91QzJGWHRSR0ZsV3ZxVkFhZFBNOUhJbERXVjdOX28xZ0NJRWdQVmNubHZNd1JfRVplU2NCb0ZaWVJKM1lyZHJjX09NaDhfem1VYm1SVDUtTlZ5MS1hd2ExYU45ZDlMd2NheXRZR2J3UjBlMnZyeDJZNVNVeXVxQ0d3YVZHUGptTEZuR3JOTFBSTHhVdzU1aktjYmtvaGk2NFY2aWdPQkMtbjJF?oc=5",
+      "source": "Google News: OpenAI / Yahoo Finance",
+      "company": "OpenAI",
+      "publishedAt": "2026-06-10T15:11:22.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGk0Zno0X2pwRXJXc0lPbXhLcC1xWlQ5Q1NUWE91QzJGWHRSR0ZsV3ZxVkFhZFBNOUhJbERXVjdOX28xZ0NJRWdQVmNubHZNd1JfRVplU2NCb0ZaWVJ",
+      "topic": "模型发布",
+      "time": "2026-06-10",
+      "heat": 68,
+      "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
+      "relatedRepo": null,
+      "summaryZh": "OpenAI IPO：购买股票前需要知道的6件事"
     }
   ],
   "beginnerProjects": [
@@ -1104,12 +916,12 @@
       "owner": "ifixai-ai",
       "url": "https://github.com/ifixai-ai/iFixAi",
       "description": "Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic.",
-      "descriptionZh": "Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic.",
+      "descriptionZh": "这是一个与 Agent、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic. ",
       "categoryTags": [
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 472,
+      "stars": 471,
       "beginnerScore": 70,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -1160,7 +972,7 @@
       "owner": "Lap-Platform",
       "url": "https://github.com/Lap-Platform/LAP",
       "description": "Your agents are guessing at APIs. Give them the actual Agent-Native spec. 1500+ API's Ready To-Use skills,  Compile any API spec into a lean, agent-native format. 10× smaller. OpenAPI, GraphQL, AsyncAPI, Protobuf, Postman.",
-      "descriptionZh": "Your agents are guessing at APIs. Give them the actual Agent-Native spec. 1500+ API's Ready To-Use skills, Compile any API spec into a lean, agent-native format. 10× smaller. OpenAPI, GraphQL, AsyncAPI, Protobuf, Postman.",
+      "descriptionZh": "这是一个与 Agent、MCP、Coding 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Your agents are guessing at APIs. Give them the actual Agent-Native spec. 1500+ API's Ready To-Use skills, Compile any API spec into a lean, agent-native format. 10× smaller. OpenAPI, GraphQL, AsyncAPI, Protobuf, Postman. ",
       "categoryTags": [
         "cli-tool",
         "api-wrapper"
@@ -1213,6 +1025,52 @@
       "openIssues": 0
     },
     {
+      "id": 1092186407,
+      "name": "minimind-notes",
+      "owner": "joyehuang",
+      "url": "https://github.com/joyehuang/minimind-notes",
+      "description": "🚀 [从零构建 LLM] 极简大模型训练原理与实践指南。包含 Transformer, Pretraining, SFT 核心代码与对照实验。 | A minimal, principle-first guide to understanding and building LLMs from scratch.",
+      "descriptionZh": "🚀 [从零构建 LLM] 极简大模型训练原理与实践指南。包含 Transformer, Pretraining, SFT 核心代码与对照实验。 | A minimal, principle-first guide to understanding and building LLMs from scratch.",
+      "categoryTags": [
+        "learning-project"
+      ],
+      "language": "Python",
+      "stars": 124,
+      "beginnerScore": 70,
+      "beginnerScoreBreakdown": {
+        "readmeQuality": 10,
+        "installInstructions": 5,
+        "dependencySimplicity": 15,
+        "issueResponseRate": 15,
+        "languageAccessibility": 15,
+        "examplesPresence": 10
+      },
+      "setupComplexity": "medium",
+      "prerequisiteSkills": [
+        "basic-terminal",
+        "git-basics",
+        "python-basics"
+      ],
+      "estimatedFirstRunMinutes": 45,
+      "hasChineseDocs": true,
+      "hasExamplesFolder": true,
+      "lastUpdated": "2026-06-04T12:01:31Z",
+      "topics": [
+        "ai",
+        "deep-learning",
+        "llm",
+        "machine-learning",
+        "minimind",
+        "notes",
+        "pretraining",
+        "pytorch",
+        "transformer",
+        "tutorial"
+      ],
+      "forks": 13,
+      "openIssues": 2
+    },
+    {
       "id": 1250240320,
       "name": "ai-engineering-from-scratch-zh",
       "owner": "fancyboi999",
@@ -1223,7 +1081,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 126,
+      "stars": 110,
       "beginnerScore": 70,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1265,54 +1123,8 @@
         "transformers",
         "tutorial"
       ],
-      "forks": 27,
+      "forks": 22,
       "openIssues": 0
-    },
-    {
-      "id": 1092186407,
-      "name": "minimind-notes",
-      "owner": "joyehuang",
-      "url": "https://github.com/joyehuang/minimind-notes",
-      "description": "🚀 [从零构建 LLM] 极简大模型训练原理与实践指南。包含 Transformer, Pretraining, SFT 核心代码与对照实验。 | A minimal, principle-first guide to understanding and building LLMs from scratch.",
-      "descriptionZh": "🚀 [从零构建 LLM] 极简大模型训练原理与实践指南。包含 Transformer, Pretraining, SFT 核心代码与对照实验。 | A minimal, principle-first guide to understanding and building LLMs from scratch.",
-      "categoryTags": [
-        "learning-project"
-      ],
-      "language": "Python",
-      "stars": 126,
-      "beginnerScore": 70,
-      "beginnerScoreBreakdown": {
-        "readmeQuality": 10,
-        "installInstructions": 5,
-        "dependencySimplicity": 15,
-        "issueResponseRate": 15,
-        "languageAccessibility": 15,
-        "examplesPresence": 10
-      },
-      "setupComplexity": "medium",
-      "prerequisiteSkills": [
-        "basic-terminal",
-        "git-basics",
-        "python-basics"
-      ],
-      "estimatedFirstRunMinutes": 45,
-      "hasChineseDocs": true,
-      "hasExamplesFolder": true,
-      "lastUpdated": "2026-06-04T12:01:31Z",
-      "topics": [
-        "ai",
-        "deep-learning",
-        "llm",
-        "machine-learning",
-        "minimind",
-        "notes",
-        "pretraining",
-        "pytorch",
-        "transformer",
-        "tutorial"
-      ],
-      "forks": 13,
-      "openIssues": 2
     },
     {
       "id": 646220234,
@@ -1320,7 +1132,7 @@
       "owner": "Safiullah-Rahu",
       "url": "https://github.com/Safiullah-Rahu/CSV-AI",
       "description": "CSV-AI is the ultimate app powered by LangChain, OpenAI, and Streamlit that allows you to unlock hidden insights in your CSV files. With CSV-AI, you can effortlessly interact with, summarize, and analyze your CSV files in one convenient place.",
-      "descriptionZh": "CSV-AI is the ultimate app powered by LangChain, OpenAI, and Streamlit that allows you to unlock hidden insights in your CSV files. With CSV-AI, you can effortlessly interact with, summarize, and analyze your CSV files in one convenient place.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：CSV-AI is the ultimate app powered by LangChain, OpenAI, and Streamlit that allows you to unlock hidden insights in your CSV files. With CSV-AI, you can effortlessly interact with, summarize, and analyze your CSV files in one convenient place. ",
       "categoryTags": [
         "web-app",
         "chatbot",
@@ -1365,7 +1177,7 @@
       "owner": "judahpaul16",
       "url": "https://github.com/judahpaul16/gpt-home",
       "description": "ChatGPT at home! A better alternative to commercial smart home assistants, built on the Raspberry Pi using LiteLLM and LangGraph.",
-      "descriptionZh": "ChatGPT at home! A better alternative to commercial smart home assistants, built on the Raspberry Pi using LiteLLM and LangGraph.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：ChatGPT at home! A better alternative to commercial smart home assistants, built on the Raspberry Pi using LiteLLM and LangGraph. ",
       "categoryTags": [
         "automation",
         "chatbot",
@@ -1425,7 +1237,7 @@
       "owner": "CodingLucasLi",
       "url": "https://github.com/CodingLucasLi/Clawome",
       "description": "Clawome - AI Agent Browser | Smart Web Browsing Tool Give your AI agent eyes and hands on any website. Open-source smart browser tool for AI agents to efficiently browse, read, and interact with web pages.",
-      "descriptionZh": "Clawome - AI Agent Browser | Smart Web Browsing Tool Give your AI agent eyes and hands on any website. Open-source smart browser tool for AI agents to efficiently browse, read, and interact with web pages.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Clawome - AI Agent Browser | Smart Web Browsing Tool Give your AI agent eyes and hands on any website. Open-source smart browser tool for AI agents to efficiently browse, read, and interact with web pages. ",
       "categoryTags": [
         "browser-tool"
       ],
@@ -1467,7 +1279,7 @@
       "owner": "dog-qiuqiu",
       "url": "https://github.com/dog-qiuqiu/invincat",
       "description": "A native Python agent CLI built on DeepAgents CLI, featuring an independent memory Agent that captures learnings after each task and delivers efficient AI coding assistance through hierarchical memory management.",
-      "descriptionZh": "A native Python agent CLI built on DeepAgents CLI, featuring an independent memory Agent that captures learnings after each task and delivers efficient AI coding assistance through hierarchical memory management.",
+      "descriptionZh": "这是一个与 Agent、Coding 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：A native Python agent CLI built on DeepAgents CLI, featuring an independent memory Agent that captures learnings after each task and delivers efficient AI coding assistance through hierarchical memory management. ",
       "categoryTags": [
         "cli-tool",
         "coding-assistant",
@@ -1522,12 +1334,12 @@
       "owner": "martinopiaggi",
       "url": "https://github.com/martinopiaggi/summarize",
       "description": "Video AI summarization from multiple sources (YouTube, X, Instagram, TikTok, Reddit, Facebook, Google Drive, Dropbox, and local files).",
-      "descriptionZh": "Video AI summarization from multiple sources (YouTube, X, Instagram, TikTok, Reddit, Facebook, Google Drive, Dropbox, and local files).",
+      "descriptionZh": "这是一个与 Video 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Video AI summarization from multiple sources (YouTube, X, Instagram, TikTok, Reddit, Facebook, Google Drive, Dropbox, and local files). ",
       "categoryTags": [
         "web-app"
       ],
       "language": "Python",
-      "stars": 189,
+      "stars": 188,
       "beginnerScore": 65,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1572,12 +1384,12 @@
       "owner": "Finrandojin",
       "url": "https://github.com/Finrandojin/alexandria-audiobook",
       "description": "AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to MP3, chaptered M4B, or Audacity multi-track. Built on Qwen3-TTS.",
-      "descriptionZh": "AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to MP3, chaptered M4B, or Audacity multi-track. Built on Qwen3-TTS.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to MP3, chaptered M4B, or Audacity multi-track. Built on Qwen3-TTS. ",
       "categoryTags": [
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 672,
+      "stars": 669,
       "beginnerScore": 65,
       "beginnerScoreBreakdown": {
         "readmeQuality": 15,
@@ -1628,7 +1440,7 @@
       "owner": "devnen",
       "url": "https://github.com/devnen/Dia-TTS-Server",
       "description": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution.",
-      "descriptionZh": "Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution.",
+      "descriptionZh": "这是一个与 Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), support for SafeTensors/BF16, voice cloning, dialogue generation, and GPU/CPU execution. ",
       "categoryTags": [
         "api-wrapper"
       ],
@@ -1679,70 +1491,12 @@
       "openIssues": 3
     },
     {
-      "id": 1177921872,
-      "name": "fojin",
-      "owner": "xr843",
-      "url": "https://github.com/xr843/fojin",
-      "description": "Buddhist Digital Text Platform — 9,200+ texts, 500+ sources, 8 UI languages, AI Q&A (RAG), knowledge graph, full-text search",
-      "descriptionZh": "Buddhist Digital Text Platform — 9,200+ texts, 500+ sources, 8 UI languages, AI Q&A (RAG), knowledge graph, full-text search",
-      "categoryTags": [
-        "api-wrapper",
-        "knowledge-base"
-      ],
-      "language": "Python",
-      "stars": 310,
-      "beginnerScore": 65,
-      "beginnerScoreBreakdown": {
-        "readmeQuality": 10,
-        "installInstructions": 10,
-        "dependencySimplicity": 15,
-        "issueResponseRate": 15,
-        "languageAccessibility": 15,
-        "examplesPresence": 0
-      },
-      "setupComplexity": "high",
-      "prerequisiteSkills": [
-        "basic-terminal",
-        "git-basics",
-        "python-basics",
-        "docker-basics",
-        "api-key-management"
-      ],
-      "estimatedFirstRunMinutes": 90,
-      "hasChineseDocs": false,
-      "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-11T03:46:55Z",
-      "topics": [
-        "ai",
-        "buddhism",
-        "buddhist-studies",
-        "chinese-classics",
-        "digital-humanities",
-        "docker",
-        "elasticsearch",
-        "fastapi",
-        "full-text-search",
-        "knowledge-graph",
-        "nlp",
-        "open-source",
-        "pali",
-        "parallel-reading",
-        "rag",
-        "react",
-        "sanskrit",
-        "semantic-search",
-        "tibetan"
-      ],
-      "forks": 53,
-      "openIssues": 4
-    },
-    {
       "id": 1130325611,
       "name": "poco-claw",
       "owner": "poco-ai",
       "url": "https://github.com/poco-ai/poco-claw",
       "description": "A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
-      "descriptionZh": "A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent. ",
       "categoryTags": [
         "chatbot"
       ],
@@ -1766,7 +1520,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T11:51:15Z",
+      "lastUpdated": "2026-05-31T15:11:57Z",
       "topics": [
         "agent",
         "ai",
@@ -1776,8 +1530,8 @@
         "manus",
         "openclaw"
       ],
-      "forks": 125,
-      "openIssues": 4
+      "forks": 124,
+      "openIssues": 1
     },
     {
       "id": 1229284184,
@@ -1792,7 +1546,7 @@
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 2457,
+      "stars": 2338,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1811,7 +1565,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": true,
       "hasExamplesFolder": true,
-      "lastUpdated": "2026-06-10T16:33:37Z",
+      "lastUpdated": "2026-06-10T04:17:11Z",
       "topics": [
         "agentic-ai",
         "agentic-workflows",
@@ -1833,7 +1587,7 @@
         "trilingual",
         "tutorial"
       ],
-      "forks": 325,
+      "forks": 303,
       "openIssues": 1
     },
     {
@@ -1848,7 +1602,7 @@
         "learning-project"
       ],
       "language": "Python",
-      "stars": 1866,
+      "stars": 1838,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -1887,8 +1641,8 @@
         "skills",
         "tutorial"
       ],
-      "forks": 246,
-      "openIssues": 9
+      "forks": 241,
+      "openIssues": 8
     },
     {
       "id": 629177820,
@@ -1896,13 +1650,13 @@
       "owner": "Josh-XT",
       "url": "https://github.com/Josh-XT/AGiXT",
       "description": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
-      "descriptionZh": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions. ",
       "categoryTags": [
         "automation",
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 3195,
+      "stars": 3193,
       "beginnerScore": 63,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -1948,7 +1702,7 @@
       "owner": "tinyfish-io",
       "url": "https://github.com/tinyfish-io/agentql",
       "description": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.",
-      "descriptionZh": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger. ",
       "categoryTags": [
         "automation",
         "browser-tool",
@@ -1974,7 +1728,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-11T00:12:24Z",
+      "lastUpdated": "2026-06-03T19:07:19Z",
       "topics": [
         "agent",
         "ai",
@@ -2002,7 +1756,7 @@
       "owner": "SamurAIGPT",
       "url": "https://github.com/SamurAIGPT/muapi-cli",
       "description": "Official CLI for muapi.ai — generate images, videos & audio from the terminal. MCP server, 14 AI models, npm + pip installable.",
-      "descriptionZh": "Official CLI for muapi.ai — generate images, videos & audio from the terminal. MCP server, 14 AI models, npm + pip installable.",
+      "descriptionZh": "这是一个与 MCP、Image、Video、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Official CLI for muapi.ai — generate images, videos & audio from the terminal. MCP server, 14 AI models, npm + pip installable. ",
       "categoryTags": [
         "cli-tool",
         "image-generation",
@@ -2055,7 +1809,7 @@
         "chatbot"
       ],
       "language": "TypeScript",
-      "stars": 352,
+      "stars": 350,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2085,7 +1839,7 @@
         "llm",
         "skills"
       ],
-      "forks": 24,
+      "forks": 25,
       "openIssues": 1
     },
     {
@@ -2094,14 +1848,14 @@
       "owner": "JCodesMore",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "description": "Clone any website with one command using AI coding agents",
-      "descriptionZh": "Clone any website with one command using AI coding agents",
+      "descriptionZh": "这是一个与 Agent、Coding 相关的 GitHub 开源项目，主要使用 TypeScript。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Clone any website with one command using AI coding agents ",
       "categoryTags": [
         "web-app",
         "coding-assistant",
         "automation"
       ],
       "language": "TypeScript",
-      "stars": 16760,
+      "stars": 16707,
       "beginnerScore": 62,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2143,7 +1897,7 @@
         "web-scraping",
         "website-clone"
       ],
-      "forks": 2577,
+      "forks": 2568,
       "openIssues": 10
     },
     {
@@ -2152,7 +1906,7 @@
       "owner": "supabase-community",
       "url": "https://github.com/supabase-community/nextjs-openai-doc-search",
       "description": "Template for building your own custom ChatGPT style doc search powered by Next.js, OpenAI, and Supabase.",
-      "descriptionZh": "Template for building your own custom ChatGPT style doc search powered by Next.js, OpenAI, and Supabase.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 TypeScript。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Template for building your own custom ChatGPT style doc search powered by Next.js, OpenAI, and Supabase. ",
       "categoryTags": [
         "web-app",
         "chatbot",
@@ -2201,12 +1955,12 @@
       "owner": "aadi1011",
       "url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch",
       "description": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
-      "descriptionZh": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 未知语言。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository. ",
       "categoryTags": [
         "learning-project"
       ],
       "language": "Unknown",
-      "stars": 3709,
+      "stars": 3707,
       "beginnerScore": 61,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -2249,7 +2003,7 @@
       "owner": "Dartvauder",
       "url": "https://github.com/Dartvauder/NeuroSandboxWebUI",
       "description": "(Windows/Linux/MacOS) Local WebUI with neural network models (Text, Image, Video, 3D, Audio) on python (Gradio interface). Translated on 3 languages",
-      "descriptionZh": "(Windows/Linux/MacOS) Local WebUI with neural network models (Text, Image, Video, 3D, Audio) on python (Gradio interface). Translated on 3 languages",
+      "descriptionZh": "这是一个与 Image、Video、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：(Windows/Linux/MacOS) Local WebUI with neural network models (Text, Image, Video, 3D, Audio) on python (Gradio interface). Translated on 3 languages ",
       "categoryTags": [
         "image-generation",
         "web-app"
@@ -2306,13 +2060,13 @@
       "owner": "Vinyzu",
       "url": "https://github.com/Vinyzu/Botright",
       "description": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI.",
-      "descriptionZh": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captchas for free with AI. ",
       "categoryTags": [
         "automation",
         "browser-tool"
       ],
       "language": "Python",
-      "stars": 993,
+      "stars": 992,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 15,
@@ -2357,13 +2111,13 @@
       "owner": "jezweb",
       "url": "https://github.com/jezweb/claude-skills",
       "description": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
-      "descriptionZh": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations. ",
       "categoryTags": [
         "automation",
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 848,
+      "stars": 844,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2382,7 +2136,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-11T02:15:37Z",
+      "lastUpdated": "2026-05-13T14:29:05Z",
       "topics": [
         "ai",
         "anthropic",
@@ -2401,19 +2155,18 @@
       "openIssues": 16
     },
     {
-      "id": 1119131583,
-      "name": "Athena-Public",
-      "owner": "winstonkoh87",
-      "url": "https://github.com/winstonkoh87/Athena-Public",
-      "description": "The Linux OS for AI Agents — Persistent memory, autonomy, and time-awareness for any LLM. Own the state. Rent the intelligence.",
-      "descriptionZh": "The Linux OS for AI Agents — Persistent memory, autonomy, and time-awareness for any LLM. Own the state. Rent the intelligence.",
+      "id": 1194340608,
+      "name": "heym",
+      "owner": "heymrun",
+      "url": "https://github.com/heymrun/heym",
+      "description": "Self-hosted AI workflow automation platform with visual canvas, agents, RAG, HITL, MCP, and observability in one runtime.",
+      "descriptionZh": "这是一个与 Agent、RAG、MCP 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Self-hosted AI workflow automation platform with visual canvas, agents, RAG, HITL, MCP, and observability in one runtime. ",
       "categoryTags": [
         "automation",
-        "chatbot",
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 502,
+      "stars": 576,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2423,40 +2176,40 @@
         "languageAccessibility": 15,
         "examplesPresence": 0
       },
-      "setupComplexity": "medium",
+      "setupComplexity": "low",
       "prerequisiteSkills": [
         "basic-terminal",
         "git-basics",
         "python-basics"
       ],
-      "estimatedFirstRunMinutes": 45,
+      "estimatedFirstRunMinutes": 15,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T14:27:37Z",
+      "lastUpdated": "2026-06-09T20:58:16Z",
       "topics": [
         "ai",
         "ai-agents",
+        "ai-agents-framework",
         "ai-assistant",
         "automation",
-        "chatgpt",
-        "developer-tools",
-        "framework",
-        "gemini",
-        "google-antigravity",
-        "graphrag",
-        "knowledge-management",
-        "llm",
-        "local-first",
-        "memory",
-        "open-source",
-        "prompt-engineering",
+        "automation-tool",
+        "human-in-the-loop",
+        "mcp",
+        "mcp-server",
+        "mcp-tool",
+        "mcps",
+        "n8n-alternative",
+        "no-code",
+        "no-code-automation",
         "python",
         "rag",
-        "semantic-search",
-        "vector-search"
+        "self-hosted",
+        "vue",
+        "workflow-automation",
+        "workflows"
       ],
-      "forks": 69,
-      "openIssues": 0
+      "forks": 63,
+      "openIssues": 2
     },
     {
       "id": 1129583447,
@@ -2464,13 +2217,13 @@
       "owner": "yifanfeng97",
       "url": "https://github.com/yifanfeng97/Hyper-Extract",
       "description": "Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
-      "descriptionZh": "Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+      "descriptionZh": "这是一个与 Agent、RAG 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command. ",
       "categoryTags": [
         "cli-tool",
         "knowledge-base"
       ],
       "language": "Python",
-      "stars": 979,
+      "stars": 977,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2511,13 +2264,13 @@
       "owner": "kalil0321",
       "url": "https://github.com/kalil0321/reverse-api-engineer",
       "description": "The agent that turns websites into APIs!",
-      "descriptionZh": "The agent that turns websites into APIs!",
+      "descriptionZh": "这是一个与 Agent、MCP 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：The agent that turns websites into APIs! ",
       "categoryTags": [
         "cli-tool",
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 781,
+      "stars": 776,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2557,13 +2310,13 @@
       "owner": "agentforce314",
       "url": "https://github.com/agentforce314/clawcodex",
       "description": "Claude Code full Python rebuild. AI Coding Agent in 180K LoC pure Python!",
-      "descriptionZh": "Claude Code full Python rebuild. AI Coding Agent in 180K LoC pure Python!",
+      "descriptionZh": "这是一个与 Agent、Coding 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Claude Code full Python rebuild. AI Coding Agent in 180K LoC pure Python! ",
       "categoryTags": [
         "cli-tool",
         "coding-assistant"
       ],
       "language": "Python",
-      "stars": 384,
+      "stars": 376,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2582,7 +2335,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-11T02:28:10Z",
+      "lastUpdated": "2026-06-10T04:59:49Z",
       "topics": [
         "agent",
         "ai",
@@ -2599,7 +2352,7 @@
         "llm",
         "python"
       ],
-      "forks": 40,
+      "forks": 37,
       "openIssues": 4
     },
     {
@@ -2608,7 +2361,7 @@
       "owner": "Swival",
       "url": "https://github.com/Swival/swival",
       "description": "A small, powerful, open-source CLI coding agent that works with open models.",
-      "descriptionZh": "A small, powerful, open-source CLI coding agent that works with open models.",
+      "descriptionZh": "这是一个与 Agent、MCP、Coding、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：A small, powerful, open-source CLI coding agent that works with open models. ",
       "categoryTags": [
         "cli-tool",
         "coding-assistant"
@@ -2633,7 +2386,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T19:23:40Z",
+      "lastUpdated": "2026-06-09T20:04:46Z",
       "topics": [
         "a2a",
         "agent",
@@ -2705,13 +2458,13 @@
       "owner": "jina-ai",
       "url": "https://github.com/jina-ai/cli",
       "description": "All Jina AI APIs as Unix CLI commands. Search, read, embed, rerank - with pipes.",
-      "descriptionZh": "All Jina AI APIs as Unix CLI commands. Search, read, embed, rerank - with pipes.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：All Jina AI APIs as Unix CLI commands. Search, read, embed, rerank - with pipes. ",
       "categoryTags": [
         "cli-tool",
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 156,
+      "stars": 157,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2752,7 +2505,7 @@
       "owner": "KKingZero",
       "url": "https://github.com/KKingZero/Zypheron-CLI",
       "description": "ZYPHERON CLI Powerful command-line interface for automated security testing. Integrate ZYPHERON into your DevSecOps pipeline.   Get CLI",
-      "descriptionZh": "ZYPHERON CLI Powerful command-line interface for automated security testing. Integrate ZYPHERON into your DevSecOps pipeline. Get CLI",
+      "descriptionZh": "这是一个与 Agent、Coding 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：ZYPHERON CLI Powerful command-line interface for automated security testing. Integrate ZYPHERON into your DevSecOps pipeline. Get CLI ",
       "categoryTags": [
         "cli-tool",
         "coding-assistant",
@@ -2807,14 +2560,14 @@
       "owner": "datawhalechina",
       "url": "https://github.com/datawhalechina/easy-vibe",
       "description": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
-      "descriptionZh": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
+      "descriptionZh": "这是一个与 Agent、MCP、Coding 相关的 GitHub 开源项目，主要使用 JavaScript。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step. ",
       "categoryTags": [
         "web-app",
         "coding-assistant",
         "automation"
       ],
       "language": "JavaScript",
-      "stars": 16724,
+      "stars": 16653,
       "beginnerScore": 60,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -2835,7 +2588,7 @@
       "estimatedFirstRunMinutes": 15,
       "hasChineseDocs": false,
       "hasExamplesFolder": true,
-      "lastUpdated": "2026-06-10T06:32:00Z",
+      "lastUpdated": "2026-06-10T04:55:58Z",
       "topics": [
         "agent",
         "ai",
@@ -2858,7 +2611,7 @@
         "vscode",
         "workflow"
       ],
-      "forks": 1570,
+      "forks": 1565,
       "openIssues": 17
     },
     {
@@ -2867,7 +2620,7 @@
       "owner": "violit-dev",
       "url": "https://github.com/violit-dev/violit",
       "description": "Pure Python Web Framework. Streamlit simplicity, no reruns.",
-      "descriptionZh": "Pure Python Web Framework. Streamlit simplicity, no reruns.",
+      "descriptionZh": "这是一个与 Coding 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Pure Python Web Framework. Streamlit simplicity, no reruns. ",
       "categoryTags": [
         "api-wrapper",
         "web-app",
@@ -2926,7 +2679,7 @@
       "owner": "tomascupr",
       "url": "https://github.com/tomascupr/sandstorm",
       "description": "Run Claude agents in secure cloud sandboxes — via API, CLI, or Slack. One call. Full agent. Zero infrastructure.",
-      "descriptionZh": "Run Claude agents in secure cloud sandboxes — via API, CLI, or Slack. One call. Full agent. Zero infrastructure.",
+      "descriptionZh": "这是一个与 Agent、Infra 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Run Claude agents in secure cloud sandboxes — via API, CLI, or Slack. One call. Full agent. Zero infrastructure. ",
       "categoryTags": [
         "api-wrapper",
         "cli-tool"
@@ -2975,7 +2728,7 @@
       "owner": "OschAI",
       "url": "https://github.com/OschAI/VisioFirm",
       "description": "VisioFirm: Cross-Platform AI-assisted Annotation Tool for Computer Vision",
-      "descriptionZh": "VisioFirm: Cross-Platform AI-assisted Annotation Tool for Computer Vision",
+      "descriptionZh": "这是一个与 Image 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：VisioFirm: Cross-Platform AI-assisted Annotation Tool for Computer Vision ",
       "categoryTags": [
         "api-wrapper",
         "image-generation"
@@ -3028,7 +2781,7 @@
       "owner": "iLearn-Lab",
       "url": "https://github.com/iLearn-Lab/NovelClaw",
       "description": "Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing",
-      "descriptionZh": "Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing",
+      "descriptionZh": "这是一个与 Agent、RAG 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing ",
       "categoryTags": [
         "api-wrapper",
         "knowledge-base"
@@ -3081,7 +2834,7 @@
       "owner": "Eshaan-Nair",
       "url": "https://github.com/Eshaan-Nair/ArcRift",
       "description": "Persistent local memory layer for AI. ArcRift uses a Chrome extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf)  powered by a local SQLite knowledge graph.",
-      "descriptionZh": "Persistent local memory layer for AI. ArcRift uses a Chrome extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf) powered by a local SQLite knowledge graph.",
+      "descriptionZh": "这是一个与 Agent、RAG、MCP、Coding 相关的 GitHub 开源项目，主要使用 TypeScript。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Persistent local memory layer for AI. ArcRift uses a Chrome extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf) powered by a local SQLite knowledge graph. ",
       "categoryTags": [
         "browser-tool",
         "chatbot",
@@ -3138,12 +2891,12 @@
       "owner": "Mai-with-u",
       "url": "https://github.com/Mai-with-u/MaiBot",
       "description": "MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection.",
-      "descriptionZh": "MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection. ",
       "categoryTags": [
         "chatbot"
       ],
       "language": "Python",
-      "stars": 5119,
+      "stars": 5109,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3162,7 +2915,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-11T03:05:46Z",
+      "lastUpdated": "2026-06-09T14:45:19Z",
       "topics": [
         "agent",
         "chat",
@@ -3175,7 +2928,7 @@
         "qqbot"
       ],
       "forks": 549,
-      "openIssues": 40
+      "openIssues": 39
     },
     {
       "id": 888701643,
@@ -3183,14 +2936,14 @@
       "owner": "test-zeus-ai",
       "url": "https://github.com/test-zeus-ai/testzeus-hercules",
       "description": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
-      "descriptionZh": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
+      "descriptionZh": "这是一个与 Agent、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡ ",
       "categoryTags": [
         "automation",
         "browser-tool",
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 1041,
+      "stars": 1039,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3209,7 +2962,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T08:57:11Z",
+      "lastUpdated": "2026-06-03T17:31:24Z",
       "topics": [
         "agent",
         "agentic-ai",
@@ -3230,7 +2983,7 @@
         "testing-tools",
         "testzeus"
       ],
-      "forks": 163,
+      "forks": 162,
       "openIssues": 31
     },
     {
@@ -3239,12 +2992,12 @@
       "owner": "dreddnafious",
       "url": "https://github.com/dreddnafious/thereisnospoon",
       "description": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
-      "descriptionZh": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
+      "descriptionZh": "这是一个与 Tool 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems. ",
       "categoryTags": [
         "learning-project"
       ],
       "language": "Python",
-      "stars": 1148,
+      "stars": 1147,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 5,
@@ -3283,7 +3036,7 @@
       "owner": "melih-unsal",
       "url": "https://github.com/melih-unsal/DemoGPT",
       "description": "🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place.",
-      "descriptionZh": "🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place.",
+      "descriptionZh": "这是一个与 Agent、Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place. ",
       "categoryTags": [
         "web-app",
         "chatbot",
@@ -3342,12 +3095,12 @@
       "owner": "IBM",
       "url": "https://github.com/IBM/mcp-context-forge",
       "description": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
-      "descriptionZh": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
+      "descriptionZh": "这是一个与 Agent、MCP、Model、Infra 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins. ",
       "categoryTags": [
         "api-wrapper"
       ],
       "language": "Python",
-      "stars": 3864,
+      "stars": 3859,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3368,7 +3121,7 @@
       "estimatedFirstRunMinutes": 90,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T23:10:27Z",
+      "lastUpdated": "2026-06-09T23:22:32Z",
       "topics": [
         "agents",
         "ai",
@@ -3391,8 +3144,8 @@
         "python",
         "tools"
       ],
-      "forks": 696,
-      "openIssues": 1161
+      "forks": 694,
+      "openIssues": 1155
     },
     {
       "id": 993746345,
@@ -3400,13 +3153,13 @@
       "owner": "devnen",
       "url": "https://github.com/devnen/Chatterbox-TTS-Server",
       "description": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU.",
-      "descriptionZh": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU.",
+      "descriptionZh": "这是一个与 Model 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and CPU. ",
       "categoryTags": [
         "api-wrapper",
         "chatbot"
       ],
       "language": "Python",
-      "stars": 1288,
+      "stars": 1287,
       "beginnerScore": 58,
       "beginnerScoreBreakdown": {
         "readmeQuality": 20,
@@ -3457,7 +3210,7 @@
       "owner": "MelihGulum",
       "url": "https://github.com/MelihGulum/Comprehensive-Data-Science-AI-Project-Portfolio",
       "description": "A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and machine learning.",
-      "descriptionZh": "A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and machine learning.",
+      "descriptionZh": "这是一个与 RAG、Image、Model 相关的 GitHub 开源项目，主要使用 Jupyter Notebook。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and machine learning. ",
       "categoryTags": [
         "knowledge-base",
         "image-generation",
@@ -3512,12 +3265,12 @@
       "owner": "FuzzingLabs",
       "url": "https://github.com/FuzzingLabs/secpipe",
       "description": "MCP server for AI-driven security pipelines",
-      "descriptionZh": "MCP server for AI-driven security pipelines",
+      "descriptionZh": "这是一个与 Agent、MCP 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：MCP server for AI-driven security pipelines ",
       "categoryTags": [
         "automation"
       ],
       "language": "Python",
-      "stars": 796,
+      "stars": 795,
       "beginnerScore": 55,
       "beginnerScoreBreakdown": {
         "readmeQuality": 5,
@@ -3562,7 +3315,7 @@
       "owner": "Pipelex",
       "url": "https://github.com/Pipelex/pipelex",
       "description": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
-      "descriptionZh": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Declarative language for composable Al workflows. Devtool for agents and mere humans. ",
       "categoryTags": [
         "automation"
       ],
@@ -3586,7 +3339,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-11T01:03:31Z",
+      "lastUpdated": "2026-06-10T05:12:52Z",
       "topics": [
         "agents",
         "ai",
@@ -3598,8 +3351,8 @@
         "pipeline",
         "workflows"
       ],
-      "forks": 55,
-      "openIssues": 18
+      "forks": 53,
+      "openIssues": 16
     },
     {
       "id": 1086027346,
@@ -3607,7 +3360,7 @@
       "owner": "TesslateAI",
       "url": "https://github.com/TesslateAI/OpenSail",
       "description": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
-      "descriptionZh": "OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work.",
+      "descriptionZh": "这是一个与 Agent、MCP、Model、Infra 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：OpenSail is the open-source alternative to Codex App, Claude Desktop, Cursor, and Cowork for agentic software work. ",
       "categoryTags": [
         "automation"
       ],
@@ -3664,12 +3417,12 @@
       "owner": "pathintegral-institute",
       "url": "https://github.com/pathintegral-institute/mcpm.sh",
       "description": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
-      "descriptionZh": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+      "descriptionZh": "这是一个与 MCP 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features. ",
       "categoryTags": [
         "cli-tool"
       ],
       "language": "Python",
-      "stars": 968,
+      "stars": 967,
       "beginnerScore": 55,
       "beginnerScoreBreakdown": {
         "readmeQuality": 10,
@@ -3688,7 +3441,7 @@
       "estimatedFirstRunMinutes": 45,
       "hasChineseDocs": false,
       "hasExamplesFolder": false,
-      "lastUpdated": "2026-06-10T23:27:59Z",
+      "lastUpdated": "2026-05-22T04:59:39Z",
       "topics": [
         "ai",
         "claude-desktop",
@@ -3709,8 +3462,58 @@
         "tools",
         "windsurf"
       ],
-      "forks": 106,
-      "openIssues": 48
+      "forks": 105,
+      "openIssues": 44
+    },
+    {
+      "id": 1181265008,
+      "name": "AutoR",
+      "owner": "AutoX-AI-Labs",
+      "url": "https://github.com/AutoX-AI-Labs/AutoR",
+      "description": "AI handles execution, humans own the direction, and every run becomes an inspectable research artifact on disk.",
+      "descriptionZh": "这是一个与 Agent 相关的 GitHub 开源项目，主要使用 Python。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：AI handles execution, humans own the direction, and every run becomes an inspectable research artifact on disk. ",
+      "categoryTags": [
+        "cli-tool",
+        "api-wrapper"
+      ],
+      "language": "Python",
+      "stars": 848,
+      "beginnerScore": 55,
+      "beginnerScoreBreakdown": {
+        "readmeQuality": 5,
+        "installInstructions": 5,
+        "dependencySimplicity": 15,
+        "issueResponseRate": 15,
+        "languageAccessibility": 15,
+        "examplesPresence": 0
+      },
+      "setupComplexity": "medium",
+      "prerequisiteSkills": [
+        "basic-terminal",
+        "git-basics",
+        "python-basics",
+        "api-key-management"
+      ],
+      "estimatedFirstRunMinutes": 45,
+      "hasChineseDocs": false,
+      "hasExamplesFolder": false,
+      "lastUpdated": "2026-06-02T07:23:33Z",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-scientist",
+        "auto-research",
+        "claude",
+        "claude-code",
+        "cli",
+        "harness",
+        "llm",
+        "openai",
+        "paper",
+        "science"
+      ],
+      "forks": 22,
+      "openIssues": 0
     }
   ]
 }
