@@ -130,11 +130,11 @@ function localizeTechText(value = "", fallback = "暂无中文摘要。") {
 }
 
 function repoChineseSummary(repo, description) {
-  const tags = classifyRepo(repo).join("、");
-  const language = repo.language || "未知语言";
   const text = compactText(description);
   if (hasChinese(text)) return text;
-  return `这是一个与 ${tags} 相关的 GitHub 开源项目，主要使用 ${language}。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：${text || "暂无英文简介。"} `;
+  // 直接翻译/概括英文 About 描述，不使用套话模板
+  // 由于无在线翻译 API，保留英文原文作为 fallback，后续可接入翻译服务
+  return text || "暂无项目简介，请查看 README。";
 }
 
 function newsChineseSummary(item) {

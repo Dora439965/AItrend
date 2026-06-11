@@ -79,7 +79,8 @@
         "工具调用",
         "任务规划"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "可自我进化的 AI Agent 框架，支持任务规划、工具调用和记忆管理，兼容 Claude Code / Codex / OpenClaw 等多种 coding agent CLI"
     },
     {
       "id": 193215554,
@@ -140,7 +141,8 @@
         "本地服务",
         "进程通信"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "可视化工作流自动化平台，原生支持 AI 能力。拖拽式编排 400+ 集成节点，内置 MCP 客户端/服务器，可自托管，适合构建 AI 自动化流水线"
     },
     {
       "id": 614765452,
@@ -193,7 +195,8 @@
         "工具调用",
         "任务规划"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "老牌自主 AI Agent 框架，支持任务自动拆解和执行。提供可视化 Agent 构建界面和 REST API，让 AI 自动完成复杂多步骤任务"
     },
     {
       "id": 1136590548,
@@ -244,7 +247,8 @@
         "工具调用",
         "任务规划"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "Agent 性能优化系统，为 Claude Code / Codex / Cursor 等 coding agent 提供技能库、本能记忆、安全审计和研究驱动的开发增强"
     },
     {
       "id": 155220641,
@@ -305,7 +309,8 @@
         "图像处理",
         "前端交互"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "Hugging Face 的核心模型框架，统一支持文本/视觉/音频/多模态模型的推理与训练，涵盖 DeepSeek、Gemma、Qwen 等主流模型"
     },
     {
       "id": 655806940,
@@ -357,7 +362,8 @@
         "README 阅读",
         "本地环境配置"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "微软出品的 21 节生成式 AI 入门课程，涵盖 ChatGPT/DALL-E/语义搜索等主题，配有 Jupyter Notebook 实操练习"
     },
     {
       "id": 658928958,
@@ -410,7 +416,8 @@
         "README 阅读",
         "本地环境配置"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "本地大模型运行工具，一行命令即可在本机运行 DeepSeek、Qwen、Gemma、Kimi 等开源模型，无需 GPU 服务器，开发者本地推理首选"
     },
     {
       "id": 574523116,
@@ -466,7 +473,8 @@
         "README 阅读",
         "本地环境配置"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "社区驱动的 AI 提示词共享平台（原 Awesome ChatGPT Prompts），收集数千条高质量 Prompt，支持自托管和隐私保护"
     },
     {
       "id": 787076358,
@@ -526,7 +534,8 @@
         "工具调用",
         "任务规划"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "规模化 Web 抓取与搜索 API，专为 AI 应用设计。支持网页内容提取、HTML 转 Markdown、自动化搜索，已被大量 Agent 和 RAG 管道集成"
     },
     {
       "id": 612344730,
