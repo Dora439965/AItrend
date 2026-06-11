@@ -23,6 +23,8 @@ jobs:
       - name: Fetch GitHub & News data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BAIDU_TRANSLATE_APPID: ${{ secrets.BAIDU_TRANSLATE_APPID }}
+          BAIDU_TRANSLATE_SECRET: ${{ secrets.BAIDU_TRANSLATE_SECRET }}
         run: node scripts/update-data.mjs
 
       - name: Commit and push if data changed

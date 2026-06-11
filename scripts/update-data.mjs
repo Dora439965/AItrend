@@ -2,6 +2,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,6 +12,61 @@ const DATA_DIR = path.join(ROOT, "data");
 const SNAPSHOT_DIR = path.join(DATA_DIR, "snapshots");
 const TODAY = new Date().toISOString().slice(0, 10);
 const DAY_MS = 24 * 60 * 60 * 1000;
+
+// @AI_GENERATED: 百度翻译 API 集成
+const BAIDU_APPID = process.env.BAIDU_TRANSLATE_APPID || "";
+const BAIDU_SECRET = process.env.BAIDU_TRANSLATE_SECRET || "";
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function baiduTranslate(text) {
+  if (!text || !BAIDU_APPID || !BAIDU_SECRET) return "";
+  // 已经是中文则直接返回
+  if (/[\u4e00-\u9fff]/.test(text)) return text;
+
+  const salt = String(Date.now());
+  const sign = createHash("md5").update(`${BAIDU_APPID}${text}${salt}${BAIDU_SECRET}`).digest("hex");
+  const params = new URLSearchParams({
+    q: text,
+    from: "en",
+    to: "zh",
+    appid: BAIDU_APPID,
+    salt,
+    sign,
+  });
+
+  try {
+    const res = await fetch(`https://fanyi-api.baidu.com/api/trans/vip/translate?${params}`);
+    if (!res.ok) return "";
+    const data = await res.json();
+    if (data.error_code) {
+      console.warn(`Baidu translate error ${data.error_code}: ${data.error_msg}`);
+      return "";
+    }
+    return (data.trans_result || []).map((r) => r.dst).join(" ") || "";
+  } catch (err) {
+    console.warn(`Baidu translate failed: ${err.message}`);
+    return "";
+  }
+}
+
+// 批量翻译：串行调用，每次间隔 1.1 秒（免费版限 1 次/秒）
+async function batchTranslate(texts) {
+  const results = [];
+  for (const text of texts) {
+    if (!text || /[\u4e00-\u9fff]/.test(text)) {
+      results.push(text || "");
+    } else {
+      const zh = await baiduTranslate(text.slice(0, 2000)); // 百度限制单次 6000 字符
+      results.push(zh || text); // 翻译失败则保留原文
+      await sleep(1100);
+    }
+  }
+  return results;
+}
+// @AI_GENERATED: end
 
 const GITHUB_TOPICS = [
   "artificial-intelligence",
@@ -129,138 +185,60 @@ function localizeTechText(value = "", fallback = "暂无中文摘要。") {
   return `${fallback} 原文简介：${text.slice(0, 180)}`;
 }
 
+// @AI_GENERATED: 中文简介生成（优先百度翻译，无 API 时保留英文原文）
 function repoChineseSummary(repo, description) {
   const text = compactText(description);
   if (hasChinese(text)) return text;
-  if (!text) return "暂无项目简介，请查看 README。";
-
-  // 基于关键词做中文概括：翻译常见短语 + 结合 topics/language 补充上下文
-  let zh = translateDescription(text);
-
-  // 如果翻译后仍为英文（未命中规则），用 "语言 + topics 关键词" 拼出简短中文描述
-  if (!hasChinese(zh)) {
-    const lang = repo.language || "";
-    const topics = (repo.topics || []).slice(0, 5);
-    const topicZh = topics.map(translateTopic).filter(Boolean).join("、");
-    if (topicZh) {
-      zh = `基于 ${lang || "多语言"} 的${topicZh}工具。${text}`;
-    } else {
-      zh = `${lang} 开源项目。${text}`;
-    }
-  }
-  return zh;
+  // 翻译将在 main() 中批量完成，这里先存英文原文作为占位
+  return text || "暂无项目简介，请查看 README。";
 }
 
 function newsChineseSummary(item) {
   const text = compactText(item.summary || item.title);
   if (hasChinese(text)) return text;
-  // 翻译新闻标题
+  // 翻译将在 main() 中批量完成，这里先存标题原文
   const title = (item.title || "").replace(/\s*[-–—]\s*[A-Z][^-]*$/, "").trim();
-  let zh = translateDescription(title);
-  if (!hasChinese(zh)) {
-    // fallback: 公司名 + 翻译后的标题
-    zh = `${item.company || "AI"} 动态：${title}`;
+  return title || text || "暂无摘要";
+}
+
+// 在所有数据收集完成后，批量调用百度翻译 API 翻译 descriptionZh 和 summaryZh
+async function translateAllData(repositories, newsItems) {
+  if (!BAIDU_APPID || !BAIDU_SECRET) {
+    console.log("No BAIDU_TRANSLATE_APPID/SECRET configured, skipping translation.");
+    return;
   }
-  return zh;
-}
+  console.log("Translating descriptions and news titles via Baidu API...");
 
-// 基于关键词规则的英→中翻译（覆盖 AI/开发工具领域常见表达）
-function translateDescription(text) {
-  if (!text) return "";
-  let result = text;
-  const rules = [
-    // 通用动词短语
-    [/\bGet up and running with\b/gi, "快速启动和运行"],
-    [/\bThe (?:API|platform|tool|framework) (?:to|for)\b/gi, "用于"],
-    [/\bat scale\b/gi, "大规模"],
-    [/\bopen[- ]source\b/gi, "开源"],
-    [/\blocal[- ]first\b/gi, "本地优先"],
-    [/\bself[- ]host(?:ed)?\b/gi, "可自托管"],
-    [/\bno[- ]code\b/gi, "无代码"],
-    [/\blow[- ]code\b/gi, "低代码"],
-    [/\bfair[- ]code\b/gi, "公平代码许可"],
-    [/\bnative (?:AI|desktop|app)\b/gi, "原生"],
-    [/\bfor everyone\b/gi, "面向所有人"],
-    [/\bfor beginners?\b/gi, "面向初学者"],
-    [/\bfor developers?\b/gi, "面向开发者"],
-    // AI 领域术语
-    [/\bAI agent(?:s)?\b/gi, "AI Agent"],
-    [/\bcoding agent(?:s)?\b/gi, "编程 Agent"],
-    [/\bworkflow automation\b/gi, "工作流自动化"],
-    [/\bworkflow(?:s)?\b/gi, "工作流"],
-    [/\btool(?:s)? (?:calling|use)\b/gi, "工具调用"],
-    [/\bprompt(?:s)? engineering\b/gi, "提示词工程"],
-    [/\bvector (?:search|retrieval|db|database)\b/gi, "向量检索"],
-    [/\bembedding(?:s)?\b/gi, "向量嵌入"],
-    [/\bretrieval[- ]augmented generation\b/gi, "检索增强生成(RAG)"],
-    [/\bRAG\b/g, "检索增强生成"],
-    [/\bLLM(?:s)?\b/g, "大语言模型"],
-    [/\blarge language model(?:s)?\b/gi, "大语言模型"],
-    [/\bmulti[- ]?modal\b/gi, "多模态"],
-    [/\bmulti[- ]?agent\b/gi, "多 Agent"],
-    [/\bmodel[- ]?hub\b/gi, "模型中心"],
-    [/\bfine[- ]?tun(?:e|ing)\b/gi, "微调"],
-    [/\binference\b/gi, "推理"],
-    [/\btraining\b/gi, "训练"],
-    [/\bdeep learning\b/gi, "深度学习"],
-    [/\bmachine learning\b/gi, "机器学习"],
-    [/\bnatural language processing\b/gi, "自然语言处理"],
-    [/\bcomputer vision\b/gi, "计算机视觉"],
-    [/\btext[- ]to[- ](?:image|video|speech|audio)\b/gi, (m) => `文本转${m.includes("image") ? "图像" : m.includes("video") ? "视频" : m.includes("speech") ? "语音" : "音频"}`],
-    [/\bimage[- ](?:generation|creation)\b/gi, "图像生成"],
-    [/\bvideo[- ](?:generation|creation)\b/gi, "视频生成"],
-    [/\bcode[- ]?gen(?:eration)?\b/gi, "代码生成"],
-    // 开发工具
-    [/\bweb[- ]?scrap(?:ing|er)\b/gi, "网页抓取"],
-    [/\bweb[- ]?crawl(?:ing|er)\b/gi, "网页爬虫"],
-    [/\bdata[- ]?extract(?:ion)?\b/gi, "数据提取"],
-    [/\bHTML[- ]to[- ]Markdown\b/gi, "HTML 转 Markdown"],
-    [/\bvisual building\b/gi, "可视化搭建"],
-    [/\bbrowser[- ]?automation\b/gi, "浏览器自动化"],
-    [/\bCLI\b/g, "命令行工具"],
-    [/\bAPI(?:s)?\b/g, "API 接口"],
-    [/\bSDK\b/g, "SDK"],
-    [/\bplugin(?:s)?\b/gi, "插件"],
-    [/\bintegration(?:s)?\b/gi, "集成"],
-    // 产品/商业
-    [/\bIPO\b/g, "IPO 上市"],
-    [/\bconfidentially files?\b/gi, "秘密提交"],
-    [/\bgoes? public\b/gi, "上市"],
-    [/\bfund(?:ing|raise|ed)\b/gi, "融资"],
-    [/\bacquir(?:e|es|ed|ing)\b/gi, "收购"],
-    [/\bpartner(?:s|ship)?\b/gi, "合作"],
-    [/\blaunch(?:es|ed)?\b/gi, "发布"],
-    [/\breleases?\b/gi, "发布"],
-    [/\bannounce(?:s|d)?\b/gi, "宣布"],
-    [/\bintroduce(?:s|d)?\b/gi, "推出"],
-    [/\bsmart glasses\b/gi, "智能眼镜"],
-    [/\bpayment(?:s)?\b/gi, "支付"],
-  ];
-
-  for (const [pattern, replacement] of rules) {
-    result = result.replace(pattern, replacement);
+  // 翻译项目描述
+  let translatedCount = 0;
+  for (const repo of repositories) {
+    if (!repo.descriptionZh || !hasChinese(repo.descriptionZh)) {
+      const zh = await baiduTranslate((repo.description || "").slice(0, 2000));
+      if (zh && hasChinese(zh)) {
+        repo.descriptionZh = zh;
+        translatedCount++;
+      }
+      await sleep(1100);
+    }
   }
-  return result;
-}
+  console.log(`  Translated ${translatedCount} repo descriptions.`);
 
-function translateTopic(topic) {
-  const map = {
-    "ai": "AI", "llm": "大语言模型", "ai-agent": "AI Agent", "ai-agents": "AI Agent",
-    "rag": "RAG 检索增强", "mcp": "MCP 协议", "machine-learning": "机器学习",
-    "deep-learning": "深度学习", "generative-ai": "生成式 AI", "openai": "OpenAI",
-    "claude": "Claude", "chatgpt": "ChatGPT", "automation": "自动化",
-    "workflow": "工作流", "web-scraping": "网页抓取", "coding-agent": "编程 Agent",
-    "developer-tools": "开发者工具", "self-hosted": "可自托管", "no-code": "无代码",
-    "low-code": "低代码", "natural-language-processing": "NLP",
-    "computer-vision": "计算机视觉", "transformers": "Transformer",
-    "image-generation": "图像生成", "video-generation": "视频生成",
-    "prompt-engineering": "提示词工程", "fine-tuning": "微调",
-    "embedding": "向量嵌入", "vector-database": "向量数据库",
-    "browser-automation": "浏览器自动化", "cli": "命令行",
-    "api": "API", "plugin": "插件", "sdk": "SDK",
-  };
-  return map[topic.toLowerCase()] || "";
+  // 翻译新闻标题
+  let newsTranslated = 0;
+  for (const item of newsItems) {
+    if (!item.summaryZh || !hasChinese(item.summaryZh)) {
+      const title = (item.title || "").replace(/\s*[-–—]\s*[A-Z][^-]*$/, "").trim();
+      const zh = await baiduTranslate(title.slice(0, 2000));
+      if (zh && hasChinese(zh)) {
+        item.summaryZh = zh;
+        newsTranslated++;
+      }
+      await sleep(1100);
+    }
+  }
+  console.log(`  Translated ${newsTranslated} news titles.`);
 }
+// @AI_GENERATED: end
 
 
 function slugify(value) {
@@ -909,6 +887,10 @@ async function main() {
 
   if (!githubRepos?.length) console.warn("Using previous repository snapshot because GitHub returned no repositories.");
   if (!newsItems?.length) console.warn("Using previous news snapshot because RSS/Google News returned no items.");
+
+  // @AI_GENERATED: 批量翻译项目描述和新闻标题为中文
+  await translateAllData(repositories, news);
+  // @AI_GENERATED: end
 
   const payload = {
     generatedAt: new Date().toISOString(),
