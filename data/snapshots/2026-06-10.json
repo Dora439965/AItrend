@@ -29,7 +29,7 @@
       "name": "hermes-agent",
       "owner": "NousResearch",
       "description": "The agent that grows with you",
-      "descriptionZh": "可自我进化的 AI Agent 框架，支持任务规划、工具调用和记忆管理，兼容 Claude Code / Codex / OpenClaw 等多种 coding agent CLI",
+      "descriptionZh": "AI、AI Agent、AI Agent方向。The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "tags": [
         "Agent"
@@ -89,7 +89,7 @@
       "name": "ECC",
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "descriptionZh": "Agent 性能优化系统，为 Claude Code / Codex / Cursor 等 coding agent 提供技能库、本能记忆、安全审计和研究驱动的开发增强",
+      "descriptionZh": "The agent harness 性能优化 system. Skills, instincts, 记忆管理和安全, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "Agent",
@@ -143,7 +143,7 @@
       "name": "open-design",
       "owner": "nexu-io",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-      "descriptionZh": "本地优先的开源设计工具，可替代 Claude Design。原生桌面应用，内置 259+ 技能和 142 套设计系统，支持 Web/桌面/移动端原型和视频生成",
+      "descriptionZh": "🎨 本地优先, 开源 Claude Design alternative. 🖥️ Native 桌面应用. ⚡ 259+ Skills · ✨ 142+ 设计系统 🖼️ Web · desktop · mobile 原型 · slides · images · videos · HyperFrames 📦 沙箱预览 · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "url": "https://github.com/nexu-io/open-design",
       "tags": [
         "Agent",
@@ -210,7 +210,7 @@
       "name": "firecrawl",
       "owner": "firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "descriptionZh": "规模化 Web 抓取与搜索 API，专为 AI 应用设计。支持网页内容提取、HTML 转 Markdown、自动化搜索，已被大量 Agent 和 RAG 管道集成",
+      "descriptionZh": "用于 搜索、抓取和交互网页内容 大规模. 🔥",
       "url": "https://github.com/firecrawl/firecrawl",
       "tags": [
         "Agent"
@@ -273,7 +273,7 @@
       "name": "n8n",
       "owner": "n8n-io",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "descriptionZh": "可视化工作流自动化平台，原生支持 AI 能力。拖拽式编排 400+ 集成节点，内置 MCP 客户端/服务器，可自托管，适合构建 AI 自动化流水线",
+      "descriptionZh": "公平代码许可 工作流自动化 platform with 原生 AI 能力. Combine 可视化搭建 with custom code, 可自托管 or cloud, 400+ 集成.",
       "url": "https://github.com/n8n-io/n8n",
       "tags": [
         "MCP"
@@ -337,7 +337,7 @@
       "name": "html-video",
       "owner": "nexu-io",
       "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "descriptionZh": "编程式视频生成工具，在本地将 HTML/CSS + 数据转为 MP4，内置 21 套模板和 AI 配乐，Apache-2.0 开源无按次收费",
+      "descriptionZh": "编程式视频 for 编程 Agent — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable 渲染引擎, 21 模板, AI 配乐. Apache-2.0, 无按次收费. An official project by the Open Design team.",
       "url": "https://github.com/nexu-io/html-video",
       "tags": [
         "Agent",
@@ -398,7 +398,7 @@
       "name": "ollama",
       "owner": "ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "本地大模型运行工具，一行命令即可在本机运行 DeepSeek、Qwen、Gemma、Kimi 等开源模型，无需 GPU 服务器，开发者本地推理首选",
+      "descriptionZh": "快速启动和运行 Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
       "tags": [
         "Model"
@@ -454,7 +454,7 @@
       "name": "transformers",
       "owner": "huggingface",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "Hugging Face 的核心模型框架，统一支持文本/视觉/音频/多模态模型的推理与训练，涵盖 DeepSeek、Gemma、Qwen 等主流模型",
+      "descriptionZh": "🤗 Transformers: the 模型定义框架 for 最先进的 机器学习 models in text, vision, audio, and 多模态 models, for both 推理 and 训练. ",
       "url": "https://github.com/huggingface/transformers",
       "tags": [
         "Image",
@@ -518,7 +518,7 @@
       "name": "prompts.chat",
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "descriptionZh": "社区驱动的 AI 提示词共享平台（原 Awesome ChatGPT Prompts），收集数千条高质量 Prompt，支持自托管和隐私保护",
+      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. 分享、发现和收集提示词 来自社区. Free and 开源 — 可自托管 for your organization 完全隐私保护.",
       "url": "https://github.com/f/prompts.chat",
       "tags": [
         "Tool"
@@ -577,7 +577,7 @@
       "name": "generative-ai-for-beginners",
       "owner": "microsoft",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "descriptionZh": "微软出品的 21 节生成式 AI 入门课程，涵盖 ChatGPT/DALL-E/语义搜索等主题，配有 Jupyter Notebook 实操练习",
+      "descriptionZh": "21 节课程, Get 开始构建 生成式 AI ",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
       "tags": [
         "Model"
@@ -632,7 +632,7 @@
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionZh": "老牌自主 AI Agent 框架，支持任务自动拆解和执行。提供可视化 Agent 构建界面和 REST API，让 AI 自动完成复杂多步骤任务",
+      "descriptionZh": "AutoGPT is 愿景是 人人可用的 AI 面向所有人, 让人使用和构建. 我们的使命是 提供工具, so that you can 专注于重要的事.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "tags": [
         "Agent",
@@ -688,7 +688,7 @@
       "name": "zerostack",
       "owner": "gi-dellav",
       "description": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
-      "descriptionZh": "用 Rust 编写的极简 coding agent，专注内存占用和性能优化，适合研究 Agent 底层实现或嵌入资源受限环境",
+      "descriptionZh": "极简的 编程 Agent 使用 Rust, 针对 内存占用 和性能",
       "url": "https://github.com/gi-dellav/zerostack",
       "tags": [
         "Agent",
@@ -743,7 +743,7 @@
       "name": "DeepSeek-Code-Whale",
       "owner": "usewhale",
       "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
-      "descriptionZh": "这是一个与 Agent、MCP、Coding 相关的 GitHub 开源项目，主要使用 Go。它近期有明显增长，适合作为趋势观察、源码学习或二次开发候选。原文简介：Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows. ",
+      "descriptionZh": "Whale — blazingly fast, terminal-first AI 编程 Agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic 工作流.",
       "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
       "tags": [
         "Agent",
@@ -809,7 +809,7 @@
       "heat": 73,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Gemini 3.5 Live Translate powers 70+ languages - blockchain.news"
+      "summaryZh": "Google 动态：Gemini 3.5 Live Translate powers 70+ languages - blockchain.news"
     },
     {
       "id": "google-news-anthropic-anthropic-launches-most-powerful-ai-model-yet-with-new-safety-guardrails-ibm",
@@ -824,7 +824,7 @@
       "heat": 72,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic launches most powerful AI model yet, with new safety guardrails"
+      "summaryZh": "Anthropic 发布 most powerful AI model yet, with new safety guardrails"
     },
     {
       "id": "google-news-anthropic-anthropic-releases-safe-version-of-claude-mythos-ai-model-to-public-the-guardian",
@@ -839,7 +839,7 @@
       "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic releases ‘safe’ version of Claude Mythos AI model to public"
+      "summaryZh": "Anthropic 发布 ‘safe’ version of Claude Mythos AI model to public"
     },
     {
       "id": "google-news-anthropic-the-price-enterprises-will-pay-for-anthropic-claude-fable-5-ai-business",
@@ -854,7 +854,7 @@
       "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "The Price Enterprises Will Pay for Anthropic Claude Fable 5"
+      "summaryZh": "Anthropic 动态：The Price Enterprises Will Pay for Anthropic Claude Fable 5"
     },
     {
       "id": "google-news-anthropic-claude-fable-5-and-new-safety-fables-by-nathan-lambert-interconnects-ai",
@@ -869,7 +869,7 @@
       "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Claude Fable 5 and new safety fables - by Nathan Lambert"
+      "summaryZh": "Anthropic 动态：Claude Fable 5 and new safety fables - by Nathan Lambert"
     },
     {
       "id": "google-news-openai-how-engineers-at-nextdoor-use-codex-to-build-without-limits-openai",
@@ -884,7 +884,7 @@
       "heat": 70,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "How engineers at Nextdoor use Codex to build without limits"
+      "summaryZh": "OpenAI 动态：How engineers at Nextdoor use Codex to build without limits"
     },
     {
       "id": "google-news-openai-openai-in-talks-to-lease-10-gigawatt-ohio-data-center-with-backing-from-nvidia-the-information",
@@ -899,7 +899,7 @@
       "heat": 70,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI in Talks to Lease 10 Gigawatt Ohio Data Center with Backing From Nvidia"
+      "summaryZh": "OpenAI 动态：OpenAI in Talks to Lease 10 Gigawatt Ohio Data Center with Backing From Nvidia"
     },
     {
       "id": "google-news-anthropic-appfolio-launches-connector-for-realm-x-ai-suite-and-anthropic-s-claude-housingwire",
@@ -914,7 +914,7 @@
       "heat": 70,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "AppFolio launches connector for Realm-X AI suite and Anthropic’s Claude"
+      "summaryZh": "AppFolio 发布 connector for Realm-X AI suite and Anthropic’s Claude"
     },
     {
       "id": "google-news-anthropic-announcing-anthropic-claude-fable-5-on-snowflake-cortex-ai-snowflake",
@@ -929,7 +929,7 @@
       "heat": 69,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Announcing Anthropic Claude Fable 5 on Snowflake Cortex AI"
+      "summaryZh": "Anthropic 动态：Announcing Anthropic Claude Fable 5 on Snowflake Cortex AI"
     },
     {
       "id": "google-news-anthropic-microsoft-ai-head-calls-out-anthropic-for-acting-like-claude-is-conscious-the-verge",
@@ -944,7 +944,7 @@
       "heat": 69,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Microsoft AI head calls out Anthropic for acting like Claude is conscious"
+      "summaryZh": "Anthropic 动态：Microsoft AI head calls out Anthropic for acting like Claude is conscious"
     },
     {
       "id": "google-news-anthropic-anthropic-s-claude-fable-5-is-the-first-mythos-level-ai-model-you-can-actually-use-cnet",
@@ -959,7 +959,7 @@
       "heat": 69,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic's Claude Fable 5 Is the First Mythos-Level AI Model You Can Actually Use"
+      "summaryZh": "Anthropic 动态：Anthropic's Claude Fable 5 Is the First Mythos-Level AI Model You Can Actually Use"
     },
     {
       "id": "google-news-anthropic-anthropic-s-claude-fable-5-mythos-5-what-you-need-to-know-constellation-research",
@@ -974,7 +974,7 @@
       "heat": 69,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic’s Claude Fable 5, Mythos 5: What you need to know"
+      "summaryZh": "Anthropic 动态：Anthropic’s Claude Fable 5, Mythos 5: What you need to know"
     },
     {
       "id": "google-news-openai-mira-murati-unveils-her-startup-s-a-i-model-in-first-interview-since-openai-observer-com",
@@ -989,7 +989,7 @@
       "heat": 68,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Mira Murati Unveils Her Startup’s A.I. Model in First Interview Since OpenAI - observer.com"
+      "summaryZh": "OpenAI 动态：Mira Murati Unveils Her Startup’s A.I. Model in First Interview Since OpenAI - observer.com"
     },
     {
       "id": "google-news-anthropic-claude-s-too-dangerous-ai-model-is-finally-public-but-there-s-a-catch-pcworld",
@@ -1004,7 +1004,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Claude’s ‘too dangerous’ AI model is finally public. But there’s a catch"
+      "summaryZh": "Anthropic 动态：Claude’s ‘too dangerous’ AI model is finally public. But there’s a catch"
     },
     {
       "id": "google-news-anthropic-anthropic-releases-a-less-powerful-version-of-its-most-advanced-model-politico",
@@ -1019,7 +1019,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic releases a less-powerful version of its most advanced model"
+      "summaryZh": "Anthropic 发布 a less-powerful version of its most advanced model"
     },
     {
       "id": "google-news-anthropic-anthropic-is-releasing-a-public-version-of-its-mythos-ai-model-as-claude-fable-5-qz-com",
@@ -1034,7 +1034,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic is releasing a public version of its Mythos AI model as Claude Fable 5 - qz.com"
+      "summaryZh": "Anthropic 动态：Anthropic is releasing a public version of its Mythos AI model as Claude Fable 5 - qz.com"
     },
     {
       "id": "google-news-anthropic-anthropic-launches-claude-mythos-fable-5-but-you-better-try-it-soon-the-new-stack",
@@ -1049,7 +1049,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic launches Claude Mythos/Fable 5, but you better try it soon"
+      "summaryZh": "Anthropic 发布 Claude Mythos/Fable 5, but you better try it soon"
     },
     {
       "id": "google-news-anthropic-anthropic-rolls-out-claude-mythos-5-ai-model-along-with-the-safer-fable-5-for-the-public-decrypt",
@@ -1064,7 +1064,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic Rolls Out Claude Mythos 5 AI Model—Along With the Safer Fable 5 for the Public"
+      "summaryZh": "Anthropic 动态：Anthropic Rolls Out Claude Mythos 5 AI Model—Along With the Safer Fable 5 for the Public"
     },
     {
       "id": "google-news-anthropic-anthropic-just-released-a-powerful-mythos-class-model-to-the-public-with-some-key-safeguards-inc-com",
@@ -1079,7 +1079,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic Just Released a Powerful Mythos-Class Model to the Public—With Some Key Safeguards - inc.com"
+      "summaryZh": "Anthropic 动态：Anthropic Just Released a Powerful Mythos-Class Model to the Public—With Some Key Safeguards - inc.com"
     },
     {
       "id": "google-news-anthropic-anthropic-s-mythos-is-one-step-closer-to-rollout-after-claude-fable-5-release-barron-s",
@@ -1094,7 +1094,7 @@
       "heat": 68,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic’s Mythos Is One Step Closer to Rollout After Claude Fable 5 Release"
+      "summaryZh": "Anthropic’s Mythos Is One Step Closer to Rollout After Claude Fable 5 发布"
     }
   ],
   "beginnerProjects": [

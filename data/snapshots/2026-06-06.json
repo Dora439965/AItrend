@@ -80,7 +80,7 @@
         "任务规划"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "可自我进化的 AI Agent 框架，支持任务规划、工具调用和记忆管理，兼容 Claude Code / Codex / OpenClaw 等多种 coding agent CLI"
+      "descriptionZh": "AI、AI Agent、AI Agent方向。The agent that grows with you"
     },
     {
       "id": 193215554,
@@ -142,7 +142,7 @@
         "进程通信"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "可视化工作流自动化平台，原生支持 AI 能力。拖拽式编排 400+ 集成节点，内置 MCP 客户端/服务器，可自托管，适合构建 AI 自动化流水线"
+      "descriptionZh": "公平代码许可 工作流自动化 platform with 原生 AI 能力. Combine 可视化搭建 with custom code, 可自托管 or cloud, 400+ 集成."
     },
     {
       "id": 614765452,
@@ -196,7 +196,7 @@
         "任务规划"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "老牌自主 AI Agent 框架，支持任务自动拆解和执行。提供可视化 Agent 构建界面和 REST API，让 AI 自动完成复杂多步骤任务"
+      "descriptionZh": "AutoGPT is 愿景是 人人可用的 AI 面向所有人, 让人使用和构建. 我们的使命是 提供工具, so that you can 专注于重要的事."
     },
     {
       "id": 1136590548,
@@ -248,7 +248,7 @@
         "任务规划"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "Agent 性能优化系统，为 Claude Code / Codex / Cursor 等 coding agent 提供技能库、本能记忆、安全审计和研究驱动的开发增强"
+      "descriptionZh": "The agent harness 性能优化 system. Skills, instincts, 记忆管理和安全, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
       "id": 155220641,
@@ -310,7 +310,7 @@
         "前端交互"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "Hugging Face 的核心模型框架，统一支持文本/视觉/音频/多模态模型的推理与训练，涵盖 DeepSeek、Gemma、Qwen 等主流模型"
+      "descriptionZh": "🤗 Transformers: the 模型定义框架 for 最先进的 机器学习 models in text, vision, audio, and 多模态 models, for both 推理 and 训练. "
     },
     {
       "id": 655806940,
@@ -363,7 +363,7 @@
         "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "微软出品的 21 节生成式 AI 入门课程，涵盖 ChatGPT/DALL-E/语义搜索等主题，配有 Jupyter Notebook 实操练习"
+      "descriptionZh": "21 节课程, Get 开始构建 生成式 AI "
     },
     {
       "id": 658928958,
@@ -417,7 +417,7 @@
         "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "本地大模型运行工具，一行命令即可在本机运行 DeepSeek、Qwen、Gemma、Kimi 等开源模型，无需 GPU 服务器，开发者本地推理首选"
+      "descriptionZh": "快速启动和运行 Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     },
     {
       "id": 574523116,
@@ -474,7 +474,7 @@
         "本地环境配置"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "社区驱动的 AI 提示词共享平台（原 Awesome ChatGPT Prompts），收集数千条高质量 Prompt，支持自托管和隐私保护"
+      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. 分享、发现和收集提示词 来自社区. Free and 开源 — 可自托管 for your organization 完全隐私保护."
     },
     {
       "id": 787076358,
@@ -535,7 +535,7 @@
         "任务规划"
       ],
       "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
-      "descriptionZh": "规模化 Web 抓取与搜索 API，专为 AI 应用设计。支持网页内容提取、HTML 转 Markdown、自动化搜索，已被大量 Agent 和 RAG 管道集成"
+      "descriptionZh": "用于 搜索、抓取和交互网页内容 大规模. 🔥"
     },
     {
       "id": 612344730,
@@ -592,7 +592,8 @@
         "README 阅读",
         "本地环境配置"
       ],
-      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。"
+      "risk": "真实可运行性需结合 README、依赖版本和 API Key 要求确认。",
+      "descriptionZh": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
     }
   ],
   "news": [
@@ -608,7 +609,8 @@
       "time": "2026-06-05",
       "heat": 62,
       "importance": "Google 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "The latest AI news we 宣布 in May 2026"
     },
     {
       "id": "openai-how-endava-is-redesigning-software-delivery-around-ai-agents",
@@ -622,7 +624,8 @@
       "time": "2026-06-04",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：How Endava is redesigning software delivery around AI Agent"
     },
     {
       "id": "openai-dreaming-better-memory-for-a-more-helpful-chatgpt",
@@ -636,7 +639,8 @@
       "time": "2026-06-04",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：Dreaming: Better memory for a more helpful ChatGPT"
     },
     {
       "id": "openai-introducing-new-capabilities-to-gpt-rosalind",
@@ -650,7 +654,8 @@
       "time": "2026-06-03",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：Introducing new capabilities to GPT"
     },
     {
       "id": "openai-how-wasmer-used-codex-to-build-a-node-js-runtime-for-the-edge",
@@ -664,7 +669,8 @@
       "time": "2026-06-03",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：How Wasmer used Codex to build a Node.js runtime for the edge"
     },
     {
       "id": "openai-a-blueprint-for-democratic-governance-of-frontier-ai",
@@ -678,7 +684,8 @@
       "time": "2026-06-03",
       "heat": 48,
       "importance": "OpenAI 的 开源 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：A blueprint for democratic governance of frontier AI"
     },
     {
       "id": "openai-codex-for-every-role-tool-and-workflow",
@@ -692,7 +699,8 @@
       "time": "2026-06-02",
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "Codex for every role, tool, and 工作流"
     },
     {
       "id": "openai-codex-is-becoming-a-productivity-tool-for-everyone",
@@ -706,7 +714,8 @@
       "time": "2026-06-02",
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "Codex is becoming a productivity tool 面向所有人"
     },
     {
       "id": "openai-openai-frontier-models-and-codex-are-now-available-on-aws",
@@ -720,7 +729,8 @@
       "time": "2026-06-01",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：OpenAI frontier models and Codex are now available on AWS"
     },
     {
       "id": "openai-how-braintrust-turns-customer-requests-into-code-with-codex",
@@ -734,7 +744,8 @@
       "time": "2026-05-29",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：How Braintrust turns customer requests into code with Codex"
     },
     {
       "id": "openai-strengthening-societal-resilience-with-rosalind-biodefense",
@@ -748,7 +759,8 @@
       "time": "2026-05-29",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：Strengthening societal resilience with Rosalind Biodefense"
     },
     {
       "id": "openai-a-shared-playbook-for-trustworthy-third-party-evaluations",
@@ -762,7 +774,8 @@
       "time": "2026-05-29",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：A shared playbook for trustworthy third party evaluations"
     },
     {
       "id": "openai-how-endava-builds-an-agentic-organization-with-codex",
@@ -776,7 +789,8 @@
       "time": "2026-05-28",
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：How Endava builds an agentic organization with Codex"
     },
     {
       "id": "openai-mufg-aims-to-become-ai-native-with-openai",
@@ -790,7 +804,8 @@
       "time": "2026-05-28",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：MUFG aims to become AI-native with OpenAI"
     },
     {
       "id": "openai-openai-s-frontier-governance-framework",
@@ -804,7 +819,8 @@
       "time": "2026-05-28",
       "heat": 48,
       "importance": "OpenAI 的 开源 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：OpenAI’s Frontier Governance Framework"
     },
     {
       "id": "openai-building-self-improving-tax-agents-with-codex",
@@ -818,7 +834,8 @@
       "time": "2026-05-27",
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：Building self-improving tax agents with Codex"
     },
     {
       "id": "openai-warp-s-big-bet-on-building-open-source-with-gpt-5-5",
@@ -832,7 +849,8 @@
       "time": "2026-05-27",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "Warp’s big bet on building 开源 with GPT-5.5"
     },
     {
       "id": "openai-openai-grupo-folha-and-grupo-uol-announce-strategic-content-partnership",
@@ -846,7 +864,8 @@
       "time": "2026-05-25",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI, Grupo Folha and Grupo UOL 宣布 strategic content 合作"
     },
     {
       "id": "openai-openai-named-a-leader-in-enterprise-coding-agents-by-gartner",
@@ -860,7 +879,8 @@
       "time": "2026-05-22",
       "heat": 48,
       "importance": "OpenAI 的 开发者工具 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI named a Leader in enterprise 编程 Agent by Gartner"
     },
     {
       "id": "openai-adventhealth-advances-whole-person-care-with-openai",
@@ -874,7 +894,8 @@
       "time": "2026-05-21",
       "heat": 48,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
-      "relatedRepo": null
+      "relatedRepo": null,
+      "summaryZh": "OpenAI 动态：AdventHealth advances whole-person care with OpenAI"
     }
   ]
 }

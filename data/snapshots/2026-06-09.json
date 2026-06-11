@@ -29,7 +29,7 @@
       "name": "hermes-agent",
       "owner": "NousResearch",
       "description": "The agent that grows with you",
-      "descriptionZh": "可自我进化的 AI Agent 框架，支持任务规划、工具调用和记忆管理，兼容 Claude Code / Codex / OpenClaw 等多种 coding agent CLI",
+      "descriptionZh": "AI、AI Agent、AI Agent方向。The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "tags": [
         "Agent"
@@ -89,7 +89,7 @@
       "name": "ECC",
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "descriptionZh": "Agent 性能优化系统，为 Claude Code / Codex / Cursor 等 coding agent 提供技能库、本能记忆、安全审计和研究驱动的开发增强",
+      "descriptionZh": "The agent harness 性能优化 system. Skills, instincts, 记忆管理和安全, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "Agent",
@@ -143,7 +143,7 @@
       "name": "generative-ai-for-beginners",
       "owner": "microsoft",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "descriptionZh": "微软出品的 21 节生成式 AI 入门课程，涵盖 ChatGPT/DALL-E/语义搜索等主题，配有 Jupyter Notebook 实操练习",
+      "descriptionZh": "21 节课程, Get 开始构建 生成式 AI ",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
       "tags": [
         "Model"
@@ -198,7 +198,7 @@
       "name": "prompts.chat",
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "descriptionZh": "社区驱动的 AI 提示词共享平台（原 Awesome ChatGPT Prompts），收集数千条高质量 Prompt，支持自托管和隐私保护",
+      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. 分享、发现和收集提示词 来自社区. Free and 开源 — 可自托管 for your organization 完全隐私保护.",
       "url": "https://github.com/f/prompts.chat",
       "tags": [
         "Tool"
@@ -257,7 +257,7 @@
       "name": "transformers",
       "owner": "huggingface",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "Hugging Face 的核心模型框架，统一支持文本/视觉/音频/多模态模型的推理与训练，涵盖 DeepSeek、Gemma、Qwen 等主流模型",
+      "descriptionZh": "🤗 Transformers: the 模型定义框架 for 最先进的 机器学习 models in text, vision, audio, and 多模态 models, for both 推理 and 训练. ",
       "url": "https://github.com/huggingface/transformers",
       "tags": [
         "Image",
@@ -321,7 +321,7 @@
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionZh": "老牌自主 AI Agent 框架，支持任务自动拆解和执行。提供可视化 Agent 构建界面和 REST API，让 AI 自动完成复杂多步骤任务",
+      "descriptionZh": "AutoGPT is 愿景是 人人可用的 AI 面向所有人, 让人使用和构建. 我们的使命是 提供工具, so that you can 专注于重要的事.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "tags": [
         "Agent",
@@ -377,7 +377,7 @@
       "name": "nanobot",
       "owner": "HKUDS",
       "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
-      "descriptionZh": "轻量级开源 AI Agent，将工具调用、对话和自动化工作流整合在一个简洁的 Python 包中，开箱即用",
+      "descriptionZh": "轻量级, 开源 AI Agent for your tools, chats, and 工作流.",
       "url": "https://github.com/HKUDS/nanobot",
       "tags": [
         "Agent"
@@ -434,7 +434,7 @@
       "name": "oh-my-claudecode",
       "owner": "Yeachan-Heo",
       "description": "Teams-first Multi-agent orchestration for Claude Code",
-      "descriptionZh": "面向团队的多 Agent 编排工具，让多个 Claude Code 实例并行协作完成大型代码任务，支持任务分配和结果汇总",
+      "descriptionZh": "面向团队的 多 Agent 编排 for Claude Code",
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
       "tags": [
         "Agent",
@@ -489,7 +489,7 @@
       "name": "html-video",
       "owner": "nexu-io",
       "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-      "descriptionZh": "编程式视频生成工具，在本地将 HTML/CSS + 数据转为 MP4，内置 21 套模板和 AI 配乐，Apache-2.0 开源无按次收费",
+      "descriptionZh": "编程式视频 for 编程 Agent — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable 渲染引擎, 21 模板, AI 配乐. Apache-2.0, 无按次收费. An official project by the Open Design team.",
       "url": "https://github.com/nexu-io/html-video",
       "tags": [
         "Agent",
@@ -550,7 +550,7 @@
       "name": "zerostack",
       "owner": "gi-dellav",
       "description": "Minimal coding agent written in Rust, optimized for memory footprint and performance",
-      "descriptionZh": "用 Rust 编写的极简 coding agent，专注内存占用和性能优化，适合研究 Agent 底层实现或嵌入资源受限环境",
+      "descriptionZh": "极简的 编程 Agent 使用 Rust, 针对 内存占用 和性能",
       "url": "https://github.com/gi-dellav/zerostack",
       "tags": [
         "Agent",
@@ -615,7 +615,7 @@
       "heat": 77,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "ChatGPT 母公司 OpenAI 提交上市申请"
+      "summaryZh": "OpenAI 动态：ChatGPT-maker OpenAI files to go public"
     },
     {
       "id": "google-news-openai-openai-names-first-chatgpt-futures-class-of-2026-to-back-student-ai-projects-edtech-innovation-hub",
@@ -630,7 +630,7 @@
       "heat": 75,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 发布首届 ChatGPT Futures 计划，资助学生 AI 项目"
+      "summaryZh": "OpenAI 动态：OpenAI names first ChatGPT Futures Class of 2026 to back student AI projects"
     },
     {
       "id": "google-news-anthropic-lg-cns-adopts-anthropic-s-claude-across-lg-group-the-korea-herald",
@@ -645,7 +645,7 @@
       "heat": 75,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "LG CNS 在整个 LG 集团部署 Anthropic Claude，企业级 AI 应用落地"
+      "summaryZh": "Anthropic 动态：LG CNS adopts Anthropic's Claude across LG Group"
     },
     {
       "id": "google-news-openai-chatgpt-maker-openai-confidentially-files-for-ipo-a-week-after-anthropic-fortune",
@@ -660,7 +660,7 @@
       "heat": 74,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "ChatGPT maker OpenAI 秘密提交 for IPO 上市, a week after Anthropic"
     },
     {
       "id": "google-news-google-meta-s-muse-spark-ai-model-replaces-llama-4-on-its-smart-glasses-uploadvr",
@@ -675,7 +675,7 @@
       "heat": 74,
       "importance": "Google 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Meta 用新模型 Muse Spark 替换 Llama 4 驱动智能眼镜"
+      "summaryZh": "Meta's Muse Spark AI Model Replaces LLama 4 On Its 智能眼镜"
     },
     {
       "id": "google-news-openai-chat-is-dead-openai-plans-to-relaunch-a-version-of-chatgpt-that-prioritizes-agents-over-answers-entrepreneur-com",
@@ -690,7 +690,7 @@
       "heat": 73,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 计划重构 ChatGPT，从对话模式转向 Agent 优先"
+      "summaryZh": "OpenAI 动态：'Chat Is Dead': OpenAI Plans to Relaunch a Version of ChatGPT That Prioritizes Agents Over Answers - entrepreneur.com"
     },
     {
       "id": "google-news-anthropic-n-c-owns-650m-in-claude-owner-anthropic-briner-says-business-north-carolina",
@@ -705,7 +705,7 @@
       "heat": 72,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "美国北卡罗来纳州持有 Anthropic 6.5 亿美元股份"
+      "summaryZh": "Anthropic 动态：N.C. owns $650M in Claude owner Anthropic, Briner says"
     },
     {
       "id": "google-news-anthropic-anthropic-s-claude-code-creator-says-there-are-days-he-manages-tens-of-thousands-of-ai-agents-at-once-fortune",
@@ -720,7 +720,7 @@
       "heat": 71,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Anthropic Claude Code 创始人透露日常同时管理数万个 AI Agent 实例"
+      "summaryZh": "Anthropic 动态：Anthropic’s Claude Code creator says there are days he manages tens of thousands of AI Agent at once"
     },
     {
       "id": "google-news-openai-openai-turns-chatgpt-into-a-platform-play-pymnts-com",
@@ -735,7 +735,7 @@
       "heat": 70,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 将 ChatGPT 打造为平台级产品，开放更多开发者能力"
+      "summaryZh": "OpenAI 动态：OpenAI Turns ChatGPT Into a Platform Play"
     },
     {
       "id": "google-news-openai-openai-confidentially-files-for-us-ipo-as-ai-boom-drives-investor-frenzy-france-24",
@@ -750,7 +750,7 @@
       "heat": 70,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "OpenAI 秘密提交 for US IPO 上市 as AI boom drives investor frenzy"
     },
     {
       "id": "google-news-openai-openai-confirms-confidential-ipo-filing-with-big-stakes-for-the-ai-boom-cnet",
@@ -765,7 +765,7 @@
       "heat": 70,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 确认秘密提交 IPO 申请，AI 行业估值博弈升温"
+      "summaryZh": "OpenAI Confirms Confidential IPO 上市 Filing, With Big Stakes for the AI Boom"
     },
     {
       "id": "google-news-openai-openai-is-giving-chatgpt-its-biggest-makeover-yet-with-plans-to-create-a-superapp-new-york-post",
@@ -780,7 +780,7 @@
       "heat": 70,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 计划将 ChatGPT 改造为超级应用，整合更多功能"
+      "summaryZh": "OpenAI 动态：OpenAI is giving ChatGPT its biggest makeover yet — with plans to create a ‘superapp’"
     },
     {
       "id": "google-news-openai-openai-files-for-us-ipo-after-anthropic-as-ai-giants-head-to-public-markets-reuters",
@@ -795,7 +795,7 @@
       "heat": 69,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "OpenAI files for US IPO 上市 after Anthropic as AI giants head to public markets"
     },
     {
       "id": "google-news-openai-openai-confidentially-files-for-initial-public-offering-on-us-stock-market-the-guardian",
@@ -810,7 +810,7 @@
       "heat": 69,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI confidentially files for initial public offering on US stock market"
+      "summaryZh": "OpenAI 秘密提交 for initial public offering on US stock market"
     },
     {
       "id": "google-news-openai-openai-files-confidentially-for-ipo-a-week-after-ai-rival-anthropic-investor-s-business-daily",
@@ -825,7 +825,7 @@
       "heat": 69,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "OpenAI Files Confidentially For IPO 上市 A Week After AI Rival Anthropic"
     },
     {
       "id": "google-news-openai-openai-plans-to-go-public-setting-up-new-race-with-anthropic-bbc",
@@ -840,7 +840,7 @@
       "heat": 69,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 计划上市"
+      "summaryZh": "OpenAI 动态：OpenAI plans to go public setting up new race with Anthropic"
     },
     {
       "id": "google-news-openai-openai-is-close-to-turning-chatgpt-into-a-super-app-here-s-what-it-will-do-how-to-geek",
@@ -855,7 +855,7 @@
       "heat": 69,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 计划将 ChatGPT 改造为超级应用，整合更多功能"
+      "summaryZh": "OpenAI 动态：OpenAI is close to turning ChatGPT into a super app—here's what it will do - How"
     },
     {
       "id": "google-news-openai-openai-confidentially-files-for-ipo-joining-anthropic-in-race-to-wall-street-adweek",
@@ -870,7 +870,7 @@
       "heat": 69,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "OpenAI 秘密提交 for IPO 上市, Joining Anthropic in Race to Wall Street"
     },
     {
       "id": "google-news-openai-openai-files-confidentially-for-ipo-as-ai-companies-rush-to-wall-st-the-new-york-times",
@@ -885,7 +885,7 @@
       "heat": 68,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "OpenAI Files Confidentially for IPO 上市 as AI Companies Rush to Wall St."
     },
     {
       "id": "google-news-openai-openai-files-for-ipo-as-ai-investment-race-intensifies-nbc-news",
@@ -900,7 +900,7 @@
       "heat": 68,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI 秘密提交美股 IPO 申请"
+      "summaryZh": "OpenAI files for IPO 上市 as AI investment race intensifies"
     }
   ],
   "beginnerProjects": []

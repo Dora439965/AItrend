@@ -29,7 +29,7 @@
       "name": "hermes-agent",
       "owner": "NousResearch",
       "description": "The agent that grows with you",
-      "descriptionZh": "可自我进化的 AI Agent 框架，支持任务规划、工具调用和记忆管理，兼容 Claude Code / Codex / OpenClaw 等多种 coding agent CLI",
+      "descriptionZh": "AI、AI Agent、AI Agent方向。The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "tags": [
         "Agent"
@@ -89,7 +89,7 @@
       "name": "ECC",
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "descriptionZh": "Agent 性能优化系统，为 Claude Code / Codex / Cursor 等 coding agent 提供技能库、本能记忆、安全审计和研究驱动的开发增强",
+      "descriptionZh": "The agent harness 性能优化 system. Skills, instincts, 记忆管理和安全, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
       "tags": [
         "Agent",
@@ -143,7 +143,7 @@
       "name": "open-design",
       "owner": "nexu-io",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-      "descriptionZh": "本地优先的开源设计工具，可替代 Claude Design。原生桌面应用，内置 259+ 技能和 142 套设计系统，支持 Web/桌面/移动端原型和视频生成",
+      "descriptionZh": "🎨 本地优先, 开源 Claude Design alternative. 🖥️ Native 桌面应用. ⚡ 259+ Skills · ✨ 142+ 设计系统 🖼️ Web · desktop · mobile 原型 · slides · images · videos · HyperFrames 📦 沙箱预览 · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "url": "https://github.com/nexu-io/open-design",
       "tags": [
         "Agent",
@@ -210,7 +210,7 @@
       "name": "firecrawl",
       "owner": "firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "descriptionZh": "规模化 Web 抓取与搜索 API，专为 AI 应用设计。支持网页内容提取、HTML 转 Markdown、自动化搜索，已被大量 Agent 和 RAG 管道集成",
+      "descriptionZh": "用于 搜索、抓取和交互网页内容 大规模. 🔥",
       "url": "https://github.com/firecrawl/firecrawl",
       "tags": [
         "Agent"
@@ -273,7 +273,7 @@
       "name": "n8n",
       "owner": "n8n-io",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "descriptionZh": "可视化工作流自动化平台，原生支持 AI 能力。拖拽式编排 400+ 集成节点，内置 MCP 客户端/服务器，可自托管，适合构建 AI 自动化流水线",
+      "descriptionZh": "公平代码许可 工作流自动化 platform with 原生 AI 能力. Combine 可视化搭建 with custom code, 可自托管 or cloud, 400+ 集成.",
       "url": "https://github.com/n8n-io/n8n",
       "tags": [
         "MCP"
@@ -337,7 +337,7 @@
       "name": "ollama",
       "owner": "ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "descriptionZh": "本地大模型运行工具，一行命令即可在本机运行 DeepSeek、Qwen、Gemma、Kimi 等开源模型，无需 GPU 服务器，开发者本地推理首选",
+      "descriptionZh": "快速启动和运行 Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
       "tags": [
         "Model"
@@ -393,7 +393,7 @@
       "name": "transformers",
       "owner": "huggingface",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "descriptionZh": "Hugging Face 的核心模型框架，统一支持文本/视觉/音频/多模态模型的推理与训练，涵盖 DeepSeek、Gemma、Qwen 等主流模型",
+      "descriptionZh": "🤗 Transformers: the 模型定义框架 for 最先进的 机器学习 models in text, vision, audio, and 多模态 models, for both 推理 and 训练. ",
       "url": "https://github.com/huggingface/transformers",
       "tags": [
         "Image",
@@ -457,7 +457,7 @@
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionZh": "老牌自主 AI Agent 框架，支持任务自动拆解和执行。提供可视化 Agent 构建界面和 REST API，让 AI 自动完成复杂多步骤任务",
+      "descriptionZh": "AutoGPT is 愿景是 人人可用的 AI 面向所有人, 让人使用和构建. 我们的使命是 提供工具, so that you can 专注于重要的事.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "tags": [
         "Agent",
@@ -513,7 +513,7 @@
       "name": "prompts.chat",
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "descriptionZh": "社区驱动的 AI 提示词共享平台（原 Awesome ChatGPT Prompts），收集数千条高质量 Prompt，支持自托管和隐私保护",
+      "descriptionZh": "f.k.a. Awesome ChatGPT Prompts. 分享、发现和收集提示词 来自社区. Free and 开源 — 可自托管 for your organization 完全隐私保护.",
       "url": "https://github.com/f/prompts.chat",
       "tags": [
         "Tool"
@@ -572,7 +572,7 @@
       "name": "generative-ai-for-beginners",
       "owner": "microsoft",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "descriptionZh": "微软出品的 21 节生成式 AI 入门课程，涵盖 ChatGPT/DALL-E/语义搜索等主题，配有 Jupyter Notebook 实操练习",
+      "descriptionZh": "21 节课程, Get 开始构建 生成式 AI ",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
       "tags": [
         "Model"
@@ -637,7 +637,7 @@
       "heat": 75,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "ChatGPT ads land in U.K. as OpenAI outlines EU privacy rules"
+      "summaryZh": "OpenAI 动态：ChatGPT ads land in U.K. as OpenAI outlines EU privacy rules"
     },
     {
       "id": "google-news-anthropic-boris-cherny-of-anthropic-discusses-claude-code-s-flexible-ai-workflows-crypto-briefing",
@@ -652,7 +652,7 @@
       "heat": 75,
       "importance": "Anthropic 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Boris Cherny of Anthropic discusses Claude Code’s flexible AI workflows"
+      "summaryZh": "Boris Cherny of Anthropic discusses Claude Code’s flexible AI 工作流"
     },
     {
       "id": "google-news-mistral-meet-phoenix-vl-1-5-medium-the-home-team-s-multimodal-sovereign-ai-model-for-public-safety-workloads-htx-home-team-science-and-technology-agency",
@@ -667,7 +667,7 @@
       "heat": 69,
       "importance": "Mistral 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Meet Phoenix-VL 1.5 Medium: The Home Team's multimodal sovereign AI model for public safety workloads"
+      "summaryZh": "Meet Phoenix-VL 1.5 Medium: The Home Team's 多模态 sovereign AI model for public safety workloads"
     },
     {
       "id": "google-news-perplexity-hvac-company-pentagon-air-now-ranks-1-on-chatgpt-perplexity-gemini-after-partnering-with-moon-vibes-media-ein-news",
@@ -682,7 +682,7 @@
       "heat": 69,
       "importance": "Perplexity 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "HVAC Company Pentagon Air Now Ranks #1 on ChatGPT, Perplexity, & Gemini After Partnering with Moon Vibes Media"
+      "summaryZh": "Perplexity 动态：HVAC Company Pentagon Air Now Ranks #1 on ChatGPT, Perplexity, & Gemini After Partnering with Moon Vibes Media"
     },
     {
       "id": "google-news-xai-xai-reportedly-trained-its-coding-models-distilling-claude-lapaas-voice",
@@ -697,7 +697,7 @@
       "heat": 69,
       "importance": "xAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "xAI reportedly trained its coding models distilling Claude"
+      "summaryZh": "xAI 动态：xAI reportedly trained its coding models distilling Claude"
     },
     {
       "id": "google-news-xai-best-ai-model-in-march-odds-predictions-defi-rate",
@@ -712,7 +712,7 @@
       "heat": 68,
       "importance": "xAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Best AI Model in March Odds & Predictions"
+      "summaryZh": "xAI 动态：Best AI Model in March Odds & Predictions"
     },
     {
       "id": "google-news-openai-chat-is-dead-openai-reportedly-planning-radical-changes-to-chatgpt-gizmodo",
@@ -727,7 +727,7 @@
       "heat": 67,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "‘Chat Is Dead’: OpenAI Reportedly Planning Radical Changes to ChatGPT"
+      "summaryZh": "OpenAI 动态：‘Chat Is Dead’: OpenAI Reportedly Planning Radical Changes to ChatGPT"
     },
     {
       "id": "google-news-openai-microsoft-builds-its-own-ai-stack-to-cut-openai-dependence-forbes",
@@ -742,7 +742,7 @@
       "heat": 67,
       "importance": "OpenAI 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Microsoft Builds Its Own AI Stack To Cut OpenAI Dependence"
+      "summaryZh": "OpenAI 动态：Microsoft Builds Its Own AI Stack To Cut OpenAI Dependence"
     },
     {
       "id": "google-news-perplexity-perplexity-search-as-code-lets-ai-models-write-their-own-search-pipelines-opentools",
@@ -757,7 +757,7 @@
       "heat": 67,
       "importance": "Perplexity 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Perplexity Search as Code Lets AI Models Write Their Own Search Pipelines"
+      "summaryZh": "Perplexity 动态：Perplexity Search as Code Lets AI Models Write Their Own Search Pipelines"
     },
     {
       "id": "google-news-nvidia-ai-pcs-are-here-capable-of-locally-powering-120b-large-models-nvidia-redefines-the-personal-ai-pc-dock-with-rtx-spark-panews",
@@ -772,7 +772,7 @@
       "heat": 66,
       "importance": "NVIDIA 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "AI PCs are here, capable of locally powering 120B large models! NVIDIA redefines the \"personal AI PC\" dock with RTX Spark."
+      "summaryZh": "NVIDIA 动态：AI PCs are here, capable of locally powering 120B large models! NVIDIA redefines the \"personal AI PC\" dock with RTX Spark."
     },
     {
       "id": "google-news-xai-xai-s-claude-workaround-puts-grok-s-coding-race-under-scrutiny-startup-fortune",
@@ -787,7 +787,7 @@
       "heat": 66,
       "importance": "xAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "xAI’s Claude workaround puts Grok’s coding race under scrutiny"
+      "summaryZh": "xAI 动态：xAI’s Claude workaround puts Grok’s coding race under scrutiny"
     },
     {
       "id": "google-news-openai-openai-reportedly-has-a-major-chatgpt-overhaul-in-store-engadget",
@@ -802,7 +802,7 @@
       "heat": 65,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI Reportedly Has A Major ChatGPT Overhaul In Store"
+      "summaryZh": "OpenAI 动态：OpenAI Reportedly Has A Major ChatGPT Overhaul In Store"
     },
     {
       "id": "google-news-openai-chatgpt-is-dead-openai-plans-to-ditch-chatbots-for-agents-in-upcoming-updates-of-ai-model-ft-the-jerusalem-post",
@@ -817,7 +817,7 @@
       "heat": 65,
       "importance": "OpenAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "'ChatGPT is dead': OpenAI plans to ditch chatbots for agents in upcoming updates of AI model - FT"
+      "summaryZh": "OpenAI 动态：'ChatGPT is dead': OpenAI plans to ditch chatbots for agents in upcoming updates of AI model - FT"
     },
     {
       "id": "google-news-openai-openai-s-planned-superapp-gets-closer-as-one-employee-says-chat-is-dead-siliconangle",
@@ -832,7 +832,7 @@
       "heat": 65,
       "importance": "OpenAI 的 产品发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI’s planned ‘superapp’ gets closer as one employee says ‘chat is dead’"
+      "summaryZh": "OpenAI 动态：OpenAI’s planned ‘superapp’ gets closer as one employee says ‘chat is dead’"
     },
     {
       "id": "google-news-google-what-is-magic-pointer-googlebook-s-flagship-ai-feature-explained-aol-com",
@@ -847,7 +847,7 @@
       "heat": 65,
       "importance": "Google 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "What Is 'Magic Pointer'? Googlebook's Flagship AI Feature, Explained"
+      "summaryZh": "Google 动态：What Is 'Magic Pointer'? Googlebook's Flagship AI Feature, Explained"
     },
     {
       "id": "google-news-nvidia-nvidia-lg-group-to-build-ai-factory-for-robotics-mobility-data-centres-analytics-india-magazine",
@@ -862,7 +862,7 @@
       "heat": 65,
       "importance": "NVIDIA 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "NVIDIA, LG Group to Build AI Factory for Robotics, Mobility, Data Centres"
+      "summaryZh": "NVIDIA 动态：NVIDIA, LG Group to Build AI Factory for Robotics, Mobility, Data Centres"
     },
     {
       "id": "google-news-perplexity-chatgpt-review-2026-is-it-still-the-best-ai-chatbot-memeburn",
@@ -877,7 +877,7 @@
       "heat": 65,
       "importance": "Perplexity 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "ChatGPT Review 2026: Is It Still the Best AI Chatbot?"
+      "summaryZh": "Perplexity 动态：ChatGPT Review 2026: Is It Still the Best AI Chatbot?"
     },
     {
       "id": "google-news-xai-xai-exposed-for-using-claude-output-data-to-train-coding-model-shifted-underground-after-anthropic-revoked-access-aibase",
@@ -892,7 +892,7 @@
       "heat": 65,
       "importance": "xAI 的 模型发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "xAI Exposed for Using Claude Output Data to Train Coding Model, Shifted Underground After Anthropic Revoked Access"
+      "summaryZh": "xAI 动态：xAI Exposed for Using Claude Output Data to Train Coding Model, Shifted Underground After Anthropic Revoked Access"
     },
     {
       "id": "google-news-openai-openai-declares-chat-dead-in-shift-to-super-app-pymnts-com",
@@ -907,7 +907,7 @@
       "heat": 64,
       "importance": "OpenAI 的 产品发布 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "OpenAI Declares Chat Dead in Shift to Super App"
+      "summaryZh": "OpenAI 动态：OpenAI Declares Chat Dead in Shift to Super App"
     },
     {
       "id": "google-news-microsoft-microsoft-is-making-openai-optional-inside-its-ai-stack-startup-fortune",
@@ -922,7 +922,7 @@
       "heat": 64,
       "importance": "Microsoft 的 AI 产品与应用 动态，可能影响开发者工具选择、产品路线或开源生态。",
       "relatedRepo": null,
-      "summaryZh": "Microsoft is making OpenAI optional inside its AI stack"
+      "summaryZh": "Microsoft 动态：Microsoft is making OpenAI optional inside its AI stack"
     }
   ]
 }
