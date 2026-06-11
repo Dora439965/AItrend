@@ -132,18 +132,20 @@ function localizeTechText(value = "", fallback = "暂无中文摘要。") {
 function repoChineseSummary(repo, description) {
   const text = compactText(description);
   if (hasChinese(text)) return text;
-  // 直接翻译/概括英文 About 描述，不使用套话模板
-  // 由于无在线翻译 API，保留英文原文作为 fallback，后续可接入翻译服务
-  return text || "暂无项目简介，请查看 README。";
+  // 无翻译 API 时生成简短的中文引导语 + 英文原文，避免纯英文或套话
+  const language = repo.language || "Unknown";
+  const stars = repo.stargazers_count || 0;
+  const starsLabel = stars > 10000 ? `${(stars / 1000).toFixed(0)}k stars` : `${stars} stars`;
+  return `${language} 项目 · ${starsLabel}。${text || "暂无简介，请查看 README。"}`;
 }
 
 function newsChineseSummary(item) {
   const text = compactText(item.summary || item.title);
   if (hasChinese(text)) return text;
-  // 直接使用标题作为摘要（标题本身即为新闻核心内容），不使用套话模板
-  // 清理标题中的来源后缀
+  // 用标题作为核心内容，前面加来源和主题标注
   const title = (item.title || "").replace(/\s*[-–—]\s*[A-Z][^-]*$/, "").trim();
-  return title || text || "暂无摘要";
+  const company = item.company || "AI";
+  return `[${company}] ${title || text || "暂无摘要"}`;
 }
 
 function slugify(value) {

@@ -407,7 +407,14 @@ function repoDescription(repo) {
 }
 
 function newsSummary(item) {
-  return item.summaryZh || item.summary;
+  // @AI_GENERATED: 避免摘要和标题重复显示
+  const summary = item.summaryZh || item.summary || "";
+  // 如果摘要内容与标题基本相同（去掉前缀标记后），返回空以避免重复
+  const cleanSummary = summary.replace(/^\[[^\]]+\]\s*/, "").trim();
+  const cleanTitle = (item.title || "").replace(/\s*[-–—]\s*[A-Z][^-]*$/, "").trim();
+  if (cleanSummary === cleanTitle || cleanSummary === item.title) return "";
+  return summary;
+  // @AI_GENERATED: end
 }
 
 async function copyText(value) {
