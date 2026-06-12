@@ -1289,6 +1289,17 @@ document.addEventListener("click", async (event) => {
     const container = document.querySelector("#beginnerWizardContainer");
     if (container) {
       container.innerHTML = renderBeginnerQuestionnaireStep(beginnerQuestionnaireState.currentStep);
+      // @AI_GENERATED: 绑定"其他"自定义输入框事件
+      const customInput = container.querySelector(".beginner-custom-text");
+      if (customInput) {
+        customInput.focus();
+        customInput.addEventListener("input", (e) => {
+          if (!beginnerQuestionnaireState.customTexts) beginnerQuestionnaireState.customTexts = {};
+          beginnerQuestionnaireState.customTexts[e.target.dataset.customField] = e.target.value;
+          try { sessionStorage.setItem(SESSION_KEY, JSON.stringify(beginnerQuestionnaireState)); } catch { /* ignore */ }
+        });
+      }
+      // @AI_GENERATED: end
     }
     return;
   }
@@ -1544,7 +1555,7 @@ const BEGINNER_QUESTIONNAIRE_OPTIONS = {
     { id: "business-analyst", label: "数据分析", explanation: "日常用 Excel/SQL 但没写过代码" },
     { id: "career-changer", label: "想转码", explanation: "其他行业想转技术岗" },
     { id: "hobbyist", label: "兴趣探索", explanation: "纯好奇想试试" },
-    { id: "other", label: "其他", explanation: "以上都不太准确" },
+    { id: "other", label: "其他", explanation: "以上都不太准确", isCustom: true },
   ],
   goal: [
     { id: "build-a-portfolio-project", label: "做一个作品集项目", explanation: "能展示给面试官或朋友看的东西" },
@@ -1553,6 +1564,7 @@ const BEGINNER_QUESTIONNAIRE_OPTIONS = {
     { id: "explore-career-change", label: "探索转行可能性", explanation: "看看技术岗日常是什么样的" },
     { id: "learn-coding-basics", label: "学编程基础", explanation: "从零开始学写代码" },
     { id: "build-a-product-idea", label: "验证产品想法", explanation: "想做个小产品看看有没有人用" },
+    { id: "other", label: "其他", explanation: "手动输入你的目标", isCustom: true },
   ],
   interestDirections: [
     { id: "AI-chatbot", label: "AI 聊天机器人" },
@@ -1563,6 +1575,7 @@ const BEGINNER_QUESTIONNAIRE_OPTIONS = {
     { id: "data-analysis", label: "数据分析" },
     { id: "personal-assistant", label: "个人 AI 助理" },
     { id: "content-creation", label: "内容创作工具" },
+    { id: "other", label: "其他", isCustom: true },
   ],
   timeBudget: [
     { id: "30-minutes-per-day", label: "每天 30 分钟", explanation: "碎片时间学习" },
@@ -1570,12 +1583,14 @@ const BEGINNER_QUESTIONNAIRE_OPTIONS = {
     { id: "half-day-per-week", label: "每周半天", explanation: "周末集中学一次" },
     { id: "full-day-per-week", label: "每周一整天", explanation: "认真投入时间" },
     { id: "flexible-long-term", label: "不限时间", explanation: "长期持续学习" },
+    { id: "other", label: "其他", explanation: "手动输入你的时间安排", isCustom: true },
   ],
   environmentPreference: [
     { id: "browser-only-no-install", label: "只用浏览器", explanation: "不想在电脑装任何东西" },
     { id: "simple-local-setup", label: "简单本地安装", explanation: "装一两个软件可以接受" },
     { id: "docker-comfortable", label: "Docker 可接受", explanation: "知道 Docker 是什么或愿意学" },
     { id: "any-environment", label: "都可以", explanation: "不在意复杂度" },
+    { id: "other", label: "其他", explanation: "手动输入你的环境偏好", isCustom: true },
   ],
 };
 
@@ -1591,6 +1606,9 @@ let beginnerQuestionnaireState = {
     timeBudget: null,
     environmentPreference: null,
   },
+  // @AI_GENERATED: 存储"其他"选项的自定义文本
+  customTexts: {},
+  // @AI_GENERATED: end
 };
 
 function initBeginnerQuestionnaire() {
@@ -1622,6 +1640,7 @@ function resetBeginnerQuestionnaire() {
   beginnerQuestionnaireState = {
     currentStep: 0,
     answers: { background: null, goal: null, interestDirections: [], timeBudget: null, environmentPreference: null },
+    customTexts: {},
   };
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* ignore */ }
 }
@@ -1681,23 +1700,45 @@ function renderBeginnerQuestionnaireStep(step) {
   let explanationHtml = "";
   if (isMulti) {
     if (Array.isArray(currentAnswer) && currentAnswer.length > 0) {
-      const selectedExplanations = currentAnswer
-        .map((id) => options.find((o) => o.id === id))
-        .filter(Boolean)
-        .map((o) => o.label)
-        .join("、");
-      explanationHtml = `<p class="beginner-explanation">已选择：${selectedExplanations}</p>`;
+      // @AI_GENERATED: 多选模式下，如果选了"其他"则不显示已选择提示
+      const nonOtherSelections = currentAnswer.filter((id) => id !== "other");
+      if (nonOtherSelections.length > 0) {
+        const selectedExplanations = nonOtherSelections
+          .map((id) => options.find((o) => o.id === id))
+          .filter(Boolean)
+          .map((o) => o.label)
+          .join("、");
+        explanationHtml = `<p class="beginner-explanation">已选择：${selectedExplanations}</p>`;
+      }
+      // @AI_GENERATED: end
     } else {
       explanationHtml = `<p class="beginner-explanation beginner-explanation-hint">可多选，选择你感兴趣的方向</p>`;
     }
   } else {
     if (currentAnswer) {
       const selectedOption = options.find((o) => o.id === currentAnswer);
-      if (selectedOption && selectedOption.explanation) {
+      if (selectedOption && selectedOption.explanation && !selectedOption.isCustom) {
         explanationHtml = `<p class="beginner-explanation">${selectedOption.explanation}</p>`;
       }
     }
   }
+
+  // @AI_GENERATED: 如果选择了"其他"，显示自定义输入框
+  let customInputHtml = "";
+  const isOtherSelected = isMulti
+    ? (Array.isArray(currentAnswer) && currentAnswer.includes("other"))
+    : currentAnswer === "other";
+  if (isOtherSelected) {
+    const savedText = beginnerQuestionnaireState.customTexts?.[field] || "";
+    customInputHtml = `
+      <div class="beginner-custom-input">
+        <input type="text" class="beginner-custom-text" data-custom-field="${field}"
+          placeholder="请输入你的具体需求..."
+          value="${savedText.replace(/"/g, '&quot;')}" />
+      </div>
+    `;
+  }
+  // @AI_GENERATED: end
 
   // Build navigation buttons
   const prevDisabled = step === 0 ? "disabled" : "";
@@ -1717,6 +1758,7 @@ function renderBeginnerQuestionnaireStep(step) {
         ${optionsHtml}
       </div>
       ${explanationHtml}
+      ${customInputHtml}
       ${navHtml}
     </div>
   `;

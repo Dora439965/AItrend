@@ -1478,6 +1478,33 @@ textarea:focus {
   box-shadow: var(--glow);
 }
 
+/* @AI_GENERATED */
+.beginner-custom-input {
+  margin-top: 12px;
+}
+
+.beginner-custom-text {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid rgba(57, 213, 255, 0.4);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.beginner-custom-text:focus {
+  border-color: rgba(57, 213, 255, 0.8);
+  box-shadow: 0 0 0 2px rgba(57, 213, 255, 0.15);
+}
+
+.beginner-custom-text::placeholder {
+  color: var(--muted);
+}
+/* @AI_GENERATED: end */
+
 .beginner-option-label {
   font-size: 14px;
   font-weight: 900;
