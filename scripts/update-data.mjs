@@ -425,12 +425,14 @@ function scoreRepositories(rawRepos, previousSnapshot) {
 
   const primaryInputs = scoredInputs.filter((item) => {
     const hasGrowth = item.starGrowth > 0 || item.forkGrowth > 0 || item.discussionGrowth > 0;
-    const isNewProject = item.createdAgeDays <= 45;
+    // 新项目必须有实际增长或至少 stars > 200（说明已有社区关注）
+    const isNewProject = item.createdAgeDays <= 45 && item.repo.stargazers_count >= 200;
     return hasGrowth || isNewProject;
   });
   const fallbackInputs = scoredInputs
     .filter((item) => !primaryInputs.includes(item))
-    .filter((item) => item.createdAgeDays <= 180 && item.pushedAgeDays <= 7)
+    // fallback 也要求有增长，不再接受纯零增长项目
+    .filter((item) => item.createdAgeDays <= 180 && item.pushedAgeDays <= 7 && (item.starGrowth > 0 || item.forkGrowth > 0))
     .sort((a, b) => a.pushedAgeDays - b.pushedAgeDays)
     .slice(0, Math.max(0, 10 - primaryInputs.length));
 
