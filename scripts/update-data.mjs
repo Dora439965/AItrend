@@ -306,24 +306,68 @@ async function githubFetch(url) {
 }
 
 async function fetchGithubRepositories() {
-  const since = daysAgo(30);
+  const since7d = daysAgo(7);
+  const since30d = daysAgo(30);
+  const since90d = daysAgo(90);
+
+  // @AI_GENERATED: 多策略搜索，发现更多新兴项目而非只取头部项目
+  const searches = [
+    // 策略1：按 topic 搜索近期活跃的头部项目（原有逻辑，保留部分经典项目）
+    ...GITHUB_TOPICS.map((topic) => ({
+      query: `topic:${topic} pushed:>${since30d} stars:>500`,
+      sort: "stars",
+      perPage: 15,
+    })),
+    // 策略2：按 topic 搜索近7天更新、按活跃度排序（发现近期热门变化）
+    ...GITHUB_TOPICS.map((topic) => ({
+      query: `topic:${topic} pushed:>${since7d} stars:>100`,
+      sort: "updated",
+      perPage: 10,
+    })),
+    // 策略3：近 90 天内新创建的项目（新星发现）
+    ...["ai-agent", "llm", "mcp", "rag", "generative-ai", "coding-agent"].map((topic) => ({
+      query: `topic:${topic} created:>${since90d} stars:>50`,
+      sort: "stars",
+      perPage: 15,
+    })),
+    // 策略4：近 7 天内新创建的 AI 项目（最新冒出来的）
+    {
+      query: `topic:ai created:>${since7d} stars:>20`,
+      sort: "stars",
+      perPage: 20,
+    },
+    {
+      query: `topic:llm created:>${since7d} stars:>20`,
+      sort: "stars",
+      perPage: 15,
+    },
+    {
+      query: `topic:ai-agent created:>${since7d} stars:>10`,
+      sort: "stars",
+      perPage: 15,
+    },
+  ];
+
   const results = await Promise.allSettled(
-    GITHUB_TOPICS.map(async (topic) => {
-      const query = encodeURIComponent(`topic:${topic} pushed:>${since} stars:>50`);
-      const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=30`;
+    searches.map(async ({ query, sort, perPage }) => {
+      const encoded = encodeURIComponent(query);
+      const url = `https://api.github.com/search/repositories?q=${encoded}&sort=${sort}&order=desc&per_page=${perPage}`;
       const data = await githubFetch(url);
       return data.items || [];
     })
   );
+
   const byId = new Map();
   results.forEach((result, index) => {
     if (result.status === "rejected") {
-      console.warn(`GitHub topic failed: ${GITHUB_TOPICS[index]}: ${result.reason.message}`);
+      console.warn(`GitHub search failed [${index}]: ${result.reason.message}`);
       return;
     }
     result.value.forEach((repo) => byId.set(repo.id, repo));
   });
+  console.log(`Fetched ${byId.size} unique repositories from ${searches.length} searches.`);
   return [...byId.values()];
+  // @AI_GENERATED: end
 }
 
 async function readPreviousSnapshot() {
@@ -394,18 +438,24 @@ function scoreRepositories(rawRepos, previousSnapshot) {
     .map((item) => {
       const { repo, previous, starGrowth, forkGrowth, discussionGrowth, pushedAgeDays, createdAgeDays } = item;
       const recencyScore = Math.min(1, 1 / pushedAgeDays);
-      const newProjectScore = createdAgeDays <= 45 ? Math.min(1, 45 / createdAgeDays) : 0;
+      const newProjectScore = createdAgeDays <= 45 ? Math.min(1, 45 / createdAgeDays) : createdAgeDays <= 90 ? 0.3 : 0;
       const starGrowthScore = normalize(starGrowth, maxStarGrowth);
       const forkGrowthScore = normalize(forkGrowth, maxForkGrowth);
       const discussionGrowthScore = normalize(discussionGrowth, maxDiscussionGrowth);
+      // @AI_GENERATED: 相对增长率：小项目增长快按比例获得更高分
+      const relativeGrowthRate = repo.stargazers_count > 0
+        ? Math.min(1, (starGrowth / repo.stargazers_count) * 10)
+        : 0;
+      // @AI_GENERATED: end
       const totalScaleScore = normalize(Math.log1p(repo.stargazers_count), Math.log1p(maxStars)) * 0.65
         + normalize(Math.log1p(repo.forks_count), Math.log1p(maxForks)) * 0.35;
       const hot = Math.round(
-        starGrowthScore * 45
-        + forkGrowthScore * 25
-        + discussionGrowthScore * 20
+        starGrowthScore * 35
+        + forkGrowthScore * 20
+        + discussionGrowthScore * 15
+        + relativeGrowthRate * 15
+        + Math.max(recencyScore, newProjectScore) * 10
         + totalScaleScore * 5
-        + Math.max(recencyScore, newProjectScore) * 5
       );
       const description = repo.description || "暂无项目简介，请查看 README。";
       const tags = classifyRepo(repo);
