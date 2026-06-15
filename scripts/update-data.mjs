@@ -965,6 +965,20 @@ async function main() {
   await writeFile(path.join(DATA_DIR, "current.json"), `${JSON.stringify(payload, null, 2)}\n`);
   console.log(`Wrote ${repositories.length} repositories, ${news.length} news items, and ${beginnerProjects.length} beginner projects.`);
   console.log(`Snapshot: ${snapshotPath}`);
+
+  // @AI_GENERATED: 自动清理旧快照（超过 30 个时删除最早的 15 个）
+  const { unlink } = await import("node:fs/promises");
+  const snapshotFiles = (await readdir(SNAPSHOT_DIR))
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort();
+  if (snapshotFiles.length > 30) {
+    const toDelete = snapshotFiles.slice(0, snapshotFiles.length - 15);
+    for (const file of toDelete) {
+      await unlink(path.join(SNAPSHOT_DIR, file));
+    }
+    console.log(`Cleaned up ${toDelete.length} old snapshots, kept latest 15.`);
+  }
+  // @AI_GENERATED: end
 }
 // @AI_GENERATED: end
 
